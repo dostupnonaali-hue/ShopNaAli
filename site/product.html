@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Товар — Shop Na Ali</title>
+    <meta name="description" id="pageMeta" content="Вигідний товар з AliExpress за найнижчою ціною">
+
+    <!-- Open Graph (dynamic) -->
+    <meta property="og:title" id="ogTitle" content="Товар — Shop Na Ali">
+    <meta property="og:description" id="ogDesc" content="Вигідний товар з AliExpress">
+    <meta property="og:image" id="ogImage" content="">
+    <meta property="og:type" content="product">
+    <meta property="og:locale" content="uk_UA">
+
+    <meta name="theme-color" content="#0a0a0f">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">NaAli</span></span>
+            </a>
+            <div class="header__links">
+                <a href="https://t.me/Ekcoin" target="_blank" class="header__tg-link">
+                    ✈️ Telegram
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Page -->
+    <div class="product-page" id="productPage">
+
+        <a href="index.html" class="product-page__back">← Назад до каталогу</a>
+
+        <div class="product-page__card">
+            <div class="product-page__image-wrap">
+                <img id="productImage" class="product-page__image" src="" alt="">
+            </div>
+
+            <div class="product-page__content">
+                <h1 id="productTitle" class="product-page__title">Завантаження...</h1>
+
+                <div class="product-page__price-row">
+                    <span id="productPrice" class="product-page__price">$0.00</span>
+                    <span id="productPriceOld" class="product-page__price-old"></span>
+                    <span id="productDiscount" class="product-page__discount" style="display:none"></span>
+                </div>
+
+                <!-- Timer -->
+                <div class="timer" id="timer">
+                    <span class="timer__label">⏰ Пропозиція діє ще:</span>
+                    <div class="timer__digits">
+                        <span class="timer__unit" id="timerH">00</span>
+                        <span class="timer__separator">:</span>
+                        <span class="timer__unit" id="timerM">00</span>
+                        <span class="timer__separator">:</span>
+                        <span class="timer__unit" id="timerS">00</span>
+                    </div>
+                </div>
+
+                <!-- Info -->
+                <div class="product-page__info">
+                    <div class="product-page__info-item">
+                        <div class="product-page__info-value" id="productRating">⭐ 0</div>
+                        <div class="product-page__info-label">Рейтинг</div>
+                    </div>
+                    <div class="product-page__info-item">
+                        <div class="product-page__info-value" id="productOrders">0</div>
+                        <div class="product-page__info-label">Замовлень</div>
+                    </div>
+                    <div class="product-page__info-item">
+                        <div class="product-page__info-value" id="productShipping">🚚 Безкоштовно</div>
+                        <div class="product-page__info-label">Доставка</div>
+                    </div>
+                </div>
+
+                <!-- Description -->
+                <p class="product-page__description" id="productDescription"></p>
+
+                <!-- Buy Button -->
+                <a id="buyButton" href="#" target="_blank" class="product-page__buy-btn">
+                    🛒 Купити на AliExpress
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 ShopNaAli — Агрегатор вигідних знахідок з AliExpress</p>
+    </footer>
+
+    <script src="js/product.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.env
+TELEGTAM_BOT_API.txt
+BOT-SAYT.txt
+*.session
+__pycache__/
+*.pyc
+seen_products.json
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/

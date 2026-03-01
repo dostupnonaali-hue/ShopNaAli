@@ -1,0 +1,157 @@
+{
+  "name": "ShopNaAli — AliExpress Product Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "aliexpress-product",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "webhook-1",
+      "name": "Webhook — Receive Product",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1.1,
+      "position": [
+        240,
+        300
+      ],
+      "webhookId": "aliexpress-product"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Clean text: remove ads, channel mentions, excess formatting\nconst item = $input.first().json;\nconst rawText = item.title || item.raw_text || '';\n\n// Remove ad patterns\nlet cleaned = rawText\n  .replace(/підписуйтесь|підпишись|subscribe|join|реклама|sponsored/gi, '')\n  .replace(/@\\w+/g, '')\n  .replace(/👉[^\\n]*/g, '')\n  .replace(/\\n{3,}/g, '\\n\\n')\n  .trim();\n\n// Truncate to reasonable title length\nif (cleaned.length > 150) {\n  cleaned = cleaned.substring(0, 150).trim() + '...';\n}\n\nreturn [{\n  json: {\n    ...item,\n    title: cleaned || `Знахідка з AliExpress #${item.id}`,\n    cleaned: true\n  }\n}];"
+      },
+      "id": "function-clean",
+      "name": "Clean Text",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        460,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Generate affiliate link using AliExpress portals URL scheme\nconst item = $input.first().json;\nconst originalLink = item.original_link || '';\nconst trackingId = $env.AFFILIATE_TRACKING_ID || '';\n\nlet affiliateLink = originalLink;\n\n// Method 1: If tracking ID is set, append affiliate params\nif (trackingId && originalLink) {\n  const separator = originalLink.includes('?') ? '&' : '?';\n  affiliateLink = `${originalLink}${separator}aff_fcid=${trackingId}&aff_fsk=&aff_platform=portals-tool&sk=&aff_trace_key=&terminal_id=`;\n}\n\n// TODO: Method 2: Use AliExpress Affiliate API with App Key/Secret\n// const apiUrl = 'https://api-sg.aliexpress.com/sync';\n// Parameters: method=aliexpress.affiliate.link.generate, promotion_link_type=0, source_values=originalLink\n\nreturn [{\n  json: {\n    ...item,\n    affiliate_link: affiliateLink,\n    original_link: originalLink\n  }\n}];"
+      },
+      "id": "function-affiliate",
+      "name": "Generate Affiliate Link",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        680,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Format the Telegram post\nconst item = $input.first().json;\n\nconst price = item.price ? `💰 $${Number(item.price).toFixed(2)}` : '💰 Ціну дивись за посиланням';\nconst title = item.title || 'Знахідка з AliExpress';\nconst link = item.affiliate_link || item.original_link || '';\n\nconst postText = `🔥 ${title}\\n\\n${price}\\n🚚 Безкоштовна доставка\\n\\n🛒 Купити: ${link}\\n\\n📱 Більше знахідок: @Ekcoin`;\n\nreturn [{\n  json: {\n    ...item,\n    telegram_post: postText\n  }\n}];"
+      },
+      "id": "function-format",
+      "name": "Format TG Post",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        900,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "chatId": "@Ekcoin",
+        "text": "={{ $json.telegram_post }}",
+        "additionalFields": {
+          "parse_mode": "HTML",
+          "disable_web_page_preview": false
+        }
+      },
+      "id": "telegram-send",
+      "name": "Send to Telegram",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.1,
+      "position": [
+        1120,
+        200
+      ],
+      "credentials": {
+        "telegramApi": {
+          "id": "TODO_SET_CREDENTIAL_ID_IN_N8N_UI",
+          "name": "ShopNaAli Bot — @Shop_NaAli_bot"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Add product to products.json for the website\nconst item = $input.first().json;\nconst fs = require('fs');\nconst path = 'E:/Shop_Na_Ali/site/data/products.json';\n\nlet data = { products: [] };\ntry {\n  const raw = fs.readFileSync(path, 'utf-8');\n  data = JSON.parse(raw);\n} catch(e) {\n  // File doesn't exist yet\n}\n\nconst newProduct = {\n  id: item.id,\n  title: item.title,\n  price: item.price || 0,\n  category: 'other',\n  badge: 'new',\n  rating: 0,\n  orders: 0,\n  image: item.image_path ? `images/${item.image_filename}` : '',\n  link: item.original_link,\n  affiliate_link: item.affiliate_link || '',\n  description: '',\n  source_channel: item.source_channel || '',\n  added_at: item.timestamp || new Date().toISOString()\n};\n\n// Add to beginning\ndata.products = data.products || [];\ndata.products.unshift(newProduct);\n\n// Keep max 200 products\nif (data.products.length > 200) {\n  data.products = data.products.slice(0, 200);\n}\n\nfs.writeFileSync(path, JSON.stringify(data, null, 2), 'utf-8');\n\nreturn [{ json: { success: true, product_id: item.id } }];"
+      },
+      "id": "function-save-json",
+      "name": "Save to products.json",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        900,
+        420
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook — Receive Product": {
+      "main": [
+        [
+          {
+            "node": "Clean Text",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Clean Text": {
+      "main": [
+        [
+          {
+            "node": "Generate Affiliate Link",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Generate Affiliate Link": {
+      "main": [
+        [
+          {
+            "node": "Format TG Post",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Save to products.json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format TG Post": {
+      "main": [
+        [
+          {
+            "node": "Send to Telegram",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "tags": [
+    {
+      "name": "ShopNaAli"
+    }
+  ]
+}
