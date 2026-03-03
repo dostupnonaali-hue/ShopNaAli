@@ -25,6 +25,7 @@ DONOR_CHANNELS = [
     '@theCheapestAliExpress',
     '@AliReviewers',
     '@halyavaZaliExpress',
+    '@dobaksa_shop',
 ]
 
 # --- Target ---
@@ -35,6 +36,11 @@ N8N_WEBHOOK_URL = os.getenv('N8N_WEBHOOK_URL', 'https://n8n.21000.online/webhook
 
 # --- AliExpress Affiliate ---
 AFFILIATE_TRACKING_ID = os.getenv('AFFILIATE_TRACKING_ID', '')
+
+# --- GitHub API (for direct products.json updates) ---
+GITHUB_TOKEN = os.getenv('GITHUB_TOKEN', '')
+GITHUB_REPO = os.getenv('GITHUB_REPO', 'dostupnonaali-hue/ShopNaAli')
+GITHUB_PRODUCTS_PATH = 'site/data/products.json'
 
 # --- Paths ---
 IMAGES_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'site', 'images')

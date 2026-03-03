@@ -3,7 +3,7 @@
  * Loads products from data/products.json and renders the catalog
  */
 
-(function() {
+(function () {
     'use strict';
 
     // --- State ---
@@ -57,13 +57,14 @@
         }
 
         productsGrid.innerHTML = filteredProducts.map((product, index) => {
-            const badgeHTML = product.badge 
-                ? `<span class="product-card__badge product-card__badge--${product.badge}">${getBadgeText(product.badge)}</span>` 
+            const badgeHTML = product.badge
+                ? `<span class="product-card__badge product-card__badge--${product.badge}">${getBadgeText(product.badge)}</span>`
                 : '';
-            
+
             const ratingStars = '⭐'.repeat(Math.round(product.rating || 0));
-            const priceOld = product.price_old 
-                ? `<span class="product-card__price-old">$${product.price_old.toFixed(2)}</span>` 
+            const currencySymbol = product.currency === 'UAH' ? '₴' : '$';
+            const priceOld = product.price_old
+                ? `<span class="product-card__price-old">${currencySymbol}${product.price_old.toFixed(2)}</span>`
                 : '';
 
             return `
@@ -79,7 +80,7 @@
                         <h3 class="product-card__title">${escapeHtml(product.title)}</h3>
                         <div class="product-card__meta">
                             <div>
-                                <span class="product-card__price">$${(product.price || 0).toFixed(2)}</span>
+                                <span class="product-card__price">${currencySymbol}${(product.price || 0).toFixed(2)}</span>
                                 ${priceOld}
                             </div>
                             <span class="product-card__rating">${ratingStars}</span>
@@ -99,7 +100,7 @@
 
     // --- Skeletons ---
     function showSkeletons(count) {
-        productsGrid.innerHTML = Array.from({ length: count }, () => 
+        productsGrid.innerHTML = Array.from({ length: count }, () =>
             '<div class="skeleton skeleton-card"></div>'
         ).join('');
     }
@@ -108,7 +109,7 @@
     function applyFilters() {
         filteredProducts = allProducts.filter(product => {
             const matchesFilter = currentFilter === 'all' || product.category === currentFilter || product.badge === currentFilter;
-            const matchesSearch = !searchQuery || 
+            const matchesSearch = !searchQuery ||
                 product.title.toLowerCase().includes(searchQuery.toLowerCase());
             return matchesFilter && matchesSearch;
         });
@@ -138,7 +139,7 @@
         filtersContainer.addEventListener('click', (e) => {
             const btn = e.target.closest('.filter-btn');
             if (!btn) return;
-            
+
             filtersContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             currentFilter = btn.dataset.filter;
@@ -162,7 +163,7 @@
     }
 
     // --- Global: open product page ---
-    window.openProduct = function(id) {
+    window.openProduct = function (id) {
         window.location.href = `product.html?id=${id}`;
     };
 

@@ -40,17 +40,18 @@
         document.getElementById('pageTitle').textContent = title;
         document.getElementById('pageMeta').setAttribute('content', product.description || product.title);
         document.getElementById('ogTitle').setAttribute('content', title);
-        document.getElementById('ogDesc').setAttribute('content', `Всього $${product.price?.toFixed(2)} | ${product.title}`);
+        const currencySymbol = product.currency === 'UAH' ? '₴' : '$';
+        document.getElementById('ogDesc').setAttribute('content', `Всього ${currencySymbol}${product.price?.toFixed(2)} | ${product.title}`);
         document.getElementById('ogImage').setAttribute('content', product.image || '');
 
         // Update content
         document.getElementById('productImage').src = product.image || '';
         document.getElementById('productImage').alt = product.title;
         document.getElementById('productTitle').textContent = product.title;
-        document.getElementById('productPrice').textContent = `$${(product.price || 0).toFixed(2)}`;
+        document.getElementById('productPrice').textContent = `${currencySymbol}${(product.price || 0).toFixed(2)}`;
 
         if (product.price_old) {
-            document.getElementById('productPriceOld').textContent = `$${product.price_old.toFixed(2)}`;
+            document.getElementById('productPriceOld').textContent = `${currencySymbol}${product.price_old.toFixed(2)}`;
             const discount = Math.round((1 - product.price / product.price_old) * 100);
             const discountEl = document.getElementById('productDiscount');
             discountEl.textContent = `-${discount}%`;
