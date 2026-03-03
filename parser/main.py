@@ -63,7 +63,8 @@ async def resolve_and_clean_url(url: str, session: aiohttp.ClientSession):
     except Exception as e:
         log.warning(f"Failed to resolve URL {url}: {e}")
 
-    match = re.search(r'aliexpress\.(?:com|ru|us).*?/item/(\d+)\.html', final_url, re.IGNORECASE)
+    # Pattern handles /item/123.html, ?itemId=123, &productIds=123
+    match = re.search(r'(?:/item/|itemId=|productIds=)(\d+)(?:\.html|&|$)', final_url, re.IGNORECASE)
     if match:
         item_id = match.group(1)
         clean_url = f"https://aliexpress.com/item/{item_id}.html"
@@ -134,11 +135,11 @@ def extract_price(text):
     if not text:
         return {'value': 0, 'currency': 'USD'}
     
-    # UAH patterns
+    # UAH patterns (handles "308,2", "308.20", "308", "від 308,2")
     uah_patterns = [
-        r'(\d[\d\s]*[.,]\d{2})\s*(?:грн|грив|uah|₴)',
+        r'(\d[\d\s]*[.,]\d{1,2})\s*(?:грн|грив|uah|₴)',
         r'(\d[\d\s]*)\s*(?:грн|грив|uah|₴)',
-        r'₴\s*(\d[\d\s]*[.,]\d{2})',
+        r'₴\s*(\d[\d\s]*[.,]\d{1,2})',
         r'₴\s*(\d[\d\s]*)',
     ]
     for pattern in uah_patterns:
@@ -152,12 +153,12 @@ def extract_price(text):
 
     # USD patterns
     usd_patterns = [
-        r'\$\s*(\d+[.,]\d{2})',
+        r'\$\s*(\d+[.,]\d{1,2})',
         r'\$\s*(\d+)',
-        r'(\d+[.,]\d{2})\s*\$',
+        r'(\d+[.,]\d{1,2})\s*\$',
         r'(\d+)\s*\$',
-        r'(\d+[.,]\d{2})\s*(?:USD|usd|дол)',
-        r'(?:ціна|цена|price|вартість)[:\s]*\$?(\d+[.,]\d{2})',
+        r'(\d+[.,]\d{1,2})\s*(?:USD|usd|дол)',
+        r'(?:ціна|цена|price|вартість)[:\s]*\$?(\d+[.,]\d{1,2})',
     ]
     for pattern in usd_patterns:
         match = re.search(pattern, text, re.IGNORECASE)
@@ -217,12 +218,28 @@ async def save_product_to_github(product_data):
     
     import random
     
+    # Map hashtags to site categories
+    category = 'new'  # default
+    text_lower = product_data['raw_text'].lower()
+    if '#електроніка' in text_lower or '#гаджет' in text_lower or '#смартфон' in text_lower:
+        category = 'electronics'
+    elif '#дім' in text_lower or '#кухня' in text_lower or '#їжа' in text_lower:
+        category = 'home'
+    elif '#одяг' in text_lower or '#мода' in text_lower or '#взуття' in text_lower or '#аксесуари' in text_lower:
+        category = 'fashion'
+    elif '#іграшки' in text_lower or '#дитяче' in text_lower:
+        category = 'toys'
+    elif '#авто' in text_lower:
+        category = 'auto'
+    elif '#хіт' in text_lower or '#топ' in text_lower:
+        category = 'hot'
+    
     site_product = {
         'id': product_data['id'],
         'title': product_data['title'],
         'price': product_data.get('price') or 0,
         'currency': product_data.get('currency', 'USD'),
-        'category': 'other',
+        'category': category,
         'rating': round(random.uniform(4.7, 5.0), 1),
         'orders': random.randint(100, 2000),
         'image': product_data.get('image_path', ''),
@@ -408,6 +425,7 @@ async def handle_new_post(event):
                     'image_path': image_url,
                     'source_channel': event.chat.title or str(event.chat_id),
                     'timestamp': datetime.now(timezone.utc).isoformat(),
+                    'raw_text': raw_text,
                 }
                 log.info(f'✅ New product for site: {pid} | Price: ${fallback_price or "?"}')
                 
