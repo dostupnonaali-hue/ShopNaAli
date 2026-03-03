@@ -241,7 +241,7 @@ async def save_product_to_github(product_data):
     # Map hashtags to site categories
     category = 'new'  # default
     text_lower = product_data['raw_text'].lower()
-    if '#електроніка' in text_lower or '#гаджет' in text_lower or '#смартфон' in text_lower:
+    if any(tag in text_lower for tag in ['#електроніка', '#гаджет', '#смартфон', '#повербанк', '#навушники', '#годинник', '#pc', '#usb', '#кабель']):
         category = 'electronics'
     elif '#дім' in text_lower or '#кухня' in text_lower or '#їжа' in text_lower:
         category = 'home'
