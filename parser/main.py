@@ -319,8 +319,14 @@ async def handle_new_post(event):
                     if hasattr(button, 'url') and button.url:
                         urls.add(button.url)
         
-        # If there's no text and no URLs, just forward media
+        # If there's no text and no URLs
         if not raw_text and not urls:
+            # If it's part of an album (multiple photos), skip the extra photos to keep only one
+            if message.grouped_id:
+                log.info(f"⏭ Skipped extra album photo from {event.chat.title}")
+                return
+            
+            # Otherwise, it's a standalone media message, forward it
             await client.send_message(TARGET_CHANNEL, file=message.media)
             log.info(f"✅ Copied media-only message from {event.chat.title}")
             return
