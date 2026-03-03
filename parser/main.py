@@ -420,7 +420,8 @@ async def handle_new_post(event):
         fallback_price = extract_price(raw_text)
         
         async with aiohttp.ClientSession() as scrape_session:
-            for pid in product_ids_found:
+            # Only save the first product ID for the website to avoid duplicate cards
+            for pid in product_ids_found[:1]:
                 original_link = f"https://aliexpress.com/item/{pid}.html"
                 
                 # Scrape AliExpress product page for title and image
