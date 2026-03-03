@@ -134,41 +134,61 @@ def extract_price(text):
     """Try to extract price from message text."""
     if not text:
         return {'value': 0, 'currency': 'USD'}
-    
-    # UAH patterns (handles "308,2", "308.20", "308", "від 308,2")
+        
+    def parse_price_value(s):
+        # Remove whitespace
+        s = re.sub(r'\s+', '', s)
+        separators = re.findall(r'[.,]', s)
+        if not separators:
+            return float(s)
+        
+        last_sep_index = max(s.rfind(','), s.rfind('.'))
+        digits_after = len(s) - last_sep_index - 1
+        
+        if digits_after == 3:
+            # It's a thousands separator
+            s = s.replace(',', '').replace('.', '')
+            return float(s)
+        else:
+            # It's a decimal separator
+            s_base = s[:last_sep_index].replace(',', '').replace('.', '')
+            s_dec = s[last_sep_index+1:]
+            return float(f"{s_base}.{s_dec}")
+            
+    # UAH patterns
     uah_patterns = [
-        r'(\d[\d\s]*[.,]\d{1,2})\s*(?:грн|грив|uah|₴)',
-        r'(\d[\d\s]*)\s*(?:грн|грив|uah|₴)',
-        r'₴\s*(\d[\d\s]*[.,]\d{1,2})',
-        r'₴\s*(\d[\d\s]*)',
+        r'(\d[\d\s.,]*\d|\d)\s*(?:грн|грив|uah|₴)',
+        r'₴\s*(\d[\d\s.,]*\d|\d)',
     ]
     for pattern in uah_patterns:
         match = re.search(pattern, text, re.IGNORECASE)
         if match:
-            price_str = match.group(1).replace(',', '.').replace(' ', '')
-            try:
-                return {'value': float(price_str), 'currency': 'UAH'}
-            except ValueError:
-                continue
+            price_str = match.group(1).strip()
+            price_str = price_str.strip('.,')
+            if price_str:
+                try:
+                    return {'value': parse_price_value(price_str), 'currency': 'UAH'}
+                except ValueError:
+                    continue
 
     # USD patterns
     usd_patterns = [
-        r'\$\s*(\d+[.,]\d{1,2})',
-        r'\$\s*(\d+)',
-        r'(\d+[.,]\d{1,2})\s*\$',
-        r'(\d+)\s*\$',
-        r'(\d+[.,]\d{1,2})\s*(?:USD|usd|дол)',
-        r'(?:ціна|цена|price|вартість)[:\s]*\$?(\d+[.,]\d{1,2})',
+        r'\$\s*(\d[\d\s.,]*\d|\d)',
+        r'(\d[\d\s.,]*\d|\d)\s*\$',
+        r'(\d[\d\s.,]*\d|\d)\s*(?:USD|usd|дол)',
+        r'(?:ціна|цена|price|вартість)[:\s]*\$?(\d[\d\s.,]*\d|\d)',
     ]
     for pattern in usd_patterns:
         match = re.search(pattern, text, re.IGNORECASE)
         if match:
-            price_str = match.group(1).replace(',', '.').replace(' ', '')
-            try:
-                return {'value': float(price_str), 'currency': 'USD'}
-            except ValueError:
-                continue
-                
+            price_str = match.group(1).strip()
+            price_str = price_str.strip('.,')
+            if price_str:
+                try:
+                    return {'value': parse_price_value(price_str), 'currency': 'USD'}
+                except ValueError:
+                    continue
+
     return {'value': 0, 'currency': 'USD'}
 
 def clean_text(text):
