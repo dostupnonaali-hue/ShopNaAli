@@ -91,7 +91,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
+  background:
     radial-gradient(ellipse 80% 50% at 20% 40%, rgba(0, 255, 136, 0.05) 0%, transparent 50%),
     radial-gradient(ellipse 60% 40% at 80% 20%, rgba(139, 92, 246, 0.05) 0%, transparent 50%),
     radial-gradient(ellipse 50% 30% at 50% 80%, rgba(255, 107, 53, 0.03) 0%, transparent 50%);
@@ -119,13 +119,16 @@ img {
 ::-webkit-scrollbar {
   width: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--bg-primary);
 }
+
 ::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.15);
   border-radius: var(--radius-full);
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.25);
 }
@@ -752,6 +755,7 @@ img {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -763,6 +767,7 @@ img {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -770,9 +775,12 @@ img {
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.4;
   }
@@ -782,6 +790,7 @@ img {
   0% {
     background-position: -200% 0;
   }
+
   100% {
     background-position: 200% 0;
   }
@@ -855,9 +864,18 @@ img {
   padding: 4px 8px;
   border-radius: var(--radius-sm);
   margin-bottom: var(--gap-sm);
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   border: 1px dashed var(--accent-primary);
   word-break: break-word;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.product-card__promo:hover {
+  background: rgba(0, 255, 136, 0.2);
+  transform: translateY(-1px);
 }
 
 .product-page__promo {
@@ -869,5 +887,14 @@ img {
   border-radius: var(--radius-sm);
   margin-bottom: var(--gap-lg);
   border: 1px dashed var(--accent-primary);
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.product-page__promo:hover {
+  background: rgba(0, 255, 136, 0.2);
+  transform: translateY(-2px);
 }

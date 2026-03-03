@@ -60,8 +60,17 @@
 
         if (product.promo_text) {
             const promoEl = document.getElementById('productPromo');
-            promoEl.textContent = `+${product.promo_text}`;
-            promoEl.style.display = 'inline-block';
+            promoEl.innerHTML = `✂️ ${product.promo_text}`;
+            promoEl.title = 'Натисніть, щоб скопіювати';
+            promoEl.style.display = 'inline-flex';
+            promoEl.onclick = function (e) {
+                e.preventDefault();
+                navigator.clipboard.writeText(product.promo_text).then(() => {
+                    const originalHtml = promoEl.innerHTML;
+                    promoEl.innerHTML = `✅ Скопійовано!`;
+                    setTimeout(() => promoEl.innerHTML = originalHtml, 2000);
+                });
+            };
         }
 
         document.getElementById('productRating').textContent = `⭐ ${product.rating || '—'}`;

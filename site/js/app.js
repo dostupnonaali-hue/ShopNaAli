@@ -85,7 +85,7 @@
                             </div>
                             <span class="product-card__rating">${ratingStars}</span>
                         </div>
-                        ${product.promo_text ? `<div class="product-card__promo">+${escapeHtml(product.promo_text)}</div>` : ''}
+                        ${product.promo_text ? `<div class="product-card__promo" title="Скопіювати промокод" data-promo="${escapeHtml(product.promo_text.replace(/"/g, '&quot;'))}" onclick="event.preventDefault(); event.stopPropagation(); navigator.clipboard.writeText(this.dataset.promo); const orig = this.innerHTML; this.innerHTML = '✅ Скопійовано!'; setTimeout(() => this.innerHTML = orig, 2000);">✂️ ${escapeHtml(product.promo_text)}</div>` : ''}
                         <div class="product-card__orders">${product.orders || 0} замовлень</div>
                         <a href="${product.affiliate_link || product.link || '#'}" 
                            target="_blank" 
