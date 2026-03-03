@@ -443,11 +443,15 @@ async def handle_new_post(event):
                         fallback_price = {'value': scraped['price'], 'currency': 'USD'}
                         log.info(f'💰 Found price on AliExpress page: ${scraped["price"]}')
 
-                # Extract promo code in parentheses like "(+купон і монети)"
-                promo_match = re.search(r'\(\+(.*?)\)', raw_text)
+                # Extract promo code in parentheses like "(+купон і монети)" (potentially multiline)
+                promo_match = re.search(r'\(\+(.*?)\)', raw_text, re.DOTALL)
                 if not promo_match:
-                    promo_match = re.search(r'\((.*?(?:промокод|купон|монети|знижк).*?)\)', raw_text, re.IGNORECASE)
-                promo_text = promo_match.group(1).strip() if promo_match else ""
+                    promo_match = re.search(r'\((.*?(?:промокод|купон|монети|знижк).*?)\)', raw_text, re.IGNORECASE | re.DOTALL)
+                
+                promo_text = ""
+                if promo_match:
+                    # Clean up the promo text, converting newlines to spaces
+                    promo_text = promo_match.group(1).strip().replace('\n', ' ').replace('\r', '')
 
                 product_data = {
                     'id': pid,
