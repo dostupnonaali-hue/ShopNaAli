@@ -1,6 +1,20 @@
 {
   "products": [
-    
+    {
+      "id": "1005006343696771",
+      "title": "Nibber Solid Sexy Backless Maxi Dress Women Elegant Elastic Slim Short Sleeve Long dresses Female Bodycon Streetwear Clothing",
+      "price": 314.7,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 1593,
+      "image": "https://ae01.alicdn.com/kf/Sf08ac0f7ed7a4a558e433f10d24aaa8bx.jpg",
+      "link": "https://aliexpress.com/item/1005006343696771.html",
+      "affiliate_link": "https://aliexpress.com/item/1005006343696771.html",
+      "description": "",
+      "source_channel": "DoBaksa",
+      "added_at": "2026-03-03T13:30:09.084001+00:00"
+    },
     {
       "id": "demo-1",
       "title": "USB LED гнучка лампа для ноутбука — м'яке підсвічування клавіатури",
