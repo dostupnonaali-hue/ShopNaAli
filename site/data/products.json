@@ -1,6 +1,21 @@
 {
   "products": [
     {
+      "id": "1005009455491089",
+      "title": "Women",
+      "price": 620.6,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1992,
+      "image": "https://ae01.alicdn.com/kf/S485cf96fd374485aaafe298042ce0dbaU.jpg",
+      "link": "https://aliexpress.com/item/1005009455491089.html",
+      "affiliate_link": "https://aliexpress.com/item/1005009455491089.html",
+      "description": "",
+      "source_channel": "DoBaksa",
+      "added_at": "2026-03-03T13:34:16.118507+00:00"
+    },
+    {
       "id": "1005006343696771",
       "title": "Nibber Solid Sexy Backless Maxi Dress Women Elegant Elastic Slim Short Sleeve Long dresses Female Bodycon Streetwear Clothing",
       "price": 314.7,
