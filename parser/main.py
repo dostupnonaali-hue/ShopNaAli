@@ -157,8 +157,8 @@ def extract_price(text):
             
     # UAH patterns
     uah_patterns = [
-        r'(\d[\d\s.,]*\d|\d)\s*(?:грн|грив|uah|₴)',
-        r'₴\s*(\d[\d\s.,]*\d|\d)',
+        r'(\d[\d \t\xA0.,]*\d|\d)\s*(?:грн|грив|uah|₴)',
+        r'₴\s*(\d[\d \t\xA0.,]*\d|\d)',
     ]
     for pattern in uah_patterns:
         match = re.search(pattern, text, re.IGNORECASE)
@@ -173,10 +173,10 @@ def extract_price(text):
 
     # USD patterns
     usd_patterns = [
-        r'\$\s*(\d[\d\s.,]*\d|\d)',
-        r'(\d[\d\s.,]*\d|\d)\s*\$',
-        r'(\d[\d\s.,]*\d|\d)\s*(?:USD|usd|дол)',
-        r'(?:ціна|цена|price|вартість)[:\s]*\$?(\d[\d\s.,]*\d|\d)',
+        r'\$\s*(\d[\d \t\xA0.,]*\d|\d)',
+        r'(\d[\d \t\xA0.,]*\d|\d)\s*\$',
+        r'(\d[\d \t\xA0.,]*\d|\d)\s*(?:USD|usd|дол)',
+        r'(?:ціна|цена|price|вартість)[:\s]*\$?(\d[\d \t\xA0.,]*\d|\d)',
     ]
     for pattern in usd_patterns:
         match = re.search(pattern, text, re.IGNORECASE)
