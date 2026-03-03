@@ -58,6 +58,12 @@
             discountEl.style.display = 'inline-block';
         }
 
+        if (product.promo_text) {
+            const promoEl = document.getElementById('productPromo');
+            promoEl.textContent = `+${product.promo_text}`;
+            promoEl.style.display = 'inline-block';
+        }
+
         document.getElementById('productRating').textContent = `⭐ ${product.rating || '—'}`;
         document.getElementById('productOrders').textContent = `${product.orders || 0} замовлень`;
         document.getElementById('productDescription').textContent = product.description || '';

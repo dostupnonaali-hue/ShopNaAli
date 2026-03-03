@@ -846,3 +846,28 @@ img {
     padding: 8px;
   }
 }
+
+/* --- Promo --- */
+.product-card__promo {
+  font-size: 0.75rem;
+  color: var(--accent-primary);
+  background: rgba(0, 255, 136, 0.1);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--gap-sm);
+  display: inline-block;
+  border: 1px dashed var(--accent-primary);
+  word-break: break-word;
+}
+
+.product-page__promo {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+  background: rgba(0, 255, 136, 0.1);
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--gap-lg);
+  border: 1px dashed var(--accent-primary);
+  display: inline-block;
+}

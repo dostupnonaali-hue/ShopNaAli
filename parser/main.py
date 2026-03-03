@@ -266,6 +266,7 @@ async def save_product_to_github(product_data):
         'link': product_data['original_link'],
         'affiliate_link': product_data['original_link'],
         'description': '',
+        'promo_text': product_data.get('promo_text', ''),
         'source_channel': product_data.get('source_channel', ''),
         'added_at': product_data['timestamp'],
     }
@@ -442,6 +443,12 @@ async def handle_new_post(event):
                         fallback_price = {'value': scraped['price'], 'currency': 'USD'}
                         log.info(f'💰 Found price on AliExpress page: ${scraped["price"]}')
 
+                # Extract promo code in parentheses like "(+купон і монети)"
+                promo_match = re.search(r'\(\+(.*?)\)', raw_text)
+                if not promo_match:
+                    promo_match = re.search(r'\((.*?(?:промокод|купон|монети|знижк).*?)\)', raw_text, re.IGNORECASE)
+                promo_text = promo_match.group(1).strip() if promo_match else ""
+
                 product_data = {
                     'id': pid,
                     'title': product_title or f'Товар AliExpress #{pid}',
@@ -449,6 +456,7 @@ async def handle_new_post(event):
                     'currency': fallback_price['currency'],
                     'original_link': original_link,
                     'image_path': image_url,
+                    'promo_text': promo_text,
                     'source_channel': event.chat.title or str(event.chat_id),
                     'timestamp': datetime.now(timezone.utc).isoformat(),
                     'raw_text': raw_text,

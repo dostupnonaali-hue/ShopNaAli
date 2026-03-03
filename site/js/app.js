@@ -85,6 +85,7 @@
                             </div>
                             <span class="product-card__rating">${ratingStars}</span>
                         </div>
+                        ${product.promo_text ? `<div class="product-card__promo">+${escapeHtml(product.promo_text)}</div>` : ''}
                         <div class="product-card__orders">${product.orders || 0} замовлень</div>
                         <a href="${product.affiliate_link || product.link || '#'}" 
                            target="_blank" 
