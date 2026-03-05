@@ -1,6 +1,22 @@
 {
   "products": [
     {
+      "id": "1005011634689907",
+      "title": "Elevated Men",
+      "price": 0,
+      "currency": "USD",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 798,
+      "image": "https://ae01.alicdn.com/kf/Safc9822923b34a019a73406ce7f76f036.jpg",
+      "link": "https://aliexpress.com/item/1005011634689907.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https://aliexpress.com/item/1005011634689907.html",
+      "description": "",
+      "promo_text": "",
+      "source_channel": "Дешево з AliЕxpress",
+      "added_at": "2026-03-05T00:30:50.332758+00:00"
+    },
+    {
       "id": "1005006221283841",
       "title": "Car Door Edge Guards Door Sill Protector Black Waterproof 3D Carbon Fiber Anti Collision Film Scratch Cover Strip Stickers Tape",
       "price": 22.4,
