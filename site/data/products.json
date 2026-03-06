@@ -1,6 +1,22 @@
 {
   "products": [
     {
+      "id": "1005008428362764",
+      "title": "New Vintage Small Frame Cat",
+      "price": 6.1,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1532,
+      "image": "https://ae01.alicdn.com/kf/Sa0c2bac3278b47d7b518b787cf9677b6n.jpg",
+      "link": "https://aliexpress.com/item/1005008428362764.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https://aliexpress.com/item/1005008428362764.html",
+      "description": "",
+      "promo_text": "",
+      "source_channel": "Товари AliExpress до 1$",
+      "added_at": "2026-03-06T18:26:27.750818+00:00"
+    },
+    {
       "id": "1005007857108821",
       "title": "For Samsung BN59-01432A 01432B Remote Control Silicone Protective Case Shockproof Anti-Slip Smart TV Soft Sleeve with Lanyard",
       "price": 72.4,
