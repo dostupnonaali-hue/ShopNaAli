@@ -22,6 +22,7 @@ from config import (
     DONOR_CHANNELS, TARGET_CHANNEL,
     SEEN_DB, IMAGES_DIR,
     GITHUB_TOKEN, GITHUB_REPO, GITHUB_PRODUCTS_PATH,
+    AFFILIATE_SHORT_KEY
 )
 
 # --- Logging ---
@@ -264,7 +265,7 @@ async def save_product_to_github(product_data):
         'orders': random.randint(100, 2000),
         'image': product_data.get('image_path', ''),
         'link': product_data['original_link'],
-        'affiliate_link': product_data['original_link'],
+        'affiliate_link': product_data.get('affiliate_link', product_data['original_link']),
         'description': '',
         'promo_text': product_data.get('promo_text', ''),
         'source_channel': product_data.get('source_channel', ''),
@@ -330,6 +331,10 @@ async def handle_new_post(event):
         # Get raw plain text (for URL extraction and GitHub/site data)
         raw_text = message.raw_text or ''
         
+        # Replace donor channel mention with our own
+        text_html = re.sub(r'(?i)@halyavaZaliExpress', '@Shop_NaAli', text_html)
+        raw_text = re.sub(r'(?i)@halyavaZaliExpress', '@Shop_NaAli', raw_text)
+        
         # Find all URLs in raw text
         urls = set(re.findall(r'https?://[^\s<"]+', raw_text))
         
@@ -389,7 +394,14 @@ async def handle_new_post(event):
                 # Provide a shorter display text for the link
                 match = re.search(r'/item/(\d+)\.html', cl)
                 display_text = f"aliexpress.com/item/{match.group(1)}.html" if match else cl
-                text_html += f"👉 <a href='{cl}'>{display_text}</a>\n"
+                
+                # Make affiliate deep link if we have the key
+                if AFFILIATE_SHORT_KEY:
+                    aff_url = f"https://s.click.aliexpress.com/deep_link.htm?aff_short_key={AFFILIATE_SHORT_KEY}&dl_target_url={cl}"
+                else:
+                    aff_url = cl
+
+                text_html += f"👉 <a href='{aff_url}'>{display_text}</a>\n"
 
         # Send the modified message to Telegram
         # Telegram limits captions to 1024 chars; if longer, send text and media separately
@@ -423,6 +435,11 @@ async def handle_new_post(event):
             # Only save the first product ID for the website to avoid duplicate cards
             for pid in product_ids_found[:1]:
                 original_link = f"https://aliexpress.com/item/{pid}.html"
+                
+                if AFFILIATE_SHORT_KEY:
+                    affiliate_link = f"https://s.click.aliexpress.com/deep_link.htm?aff_short_key={AFFILIATE_SHORT_KEY}&dl_target_url={original_link}"
+                else:
+                    affiliate_link = original_link
                 
                 # Scrape AliExpress product page for title and image
                 scraped = await scrape_aliexpress_product(original_link, scrape_session)
@@ -462,6 +479,7 @@ async def handle_new_post(event):
                     'price': fallback_price['value'],
                     'currency': fallback_price['currency'],
                     'original_link': original_link,
+                    'affiliate_link': affiliate_link,
                     'image_path': image_url,
                     'promo_text': promo_text,
                     'source_channel': event.chat.title or str(event.chat_id),
