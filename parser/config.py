@@ -36,7 +36,6 @@ N8N_WEBHOOK_URL = os.getenv('N8N_WEBHOOK_URL', 'https://n8n.21000.online/webhook
 
 # --- AliExpress Affiliate ---
 AFFILIATE_TRACKING_ID = os.getenv('AFFILIATE_TRACKING_ID', '')
-AFFILIATE_SHORT_KEY = os.getenv('AFFILIATE_SHORT_KEY', '_c3cdtirh')
 
 # --- GitHub API (for direct products.json updates) ---
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN', '')
