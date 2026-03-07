@@ -1,5 +1,5 @@
 /**
- * Shop Na Ali — Product Page Logic
+ * ShopDoBaksa — Product Page Logic
  * Loads product by ?id= from products.json, renders micro-landing
  */
 
@@ -36,7 +36,7 @@
 
     function renderProduct(product) {
         // Update page meta
-        const title = `${product.title} — Shop Na Ali`;
+        const title = `${product.title} — ShopDoBaksa`;
         document.getElementById('pageTitle').textContent = title;
         document.getElementById('pageMeta').setAttribute('content', product.description || product.title);
         document.getElementById('ogTitle').setAttribute('content', title);

@@ -1,5 +1,5 @@
 /**
- * Shop Na Ali — Main App Logic
+ * ShopDoBaksa — Main App Logic
  * Loads products from data/products.json and renders the catalog
  */
 
