@@ -1,6 +1,22 @@
 {
   "products": [
     {
+      "id": "1005011756820896",
+      "title": "Women",
+      "price": 79.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1057,
+      "image": "https://ae01.alicdn.com/kf/Sc2ef1bf478174a6b9c5b811bd5e6f60eR.jpg",
+      "link": "https://aliexpress.com/item/1005011756820896.html",
+      "affiliate_link": "https://aliexpress.com/item/1005011756820896.html",
+      "description": "",
+      "promo_text": "",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-08T16:23:11.316707+00:00"
+    },
+    {
       "id": "1005010075543432",
       "title": "Multifunctional Vegetable Cutter Set Kitchen Tools Manual Slicer Shredder Wiper Grater Accessories Cooking and Kitchen Gadgets",
       "price": 249.0,
