@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007258105464",
+      "title": "Summer Women",
+      "price": 90.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 698,
+      "image": "https://ae01.alicdn.com/kf/Scf11772e6f0849dea587e09a0adca193g.png",
+      "link": "https://aliexpress.com/item/1005007258105464.html",
+      "affiliate_link": "https://aliexpress.com/item/1005007258105464.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-08T19:21:34.829492+00:00"
+    },
+    {
       "id": "1005006861010101",
       "title": "Voice Control Digital Alarm Clock Temperature Date Display Snooze Table Clock 3 Alarms 12/24H Mirror LED Clock With USB Cable",
       "price": 136.0,
