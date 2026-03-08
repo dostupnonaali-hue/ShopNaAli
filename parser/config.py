@@ -26,10 +26,15 @@ DONOR_CHANNELS = [
     '@AliReviewers',
     '@halyavaZaliExpress',
     '@dobaksa_shop',
+    '@nadyvani',
+    'https://t.me/+8jHVizJO6XY3M2Qy',
+    '@AliExpress_do10',
+    '@AliExpressLizka',
+    '@Shark_ali',
 ]
 
 # --- Target ---
-TARGET_CHANNEL = os.getenv('TARGET_CHANNEL', '@Ekcoin')
+TARGET_CHANNEL = os.getenv('TARGET_CHANNEL', '@Shop_DoBaksa')
 
 # --- n8n Webhook ---
 N8N_WEBHOOK_URL = os.getenv('N8N_WEBHOOK_URL', 'https://n8n.21000.online/webhook/aliexpress-product')
