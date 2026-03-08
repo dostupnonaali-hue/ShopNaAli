@@ -22,9 +22,6 @@ SESSION_NAME = os.getenv('SESSION_NAME', 'shopnaali_session')
 
 # --- Donor Channels ---
 DONOR_CHANNELS = [
-    '@theCheapestAliExpress',
-    '@AliReviewers',
-    '@halyavaZaliExpress',
     '@dobaksa_shop',
     '@nadyvani',
     'https://t.me/+8jHVizJO6XY3M2Qy',
