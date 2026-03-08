@@ -1,6 +1,22 @@
 {
   "products": [
     {
+      "id": "1005008145742742",
+      "title": "LiitoKala LF-986 Work lights LF-786 Mini Edition 1200mAh Battery 500LM LED COB",
+      "price": 284.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1850,
+      "image": "https://ae01.alicdn.com/kf/S8b761a13b99e450289265e1da54c6949X.jpg",
+      "link": "https://aliexpress.com/item/1005008145742742.html",
+      "affiliate_link": "https://aliexpress.com/item/1005008145742742.html",
+      "description": "",
+      "promo_text": "",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-08T17:40:31.118414+00:00"
+    },
+    {
       "id": "1005008248127286",
       "title": "Digital Kitchen Scale with LED Display 5kg/1g Stainless Steel Electronic Weighing for Food Jewelry Snacks Baking Home Tools",
       "price": 163.0,
