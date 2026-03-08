@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011751950134",
+      "title": "A foldable and stretchable portable soft water bottle, suitable for outdoor hiking and use in sports backpacks.",
+      "price": 41.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 1482,
+      "image": "https://ae01.alicdn.com/kf/S4fa2cd2597bb4916b90b68c5fae39644X.jpeg",
+      "link": "https://aliexpress.com/item/1005011751950134.html",
+      "affiliate_link": "https://aliexpress.com/item/1005011751950134.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-08T19:19:11.938339+00:00"
+    },
+    {
       "id": "1005008500665476",
       "title": "HOMEFISH XF-F02 Plug-in Camping Hand Light Outdoor Super Bright Portable Night Light Emergency Lighting Portable Hand Light,B",
       "price": 113.0,
