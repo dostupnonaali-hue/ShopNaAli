@@ -14,7 +14,7 @@ import logging
 from datetime import datetime, timezone
 
 from telethon import TelegramClient, events
-from telethon.tl.types import MessageMediaPhoto, MessageMediaDocument
+from telethon.tl.types import MessageMediaPhoto, MessageMediaDocument, MessageMediaWebPage
 import aiohttp
 
 from config import (
@@ -63,8 +63,8 @@ async def resolve_and_clean_url(url: str, session: aiohttp.ClientSession):
     except Exception as e:
         log.warning(f"Failed to resolve URL {url}: {e}")
 
-    # Pattern handles /item/123.html, ?itemId=123, &productIds=123
-    match = re.search(r'(?:/item/|itemId=|productIds=)(\d+)(?:\.html|&|$)', final_url, re.IGNORECASE)
+    # Pattern handles /item/123.html, /i/123.html, ?itemId=123, &productIds=123
+    match = re.search(r'(?:/(?:item|i)/|itemId=|productIds=)(\d+)(?:\.html|&|$)', final_url, re.IGNORECASE)
     if match:
         item_id = match.group(1)
         clean_url = f"https://aliexpress.com/item/{item_id}.html"
@@ -226,6 +226,179 @@ def clean_text(text):
     result = re.sub(r'\s{2,}', ' ', result)
     return result
 
+# --- Category Detection ---
+CATEGORY_RULES = [
+    {
+        'slug': 'electronics',
+        'hashtags': ['#електроніка', '#гаджет', '#смартфон', '#повербанк', '#навушники', '#годинник', '#pc', '#usb', '#кабель'],
+        'keywords': [
+            'навушник', 'earphone', 'headphone', 'earbuds', 'tws',
+            'кабель', 'cable', 'usb', 'type-c', 'lightning', 'charger', 'зарядк',
+            'повербанк', 'power bank', 'powerbank', 'батаре',
+            'смартфон', 'phone', 'телефон',
+            'годинник', 'watch', 'smartwatch', 'smart watch',
+            'bluetooth', 'блютуз', 'wifi', 'wi-fi',
+            'колонк', 'speaker', 'динамік',
+            'флешк', 'flash', 'sd card', 'memory card', 'карта пам',
+            'led', 'світлодіод', 'lamp', 'лампа', 'ліхтар', 'flashlight',
+            'камера', 'camera', 'webcam', 'вебкамера',
+            'клавіатур', 'keyboard', 'мишк', 'mouse', 'миш',
+            'адаптер', 'adapter', 'hub', 'хаб', 'перехідник',
+            'планшет', 'tablet', 'kindle',
+        ],
+    },
+    {
+        'slug': 'beauty',
+        'hashtags': ['#краса', '#косметика', '#макіяж', '#догляд', '#б\'юті'],
+        'keywords': [
+            'косметик', 'cosmetic', 'makeup', 'макіяж',
+            'крем', 'cream', 'лосьйон', 'lotion', 'сироватк', 'serum',
+            'щітк', 'brush', 'пензл', 'пензлик',
+            'манікюр', 'manicure', 'nail', 'нігт', 'лак',
+            'маска для облич', 'face mask', 'патчі', 'patch',
+            'шампунь', 'shampoo', 'бальзам', 'кондиціонер',
+            'парфум', 'perfume', 'аромат', 'духи',
+            'епілятор', 'epilator', 'тример', 'trimmer', 'бритв',
+            'пілінг', 'peeling', 'скраб', 'scrub',
+            'помада', 'lipstick', 'тіні', 'shadow', 'туш', 'mascara', 'підводк',
+        ],
+    },
+    {
+        'slug': 'home',
+        'hashtags': ['#дім', '#кухня', '#їжа', '#побут', '#декор'],
+        'keywords': [
+            'кухн', 'kitchen', 'посуд', 'тарілк', 'чашк', 'cup', 'mug',
+            'ніж', 'knife', 'різак', 'cutter', 'відкривач', 'opener',
+            'контейнер', 'container', 'органайзер', 'organizer',
+            'рушник', 'towel', 'серветк', 'napkin',
+            'подушк', 'pillow', 'ковдр', 'blanket', 'плед',
+            'декор', 'decor', 'ваза', 'vase', 'свічк', 'candle',
+            'штор', 'curtain', 'carpet', 'килим',
+            'полиц', 'shelf', 'гачок', 'hook', 'тримач', 'holder',
+            'мило', 'soap', 'диспенсер', 'dispenser',
+            'пилосос', 'vacuum', 'швабр', 'mop',
+            'термос', 'thermos', 'термо',
+        ],
+    },
+    {
+        'slug': 'fashion',
+        'hashtags': ['#одяг', '#мода', '#взуття', '#стиль'],
+        'keywords': [
+            'футболк', 't-shirt', 'tshirt', 'майк',
+            'штан', 'pants', 'джинс', 'jeans', 'шорти', 'shorts',
+            'куртк', 'jacket', 'пальто', 'coat', 'вітровк', 'windbreaker',
+            'сукн', 'dress', 'плаття', 'спідниц', 'skirt',
+            'светр', 'sweater', 'худі', 'hoodie', 'толстовк', 'sweatshirt',
+            'кросівк', 'sneakers', 'взуття', 'shoes', 'черевик', 'boots',
+            'шкарпетк', 'socks', 'білизн', 'underwear',
+            'окуляр', 'glasses', 'sunglasses', 'сонцезахисн',
+        ],
+    },
+    {
+        'slug': 'accessories',
+        'hashtags': ['#аксесуари', '#чохол', '#кейс'],
+        'keywords': [
+            'чохол', 'чехол', 'case', 'cover',
+            'ремінець', 'strap', 'band', 'браслет', 'bracelet',
+            'сумк', 'bag', 'рюкзак', 'backpack', 'гаманець', 'wallet',
+            'кейс', 'поuch', 'косметичк',
+            'захисне скло', 'screen protector', 'плівк', 'film',
+            'ланцюжок', 'chain', 'підвіск', 'pendant', 'кольц', 'ring',
+            'шарф', 'scarf', 'хустк', 'bandana',
+            'кепк', 'cap', 'шапк', 'hat', 'панам',
+            'пояс', 'belt', 'ремін',
+        ],
+    },
+    {
+        'slug': 'sport',
+        'hashtags': ['#спорт', '#фітнес', '#тренування'],
+        'keywords': [
+            'спорт', 'sport', 'фітнес', 'fitness', 'gym',
+            'тренажер', 'гантел', 'dumbbell', 'еспандер', 'resistance',
+            'йога', 'yoga', 'килимок для', 'mat',
+            'велосипед', 'bicycle', 'bike', 'велоспорт',
+            'м\'яч', 'ball', 'футбол', 'football', 'баскетбол',
+            'біг', 'running', 'пробіжк',
+            'скакалк', 'rope', 'турнік',
+            'рибалк', 'fishing', 'риболовл',
+            'кемпінг', 'camping', 'намет', 'tent', 'туризм',
+        ],
+    },
+    {
+        'slug': 'toys',
+        'hashtags': ['#іграшки', '#дитяче', '#діти'],
+        'keywords': [
+            'іграшк', 'toy', 'лего', 'lego', 'конструктор',
+            'ляльк', 'doll', 'плюшев', 'plush', 'м\'яка іграшк',
+            'пазл', 'puzzle', 'головоломк',
+            'дитяч', 'kids', 'children', 'baby', 'дитин', 'немовля',
+            'розмальовк', 'coloring', 'пластилін', 'слайм', 'slime',
+            'радіокерован', 'rc ', 'дрон', 'drone', 'квадрокоптер',
+        ],
+    },
+    {
+        'slug': 'tools',
+        'hashtags': ['#інструмент', '#ремонт', '#майстер'],
+        'keywords': [
+            'інструмент', 'tool', 'дриль', 'drill',
+            'ключ', 'wrench', 'викрутк', 'screwdriver',
+            'набір біт', 'bit set', 'мультитул', 'multitool',
+            'паяльник', 'soldering', 'клейов', 'glue gun',
+            'рулетк', 'tape measure', 'рівень', 'level',
+            'пилк', 'saw', 'лобзик', 'jigsaw',
+            'стяжк', 'zip tie', 'ізолент', 'tape',
+            'свердл', 'drill bit', 'шліфувальн', 'sander',
+        ],
+    },
+    {
+        'slug': 'auto',
+        'hashtags': ['#авто', '#автомобіль', '#машина'],
+        'keywords': [
+            'авто', 'auto', 'car', 'машин',
+            'відеореєстратор', 'dashcam', 'dash cam',
+            'тримач для телефон', 'phone holder', 'phone mount',
+            'автозарядк', 'car charger',
+            'килимок в авто', 'car mat',
+            'ароматизатор', 'air freshener',
+            'парктронік', 'parking sensor',
+            'чохол на кермо', 'steering wheel',
+        ],
+    },
+    {
+        'slug': 'hot',
+        'hashtags': ['#хіт', '#топ', '#бестселер', '#розпродаж'],
+        'keywords': [],  # hot is primarily hashtag-based
+    },
+]
+
+def detect_category(title: str, raw_text: str) -> str:
+    """Detect product category from title and raw message text.
+    
+    Priority: hashtags in text → keywords in title → keywords in text → default 'new'.
+    """
+    text_lower = raw_text.lower()
+    title_lower = title.lower() if title else ''
+    
+    # 1. Check hashtags first (highest confidence)
+    for rule in CATEGORY_RULES:
+        for tag in rule['hashtags']:
+            if tag in text_lower:
+                return rule['slug']
+    
+    # 2. Check keywords in title (high confidence)
+    for rule in CATEGORY_RULES:
+        for kw in rule['keywords']:
+            if kw in title_lower:
+                return rule['slug']
+    
+    # 3. Check keywords in full text (lower confidence)
+    for rule in CATEGORY_RULES:
+        for kw in rule['keywords']:
+            if kw in text_lower:
+                return rule['slug']
+    
+    return 'new'
+
 # --- GitHub Direct API ---
 async def save_product_to_github(product_data):
     """Save product directly to GitHub products.json via API."""
@@ -238,21 +411,8 @@ async def save_product_to_github(product_data):
     
     import random
     
-    # Map hashtags to site categories
-    category = 'new'  # default
-    text_lower = product_data['raw_text'].lower()
-    if any(tag in text_lower for tag in ['#електроніка', '#гаджет', '#смартфон', '#повербанк', '#навушники', '#годинник', '#pc', '#usb', '#кабель']):
-        category = 'electronics'
-    elif '#дім' in text_lower or '#кухня' in text_lower or '#їжа' in text_lower:
-        category = 'home'
-    elif '#одяг' in text_lower or '#мода' in text_lower or '#взуття' in text_lower or '#аксесуари' in text_lower:
-        category = 'fashion'
-    elif '#іграшки' in text_lower or '#дитяче' in text_lower:
-        category = 'toys'
-    elif '#авто' in text_lower:
-        category = 'auto'
-    elif '#хіт' in text_lower or '#топ' in text_lower:
-        category = 'hot'
+    # Detect category from title + raw text
+    category = detect_category(product_data.get('title', ''), product_data['raw_text'])
     
     site_product = {
         'id': product_data['id'],
@@ -347,9 +507,11 @@ async def handle_new_post(event):
                 log.info(f"⏭ Skipped extra album photo from {event.chat.title}")
                 return
             
-            # Otherwise, it's a standalone media message, forward it
-            await client.send_message(TARGET_CHANNEL, file=message.media)
-            log.info(f"✅ Copied media-only message from {event.chat.title}")
+            media_to_send = message.media if not isinstance(message.media, MessageMediaWebPage) else None
+            if media_to_send:
+                # Otherwise, it's a standalone media message, forward it
+                await client.send_message(TARGET_CHANNEL, file=media_to_send)
+                log.info(f"✅ Copied media-only message from {event.chat.title}")
             return
         
         # Resolve and clean URLs
@@ -361,7 +523,9 @@ async def handle_new_post(event):
             for u in urls_sorted:
                 clean_url, item_id = await resolve_and_clean_url(u, session)
                 if clean_url != u:
-                    text_html = text_html.replace(u, clean_url)
+                    text_html = text_html.replace(u, '')
+                else:
+                    text_html = text_html.replace(u, '')
                 if item_id:
                     product_ids_found.append(item_id)
                     clean_links_added.add(clean_url)
@@ -391,9 +555,17 @@ async def handle_new_post(event):
                 display_text = f"aliexpress.com/item/{match.group(1)}.html" if match else cl
                 text_html += f"👉 <a href='{cl}'>{display_text}</a>\n"
 
+        # Replace donor channel mentions with our channel
+        for donor in DONOR_CHANNELS:
+            donor_name = donor.lstrip('@')
+            text_html = re.sub(rf'@{donor_name}', '@Shop_DoBaksa', text_html, flags=re.IGNORECASE)
+            raw_text = re.sub(rf'@{donor_name}', '@Shop_DoBaksa', raw_text, flags=re.IGNORECASE)
+
         # Send the modified message to Telegram
         # Telegram limits captions to 1024 chars; if longer, send text and media separately
-        if message.media and len(text_html) > 1024:
+        media_to_send = message.media if not isinstance(message.media, MessageMediaWebPage) else None
+        
+        if media_to_send and len(text_html) > 1024:
             await client.send_message(
                 TARGET_CHANNEL,
                 message=text_html,
@@ -402,14 +574,14 @@ async def handle_new_post(event):
             )
             await client.send_message(
                 TARGET_CHANNEL,
-                file=message.media,
+                file=media_to_send,
             )
         else:
             await client.send_message(
                 TARGET_CHANNEL,
                 message=text_html,
                 parse_mode='html',
-                file=message.media,
+                file=media_to_send,
                 link_preview=False
             )
         
