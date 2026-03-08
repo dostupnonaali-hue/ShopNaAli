@@ -856,6 +856,21 @@ img {
   }
 }
 
+/* --- Price Note --- */
+.product-card__price-note {
+  font-size: 0.7rem;
+  color: #fbbf24;
+  background: rgba(251, 191, 36, 0.1);
+  padding: 3px 8px;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--gap-sm);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid rgba(251, 191, 36, 0.25);
+  line-height: 1.3;
+}
+
 /* --- Promo --- */
 .product-card__promo {
   font-size: 0.75rem;

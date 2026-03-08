@@ -427,6 +427,7 @@ async def save_product_to_github(product_data):
         'affiliate_link': product_data['original_link'],
         'description': '',
         'promo_text': product_data.get('promo_text', ''),
+        'price_note': product_data.get('price_note', ''),
         'source_channel': product_data.get('source_channel', ''),
         'added_at': product_data['timestamp'],
     }
@@ -616,7 +617,7 @@ async def handle_new_post(event):
                         fallback_price = {'value': scraped['price'], 'currency': 'USD'}
                         log.info(f'💰 Found price on AliExpress page: ${scraped["price"]}')
 
-                # Extract just the promo code from parentheses like "(+купон і промокод IFPU3KTD)"
+                # Extract promo code from parentheses like "(+купон і промокод IFPU3KTD)"
                 promo_match = re.search(r'\((?:.*?(?:промокод|купон|монети|знижк|code).*?)\)', raw_text, re.IGNORECASE | re.DOTALL)
                 
                 promo_text = ""
@@ -624,9 +625,30 @@ async def handle_new_post(event):
                     # Find sequences of 4 or more uppercase letters/numbers, allowing for '/'
                     codes = re.findall(r'[A-Z0-9/]{4,}', promo_match.group(0))
                     if codes:
-                        # Sometimes it catches things like '100500' if it's in the paren, 
-                        # but usually it's just the promo. Let's join them.
                         promo_text = ' '.join(codes)
+
+                # Extract price note — describes how to get this price
+                # e.g. "з купоном+монети", "купон під товаром + монети", "+монети"
+                price_note = ""
+                price_note_patterns = [
+                    # Parenthesized: "(з купоном + монети)", "(купон під товаром)"
+                    r'\(([^)]*(?:купон|монет|знижк|промокод|code|coin)[^)]*)\)',
+                    # Standalone patterns outside parentheses
+                    r'(?:ціна\s+)?(?:з|із)\s+(купон\w*(?:\s*\+?\s*монет\w*)?)',
+                    r'(купон\s+під\s+товаром(?:\s*\+?\s*монет\w*)?)',
+                    r'(?<!\w)(\+\s*монет\w*)',
+                    r'((?:з\s+)?монет(?:и|ами|ками)(?:\s*\+?\s*купон\w*)?)',
+                ]
+                for pattern in price_note_patterns:
+                    note_match = re.search(pattern, raw_text, re.IGNORECASE)
+                    if note_match:
+                        note = note_match.group(1).strip()
+                        # Clean up: remove excessive whitespace, trim
+                        note = re.sub(r'\s+', ' ', note).strip(' .,;:!-')
+                        if note and len(note) < 80:
+                            # Capitalize first letter
+                            price_note = note[0].upper() + note[1:] if len(note) > 1 else note.upper()
+                            break
 
                 product_data = {
                     'id': pid,
@@ -636,6 +658,7 @@ async def handle_new_post(event):
                     'original_link': original_link,
                     'image_path': image_url,
                     'promo_text': promo_text,
+                    'price_note': price_note,
                     'source_channel': event.chat.title or str(event.chat_id),
                     'timestamp': datetime.now(timezone.utc).isoformat(),
                     'raw_text': raw_text,
