@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007661670354",
+      "title": "Wurkkos TD04 Flashlight 21700 Rechargeable Dual-Mode Tactical Flashlight USB-C Interface 3000 Lm Everyday Carry with Tail Switch",
+      "price": 782.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1826,
+      "image": "https://ae01.alicdn.com/kf/S2d67a2ba925b416fb9197d000ff96520L.png",
+      "link": "https://aliexpress.com/item/1005007661670354.html",
+      "affiliate_link": "https://aliexpress.com/item/1005007661670354.html",
+      "description": "",
+      "promo_text": "34U9 05VYYQL4HIGA IFPDSMVY",
+      "price_note": "800 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-09T09:06:16.018644+00:00"
+    },
+    {
       "id": "1005008450574432",
       "title": "Sofirn SK40 21700 Rechargeable Flashlight  SFT70 LED 3200lm Powerful Tactical Torch 580M Long-Range With Spotlight",
       "price": 910.0,
