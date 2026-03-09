@@ -476,6 +476,60 @@ async def save_product_to_github(product_data):
         log.error(f'GitHub API error: {e}')
         return False
 
+async def update_sitemap_on_github():
+    """Regenerate sitemap.xml on GitHub from current products.json."""
+    api_base = f'https://api.github.com/repos/{GITHUB_REPO}/contents'
+    headers = {
+        'Authorization': f'token {GITHUB_TOKEN}',
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'ShopNaAli-Parser',
+    }
+    site_url = 'https://dobaksa.shop'
+    today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    
+    try:
+        async with aiohttp.ClientSession() as session:
+            # GET products.json
+            async with session.get(f'{api_base}/{GITHUB_PRODUCTS_PATH}', headers=headers, timeout=15) as resp:
+                if resp.status != 200:
+                    return
+                gh_data = await resp.json()
+            
+            content = base64.b64decode(gh_data['content']).decode('utf-8')
+            products = json.loads(content).get('products', [])
+            
+            # Build sitemap
+            urls = [f'  <url>\n    <loc>{site_url}/</loc>\n    <lastmod>{today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>']
+            for p in products:
+                pid = p.get('id', '')
+                added = p.get('added_at', today)[:10]
+                urls.append(f'  <url>\n    <loc>{site_url}/product.html?id={pid}</loc>\n    <lastmod>{added}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>')
+            
+            sitemap_xml = f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(urls) + '\n</urlset>\n'
+            encoded = base64.b64encode(sitemap_xml.encode('utf-8')).decode('utf-8')
+            
+            # GET existing sitemap SHA
+            sha = None
+            async with session.get(f'{api_base}/site/sitemap.xml', headers=headers, timeout=15) as resp:
+                if resp.status == 200:
+                    sha = (await resp.json()).get('sha')
+            
+            # PUT sitemap
+            put_body = {
+                'message': f'Update sitemap ({len(products)} products)',
+                'content': encoded,
+            }
+            if sha:
+                put_body['sha'] = sha
+            
+            async with session.put(f'{api_base}/site/sitemap.xml', headers=headers, json=put_body, timeout=15) as resp:
+                if resp.status in (200, 201):
+                    log.info(f'🗺️ Sitemap updated: {len(products)} products')
+                else:
+                    log.warning(f'Sitemap update failed: {resp.status}')
+    except Exception as e:
+        log.warning(f'Sitemap update error: {e}')
+
 # --- Telegram Client ---
 client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
 client.parse_mode = 'html'
@@ -666,7 +720,9 @@ async def handle_new_post(event):
                 log.info(f'✅ New product for site: {pid} | Price: ${fallback_price or "?"}')
                 
                 # Save directly to GitHub
-                await save_product_to_github(product_data)
+                saved = await save_product_to_github(product_data)
+                if saved:
+                    await update_sitemap_on_github()
             
     except Exception as e:
         log.error(f"⚠️ Error processing message: {e}", exc_info=True)
