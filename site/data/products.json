@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007504625287",
+      "title": "Men Razors Beard Shaving Tool Kit Man Styling Template Stencil Whiskers Comb Beard Pencil Hair Removal",
+      "price": 27.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 5.0,
+      "orders": 220,
+      "image": "https://ae01.alicdn.com/kf/Sca7c30fe50a741d3aac9461fae5c486cA.jpg",
+      "link": "https://aliexpress.com/item/1005007504625287.html",
+      "affiliate_link": "https://aliexpress.com/item/1005007504625287.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-09T11:00:06.042329+00:00"
+    },
+    {
       "id": "1005011576302737",
       "title": "Garden Grass Trimmer Safety Helmet With Full Face Mesh Protective Mask For Logging Brush Cutter Forestry Work",
       "price": 156.0,
