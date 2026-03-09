@@ -6,7 +6,12 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  
+  <url>
+    <loc>https://dobaksa.shop/product.html?id=1005011562086854</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://dobaksa.shop/product.html?id=1005007100427063</loc>
     <lastmod>2026-03-09</lastmod>
