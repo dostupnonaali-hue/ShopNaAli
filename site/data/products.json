@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005009465445064",
+      "title": "SOFIRN SR23 Dual Light Flashlight 3300lm White Floodlight&365nm UV Light 21700 USB C Rechargeable EDC lamp with Magnetic Tailcap",
+      "price": 883.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 348,
+      "image": "https://ae01.alicdn.com/kf/S0f13c6ef3eba4828935bbb96f796b082m.png",
+      "link": "https://aliexpress.com/item/1005009465445064.html",
+      "affiliate_link": "https://aliexpress.com/item/1005009465445064.html",
+      "description": "",
+      "promo_text": "08H7R",
+      "price_note": "854 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-09T09:09:00.157407+00:00"
+    },
+    {
       "id": "1005007661670354",
       "title": "Wurkkos TD04 Flashlight 21700 Rechargeable Dual-Mode Tactical Flashlight USB-C Interface 3000 Lm Everyday Carry with Tail Switch",
       "price": 782.0,
