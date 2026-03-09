@@ -22,6 +22,7 @@ from config import (
     DONOR_CHANNELS, TARGET_CHANNEL,
     SEEN_DB, IMAGES_DIR,
     GITHUB_TOKEN, GITHUB_REPO, GITHUB_PRODUCTS_PATH,
+    AFF_SHORT_KEY,
 )
 
 # --- Logging ---
@@ -50,6 +51,14 @@ def save_seen(seen_set):
         json.dump(list(seen_set), f)
 
 seen_products = load_seen()
+
+def make_affiliate_link(item_id: str) -> str:
+    """Build an AliExpress affiliate deep link for a given item ID."""
+    clean = f'https://aliexpress.com/item/{item_id}.html'
+    if AFF_SHORT_KEY:
+        from urllib.parse import quote
+        return f'https://s.click.aliexpress.com/deep_link.htm?aff_short_key={AFF_SHORT_KEY}&dl_target_url={quote(clean, safe="")}'
+    return clean
 
 async def resolve_and_clean_url(url: str, session: aiohttp.ClientSession):
     """
@@ -424,7 +433,7 @@ async def save_product_to_github(product_data):
         'orders': random.randint(100, 2000),
         'image': product_data.get('image_path', ''),
         'link': product_data['original_link'],
-        'affiliate_link': product_data['original_link'],
+        'affiliate_link': make_affiliate_link(product_data['id']),
         'description': '',
         'promo_text': product_data.get('promo_text', ''),
         'price_note': product_data.get('price_note', ''),
