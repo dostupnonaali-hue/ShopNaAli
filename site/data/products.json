@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011607491499",
+      "title": "48 грн з монетами Як замовити з безкоштовною доставкою",
+      "price": 48.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1612,
+      "image": "",
+      "link": "https://aliexpress.com/item/1005011607491499.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011607491499.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-09T14:25:16.244116+00:00"
+    },
+    {
       "id": "1005006358916051",
       "title": "Органайзер для речей / 148 грн Знижка монетками: Посилання на товар (для ПК): Знижка монетами -45% (259 coins) _________________________________ • канал з оглядами • гайд по алі • бот для знижок • акт",
       "price": 148.0,
