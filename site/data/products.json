@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011626644423",
+      "title": "Unisex 100% Pure Cotton Solid Color Men",
+      "price": 4.95,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1092,
+      "image": "https://ae01.alicdn.com/kf/S051285d914bc40dcb7f12f9697e7ffbaH.jpg",
+      "link": "https://aliexpress.com/item/1005011626644423.html",
+      "affiliate_link": "https://aliexpress.com/item/1005011626644423.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-09T08:39:09.579876+00:00"
+    },
+    {
       "id": "1005011637957171",
       "title": "Men",
       "price": 10.93,
