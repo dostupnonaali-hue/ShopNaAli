@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011747022879",
+      "title": "GPS tracker compatible with Apple iOS, usable in all cars, combining a wireless charger, phone holder, and locator in one device",
+      "price": 227.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 637,
+      "image": "https://ae01.alicdn.com/kf/S62e98b723d554cd79f1233a4d9f77ba4Y.jpg",
+      "link": "https://aliexpress.com/item/1005011747022879.html",
+      "affiliate_link": "https://aliexpress.com/item/1005011747022879.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-09T11:11:11.105743+00:00"
+    },
+    {
       "id": "1005006861205078",
       "title": "Multifunctional car seat storage bag Leather storage bag Garbage bag Storage bag Suitable for most car models",
       "price": 83.0,
