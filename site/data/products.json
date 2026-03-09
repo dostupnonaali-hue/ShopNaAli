@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011775784264",
+      "title": "26 грн з монетами Як замовити з безкоштовною доставкою",
+      "price": 26.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 235,
+      "image": "",
+      "link": "https://aliexpress.com/item/1005011775784264.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011775784264.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-09T14:27:10.442244+00:00"
+    },
+    {
       "id": "1005011607491499",
       "title": "48 грн з монетами Як замовити з безкоштовною доставкою",
       "price": 48.0,
