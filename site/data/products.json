@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010492379133",
+      "title": "Adult Sonic Electric Toothbrush DuPont Soft Bristles IPX7 Waterproof Ultrasonic Technology Large Button Vibration for Oral Care",
+      "price": 69.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 5.0,
+      "orders": 1806,
+      "image": "https://ae01.alicdn.com/kf/S72b261e872b6401a99980cf6a3192dc03.jpg",
+      "link": "https://aliexpress.com/item/1005010492379133.html",
+      "affiliate_link": "https://aliexpress.com/item/1005010492379133.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-09T09:37:02.496156+00:00"
+    },
+    {
       "id": "1005004413372276",
       "title": "NOHON Phone Battery for iPhone 12 12Mini High Capacity Bateria for iPhone 14 15 11 13 Pro X XR XS Max 8 7 6 Plus SE 2020 SE2",
       "price": 449.0,
