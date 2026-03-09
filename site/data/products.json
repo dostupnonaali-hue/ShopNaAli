@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010516294544",
+      "title": "266 грн з монетами 295 грн з монетами",
+      "price": 266.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1933,
+      "image": "",
+      "link": "https://aliexpress.com/item/1005010516294544.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010516294544.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-09T15:58:26.330581+00:00"
+    },
+    {
       "id": "1005008248024900",
       "title": "Outdoor Camping Gas Burner Outdoor Stove 3300W Camping Equipment Portable Tourist Survival Bushcraft Kitchen Price: $4.76 Coins #⃣ #Aliexpress Знижка монетками 158 Coins у додатку через розділ монет.",
       "price": 4.76,
