@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005002526067597",
+      "title": "Men",
+      "price": 7.98,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1166,
+      "image": "https://ae01.alicdn.com/kf/H71fd43b15799471d8d16c17ef19c9b82Q.jpg",
+      "link": "https://aliexpress.com/item/1005002526067597.html",
+      "affiliate_link": "https://aliexpress.com/item/1005002526067597.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-09T08:27:36.801898+00:00"
+    },
+    {
       "id": "4000820696369",
       "title": "COOLMIND 100% Cotton Short Sleeve Cool Cat Print Men Tshirt Casual Summer Loose Men Cat T Shirt o-neck t-shirt Men Tee Shirts",
       "price": 3.91,
