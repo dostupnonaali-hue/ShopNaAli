@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011637957171",
+      "title": "Men",
+      "price": 10.93,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 5.0,
+      "orders": 1900,
+      "image": "https://ae01.alicdn.com/kf/Sf049f42fb48d437e9eab05622ed8a59aJ.jpg",
+      "link": "https://aliexpress.com/item/1005011637957171.html",
+      "affiliate_link": "https://aliexpress.com/item/1005011637957171.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-09T08:31:57.434403+00:00"
+    },
+    {
       "id": "1005005630621190",
       "title": "KELME Man T-shirt  Running Trainning Exercise  Sports Tights Round Neck Ice Silk Breathable Fitness Quick-Dry Shirts 8151TX1002",
       "price": 12.47,
