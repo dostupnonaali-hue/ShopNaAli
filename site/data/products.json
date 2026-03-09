@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011740571907",
+      "title": "Gifts for Men,18-in-1 Snowflake Multi Tool, Stocking Stuffers for Men, Cool Camping Tool Gadgets for Men, Unique Present",
+      "price": 28.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 4.9,
+      "orders": 1553,
+      "image": "https://ae01.alicdn.com/kf/Sfb6a35d33f7743989cd1b40afe5e6116x.jpg",
+      "link": "https://aliexpress.com/item/1005011740571907.html",
+      "affiliate_link": "https://aliexpress.com/item/1005011740571907.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-09T08:21:06.428270+00:00"
+    },
+    {
       "id": "1005008720993947",
       "title": "MTB bike helmet TRAIL XC In-Mold Bicycle Helmet men M L mountain bike helmets Casco-Ciclismo off-road cycling helmet Safety-Cap",
       "price": 15.7,
