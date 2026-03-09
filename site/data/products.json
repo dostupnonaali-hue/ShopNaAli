@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005004413372276",
+      "title": "NOHON Phone Battery for iPhone 12 12Mini High Capacity Bateria for iPhone 14 15 11 13 Pro X XR XS Max 8 7 6 Plus SE 2020 SE2",
+      "price": 449.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 931,
+      "image": "https://ae01.alicdn.com/kf/Sa1e9605e814a4ea68bb91403adfaa3c2r.jpg",
+      "link": "https://aliexpress.com/item/1005004413372276.html",
+      "affiliate_link": "https://aliexpress.com/item/1005004413372276.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "647 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-09T09:13:46.271684+00:00"
+    },
+    {
       "id": "1005009465445064",
       "title": "SOFIRN SR23 Dual Light Flashlight 3300lm White Floodlight&365nm UV Light 21700 USB C Rechargeable EDC lamp with Magnetic Tailcap",
       "price": 883.0,
