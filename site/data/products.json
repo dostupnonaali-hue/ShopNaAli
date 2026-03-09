@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011765276975",
+      "title": "50ml Premium Aroma Diffuser Oil for Home Car Air Freshener Room Deodorizer Perfume Long Lasting Fragrance",
+      "price": 58.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 5.0,
+      "orders": 652,
+      "image": "https://ae01.alicdn.com/kf/Secd884cab2bc4584b0ab4f67b83865f0Q.jpg",
+      "link": "https://aliexpress.com/item/1005011765276975.html",
+      "affiliate_link": "https://aliexpress.com/item/1005011765276975.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-09T10:11:18.123137+00:00"
+    },
+    {
       "id": "1005010492379133",
       "title": "Adult Sonic Electric Toothbrush DuPont Soft Bristles IPX7 Waterproof Ultrasonic Technology Large Button Vibration for Oral Care",
       "price": 69.0,
