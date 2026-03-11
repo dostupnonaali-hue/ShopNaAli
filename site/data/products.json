@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011786825290",
+      "title": "Summer Women",
+      "price": 4.84,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 699,
+      "image": "https://ae01.alicdn.com/kf/Sb7efb4f96f2f473084a341c649bdbc0fT.jpg",
+      "link": "https://aliexpress.com/item/1005011786825290.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011786825290.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-11T11:18:00.305616+00:00"
+    },
+    {
       "id": "1005006994991073",
       "title": "Portable 2 in 1 Flashlight Motion Sensor Night Light Bedroom Bathroom Reading Camping Lighting Baby Feeding Eye Care Bedside Lam",
       "price": 2.9,
