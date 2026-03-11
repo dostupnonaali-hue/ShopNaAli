@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011796225314",
+      "title": "10-Pack Men",
+      "price": 3.04,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 5.0,
+      "orders": 1329,
+      "image": "https://ae01.alicdn.com/kf/Sb9b158b8a4be43248a9a296e8698f640e.jpg",
+      "link": "https://aliexpress.com/item/1005011796225314.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011796225314.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-11T10:11:02.954856+00:00"
+    },
+    {
       "id": "1005007586237196",
       "title": "AIBEDILA Newborn Head Back Protector Baby Protect Pillow Learn Walk Headgear Prevent Injured Safety Pad prevention Fall Pillows",
       "price": 8.64,
