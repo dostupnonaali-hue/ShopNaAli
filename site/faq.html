@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гайд по AliExpress — Поради, лайфхаки та FAQ | ShopDoBaksa</title>
+    <meta name="description"
+        content="Повний гайд по AliExpress: як отримати знижки, монети, промокоди, безкоштовну доставку та вигідно купувати. Відповіді на найпоширеніші питання.">
+    <meta name="keywords" content="AliExpress, гайд, поради, монети, купони, промокоди, знижки, FAQ">
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon-180.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Гайд по AliExpress — Поради та FAQ | ShopDoBaksa">
+    <meta property="og:description" content="Повний гайд: як отримати знижки, монети, промокоди та вигідно купувати на AliExpress">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="uk_UA">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* --- FAQ Page Styles --- */
+        .faq-page {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: calc(var(--header-height) + var(--gap-xl)) var(--gap-lg) var(--gap-3xl);
+            position: relative;
+            z-index: 1;
+        }
+
+        .faq-hero {
+            text-align: center;
+            padding: var(--gap-xl) 0 var(--gap-2xl);
+        }
+
+        .faq-hero__image {
+            width: 100%;
+            max-height: 280px;
+            object-fit: cover;
+            border-radius: var(--radius-xl);
+            margin-bottom: var(--gap-xl);
+            border: 1px solid var(--bg-glass-border);
+        }
+
+        .faq-hero__title {
+            font-size: clamp(1.8rem, 4vw, 2.8rem);
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: var(--gap-md);
+        }
+
+        .faq-hero__subtitle {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            max-width: 550px;
+            margin: 0 auto;
+        }
+
+        /* Navigation pills */
+        .faq-nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: var(--gap-sm);
+            margin-bottom: var(--gap-2xl);
+            padding: var(--gap-md);
+            background: var(--bg-glass);
+            border: 1px solid var(--bg-glass-border);
+            border-radius: var(--radius-lg);
+        }
+
+        .faq-nav__link {
+            padding: 8px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--bg-glass-border);
+            border-radius: var(--radius-full);
+            color: var(--text-secondary);
+            font-size: 0.82rem;
+            font-weight: 500;
+            transition: all var(--transition-normal);
+            text-decoration: none;
+        }
+
+        .faq-nav__link:hover {
+            background: var(--accent-primary);
+            color: var(--bg-primary);
+            border-color: var(--accent-primary);
+        }
+
+        /* Section */
+        .faq-section {
+            margin-bottom: var(--gap-2xl);
+            scroll-margin-top: calc(var(--header-height) + var(--gap-lg));
+        }
+
+        .faq-section__header {
+            display: flex;
+            align-items: center;
+            gap: var(--gap-md);
+            margin-bottom: var(--gap-lg);
+            padding: var(--gap-md) var(--gap-lg);
+            background: var(--bg-glass);
+            border: 1px solid var(--bg-glass-border);
+            border-radius: var(--radius-lg);
+        }
+
+        .faq-section__icon {
+            width: 56px;
+            height: 56px;
+            border-radius: var(--radius-md);
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .faq-section__title {
+            font-size: 1.3rem;
+            font-weight: 800;
+        }
+
+        .faq-section__emoji {
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+
+        /* Q&A Card */
+        .faq-item {
+            background: var(--bg-card);
+            border: 1px solid var(--bg-glass-border);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--gap-md);
+            overflow: hidden;
+            transition: all var(--transition-normal);
+        }
+
+        .faq-item:hover {
+            border-color: rgba(0, 255, 136, 0.2);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .faq-item__question {
+            display: flex;
+            align-items: center;
+            gap: var(--gap-md);
+            padding: var(--gap-md) var(--gap-lg);
+            cursor: pointer;
+            user-select: none;
+            transition: background var(--transition-fast);
+        }
+
+        .faq-item__question:hover {
+            background: var(--bg-card-hover);
+        }
+
+        .faq-item__q-icon {
+            width: 28px;
+            height: 28px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: var(--bg-primary);
+            flex-shrink: 0;
+        }
+
+        .faq-item__q-text {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            flex: 1;
+        }
+
+        .faq-item__toggle {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            transition: transform var(--transition-normal);
+            flex-shrink: 0;
+        }
+
+        .faq-item.open .faq-item__toggle {
+            transform: rotate(180deg);
+            color: var(--accent-primary);
+        }
+
+        .faq-item__answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.3s ease;
+        }
+
+        .faq-item.open .faq-item__answer {
+            max-height: 2000px;
+        }
+
+        .faq-item__a-content {
+            padding: 0 var(--gap-lg) var(--gap-lg) calc(var(--gap-lg) + 28px + var(--gap-md));
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        .faq-item__a-content ul {
+            margin: var(--gap-sm) 0;
+            padding-left: var(--gap-lg);
+        }
+
+        .faq-item__a-content li {
+            margin-bottom: 6px;
+        }
+
+        .faq-item__a-content strong {
+            color: var(--accent-primary);
+            font-weight: 600;
+        }
+
+        .faq-item__a-content .tip {
+            display: inline-block;
+            padding: 2px 8px;
+            background: rgba(0, 255, 136, 0.1);
+            border: 1px solid rgba(0, 255, 136, 0.15);
+            border-radius: var(--radius-sm);
+            font-size: 0.82rem;
+            color: var(--accent-primary);
+            margin: 4px 0;
+        }
+
+        .faq-item__a-content .warning {
+            display: inline-block;
+            padding: 2px 8px;
+            background: rgba(255, 107, 53, 0.1);
+            border: 1px solid rgba(255, 107, 53, 0.15);
+            border-radius: var(--radius-sm);
+            font-size: 0.82rem;
+            color: var(--accent-tertiary);
+            margin: 4px 0;
+        }
+
+        /* Back link */
+        .faq-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: var(--gap-lg);
+            transition: color var(--transition-fast);
+        }
+
+        .faq-back:hover {
+            color: var(--accent-primary);
+        }
+
+        /* Stats */
+        .faq-stats {
+            display: flex;
+            justify-content: center;
+            gap: var(--gap-xl);
+            margin-bottom: var(--gap-xl);
+        }
+
+        .faq-stat {
+            text-align: center;
+            padding: var(--gap-md);
+            background: var(--bg-glass);
+            border: 1px solid var(--bg-glass-border);
+            border-radius: var(--radius-md);
+            min-width: 100px;
+        }
+
+        .faq-stat__num {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--accent-primary);
+        }
+
+        .faq-stat__label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        @media (max-width: 768px) {
+            .faq-hero__image {
+                max-height: 180px;
+            }
+
+            .faq-section__header {
+                padding: var(--gap-sm) var(--gap-md);
+            }
+
+            .faq-section__icon {
+                width: 40px;
+                height: 40px;
+            }
+
+            .faq-section__title {
+                font-size: 1.1rem;
+            }
+
+            .faq-item__a-content {
+                padding-left: var(--gap-lg);
+            }
+
+            .faq-nav {
+                gap: 6px;
+            }
+
+            .faq-nav__link {
+                font-size: 0.75rem;
+                padding: 6px 12px;
+            }
+
+            .faq-stats {
+                flex-wrap: wrap;
+                gap: var(--gap-sm);
+            }
+
+            .faq-stat {
+                min-width: 80px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+
+            <div class="header__links">
+                <a href="index.html" class="faq-back" style="color: var(--text-secondary);">← Товари</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__tg-link">
+                    ✈️ Telegram
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="faq-page">
+
+        <!-- Back -->
+        <a href="index.html" class="faq-back">← Повернутися до товарів</a>
+
+        <!-- Hero -->
+        <section class="faq-hero">
+            <img src="images/faq-hero.png" alt="Гайд по AliExpress" class="faq-hero__image">
+            <h1 class="faq-hero__title">
+                Гайд по <span class="gradient-text">AliExpress</span>
+            </h1>
+            <p class="faq-hero__subtitle">
+                Усе, що потрібно знати для вигідних покупок: знижки, монети, промокоди, доставка та захист від шахраїв
+            </p>
+        </section>
+
+        <!-- Stats -->
+        <div class="faq-stats">
+            <div class="faq-stat">
+                <div class="faq-stat__num">25+</div>
+                <div class="faq-stat__label">Питань</div>
+            </div>
+            <div class="faq-stat">
+                <div class="faq-stat__num">6</div>
+                <div class="faq-stat__label">Розділів</div>
+            </div>
+            <div class="faq-stat">
+                <div class="faq-stat__num">2026</div>
+                <div class="faq-stat__label">Актуально</div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="faq-nav" id="faqNav">
+            <a href="#coupons" class="faq-nav__link">🏷 Знижки та купони</a>
+            <a href="#coins" class="faq-nav__link">🪙 Монети</a>
+            <a href="#choice" class="faq-nav__link">🛒 Choice та пропозиції</a>
+            <a href="#payment" class="faq-nav__link">🛑 Блокування та оплата</a>
+            <a href="#delivery" class="faq-nav__link">📦 Доставка</a>
+            <a href="#disputes" class="faq-nav__link">⚖️ Диспути та шахраї</a>
+        </nav>
+
+        <!-- ========== SECTION: Знижки, купони, промокоди ========== -->
+        <section class="faq-section" id="coupons">
+            <div class="faq-section__header">
+                <img src="images/faq-coupons.png" alt="" class="faq-section__icon">
+                <h2 class="faq-section__title">🏷 Знижки, Купони та Промокоди</h2>
+            </div>
+
+            <div class="faq-item open">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Що робити, якщо промокод не спрацьовує, або як зробити, щоб купон з'явився на потрібний товар?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Щоб цілеспрямовано отримати знижку на товар через <strong>Центр купонів</strong>:
+                        <ul>
+                            <li>Відкрийте оголошення з товаром і додайте його у <strong>кошик</strong></li>
+                            <li>Додайте його у <strong>«Список бажань»</strong> (натисніть ❤️)</li>
+                            <li>Підпишіться на <strong>магазин продавця</strong></li>
+                        </ul>
+                        Після цього у «Центрі купонів» знижка на всі товари цього магазину відображатиметься однією з перших.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як закріпити за собою промокоди до початку розпродажу?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <ul>
+                            <li>Додайте в кошик будь-який <strong>дорогий товар</strong>, щоб сума була більшою за найбільший промокод (понад $500)</li>
+                            <li>Перейдіть до оформлення замовлення і в графі «промокод» по черзі вводьте всі актуальні коди</li>
+                            <li>Навіть якщо система видає помилку — натискайте <strong>«застосувати»</strong></li>
+                            <li>Усі коди збережуться у розділі <strong>«Мої купони»</strong></li>
+                        </ul>
+                        <span class="warning">⚠️ Цей спосіб не працює з категорією смартфонів</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як купувати акційні товари ще дешевше, якщо товар коштує менше необхідної суми?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <ul>
+                            <li>Додайте потрібний товар у кошик</li>
+                            <li>Додайте <strong>дорогий товар з іншого магазину</strong> з такою ж акційною позначкою, щоб загальна сума досягла мінімуму (наприклад, $20)</li>
+                            <li>Перейдіть до оплати та оберіть картку, на якій <strong>немає достатньо коштів</strong></li>
+                            <li>Замовлення перейде у розділ <strong>«Не оплачено»</strong> (Unpaid)</li>
+                            <li>Скасуйте непотрібний товар, а потрібний оплатіть вже з меншою ціною</li>
+                        </ul>
+                        <span class="tip">💡 Знижка розподілиться пропорційно між товарами</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Після оновлення AliExpress зникли купони під товарами. Що робити?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        У деяких користувачів після оновлення змінюється інтерфейс і купони перестають показувати безпосередньо під ціною. Рішення:
+                        <ul>
+                            <li>Перейдіть на <strong>головну сторінку магазину</strong> продавця</li>
+                            <li>Зберіть усі доступні купони <strong>там</strong></li>
+                            <li>Можливо, вони сховані в <strong>окремому меню</strong>, яке потрібно розгорнути</li>
+                        </ul>
+                        З наступними оновленнями розробники, ймовірно, повернуть звичне відображення.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як отримати купон на 37 грн через гру GoGo Match?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        При <strong>хибній спробі</strong> пройти рівень у грі "Go Go Match" (або натиснувши на пропозицію), ви можете отримати купон <strong>37,68 грн</strong> на замовлення від 188,39 грн.
+                        <ul>
+                            <li>У вікні програшу оберіть: <strong>«розмістити оголошення»</strong> або <strong>«відвідати сторінку»</strong></li>
+                        </ul>
+                        <span class="warning">⚠️ Купон діє на всі товари, окрім категорії «Choice»</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як отримати купон на 113 грн для товарів за копійки?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Зайдіть у спеціальний розділ вигідних покупок, де товари продаються <strong>комплектами від 3 штук</strong>. Додайте від 3 товарів у кошик — система автоматично застосує купон на <strong>113,40 грн</strong>.
+                        <ul>
+                            <li><strong>Нові акаунти:</strong> загальна сума від 25 грн</li>
+                            <li><strong>Старі акаунти:</strong> загальна сума від 74,97 грн</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION: Монети ========== -->
+        <section class="faq-section" id="coins">
+            <div class="faq-section__header">
+                <img src="images/faq-coins.png" alt="" class="faq-section__icon">
+                <h2 class="faq-section__title">🪙 Монети: заробіток та використання</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як заробляти максимальну кількість монет щодня?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Монети можна збирати кількома способами:
+                        <ul>
+                            <li>Щоденно натискати <strong>кнопку збору</strong> в розділі монет</li>
+                            <li>Грати в ігри: <strong>«Merge Boss»</strong>, <strong>«GoGo Match»</strong> та <strong>«Вирощуйте та отримуйте»</strong></li>
+                            <li>Залишати відгуки: <strong>3 монети</strong> за оцінку, <strong>7 монет</strong> за текст від 100 символів, <strong>10 монет</strong> за фото</li>
+                            <li>Перевіряти статус посилок у розділі відстеження до <strong>5 разів на день</strong></li>
+                            <li>Щоденно відмічатися в магазинах продавців (натискати «увійти»)</li>
+                        </ul>
+                        <span class="tip">💡 Купуйте дешеві товари за 0,38 грн — AliExpress нараховує +10 монет за кожне замовлення. 10 покупок = +100 монет/день!</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як перевірити додаткову знижку за монети та отримати максимальну вигоду?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <strong>Не купуйте товар просто з кошика!</strong> Є два способи:
+                        <br><br>
+                        <strong>Спосіб 1 (Через Історію/Кошик):</strong>
+                        <ul>
+                            <li>Знайдіть товар і додайте у кошик</li>
+                            <li>Відкрийте кілька оголошень з цим же товаром від різних продавців</li>
+                            <li>Перейдіть у розділ <strong>«Монети» → «Пошук знижок» 🔎</strong></li>
+                            <li>У вкладках «Кошик» та «Історія» будуть товари з відсотком знижки <strong>(50%-99%)</strong></li>
+                        </ul>
+                        <strong>Спосіб 2 (Прямий пошук):</strong>
+                        <ul>
+                            <li>Перейдіть у <strong>«Монети» → «Пошук знижок»</strong></li>
+                            <li>Введіть назву товару та відсортуйте фільтром <strong>«Знижки від 20%»</strong></li>
+                        </ul>
+                        <span class="warning">⚠️ Відкривати товар і переходити до оплати потрібно саме з розділу монет!</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як поєднати знижку за монети з купоном продавця?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Ці знижки <strong>поєднуються автоматично!</strong>
+                        <ul>
+                            <li>Зберіть купон на сторінці магазину або під товаром</li>
+                            <li>Перейдіть у <strong>«Монети» → «Пошук знижок» 🔎</strong></li>
+                            <li>Відкрийте товар з цього розділу і перейдіть до оплати</li>
+                        </ul>
+                        Система одночасно застосує і купон продавця, і знижку монетами.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Відсоток знижки монетами впав до 2-10%. Як повернути високі знижки?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <ul>
+                            <li><strong>Оновіть або перевстановіть</strong> додаток AliExpress та очистіть кеш</li>
+                            <li>Змініть в налаштуваннях адресу доставки на <strong>Польщу або США</strong>, перевірте відсоток, потім поверніть свою країну</li>
+                            <li>Якщо є кілька акаунтів — <strong>видаліть зайві</strong> або вийдіть з них</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Де знайти товари зі знижкою до 99% о 10:00?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Щодня о <strong>10:00</strong> з'являються у розділі «Монети»:
+                        <ul>
+                            <li>Зайдіть туди рівно о <strong>9:58 - 10:00</strong></li>
+                            <li>Відкрийте вкладку <strong>«Обмежені пропозиції»</strong></li>
+                            <li>Товари за <strong>0,38 грн</strong> розбирають за лічені хвилини!</li>
+                        </ul>
+                        <span class="tip">💡 Заздалегідь знайдіть товар, додайте в кошик і ❤️, підпишіться на магазин — о 10:00 швидко знайдіть його у списку і оплатіть</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION: Choice ========== -->
+        <section class="faq-section" id="choice">
+            <div class="faq-section__header">
+                <span class="faq-section__emoji">🛒</span>
+                <h2 class="faq-section__title">Спеціальні пропозиції та Choice</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як купувати товари Choice з безкоштовною доставкою, якщо вона вказана як платна?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Лайфхак через <strong>«неоплачені замовлення»</strong>:
+                        <ul>
+                            <li>Додайте потрібний товар у кошик</li>
+                            <li>Додайте ще один товар <strong>Choice з іншого магазину</strong> (загальна сума &gt; 200–376 грн або $10+)</li>
+                            <li>Виділіть обидва — доставка стане <strong>безкоштовною</strong></li>
+                            <li>Перейдіть до оплати, оберіть картку <strong>без достатніх коштів</strong></li>
+                            <li>В розділі «Не оплачено» скасуйте непотрібний товар</li>
+                            <li>Оплатіть бажаний товар <strong>вже без платної доставки</strong></li>
+                        </ul>
+                        <span class="warning">⚠️ Товари мають бути з різних магазинів та з позначкою «Choice». Не працює для більшості «SuperDeals»</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Що таке Choice Day і як отримати знижку $3?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <strong>Choice Day</strong> — щомісячний розпродаж (зазвичай на початку місяця). Автоматична знижка <strong>-$3 з кожних $20</strong>, але не більше <strong>-$9</strong> на одне замовлення. Просто додайте товари «Choice» у кошик на потрібну суму — знижка застосується автоматично.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Де знайти секретний розділ зі знижками до 99%?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <ul>
+                            <li>Перейдіть на головний екран додатку</li>
+                            <li>Прокрутіть вниз і знайдіть <strong>«Суперпропозиції» (SuperDeals)</strong></li>
+                            <li>Оберіть вкладку <strong>«пропозиції: знижки від 50%»</strong></li>
+                        </ul>
+                        Там товари зі знижками від <strong>65% до 99%</strong>, але кількість дуже обмежена.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION: Блокування та оплата ========== -->
+        <section class="faq-section" id="payment">
+            <div class="faq-section__header">
+                <span class="faq-section__emoji">🛑</span>
+                <h2 class="faq-section__title">Блокування, помилки оплати та безпека</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">При оплаті помилка «Order unsuccessful» або помилки CSC. Що робити?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Цей <strong>тіньовий бан</strong> часто виникає через купони або кілька акаунтів на одному пристрої/Wi-Fi. Рішення:
+                        <br><br>
+                        <strong>Спосіб 1 (Швидкий):</strong> Напишіть у техпідтримку через бота Eva (команда <strong>livechat_link</strong>), надішліть скріншот. Оператор попросить почекати 1 годину.
+                        <br><br>
+                        <strong>Спосіб 2 (Прогрів):</strong> Зробіть замовлення <strong>без знижок</strong> (без монет, промокодів, не з Choice). Через кілька днів обмеження зніметься.
+                        <br><br>
+                        <strong>Спосіб 3 (Новий акаунт):</strong>
+                        <ul>
+                            <li>Створіть новий Google-акаунт з <strong>іншого пристрою</strong> через мобільний інтернет</li>
+                            <li>Змініть написання ПІБ (змішайте укр. та англ. літери)</li>
+                            <li>Вкажіть <strong>нову картку</strong> та адресу поштового відділення</li>
+                            <li>Використовуйте лише в <strong>«Інкогніто»</strong> в браузері</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION: Доставка ========== -->
+        <section class="faq-section" id="delivery">
+            <div class="faq-section__header">
+                <img src="images/faq-delivery.png" alt="" class="faq-section__icon">
+                <h2 class="faq-section__title">📦 Доставка та Відстеження</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">«Доставка у ваш регіон неможлива» — що робити?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <ul>
+                            <li>Впишіть будь-яку адресу/область, куди доставка працює (Львівська, Київська)</li>
+                            <li>Обов'язково залиште свій <strong>поштовий індекс</strong>, номер телефону та ПІБ</li>
+                        </ul>
+                        <span class="tip">💡 Посилки сортуються за індексом — вона приїде у ваше відділення! Також можна видозмінити назву міста латинськими літерами.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Статус «Unshipped» (Не відправлено) або «Забрав кур'єр» висить довго. Це нормально?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <strong>Так</strong>, це означає, що продавець створив електронну накладну, але фізично ще не передав товар. Відстеження зазвичай оновлюється за <strong>3-5 днів</strong>.
+                        <br><br>
+                        <span class="warning">⚠️ Якщо статус не змінюється більше 3-4 тижнів — відкривайте суперечку для повернення коштів</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Посилка застрягла у «Пакунок прибув в аеропорт» і не рухається тижнями</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Це часта проблема для трек-номерів служби <strong>Cainiao</strong> (починаються на «RO»). Потрібно просто <strong>чекати</strong>.
+                        <br><br>
+                        <span class="warning">⚠️ НЕ відкривайте диспут до закінчення терміну захисту (90 днів) — інакше його відхилять, а повторно відкрити суперечку ви не зможете!</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Чи можна натискати «Підтвердити доставку», якщо товар ще в дорозі?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <strong style="color: var(--accent-tertiary);">НІКОЛИ</strong> цього не робіть! Ця кнопка означає, що посилка вже у вас в руках. Якщо ви її натиснете — <strong>втратите можливість</strong> відкрити суперечку (диспут), якщо товар прийде бракованим або загубиться.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION: Диспути та шахраї ========== -->
+        <section class="faq-section" id="disputes">
+            <div class="faq-section__header">
+                <span class="faq-section__emoji">⚖️</span>
+                <h2 class="faq-section__title">Диспути, Повернення коштів та Шахраї</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як правильно відкрити суперечку (диспут)?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <ul>
+                            <li>Завжди <strong>знімайте розпакування на відео</strong>, де чітко видно трек-номер та цілісність пакування</li>
+                            <li>Відкривайте суперечку і вибирайте <strong>«Лише повернення коштів»</strong></li>
+                            <li>Додайте відео/фото докази та скріншоти трекінгу</li>
+                        </ul>
+                        <span class="tip">💡 Запитуйте суму на 10-20% менше від повної вартості — так система AliExpress частіше стає на бік покупця</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як не втратити гроші на конвертації при поверненні коштів?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        В налаштуваннях оберіть <strong>повернення на бонусний рахунок AliExpress</strong>. Гроші повернуться за кілька хвилин <strong>у доларах</strong> і автоматично спишуться при наступній покупці — це вбереже від втрат через різницю банківських курсів.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Продавець сам просить скасувати замовлення (помилкова ціна тощо). Що робити?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <strong>Ігноруйте такі повідомлення!</strong>
+                        <ul>
+                            <li>Якщо продавець не відправить товар < 7 днів — замовлення <strong>скасується автоматично</strong></li>
+                            <li>AliExpress нарахує вам <strong>купон-компенсацію на 1€ (40 грн)</strong></li>
+                        </ul>
+                        <span class="warning">⚠️ Якщо продавець дасть фальшивий трек-номер — доведеться відкривати диспут (купону в такому разі не буде)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Як розпізнати продавця-шахрая?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Зверніть увагу на:
+                        <ul>
+                            <li><strong>Рейтинг нижче 4.7</strong> — краще не купувати</li>
+                            <li>Всі відгуки з фото залишені <strong>в один день з різницею 2-3 хвилини</strong> — накручені</li>
+                            <li>Магазин з дивною назвою, що продає <strong>дорогі речі за копійки</strong> — шахраї, надішлють пустий пакет або чужий трек</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 ShopDoBaksa — Агрегатор вигідних знахідок з AliExpress</p>
+        <p style="margin-top: 8px;">
+            <a href="index.html">Товари</a> · 
+            <a href="https://t.me/Shop_DoBaksa" target="_blank">Telegram</a>
+        </p>
+    </footer>
+
+    <script>
+        // Open first item in first section by default (already done via class)
+        // Smooth scroll for nav links
+        document.querySelectorAll('.faq-nav__link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = document.querySelector(link.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
