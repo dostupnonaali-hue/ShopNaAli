@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dobaksa.shop/</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://dobaksa.shop/product.html?id=1005011804280512</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dobaksa.shop/product.html?id=1005007100427063</loc>
@@ -721,12 +727,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://dobaksa.shop/product.html?id=1005008682580608</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://dobaksa.shop/product.html?id=1005010297318156</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -746,12 +746,6 @@
   </url>
   <url>
     <loc>https://dobaksa.shop/product.html?id=1005008366816851</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://dobaksa.shop/product.html?id=1005007977968607</loc>
     <lastmod>2026-03-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
