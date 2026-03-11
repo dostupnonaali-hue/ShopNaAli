@@ -1,40 +1,6 @@
 {
   "products": [
     {
-      "id": "1005011772608527",
-      "title": "78 грн з монетами Як замовити з безкоштовною доставкою",
-      "price": 78.0,
-      "currency": "UAH",
-      "category": "new",
-      "rating": 4.7,
-      "orders": 1220,
-      "image": "",
-      "link": "https://aliexpress.com/item/1005011772608527.html",
-      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011772608527.html",
-      "description": "",
-      "promo_text": "",
-      "price_note": "З монетами",
-      "source_channel": "Чоловічі товари з AliExpress",
-      "added_at": "2026-03-11T15:16:04.439026+00:00"
-    },
-    {
-      "id": "1005006727709361",
-      "title": "54 грн з монетами Як замовити з безкоштовною доставкою",
-      "price": 54.0,
-      "currency": "UAH",
-      "category": "new",
-      "rating": 5.0,
-      "orders": 504,
-      "image": "",
-      "link": "https://aliexpress.com/item/1005006727709361.html",
-      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727709361.html",
-      "description": "",
-      "promo_text": "",
-      "price_note": "З монетами",
-      "source_channel": "Чоловічі товари з AliExpress",
-      "added_at": "2026-03-11T15:09:42.004815+00:00"
-    },
-    {
       "id": "1005011773817268",
       "title": "【ZYAA-1】230V NO Valve N58A Electric Thermal Actuator Radiator For Manifold Underfloor Heating Normally Open Thermostatic Valve",
       "price": 140.0,
