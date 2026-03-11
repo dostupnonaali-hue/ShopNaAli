@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011773408334",
+      "title": "New Simple Women",
+      "price": 76.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1762,
+      "image": "https://ae01.alicdn.com/kf/S8f490eb292594866b1ad5be286ec4edc9.jpg",
+      "link": "https://aliexpress.com/item/1005011773408334.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011773408334.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-11T10:01:13.220479+00:00"
+    },
+    {
       "id": "1005007937933939",
       "title": "Mini Mop Self Squeeze Mop Powerful Folding Household Clean Tools No Hand Wash Strong Absorbent Mop for Bathroom Kitchen Desktop",
       "price": 2.4,
