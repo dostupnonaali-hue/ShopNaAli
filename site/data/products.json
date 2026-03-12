@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007501927218",
+      "title": "3D Fun Puppy Print T-Shirt Summer New Men",
+      "price": 115.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 5.0,
+      "orders": 1620,
+      "image": "https://ae01.alicdn.com/kf/S829347b0d75945a9a946d11ea7ad36f75.jpg",
+      "link": "https://aliexpress.com/item/1005007501927218.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007501927218.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-12T11:28:16.774540+00:00"
+    },
+    {
       "id": "1005007530881576",
       "title": "Baseus Tempered Glass for iPhone 17 16 Pro Max Screen Protector for iPhone 15 14 13 12 11 Pro Max Clear Edge Anti-Peeping Film",
       "price": 2.64,
