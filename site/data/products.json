@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006422397183",
+      "title": "Global Version BLACKSHARK GT3 Smart watch 1.96",
+      "price": 23.32,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1379,
+      "image": "https://ae01.alicdn.com/kf/S5e1ed48f71604fa9a70028fdce3ac61f1.jpg",
+      "link": "https://aliexpress.com/item/1005006422397183.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006422397183.html",
+      "description": "",
+      "promo_text": "T5TU1H",
+      "price_note": "Промокод T5TU1H",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-12T09:37:43.100789+00:00"
+    },
+    {
       "id": "1005011814173678",
       "title": "2025 Socket Wrench Set Including Extension Rod - Professional Automotive Tool Kit for Car/Bike/Motorcycle Repair, DIY & Home Use",
       "price": 69.0,
