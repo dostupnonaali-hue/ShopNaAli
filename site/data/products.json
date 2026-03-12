@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011787410566",
+      "title": "5-in-1 Food Chopper Suitable for Handheld Slicers, Dicers, Graters Multifunctional Vegetable Chopper Kitchen Tool",
+      "price": 135.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 1811,
+      "image": "https://ae01.alicdn.com/kf/S43f9f74dcf7a45b5b5c3399896cb8392D.jpg",
+      "link": "https://aliexpress.com/item/1005011787410566.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011787410566.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-12T09:20:01.627270+00:00"
+    },
+    {
       "id": "1005007345164678",
       "title": "13 in 1 DC 4.5-50V 0-12A Multi-function Digital Display DC Voltage Ammeter Power Meter Type-c Cell Phone Charging PD3.1 Tester",
       "price": 3.38,
