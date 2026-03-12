@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011761743968",
+      "title": "1 PC Insulated Screwdriver Slotted Phillips Nut Driver Magnetic Screw Key Bits Electrician",
+      "price": 39.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.8,
+      "orders": 1992,
+      "image": "https://ae01.alicdn.com/kf/Se1ef3eaa488249c2bff273faaffe556bd.jpg",
+      "link": "https://aliexpress.com/item/1005011761743968.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011761743968.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-12T08:43:23.135706+00:00"
+    },
+    {
       "id": "1005010112743201",
       "title": "6 in 1 Wall Multi-Socket 2 AC Output with 4 USB Ports, 2500W 10A Power Strip with Switch, Power Outlet,Suitable for Home, Office",
       "price": 222.0,
