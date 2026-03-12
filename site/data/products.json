@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005004034289724",
+      "title": "Children",
+      "price": 4.05,
+      "currency": "USD",
+      "category": "toys",
+      "rating": 4.9,
+      "orders": 1954,
+      "image": "https://ae01.alicdn.com/kf/Sdbbce875d1cd4f3f84f43d2638df0991e.jpg",
+      "link": "https://aliexpress.com/item/1005004034289724.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004034289724.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-12T16:32:53.105175+00:00"
+    },
+    {
       "id": "1005008459318169",
       "title": "LiitoKala LF-936 P50 laser+tungsten wire+LED Flashlight 1000LM 6-speed Adjustable 18650 Built-in Rechargeable 10W",
       "price": 9.95,
