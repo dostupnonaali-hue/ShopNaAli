@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010724195444",
+      "title": "Original OnePlus Watch Lite Smart Watch Up to 10 Days of Battery Life 1.46",
+      "price": 130.37,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1270,
+      "image": "https://ae01.alicdn.com/kf/S9e694aa8376c4556a6b6e799f5f632aa3.jpg",
+      "link": "https://aliexpress.com/item/1005010724195444.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010724195444.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-12T14:59:49.880904+00:00"
+    },
+    {
       "id": "1005008853254530",
       "title": "KWS-X1 Type-C Current and Voltage Monitor DC 4-30V 0-12A Power Meter Tester PD Battery Capacity Digital LCD Display Meter",
       "price": 11.67,
