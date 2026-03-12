@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008350198853",
+      "title": "Cordless USB Digital Soldering Iron Adjustable Temperature 300-450℃ Type-C 1000mAh Battery Intelligent Solder Welding Iron Tool",
+      "price": 329.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1102,
+      "image": "https://ae01.alicdn.com/kf/Sdae4fb7d150c4d90914499918aafd450v.png",
+      "link": "https://aliexpress.com/item/1005008350198853.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008350198853.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "164 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-12T11:20:23.443222+00:00"
+    },
+    {
       "id": "1005006808852190",
       "title": "UNI-T UT25CL Handheld Cable Locator NCV Non-contact Electrical Test Electrical Safety Detector Trace Underground Cable Paths.",
       "price": 127.77,
