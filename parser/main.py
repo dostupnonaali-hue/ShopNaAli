@@ -4,18 +4,26 @@ Monitors donor channels, resolves AliExpress shortlinks,
 removes referral parameters, copies messages to target channel,
 and saves products to GitHub for the website.
 """
-
 import asyncio
 import json
 import os
 import re
 import base64
 import logging
+import random
 from datetime import datetime, timezone
+from PIL import Image
+import pytesseract
 
 from telethon import TelegramClient, events
 from telethon.tl.types import MessageMediaPhoto, MessageMediaDocument, MessageMediaWebPage
 import aiohttp
+
+try:
+    from deep_translator import GoogleTranslator
+    _translator = GoogleTranslator(source='auto', target='uk')
+except ImportError:
+    _translator = None
 
 from config import (
     API_ID, API_HASH, SESSION_NAME,
@@ -32,6 +40,73 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S',
 )
 log = logging.getLogger('copier')
+
+# --- Title translation & cleanup ---
+def clean_and_translate_title(raw_title: str) -> str:
+    """
+    Clean AliExpress title: remove specs, model numbers, sizes, colors.
+    Then translate to Ukrainian.
+    """
+    if not raw_title or len(raw_title) < 3:
+        return raw_title
+    
+    title = raw_title
+    
+    # Remove content in 【】brackets (usually model/SKU)
+    title = re.sub(r'【[^】]*】', '', title)
+    # Remove content in square brackets
+    title = re.sub(r'\[[^\]]*\]', '', title)
+    
+    # Remove size/dimension ranges (e.g., "S-5XL", "100x200cm", "36-48")
+    title = re.sub(r'\b\d+[xX×]\d+\s*(?:cm|mm|m|inch)?\b', '', title)
+    title = re.sub(r'\b(?:XS|S|M|L|XL|XXL|XXXL|2XL|3XL|4XL|5XL)(?:\s*[-–~]\s*(?:XS|S|M|L|XL|XXL|XXXL|2XL|3XL|4XL|5XL))?\b', '', title)
+    title = re.sub(r'\b\d{2,3}\s*[-–]\s*\d{2,3}\b', '', title)
+    
+    # Remove volume/weight specs (e.g., "500ml", "200g")
+    title = re.sub(r'\b\d+\s*(?:ml|pcs|pcs|шт|g|kg|oz|cm|mm|W|V|mAh|dBi?)\b', '', title, flags=re.IGNORECASE)
+    
+    # Remove color lists (e.g., "Black/White/Red")
+    color_words = r'(?:Black|White|Red|Blue|Green|Pink|Purple|Yellow|Grey|Gray|Brown|Orange|Beige|Khaki|Navy|Gold|Silver)'
+    title = re.sub(rf'{color_words}(?:\s*/\s*{color_words})+', '', title, flags=re.IGNORECASE)
+    # Remove standalone color word at end
+    title = re.sub(rf'\s+{color_words}\s*$', '', title, flags=re.IGNORECASE)
+    
+    # Remove "For" target phrases at end (e.g., "For iPhone 15 Pro Max")
+    title = re.sub(r'\s+[Ff]or\s+(?:iPhone|Samsung|Xiaomi|Huawei|iPad|MacBook|Android|iOS).*$', '', title)
+    
+    # Clean up multiple spaces and trailing junk
+    title = re.sub(r'\s+', ' ', title).strip(' ,.-/|&+')
+    
+    # Limit to ~60 chars at word boundary  
+    if len(title) > 60:
+        cut = title[:60].rfind(' ')
+        if cut > 20:
+            title = title[:cut]
+    
+    if not title or len(title) < 5:
+        title = raw_title[:60]
+    
+    # Translate to Ukrainian
+    if _translator:
+        try:
+            translated = _translator.translate(title)
+            if translated and len(translated) > 3:
+                # Capitalize first letter
+                title = translated[0].upper() + translated[1:] if len(translated) > 1 else translated.upper()
+                log.info(f'🌐 Translated: "{raw_title[:40]}..." → "{title}"')
+        except Exception as e:
+            log.warning(f'🌐 Translation failed: {e}')
+    
+    return title
+
+# --- User-Agent rotation for scraping ---
+_USER_AGENTS = [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15',
+]
 
 # --- Ensure directories ---
 os.makedirs(IMAGES_DIR, exist_ok=True)
@@ -81,51 +156,204 @@ async def resolve_and_clean_url(url: str, session: aiohttp.ClientSession):
     
     return final_url, None
 
+def _extract_from_html(html: str):
+    """Extract title, image_url and price from AliExpress HTML using multiple strategies."""
+    title = None
+    image_url = None
+    price = None
+
+    # --- Strategy 1: Open Graph meta tags ---
+    og_title = re.search(r'<meta\s+property=["\']og:title["\']\s+content=["\']([^"\']+)', html, re.IGNORECASE)
+    if not og_title:
+        og_title = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+property=["\']og:title["\']', html, re.IGNORECASE)
+    if og_title:
+        title = og_title.group(1).strip()
+        title = re.sub(r'\s*[-|]\s*AliExpress\s*\d*$', '', title).strip()
+
+    og_image = re.search(r'<meta\s+property=["\']og:image["\']\s+content=["\']([^"\']+)', html, re.IGNORECASE)
+    if not og_image:
+        og_image = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+property=["\']og:image["\']', html, re.IGNORECASE)
+    if og_image:
+        image_url = og_image.group(1).strip()
+
+    price_match = re.search(r'<meta\s+property=["\']product:price:amount["\']\s+content=["\']([\d.]+)["\']', html, re.IGNORECASE)
+    if price_match:
+        try:
+            price = float(price_match.group(1))
+        except ValueError:
+            pass
+
+    # --- Strategy 2: JSON-LD structured data ---
+    if not title or not image_url:
+        json_ld_matches = re.findall(r'<script\s+type=["\']application/ld\+json["\']\s*>(.*?)</script>', html, re.DOTALL | re.IGNORECASE)
+        for json_str in json_ld_matches:
+            try:
+                ld = json.loads(json_str)
+                if isinstance(ld, list):
+                    ld = ld[0]
+                if not title and ld.get('name'):
+                    title = str(ld['name']).strip()
+                    title = re.sub(r'\s*[-|]\s*AliExpress\s*\d*$', '', title).strip()
+                if not image_url and ld.get('image'):
+                    img = ld['image']
+                    if isinstance(img, list):
+                        img = img[0]
+                    if isinstance(img, dict):
+                        img = img.get('url', img.get('contentUrl', ''))
+                    if img:
+                        image_url = str(img).strip()
+                if not price and ld.get('offers'):
+                    offers = ld['offers']
+                    if isinstance(offers, list):
+                        offers = offers[0]
+                    if isinstance(offers, dict) and offers.get('price'):
+                        try:
+                            price = float(offers['price'])
+                        except (ValueError, TypeError):
+                            pass
+            except (json.JSONDecodeError, KeyError, IndexError):
+                continue
+
+    # --- Strategy 3: <title> tag fallback ---
+    if not title:
+        title_tag = re.search(r'<title[^>]*>([^<]+)</title>', html, re.IGNORECASE)
+        if title_tag:
+            t = title_tag.group(1).strip()
+            t = re.sub(r'\s*[-|]\s*AliExpress\s*\d*$', '', t).strip()
+            if len(t) > 5 and 'aliexpress' not in t.lower():
+                title = t
+
+    # --- Strategy 4: data-image-src or itemprop ---
+    if not image_url:
+        itemprop_img = re.search(r'<img[^>]+itemprop=["\']image["\']\s+src=["\']([^"\']+)', html, re.IGNORECASE)
+        if itemprop_img:
+            image_url = itemprop_img.group(1).strip()
+
+    return title, image_url, price
+
+def extract_title_from_image(image_path: str) -> str:
+    """
+    Extract product title from AliExpress screenshot using Tesseract OCR.
+    Looks for the longest text line or lines before the price.
+    """
+    try:
+        if not os.path.exists(image_path):
+            return ""
+            
+        # Extract text using Russian and English models
+        img = Image.open(image_path)
+        # Convert to grayscale for better OCR
+        img = img.convert('L')
+        text = pytesseract.image_to_string(img, lang='rus+eng')
+        
+        if not text:
+            return ""
+            
+        lines = [line.strip() for line in text.split('\n') if len(line.strip()) > 5]
+        
+        # Heuristics to find the title:
+        # 1. Usually the title is the longest string of text
+        # 2. Or it's the text block right before the price block
+        # Let's filter out known UI elements
+        ignore_words = ['купить', 'buy', 'корзин', 'cart', 'доставк', 'delivery', 
+                        'отзыв', 'review', 'заказ', 'order', 'aliexpress', 
+                        'скидк', 'discount', 'монет', 'coin', 'оплат', 'pay',
+                        'цвет', 'color', 'размер', 'size', 'характеристик']
+        
+        valid_lines = []
+        for line in lines:
+            line_lower = line.lower()
+            if any(word in line_lower for word in ignore_words):
+                continue
+            # Skip lines that look mostly like numbers/prices/dates
+            if re.match(r'^[\d\s.,₽$€₴]+$', line):
+                continue
+            if len(line) < 10:
+                continue
+            valid_lines.append(line)
+        
+        if valid_lines:
+            # Sort by length descending, assume the longest valid line is the title
+            valid_lines.sort(key=len, reverse=True)
+            candidate = valid_lines[0]
+            # Clean up typical OCR artifacts
+            candidate = re.sub(r'[\n\r]+', ' ', candidate)
+            candidate = re.sub(r'\s{2,}', ' ', candidate)
+            return candidate.strip()
+            
+    except Exception as e:
+        log.warning(f"OCR failed: {e}")
+        
+    return ""
+
+
 async def scrape_aliexpress_product(product_url: str, session: aiohttp.ClientSession):
     """
-    Scrape AliExpress product page to get title and image URL
-    from Open Graph meta tags.
-    Returns {'title': str, 'image_url': str} or None on failure.
+    Scrape AliExpress product page to get title and image URL.
+    Uses retry logic with rotating User-Agents and multiple extraction strategies.
+    Returns {'title': str, 'image_url': str, 'price': float} or None on failure.
     """
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept-Language': 'uk-UA,uk;q=0.9,en;q=0.8',
-    }
-    try:
-        async with session.get(product_url, headers=headers, timeout=20) as resp:
-            if resp.status != 200:
-                log.warning(f'AliExpress page returned {resp.status} for {product_url}')
-                return None
-            html = await resp.text()
+    max_retries = 3
+    
+    for attempt in range(max_retries):
+        ua = random.choice(_USER_AGENTS)
+        headers = {
+            'User-Agent': ua,
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9,uk;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'max-age=0',
+            'Upgrade-Insecure-Requests': '1',
+        }
         
-        # Extract og:title
-        title_match = re.search(r'<meta\s+property=["\']og:title["\']\s+content=["\']([^"\']+)', html, re.IGNORECASE)
-        title = title_match.group(1).strip() if title_match else None
-        # Clean title: remove " - AliExpress XX" suffix
-        if title:
-            title = re.sub(r'\s*-\s*AliExpress\s*\d*$', '', title).strip()
+        # Try different URL variants
+        urls_to_try = [product_url]
+        if 'aliexpress.com' in product_url and '/item/' in product_url:
+            # Try with www prefix and different TLDs
+            item_match = re.search(r'/item/(\d+)\.html', product_url)
+            if item_match:
+                pid = item_match.group(1)
+                urls_to_try = [
+                    f'https://www.aliexpress.com/item/{pid}.html',
+                    f'https://aliexpress.com/item/{pid}.html',
+                ]
         
-        # Extract og:image
-        image_match = re.search(r'<meta\s+property=["\']og:image["\']\s+content=["\']([^"\']+)', html, re.IGNORECASE)
-        image_url = image_match.group(1).strip() if image_match else None
-        
-        # Try to extract price from page if possible (AliExpress often blocks this without JS, but we can check meta tags)
-        price = None
-        price_match = re.search(r'<meta\s+property=["\']product:price:amount["\']\s+content=["\']([\d\.]+)["\']', html, re.IGNORECASE)
-        if price_match:
+        for url in urls_to_try:
             try:
-                price = float(price_match.group(1))
-            except ValueError:
-                pass
+                timeout = aiohttp.ClientTimeout(total=25)
+                async with session.get(url, headers=headers, timeout=timeout, allow_redirects=True) as resp:
+                    if resp.status != 200:
+                        log.warning(f'AliExpress returned {resp.status} for {url} (attempt {attempt+1})')
+                        continue
+                    html = await resp.text()
+                
+                if len(html) < 1000:
+                    log.warning(f'AliExpress returned very short page ({len(html)} chars), likely blocked (attempt {attempt+1})')
+                    continue
+                
+                title, image_url, price = _extract_from_html(html)
+                
+                if title or image_url:
+                    log.info(f'🔍 Scraped from AliExpress: "{(title or "?")[:60]}" | Image: {"yes" if image_url else "no"} | Price: {price} (attempt {attempt+1})')
+                    return {'title': title, 'image_url': image_url, 'price': price}
+                    
+            except asyncio.TimeoutError:
+                log.warning(f'Timeout scraping {url} (attempt {attempt+1})')
+            except Exception as e:
+                log.warning(f'Error scraping {url}: {e} (attempt {attempt+1})')
         
-        if title or image_url or price:
-            log.info(f'🔍 Scraped from AliExpress: "{(title or "?")[:60]}" | Price: {price}')
-            return {'title': title, 'image_url': image_url, 'price': price}
-        
-        return None
-    except Exception as e:
-        log.warning(f'Failed to scrape AliExpress page: {e}')
-        return None
+        # Wait before retry with exponential backoff
+        if attempt < max_retries - 1:
+            delay = (attempt + 1) * 2 + random.uniform(0, 2)
+            log.info(f'Retrying scrape in {delay:.1f}s...')
+            await asyncio.sleep(delay)
+    
+    log.warning(f'Failed to scrape AliExpress after {max_retries} attempts: {product_url}')
+    return None
 
 async def download_image(url: str, filepath: str, session: aiohttp.ClientSession):
     """Download image from URL to local file."""
@@ -543,7 +771,102 @@ async def update_sitemap_on_github():
 client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
 client.parse_mode = 'html'
 
+# --- Rate Limiting ---
+_message_queue = asyncio.Queue()
+_last_scrape_time = 0  # timestamp of last AliExpress scrape
+_channel_post_counter = {}  # track how many posts per channel
+SCRAPE_COOLDOWN = 30  # seconds between AliExpress scrapes
+MIN_POST_DELAY = 90  # minimum seconds between processing posts
+MAX_POST_DELAY = 150  # maximum seconds between processing posts
+SKIP_EVERY_N = 3  # skip every Nth post from same channel in a burst
+
+import time
+
+# --- FAQ Tips (contextual + periodic) ---
+_total_posts_sent = 0
+FAQ_LINK_EVERY_N = 10  # add generic FAQ link every Nth post
+
+_CONTEXTUAL_TIPS = {
+    'coins': [
+        "\n💡 <i>Як заощадити ще більше монетами →</i> <a href='https://dobaksa.shop/faq.html#coins'>Гайд</a>",
+        "\n🪙 <i>Знижки до 99% за монети!</i> <a href='https://dobaksa.shop/faq.html#coins'>Дізнатись як</a>",
+    ],
+    'promo': [
+        "\n🏷 <i>Як закріпити промокоди до розпродажу →</i> <a href='https://dobaksa.shop/faq.html#coupons'>Поради</a>",
+        "\n💡 <i>Не працює промокод?</i> <a href='https://dobaksa.shop/faq.html#coupons'>Рішення тут</a>",
+    ],
+    'generic': [
+        "\n📖 <i>Гайд для вигідних покупок:</i> <a href='https://dobaksa.shop/faq.html'>dobaksa.shop/faq</a>",
+        "\n🎓 <i>Поради по AliExpress:</i> <a href='https://dobaksa.shop/faq.html'>Читати гайд</a>",
+    ],
+}
+
 @client.on(events.NewMessage(chats=DONOR_CHANNELS))
+async def queue_new_post(event):
+    """Queue incoming posts for throttled processing."""
+    channel_title = event.chat.title or str(event.chat_id)
+    
+    # Track posts per channel (reset counter every 10 minutes)
+    now = time.time()
+    channel_key = str(event.chat_id)
+    if channel_key not in _channel_post_counter:
+        _channel_post_counter[channel_key] = {'count': 0, 'first_seen': now}
+    
+    counter = _channel_post_counter[channel_key]
+    # Reset counter if more than 10 minutes since first post in burst
+    if now - counter['first_seen'] > 600:
+        counter['count'] = 0
+        counter['first_seen'] = now
+    
+    counter['count'] += 1
+    
+    # Skip every Nth post from the same channel in a burst
+    if counter['count'] % SKIP_EVERY_N == 0:
+        log.info(f"⏭ Throttle: skipping post #{counter['count']} from {channel_title} (every {SKIP_EVERY_N}th)")
+        return
+    
+    # Don't queue too many messages
+    if _message_queue.qsize() >= 20:
+        log.info(f"⏭ Queue full ({_message_queue.qsize()}), skipping post from {channel_title}")
+        return
+    
+    await _message_queue.put(event)
+    log.info(f"📥 Queued post from {channel_title} (queue size: {_message_queue.qsize()})")
+
+
+async def process_queue():
+    """Process queued messages with delays between them."""
+    global _last_scrape_time
+    while True:
+        try:
+            event = await _message_queue.get()
+            log.info(f"📤 Processing queued post (remaining: {_message_queue.qsize()})")
+            await handle_new_post(event)
+            
+            # Wait between posts to avoid AliExpress rate limiting
+            delay = random.uniform(MIN_POST_DELAY, MAX_POST_DELAY)
+            log.info(f"⏳ Waiting {delay:.0f}s before next post...")
+            await asyncio.sleep(delay)
+        except Exception as e:
+            log.error(f"Queue processing error: {e}", exc_info=True)
+            await asyncio.sleep(10)
+
+
+async def throttled_scrape(product_url: str, session: aiohttp.ClientSession):
+    """Wrapper around scrape_aliexpress_product with cooldown between scrapes."""
+    global _last_scrape_time
+    now = time.time()
+    elapsed = now - _last_scrape_time
+    if elapsed < SCRAPE_COOLDOWN:
+        wait_time = SCRAPE_COOLDOWN - elapsed + random.uniform(5, 15)
+        log.info(f"🕐 Scrape cooldown: waiting {wait_time:.0f}s...")
+        await asyncio.sleep(wait_time)
+    
+    result = await scrape_aliexpress_product(product_url, session)
+    _last_scrape_time = time.time()
+    return result
+
+
 async def handle_new_post(event):
     """Process new posts from donor channels."""
     try:
@@ -610,128 +933,278 @@ async def handle_new_post(event):
             seen_products.add(pid)
         save_seen(seen_products)
 
-        # Append clean links at the end
-        if clean_links_added:
-            text_html += "\n\n🔗 <b>Посилання:</b>\n"
-            for cl in clean_links_added:
-                # Provide a shorter display text for the link
-                match = re.search(r'/item/(\d+)\.html', cl)
-                display_text = f"aliexpress.com/item/{match.group(1)}.html" if match else cl
-                text_html += f"👉 <a href='{cl}'>{display_text}</a>\n"
-
-        # Replace donor channel mentions with our channel
-        for donor in DONOR_CHANNELS:
-            donor_name = donor.lstrip('@')
-            text_html = re.sub(rf'@{donor_name}', '@Shop_DoBaksa', text_html, flags=re.IGNORECASE)
-            raw_text = re.sub(rf'@{donor_name}', '@Shop_DoBaksa', raw_text, flags=re.IGNORECASE)
-
-        # Send the modified message to Telegram
-        # Telegram limits captions to 1024 chars; if longer, send text and media separately
-        media_to_send = message.media if not isinstance(message.media, MessageMediaWebPage) else None
-        
-        if media_to_send and len(text_html) > 1024:
-            await client.send_message(
-                TARGET_CHANNEL,
-                message=text_html,
-                parse_mode='html',
-                link_preview=False
-            )
-            await client.send_message(
-                TARGET_CHANNEL,
-                file=media_to_send,
-            )
-        else:
-            await client.send_message(
-                TARGET_CHANNEL,
-                message=text_html,
-                parse_mode='html',
-                file=media_to_send,
-                link_preview=False
-            )
-        
-        log.info(f"✅ Copied message from {event.chat.title} to {TARGET_CHANNEL}")
-
-        # --- Save products to GitHub for the website ---
+        # --- Extract product info FIRST, then build clean post ---
         fallback_title = clean_text(raw_text)[:200]
         fallback_price = extract_price(raw_text)
         
-        async with aiohttp.ClientSession() as scrape_session:
-            # Only save the first product ID for the website to avoid duplicate cards
-            for pid in product_ids_found[:1]:
-                original_link = f"https://aliexpress.com/item/{pid}.html"
-                
-                # Scrape AliExpress product page for title and image
-                scraped = await scrape_aliexpress_product(original_link, scrape_session)
-                
-                product_title = fallback_title
-                image_url = ''
-                
-                if scraped:
-                    if scraped.get('title'):
-                        product_title = scraped['title'][:200]
+        # Extract coins/монети info from raw text
+        coins_info = ""
+        coins_match = re.search(r'(\d+)\s*(?:coins?|монет)', raw_text, re.IGNORECASE)
+        if coins_match:
+            coins_info = f"{coins_match.group(1)} coins"
+        elif re.search(r'монет|coins?', raw_text, re.IGNORECASE):
+            coins_info = "монетками"
+
+        # Extract ALL promo codes
+        promo_codes = []
+        # 1. Find codes after keywords like "промокод", "купон", "promo", "code", "coupon"
+        keyword_matches = re.finditer(r'(?:промокод|купон|promo|code|coupon)[:\s]*([A-Z0-9]{4,})', raw_text, re.IGNORECASE)
+        for m in keyword_matches:
+            code = m.group(1).upper()
+            if code not in promo_codes:
+                promo_codes.append(code)
+        # 2. Find codes mentioned with "на вибір" pattern (e.g. "промокод на вибір ASUA03, UAAFF03, UAS3")
+        choice_match = re.search(r'(?:на\s+вибір|choose)[:\s]*([A-Z0-9,\s]{4,})', raw_text, re.IGNORECASE)
+        if choice_match:
+            for code in re.findall(r'[A-Z0-9]{3,}', choice_match.group(1)):
+                code = code.upper()
+                if code not in promo_codes:
+                    promo_codes.append(code)
+        # 3. Fallback: find codes in parentheses near promo keywords
+        if not promo_codes:
+            paren_match = re.search(r'\((?:.*?(?:промокод|купон|code|coupon).*?)\)', raw_text, re.IGNORECASE | re.DOTALL)
+            if paren_match:
+                codes = re.findall(r'[A-Z0-9]{4,}', paren_match.group(0))
+                for code in codes:
+                    code = code.upper()
+                    if code not in promo_codes:
+                        promo_codes.append(code)
+        promo_text = ", ".join(promo_codes)
+
+        # Extract price note
+        price_note = ""
+        price_note_patterns = [
+            r'\(([^)]*(?:купон|монет|знижк|промокод|code|coin)[^)]*)\)',
+            r'(?:ціна\s+)?(?:з|із)\s+(купон\w*(?:\s*\+?\s*монет\w*)?)',
+            r'(купон\s+під\s+товаром(?:\s*\+?\s*монет\w*)?)',
+            r'(?<!\w)(\+\s*монет\w*)',
+            r'((?:з\s+)?монет(?:и|ами|ками)(?:\s*\+?\s*купон\w*)?)',
+        ]
+        for pattern in price_note_patterns:
+            note_match = re.search(pattern, raw_text, re.IGNORECASE)
+            if note_match:
+                note = note_match.group(1).strip()
+                note = re.sub(r'\s+', ' ', note).strip(' .,;:!-')
+                if note and len(note) < 80:
+                    price_note = note[0].upper() + note[1:] if len(note) > 1 else note.upper()
+                    break
+
+        # Scrape AliExpress for title and image BEFORE sending to TG
+        product_title = fallback_title
+        image_url = ''
+        scraped = None
+        translated_title = ''
+        
+        if product_ids_found:
+            pid = product_ids_found[0]
+            original_link = f"https://aliexpress.com/item/{pid}.html"
+            affiliate_link = make_affiliate_link(pid)
+            
+            async with aiohttp.ClientSession() as scrape_session:
+                scraped = await throttled_scrape(original_link, scrape_session)
+            
+            if scraped:
+                if scraped.get('title'):
+                    product_title = scraped['title'][:200]
+                    translated_title = clean_and_translate_title(product_title)
+                if scraped.get('image_url'):
+                    image_url = scraped['image_url']
+                    log.info(f'📸 Got image URL from AliExpress')
+                if fallback_price['value'] == 0 and scraped.get('price'):
+                    fallback_price = {'value': scraped['price'], 'currency': 'USD'}
+            
+            # --- PRIMARY IMAGE: Download from Telegram message ---
+            if not image_url and message.media:
+                try:
+                    import tempfile, os
+                    tmp_path = os.path.join(tempfile.gettempdir(), f'tg_img_{pid}.jpg')
+                    downloaded = None
                     
-                    # Use AliExpress CDN image URL directly
-                    if scraped.get('image_url'):
-                        image_url = scraped['image_url']
-                        log.info(f'📸 Got image URL from AliExpress')
+                    if isinstance(message.media, MessageMediaWebPage):
+                        # Extract photo from WebPage preview
+                        webpage = message.media.webpage
+                        if hasattr(webpage, 'photo') and webpage.photo:
+                            downloaded = await client.download_media(webpage.photo, file=tmp_path)
+                            log.info(f'📸 Downloading image from WebPage preview')
+                        elif hasattr(webpage, 'document') and webpage.document:
+                            downloaded = await client.download_media(webpage.document, file=tmp_path)
+                            log.info(f'📸 Downloading document from WebPage preview')
+                    else:
+                        # Regular photo/document media
+                        downloaded = await client.download_media(message.media, file=tmp_path)
                     
-                    # Use scraped price if we couldn't find one in the text
-                    if fallback_price['value'] == 0 and scraped.get('price'):
-                        fallback_price = {'value': scraped['price'], 'currency': 'USD'}
-                        log.info(f'💰 Found price on AliExpress page: ${scraped["price"]}')
+                    if downloaded and os.path.exists(downloaded):
+                        with open(downloaded, 'rb') as img_file:
+                            img_bytes = img_file.read()
+                        
+                        if len(img_bytes) > 1000:  # Skip tiny/broken files
+                            img_b64 = base64.b64encode(img_bytes).decode('utf-8')
+                            gh_img_path = f'site/images/products/{pid}.jpg'
+                            gh_api_url = f'https://api.github.com/repos/{GITHUB_REPO}/contents/{gh_img_path}'
+                            gh_headers = {
+                                'Authorization': f'token {GITHUB_TOKEN}',
+                                'Accept': 'application/vnd.github.v3+json',
+                                'User-Agent': 'ShopNaAli-Parser',
+                            }
+                            
+                            async with aiohttp.ClientSession() as gh_session:
+                                # Check if image already exists
+                                sha = None
+                                async with gh_session.get(gh_api_url, headers=gh_headers, timeout=aiohttp.ClientTimeout(total=10)) as check_resp:
+                                    if check_resp.status == 200:
+                                        sha = (await check_resp.json()).get('sha')
+                                
+                                put_body = {
+                                    'message': f'Add product image {pid}',
+                                    'content': img_b64,
+                                }
+                                if sha:
+                                    put_body['sha'] = sha
+                                
+                                async with gh_session.put(gh_api_url, headers=gh_headers, json=put_body, timeout=aiohttp.ClientTimeout(total=30)) as put_resp:
+                                    if put_resp.status in (200, 201):
+                                        image_url = f'https://raw.githubusercontent.com/{GITHUB_REPO}/main/{gh_img_path}'
+                                        log.info(f'📸 Uploaded Telegram image to GitHub: {gh_img_path}')
+                                    else:
+                                        log.warning(f'📸 Failed to upload image to GitHub: {put_resp.status}')
+                        
+                        # Apply OCR if we still don't have a good title
+                        # fallback_title is usually just the price in @Shark_ali
+                        if product_title == fallback_title and downloaded and os.path.exists(downloaded):
+                            log.info(f'🔍 Title is fallback, attempting OCR on downloaded image...')
+                            ocr_title = extract_title_from_image(downloaded)
+                            if ocr_title:
+                                log.info(f'👁️ OCR extracted title: "{ocr_title[:50]}..."')
+                                product_title = ocr_title
+                                translated_title = clean_and_translate_title(product_title)
+                        
+                        # Cleanup temp file
+                        try:
+                            os.remove(downloaded)
+                        except:
+                            pass
+                except Exception as img_err:
+                    log.warning(f'📸 Failed to download Telegram image: {img_err}')
+        else:
+            # No product IDs found — skip
+            log.info(f"⏭ No AliExpress product IDs found, skipping")
+            return
 
-                # Extract promo code from parentheses like "(+купон і промокод IFPU3KTD)"
-                promo_match = re.search(r'\((?:.*?(?:промокод|купон|монети|знижк|code).*?)\)', raw_text, re.IGNORECASE | re.DOTALL)
-                
-                promo_text = ""
-                if promo_match:
-                    # Find sequences of 4 or more uppercase letters/numbers, allowing for '/'
-                    codes = re.findall(r'[A-Z0-9/]{4,}', promo_match.group(0))
-                    if codes:
-                        promo_text = ' '.join(codes)
+        # --- Detect category for hashtags ---
+        category = detect_category(product_title, raw_text)
+        
+        # Build hashtags based on category
+        category_hashtags = {
+            'electronics': '#електроніка #гаджети',
+            'beauty': '#краса #косметика',
+            'home': '#дім #побут',
+            'fashion': '#мода #одяг',
+            'accessories': '#аксесуари',
+            'sport': '#спорт #фітнес',
+            'toys': '#іграшки',
+            'tools': '#інструменти',
+            'auto': '#авто',
+            'hot': '#хіт #топ',
+            'new': '#новинка',
+        }
+        hashtags = category_hashtags.get(category, '#aliexpress')
+        hashtags += ' #aliexpress #знижки'
+        
+        # --- Build CLEAN minimal Telegram post ---
+        # Use translated title if available, otherwise clean fallback
+        display_title = translated_title or clean_and_translate_title(product_title)
+        short_title = display_title[:80]
+        if len(display_title) > 80:
+            last_space = short_title.rfind(' ')
+            if last_space > 40:
+                short_title = short_title[:last_space]
+        
+        post_lines = []
+        post_lines.append(f"<b>{short_title}</b>")
+        post_lines.append("")
+        
+        # Price line
+        price_val = fallback_price['value']
+        price_curr = fallback_price['currency']
+        if price_curr == 'UAH':
+            price_str = f"💰 <b>{price_val:.0f} грн</b>"
+        else:
+            price_str = f"💰 <b>${price_val:.2f}</b>"
+        
+        if coins_info:
+            price_str += f" ({coins_info})"
+        post_lines.append(price_str)
+        
+        # Promo codes
+        if promo_codes:
+            if len(promo_codes) == 1:
+                post_lines.append(f"🏷 Промокод: <code>{promo_codes[0]}</code>")
+            else:
+                codes_formatted = " / ".join(f"<code>{c}</code>" for c in promo_codes)
+                post_lines.append(f"🏷 Промокоди: {codes_formatted}")
+        
+        # Price note (if different from coins_info)
+        if price_note and price_note.lower() != coins_info.lower():
+            post_lines.append(f"💡 {price_note}")
+        
+        post_lines.append("")
+        post_lines.append(f"👉 <a href='{affiliate_link}'>Купити на AliExpress</a>")
+        post_lines.append("")
+        post_lines.append(hashtags)
+        
+        # --- Contextual FAQ tip ---
+        global _total_posts_sent
+        _total_posts_sent += 1
+        faq_tip = ''
+        if coins_info:
+            faq_tip = random.choice(_CONTEXTUAL_TIPS['coins'])
+        elif promo_text:
+            faq_tip = random.choice(_CONTEXTUAL_TIPS['promo'])
+        elif _total_posts_sent % FAQ_LINK_EVERY_N == 0:
+            faq_tip = random.choice(_CONTEXTUAL_TIPS['generic'])
+        
+        if faq_tip:
+            post_lines.append(faq_tip)
+        
+        text_html = "\n".join(post_lines)
+        
+        # --- Send to Telegram ---
+        # Send media: for WebPage, extract the photo; for regular media, send as-is
+        if isinstance(message.media, MessageMediaWebPage):
+            webpage = message.media.webpage
+            media_to_send = getattr(webpage, 'photo', None) or getattr(webpage, 'document', None)
+        else:
+            media_to_send = message.media if message.media else None
+        
+        await client.send_message(
+            TARGET_CHANNEL,
+            message=text_html,
+            parse_mode='html',
+            file=media_to_send,
+            link_preview=False
+        )
+        
+        log.info(f"✅ Posted: {short_title[:50]}... | {price_str}")
 
-                # Extract price note — describes how to get this price
-                # e.g. "з купоном+монети", "купон під товаром + монети", "+монети"
-                price_note = ""
-                price_note_patterns = [
-                    # Parenthesized: "(з купоном + монети)", "(купон під товаром)"
-                    r'\(([^)]*(?:купон|монет|знижк|промокод|code|coin)[^)]*)\)',
-                    # Standalone patterns outside parentheses
-                    r'(?:ціна\s+)?(?:з|із)\s+(купон\w*(?:\s*\+?\s*монет\w*)?)',
-                    r'(купон\s+під\s+товаром(?:\s*\+?\s*монет\w*)?)',
-                    r'(?<!\w)(\+\s*монет\w*)',
-                    r'((?:з\s+)?монет(?:и|ами|ками)(?:\s*\+?\s*купон\w*)?)',
-                ]
-                for pattern in price_note_patterns:
-                    note_match = re.search(pattern, raw_text, re.IGNORECASE)
-                    if note_match:
-                        note = note_match.group(1).strip()
-                        # Clean up: remove excessive whitespace, trim
-                        note = re.sub(r'\s+', ' ', note).strip(' .,;:!-')
-                        if note and len(note) < 80:
-                            # Capitalize first letter
-                            price_note = note[0].upper() + note[1:] if len(note) > 1 else note.upper()
-                            break
-
-                product_data = {
-                    'id': pid,
-                    'title': product_title or f'Товар AliExpress #{pid}',
-                    'price': fallback_price['value'],
-                    'currency': fallback_price['currency'],
-                    'original_link': original_link,
-                    'image_path': image_url,
-                    'promo_text': promo_text,
-                    'price_note': price_note,
-                    'source_channel': event.chat.title or str(event.chat_id),
-                    'timestamp': datetime.now(timezone.utc).isoformat(),
-                    'raw_text': raw_text,
-                }
-                log.info(f'✅ New product for site: {pid} | Price: ${fallback_price or "?"}')
-                
-                # Save directly to GitHub
-                saved = await save_product_to_github(product_data)
-                if saved:
-                    await update_sitemap_on_github()
+        # --- Save to GitHub for the website ---
+        product_data = {
+            'id': pid,
+            'title': display_title or product_title or f'Товар AliExpress #{pid}',
+            'price': fallback_price['value'],
+            'currency': fallback_price['currency'],
+            'original_link': original_link,
+            'image_path': image_url,
+            'promo_text': promo_text,
+            'price_note': price_note,
+            'source_channel': event.chat.title or str(event.chat_id),
+            'timestamp': datetime.now(timezone.utc).isoformat(),
+            'raw_text': raw_text,
+        }
+        log.info(f'✅ New product for site: {pid} | Price: ${fallback_price or "?"}')
+        
+        saved = await save_product_to_github(product_data)
+        if saved:
+            await update_sitemap_on_github()
             
     except Exception as e:
         log.error(f"⚠️ Error processing message: {e}", exc_info=True)
@@ -744,7 +1217,11 @@ async def main():
     log.info(f"👂 Слухаю канали: {', '.join(DONOR_CHANNELS)}")
     log.info(f"📤 Цільовий канал: {TARGET_CHANNEL}")
     log.info(f"🌐 GitHub: {GITHUB_REPO}")
+    log.info(f"⏱️ Затримка між постами: {MIN_POST_DELAY}-{MAX_POST_DELAY}с | Пропуск кожного {SKIP_EVERY_N}-го | Cooldown скрейпу: {SCRAPE_COOLDOWN}с")
     log.info("─" * 50)
+    
+    # Start queue processor as background task
+    asyncio.create_task(process_queue())
     
     await client.run_until_disconnected()
 
