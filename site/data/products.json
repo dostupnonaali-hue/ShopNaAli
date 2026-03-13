@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006043734920",
+      "title": "Налобний ліхтар Sofirn HS10 USB C Rechargeable Mini 16340 1100lm",
+      "price": 11.84,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 733,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006043734920.jpg",
+      "link": "https://aliexpress.com/item/1005006043734920.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006043734920.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T11:11:20.507714+00:00"
+    },
+    {
       "id": "1005007171249171",
       "title": "Електрична ультразвукова зубна щітка шестишвидкісний режим Home Soft",
       "price": 2.51,
