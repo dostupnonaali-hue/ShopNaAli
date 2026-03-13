@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011804380647",
+      "title": "Заспокійлива пілінг-маска для губ Зволожуючий розгладжуючий бальзам для губ",
+      "price": 34.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 5.0,
+      "orders": 1467,
+      "image": "https://ae01.alicdn.com/kf/S068cbbd6aafc4953ae8f04d9f0047df0s.jpg",
+      "link": "https://aliexpress.com/item/1005011804380647.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011804380647.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-13T16:00:18.073420+00:00"
+    },
+    {
       "id": "1005006860790899",
       "title": "Набір багатоцільових викруток із ручкою та магнітом",
       "price": 2.28,
