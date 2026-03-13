@@ -1,13 +1,12 @@
 @echo off
-chcp 65001 > nul
 echo ==============================================
-echo 📋 ЛОГИ ПАРСЕРА З СЕРВЕРА AMAZON EC2
+echo [PARSER LOGS FROM AMAZON EC2]
 echo ==============================================
-echo Отримуємо останні 100 рядків логів...
+echo Fetching the last 100 log lines...
 echo.
 ssh -i "E:\Shop_Na_Ali\shop_key.pem" ubuntu@13.62.55.57 "journalctl -u parser.service -n 100 --no-pager"
 echo.
 echo ==============================================
-echo Кінець логів.
+echo End of logs.
 echo ==============================================
 pause
