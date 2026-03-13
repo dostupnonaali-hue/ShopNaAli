@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011666430147",
+      "title": "Капелюх для риболовлі, 65 см, парасолька від дощу без рук для М",
+      "price": 64.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 4.7,
+      "orders": 1940,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011666430147.jpg",
+      "link": "https://aliexpress.com/item/1005011666430147.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011666430147.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-13T14:01:37.782870+00:00"
+    },
+    {
       "id": "1005011799030240",
       "title": "42 грн з монетами 53 грн з монетами 68 грн з монетами 51",
       "price": 42.0,
