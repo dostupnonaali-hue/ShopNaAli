@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005005509129703",
+      "title": "Складні харчові чохли Mesh Anti Fly Mosquito Meal Food Cover",
+      "price": 47.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 1885,
+      "image": "https://ae01.alicdn.com/kf/S5b00a0ef90d040d8a47e2662ef963e03a.jpg",
+      "link": "https://aliexpress.com/item/1005005509129703.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005509129703.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "72 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-13T19:08:03.072806+00:00"
+    },
+    {
       "id": "1005011797155152",
       "title": "Бездротова охоронна сигналізація на двері, вікно, магнітний датчик",
       "price": 26.0,
