@@ -1159,6 +1159,200 @@ img {
 }
 
 /* ==================================
+   Promos Page
+   ================================== */
+.promos-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: calc(var(--header-height) + var(--gap-xl)) var(--gap-lg) var(--gap-3xl);
+  position: relative;
+  z-index: 1;
+}
+
+.promos-hero {
+  text-align: center;
+  padding: var(--gap-xl) 0 var(--gap-2xl);
+}
+
+.promos-hero__image {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: var(--radius-xl);
+  margin-bottom: var(--gap-xl);
+  border: 1px solid var(--bg-glass-border);
+}
+
+.promos-hero__title {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: var(--gap-md);
+}
+
+.promos-hero__subtitle {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.promo-section {
+  background: var(--bg-glass);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: var(--radius-xl);
+  padding: var(--gap-xl);
+  margin-bottom: var(--gap-2xl);
+}
+
+.promo-section__header {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md);
+  margin-bottom: var(--gap-lg);
+  padding-bottom: var(--gap-md);
+  border-bottom: 1px solid var(--bg-glass-border);
+}
+
+.promo-section__icon {
+  font-size: 2rem;
+}
+
+.promo-section__title {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.promo-section__desc {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: var(--gap-xl);
+  line-height: 1.6;
+}
+
+.promo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--gap-md);
+}
+
+.promo-card {
+  background: var(--bg-card);
+  border: 1px solid var(--bg-glass-border);
+  border-radius: var(--radius-lg);
+  padding: var(--gap-md);
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+}
+
+.promo-card:hover {
+  border-color: rgba(0, 255, 136, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.promo-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--gap-sm);
+}
+
+.promo-card__discount {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: var(--accent-primary);
+}
+
+.promo-card__condition {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: var(--bg-glass);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+}
+
+.promo-card__code-wrap {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-sm);
+  background: rgba(0, 255, 136, 0.05);
+  border: 1px dashed var(--accent-primary);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  margin-top: auto;
+}
+
+.promo-card__code {
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  flex: 1;
+  letter-spacing: 1px;
+}
+
+.promo-card__copy {
+  background: none;
+  border: none;
+  color: var(--accent-primary);
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  border-radius: var(--radius-xs);
+}
+
+.promo-card__copy:hover {
+  background: rgba(0, 255, 136, 0.2);
+  transform: scale(1.1);
+}
+
+/* Lifehacks in promos */
+.lifehack-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+}
+
+.lifehack-item {
+  background: var(--bg-card);
+  border-left: 3px solid var(--accent-primary);
+  padding: var(--gap-lg);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+}
+
+.lifehack-item h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--gap-sm);
+}
+
+.lifehack-item p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.lifehack-item ul {
+  padding-left: var(--gap-lg);
+  margin-top: var(--gap-sm);
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.lifehack-item li {
+  margin-bottom: 6px;
+}
+
+/* ==================================
    Responsive — Mobile
    ================================== */
 @media (max-width: 768px) {
