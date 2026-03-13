@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "4001299090009",
+      "title": "Звукова карта USB UGREEN Зовнішній аудіоінтерфейс 3.",
+      "price": 5.73,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1861,
+      "image": "",
+      "link": "https://aliexpress.com/item/4001299090009.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F4001299090009.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T10:56:18.295019+00:00"
+    },
+    {
       "id": "1005007443357573",
       "title": "Портативний зовнішній акумулятор UGREEN Nexode Mini Power Bank",
       "price": 36.76,
