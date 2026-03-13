@@ -65,17 +65,27 @@
 
         if (product.promo_text) {
             const promoEl = document.getElementById('productPromo');
-            promoEl.innerHTML = `✂️ ${product.promo_text}`;
-            promoEl.title = 'Натисніть, щоб скопіювати';
-            promoEl.style.display = 'inline-flex';
-            promoEl.onclick = function (e) {
-                e.preventDefault();
-                navigator.clipboard.writeText(product.promo_text).then(() => {
-                    const originalHtml = promoEl.innerHTML;
-                    promoEl.innerHTML = `✅ Скопійовано!`;
-                    setTimeout(() => promoEl.innerHTML = originalHtml, 2000);
+            const promos = product.promo_text.split(',').map(s => s.trim()).filter(Boolean);
+            
+            if (promos.length > 0) {
+                promoEl.className = 'product-page__promos';
+                promoEl.style.display = 'flex';
+                
+                promoEl.innerHTML = promos.map(p => 
+                    `<div class="product-page__promo" title="Натисніть, щоб скопіювати" data-promo="${p}">✂️ ${p}</div>`
+                ).join('');
+                
+                promoEl.querySelectorAll('.product-page__promo').forEach(item => {
+                    item.onclick = function (e) {
+                        e.preventDefault();
+                        navigator.clipboard.writeText(this.dataset.promo).then(() => {
+                            const originalHtml = this.innerHTML;
+                            this.innerHTML = `✅ Скопійовано!`;
+                            setTimeout(() => this.innerHTML = originalHtml, 2000);
+                        });
+                    };
                 });
-            };
+            }
         }
 
         document.getElementById('productRating').textContent = `⭐ ${product.rating || '—'}`;

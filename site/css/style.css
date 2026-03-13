@@ -872,13 +872,19 @@ img {
 }
 
 /* --- Promo --- */
+.product-card__promos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: var(--gap-sm);
+}
+
 .product-card__promo {
   font-size: 0.75rem;
   color: var(--accent-primary);
   background: rgba(0, 255, 136, 0.1);
   padding: 4px 8px;
   border-radius: var(--radius-sm);
-  margin-bottom: var(--gap-sm);
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -893,6 +899,13 @@ img {
   transform: translateY(-1px);
 }
 
+.product-page__promos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: var(--gap-lg);
+}
+
 .product-page__promo {
   font-size: 0.95rem;
   font-weight: 600;
@@ -900,7 +913,6 @@ img {
   background: rgba(0, 255, 136, 0.1);
   padding: 8px 16px;
   border-radius: var(--radius-sm);
-  margin-bottom: var(--gap-lg);
   border: 1px dashed var(--accent-primary);
   display: inline-flex;
   align-items: center;

@@ -87,7 +87,13 @@
                             <span class="product-card__rating">${ratingStars}</span>
                         </div>
                         ${product.price_note ? `<div class="product-card__price-note">🏷️ ${escapeHtml(product.price_note)}</div>` : ''}
-                        ${product.promo_text ? `<div class="product-card__promo" title="Скопіювати промокод" data-promo="${escapeHtml(product.promo_text.replace(/"/g, '&quot;'))}" onclick="event.preventDefault(); event.stopPropagation(); navigator.clipboard.writeText(this.dataset.promo); const orig = this.innerHTML; this.innerHTML = '✅ Скопійовано!'; setTimeout(() => this.innerHTML = orig, 2000);">✂️ ${escapeHtml(product.promo_text)}</div>` : ''}
+                        ${product.promo_text ? (() => {
+                            const promos = product.promo_text.split(',').map(s => s.trim()).filter(Boolean);
+                            if (!promos.length) return '';
+                            return `<div class="product-card__promos">` + promos.map(p => 
+                                `<div class="product-card__promo" title="Скопіювати промокод" data-promo="${escapeHtml(p)}" onclick="event.preventDefault(); event.stopPropagation(); navigator.clipboard.writeText(this.dataset.promo); const orig = this.innerHTML; this.innerHTML = '✅ Скопійовано!'; setTimeout(() => this.innerHTML = orig, 2000);">✂️ ${escapeHtml(p)}</div>`
+                            ).join('') + `</div>`;
+                        })() : ''}
                         <div class="product-card__orders">${product.orders || 0} замовлень</div>
                         <a href="${product.affiliate_link || product.link || '#'}" 
                            target="_blank" 
