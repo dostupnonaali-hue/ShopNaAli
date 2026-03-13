@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007636100841",
+      "title": "Сирорізка з нержавіючої сталі з регульованою товщиною масла",
+      "price": 2.13,
+      "currency": "USD",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 297,
+      "image": "https://ae01.alicdn.com/kf/Sdffc66cf2b6b440d9996b341f2ce6641b.jpg",
+      "link": "https://aliexpress.com/item/1005007636100841.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007636100841.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T15:10:04.550622+00:00"
+    },
+    {
       "id": "1005008672576828",
       "title": "Жіноча футболка з коротким рукавом Semir Slim Fit Base Layer Square",
       "price": 6.85,
