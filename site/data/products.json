@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011797155152",
+      "title": "Бездротова охоронна сигналізація на двері, вікно, магнітний датчик",
+      "price": 26.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1020,
+      "image": "https://ae01.alicdn.com/kf/S6426cac193c647129dbdb8064be3e56fa.jpeg",
+      "link": "https://aliexpress.com/item/1005011797155152.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011797155152.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-13T19:05:57.828161+00:00"
+    },
+    {
       "id": "1005006678235045",
       "title": "3LED супер яскравий ліхтарик портативний міні серійний спалах",
       "price": 2.15,
