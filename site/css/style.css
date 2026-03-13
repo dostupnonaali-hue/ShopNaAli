@@ -1284,6 +1284,23 @@ img {
   padding: 10px 14px;
   border-radius: var(--radius-sm);
   margin-top: auto;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.promo-card__code-wrap:hover {
+  background: rgba(0, 255, 136, 0.15);
+  border-style: solid;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 255, 136, 0.15);
+}
+
+.promo-card__code-wrap:hover .promo-card__copy {
+  transform: scale(1.15);
+}
+
+.promo-card__code-wrap:active {
+  transform: translateY(0);
 }
 
 .promo-card__code {
@@ -1299,13 +1316,13 @@ img {
   background: none;
   border: none;
   color: var(--accent-primary);
-  cursor: pointer;
   padding: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all var(--transition-fast);
   border-radius: var(--radius-xs);
+  pointer-events: none; /* Let the wrapper handle the click */
 }
 
 .promo-card__copy:hover {
