@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007306794202",
+      "title": "1 шт. Побутова Сова Гачок для ключів Вхід фойє Настінний і",
+      "price": 63.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 150,
+      "image": "https://ae01.alicdn.com/kf/S91bce05a5a114fbabafa1d1e240b3c492.jpg",
+      "link": "https://aliexpress.com/item/1005007306794202.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007306794202.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "89 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-13T17:04:23.531006+00:00"
+    },
+    {
       "id": "1005011796425340",
       "title": "Прикраса автомобіля. Кабель для передачі даних для заряджання, масштабований 3 в 1",
       "price": 55.0,
