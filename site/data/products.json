@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006996130936",
+      "title": "Професійна портативна бездротова водна нитка для зубів,",
+      "price": 6.73,
+      "currency": "USD",
+      "category": "tools",
+      "rating": 4.9,
+      "orders": 1780,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006996130936.jpg",
+      "link": "https://aliexpress.com/item/1005006996130936.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006996130936.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T11:06:12.658937+00:00"
+    },
+    {
       "id": "1005005191628092",
       "title": "Підвищувальний перетворювач кабелю живлення Olaf типу C до постійного струму, 8 адаптерів",
       "price": 1.52,
