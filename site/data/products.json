@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007443357573",
+      "title": "Портативний зовнішній акумулятор UGREEN Nexode Mini Power Bank",
+      "price": 36.76,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 341,
+      "image": "",
+      "link": "https://aliexpress.com/item/1005007443357573.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007443357573.html",
+      "description": "",
+      "promo_text": "POW006",
+      "price_note": "Промокод POW006",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T10:53:34.194234+00:00"
+    },
+    {
       "id": "1005006861833277",
       "title": "Від 56 грн з монетами Як замовити з безкоштовною доставкою",
       "price": 56.0,
