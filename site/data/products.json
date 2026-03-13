@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006860790899",
+      "title": "Набір багатоцільових викруток із ручкою та магнітом",
+      "price": 2.28,
+      "currency": "USD",
+      "category": "tools",
+      "rating": 4.8,
+      "orders": 701,
+      "image": "https://ae01.alicdn.com/kf/S4b3dd314581849f2adad07f6c819fc2ae.jpg",
+      "link": "https://aliexpress.com/item/1005006860790899.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006860790899.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T15:57:50.111870+00:00"
+    },
+    {
       "id": "1005004748342887",
       "title": "IMOU Cruiser SE+ 5MP Set Wi-Fi Camera Smart Color Night",
       "price": 68.39,
