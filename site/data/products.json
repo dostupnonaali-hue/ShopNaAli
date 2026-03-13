@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008430025403",
+      "title": "Та кемпінгу, водонепроникний, вологостійкий, для М",
+      "price": 33.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 4.7,
+      "orders": 1792,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008430025403.jpg",
+      "link": "https://aliexpress.com/item/1005008430025403.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008430025403.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-13T13:00:01.424166+00:00"
+    },
+    {
       "id": "1005008290038552",
       "title": "USB нічник, що перезаряджається, для кухонної шафи, м",
       "price": 114.0,
