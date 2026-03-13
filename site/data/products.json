@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008248094456",
+      "title": "Ножиці DELI з м’якою ручкою для офісу та домашнього використання – довговічні",
+      "price": 90.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1664,
+      "image": "https://ae01.alicdn.com/kf/S6806092ead3d4b59b428d2bd3a94b6a99.png",
+      "link": "https://aliexpress.com/item/1005008248094456.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008248094456.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "99 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-13T19:20:21.325628+00:00"
+    },
+    {
+      "id": "1005011787240711",
+      "title": "Потовщена запірна арматура гарячої та холодної води",
+      "price": 61.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1903,
+      "image": "https://ae01.alicdn.com/kf/S6b92c7298e1d4143ab8ab94f96183a81S.jpg",
+      "link": "https://aliexpress.com/item/1005011787240711.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011787240711.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-13T19:16:25.692042+00:00"
+    },
+    {
       "id": "1005007014584235",
       "title": "Електричний автоматичний набір для подрібнення солі та перцю зі світлодіодом",
       "price": 5.73,
