@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010642085716",
+      "title": "Наклейка з прапором України. Наклейка на машину у формі серця. Водонепроникна",
+      "price": 45.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.7,
+      "orders": 1304,
+      "image": "https://ae01.alicdn.com/kf/S929791e30ff14327bfcf96b5564180b6J.jpg",
+      "link": "https://aliexpress.com/item/1005010642085716.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010642085716.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-13T16:55:25.440043+00:00"
+    },
+    {
       "id": "1005007857126749",
       "title": "Шестикутний ролик для йоги: круглий пінопластовий циліндр EVA для пілатесу",
       "price": 119.0,
