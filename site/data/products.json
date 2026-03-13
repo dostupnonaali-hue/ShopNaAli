@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011789452615",
+      "title": "Від = Nex-Tech Store Store ( # 4.9 | 5000+ продано )",
+      "price": 22.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1836,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011789452615.jpg",
+      "link": "https://aliexpress.com/item/1005011789452615.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011789452615.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-13T14:05:49.726117+00:00"
+    },
+    {
       "id": "1005011666430147",
       "title": "Капелюх для риболовлі, 65 см, парасолька від дощу без рук для М",
       "price": 64.0,
