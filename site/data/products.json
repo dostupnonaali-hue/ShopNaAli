@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007014584235",
+      "title": "Електричний автоматичний набір для подрібнення солі та перцю зі світлодіодом",
+      "price": 5.73,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 788,
+      "image": "https://ae01.alicdn.com/kf/S276c7cee0fdf40b0a76b9cda5181ce2f8.jpg",
+      "link": "https://aliexpress.com/item/1005007014584235.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007014584235.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T19:14:37.762419+00:00"
+    },
+    {
       "id": "1005005509129703",
       "title": "Складні харчові чохли Mesh Anti Fly Mosquito Meal Food Cover",
       "price": 47.0,
