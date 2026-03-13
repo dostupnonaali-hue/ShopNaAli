@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005009692224600",
+      "title": "Бездротова ергономічна миша з підсвічуванням і Smart Flying",
+      "price": 23.81,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1531,
+      "image": "https://ae01.alicdn.com/kf/S2fbbd5eb17b64d69a50a830a17acd2d5u.jpg",
+      "link": "https://aliexpress.com/item/1005009692224600.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009692224600.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T15:51:06.062496+00:00"
+    },
+    {
       "id": "1005009690791658",
       "title": "Realme Buds Air8 TWS Earphone 11+ Premier Dual Drivers",
       "price": 35.66,
