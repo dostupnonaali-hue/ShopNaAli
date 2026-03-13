@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010209911111",
+      "title": "Новий розумний годинник BlackShark GS3 Ultra оснащений",
+      "price": 39.56,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 229,
+      "image": "https://ae01.alicdn.com/kf/S361b424b8e1a4cdd8ec904c92efa37e7P.jpg",
+      "link": "https://aliexpress.com/item/1005010209911111.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010209911111.html",
+      "description": "",
+      "promo_text": "99QPY7, ASUA07, UAAFF07, UAS7, ASZ, UA07",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T15:44:03.033835+00:00"
+    },
+    {
       "id": "1005009870602905",
       "title": "Бездротовий геймпад FANTECH NOVA II WGP16, гіроскоп, датчик Холла",
       "price": 21.03,
