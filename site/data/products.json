@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005004852449958",
+      "title": "Зарядний пристрій UGREEN GaN PPS QC4.0 PD3.0",
+      "price": 30.36,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 302,
+      "image": "https://ae01.alicdn.com/kf/S3843260d02784fe5ad29a78c794a17249.jpg",
+      "link": "https://aliexpress.com/item/1005004852449958.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004852449958.html",
+      "description": "",
+      "promo_text": "368KY2, ASUA05, UAAFF05, UAS5",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T15:17:13.841919+00:00"
+    },
+    {
       "id": "1005007636100841",
       "title": "Сирорізка з нержавіючої сталі з регульованою товщиною масла",
       "price": 2.13,
