@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007635102518",
+      "title": "Повністю автоматична парасолька для чоловіків і жінок із кільцевою пряжкою",
+      "price": 6.46,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 1857,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007635102518.jpg",
+      "link": "https://aliexpress.com/item/1005007635102518.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007635102518.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T11:14:14.915564+00:00"
+    },
+    {
       "id": "1005006043734920",
       "title": "Налобний ліхтар Sofirn HS10 USB C Rechargeable Mini 16340 1100lm",
       "price": 11.84,
