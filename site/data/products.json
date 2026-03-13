@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005005191628092",
+      "title": "Підвищувальний перетворювач кабелю живлення Olaf типу C до постійного струму, 8 адаптерів",
+      "price": 1.52,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 588,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005005191628092.jpg",
+      "link": "https://aliexpress.com/item/1005005191628092.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005191628092.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T11:02:23.390729+00:00"
+    },
+    {
       "id": "4001299090009",
       "title": "Звукова карта USB UGREEN Зовнішній аудіоінтерфейс 3.",
       "price": 5.73,
