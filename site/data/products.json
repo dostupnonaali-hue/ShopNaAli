@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010648042384",
+      "title": "4 кольори, антистатична щітка для волосся та засіб для розчісування волосся, повітряна подушка",
+      "price": 45.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 387,
+      "image": "https://ae01.alicdn.com/kf/S59774a5b43f44e2fae8921eeb54dcdfd1.jpg",
+      "link": "https://aliexpress.com/item/1005010648042384.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010648042384.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "101 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-13T16:20:17.541512+00:00"
+    },
+    {
       "id": "1005011804380647",
       "title": "Заспокійлива пілінг-маска для губ Зволожуючий розгладжуючий бальзам для губ",
       "price": 34.0,
