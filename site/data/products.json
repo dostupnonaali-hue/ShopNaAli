@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "32871479347",
+      "title": "Графічний планшет XPen Star G640, версія B, 6 дюймів, цифровий",
+      "price": 16.66,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1270,
+      "image": "https://ae01.alicdn.com/kf/Sd09cc8cd4cd247abbec4b3c28f7260b1H.jpg",
+      "link": "https://aliexpress.com/item/32871479347.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F32871479347.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T15:19:39.618623+00:00"
+    },
+    {
       "id": "1005004852449958",
       "title": "Зарядний пристрій UGREEN GaN PPS QC4.0 PD3.0",
       "price": 30.36,
