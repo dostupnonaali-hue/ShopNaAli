@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011774176836",
+      "title": "Що висвітлює в період відключення електроенергії. V",
+      "price": 150.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.9,
+      "orders": 850,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011774176836.jpg",
+      "link": "https://aliexpress.com/item/1005011774176836.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011774176836.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-13T14:14:49.272035+00:00"
+    },
+    {
       "id": "1005011804330109",
       "title": "Автор = Daily Life Electric ... (# 4.9 | 4000+ продано)",
       "price": 249.0,
