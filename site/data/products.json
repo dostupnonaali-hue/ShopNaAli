@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011796425340",
+      "title": "Прикраса автомобіля. Кабель для передачі даних для заряджання, масштабований 3 в 1",
+      "price": 55.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 792,
+      "image": "https://ae01.alicdn.com/kf/S09e5962942944fc2955a107b3a692bd08.jpg",
+      "link": "https://aliexpress.com/item/1005011796425340.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011796425340.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-13T16:58:54.862211+00:00"
+    },
+    {
       "id": "1005010642085716",
       "title": "Наклейка з прапором України. Наклейка на машину у формі серця. Водонепроникна",
       "price": 45.0,
