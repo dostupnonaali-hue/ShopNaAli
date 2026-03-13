@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010537097024",
+      "title": "CMH Baby Електричний назальний аспіратор 3 режими всмоктування Харчування",
+      "price": 181.0,
+      "currency": "UAH",
+      "category": "toys",
+      "rating": 4.9,
+      "orders": 1790,
+      "image": "https://ae01.alicdn.com/kf/S18b6c35b7dc64902b3f2bc35139deb1dS.jpg",
+      "link": "https://aliexpress.com/item/1005010537097024.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010537097024.html",
+      "description": "",
+      "promo_text": "6JDKJ",
+      "price_note": "523 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-13T15:04:50.436287+00:00"
+    },
+    {
       "id": "1005007168456872",
       "title": "Портативний велосипедний насос Schrader Valve 80PSI Lightweight",
       "price": 71.0,
