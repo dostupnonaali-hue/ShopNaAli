@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011803315125",
+      "title": "150 грн з монетами",
+      "price": 150.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1537,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011803315125.jpg",
+      "link": "https://aliexpress.com/item/1005011803315125.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011803315125.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-13T10:22:56.207965+00:00"
+    },
+    {
       "id": "1005010255180609",
       "title": "realme Buds Air7 Pro TWS Earphone Russian Version 53dB 6mic Noise Cancellation AI Live Translator 11+6mm Dual-dac Driver IP55 Price: $46.33 Coupon: \"ASUA07\" #⃣ #Aliexpress Ціна на 16.03 без врахування",
       "price": 46.33,
