@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011824580437",
+      "title": "М'яка дорожня сумка для домашніх тварин Сумка для багажу, схвалена авіакомпанією",
+      "price": 87.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 942,
+      "image": "https://ae01.alicdn.com/kf/S5cba5e65fbd34497aca024a1570fdba6w.jpg",
+      "link": "https://aliexpress.com/item/1005011824580437.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011824580437.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-13T17:46:12.559820+00:00"
+    },
+    {
       "id": "1005011812108011",
       "title": "Універсальний поворотний настінний кронштейн для телевізійного монітора Full Motion",
       "price": 128.0,
