@@ -45,14 +45,80 @@
                 <input type="text" id="searchInput" placeholder="Шукати товари..." autocomplete="off">
             </div>
 
-            <div class="header__links">
-                <a href="faq.html" style="color: var(--text-secondary); font-size: 0.85rem; font-weight: 500;">📖 Гайд</a>
-                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__tg-link">
-                    ✈️ Telegram
-                </a>
-            </div>
+            <!-- Desktop nav -->
+            <nav class="header__nav" id="desktopNav">
+                <a href="index.html" class="header__nav-link active">🏠 Головна</a>
+                <a href="faq.html" class="header__nav-link">📖 Гайд</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__nav-link header__nav-link--tg">✈️ Telegram</a>
+            </nav>
+
+            <!-- Burger button -->
+            <button class="burger" id="burgerBtn" aria-label="Меню">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
         </div>
     </header>
+
+    <!-- Mobile menu overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- Mobile slide-out menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+            <button class="mobile-menu__close" id="menuClose" aria-label="Закрити">✕</button>
+        </div>
+        <div class="mobile-menu__links">
+            <a href="index.html" class="mobile-menu__link active">
+                <span class="mobile-menu__icon">🏠</span> Головна
+            </a>
+            <a href="faq.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">📖</span> Гайд
+            </a>
+            <a href="promos.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✂️</span> Промокоди
+            </a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✈️</span> Наш Telegram
+            </a>
+            <a href="#" class="mobile-menu__link mobile-menu__link--soon">
+                <span class="mobile-menu__icon">💰</span> Товар DoBaksa
+                <span class="mobile-menu__badge">Скоро</span>
+            </a>
+            <a href="#" class="mobile-menu__link mobile-menu__link--soon">
+                <span class="mobile-menu__icon">📝</span> Блог
+                <span class="mobile-menu__badge">Скоро</span>
+            </a>
+        </div>
+        <div class="mobile-menu__footer">
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__tg-btn">
+                ✈️ Підписатись на Telegram
+            </a>
+        </div>
+    </nav>
+
+    <script>
+    (function() {
+        const burger = document.getElementById('burgerBtn');
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        const closeBtn = document.getElementById('menuClose');
+        function toggleMenu() {
+            const isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
+            burger.classList.toggle('open', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        }
+        burger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+    })();
+    </script>
 
     <!-- Main Content -->
     <main class="main">
