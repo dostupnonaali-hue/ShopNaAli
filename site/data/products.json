@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010727052570",
+      "title": "Наклейка-затискач для захисту веб-камери для iPad, ПК",
+      "price": 11.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1474,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010727052570.jpg",
+      "link": "https://aliexpress.com/item/1005010727052570.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010727052570.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-13T14:40:35.274209+00:00"
+    },
+    {
       "id": "1005007030166265",
       "title": "Кошик для циліндра з дротяної сітки Портативний Outdoor Campin М",
       "price": 158.0,
