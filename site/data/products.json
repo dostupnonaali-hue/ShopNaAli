@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010587058992",
+      "title": "EepomO | Lenovo Smart Store DR SALE (259",
+      "price": 144.75,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1521,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010587058992.jpg",
+      "link": "https://aliexpress.com/item/1005010587058992.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010587058992.html",
+      "description": "",
+      "promo_text": "ZK5CMJ8R, IFPRJAFU, IFPENERM, IFP5HTJT",
+      "price_note": "Промокод ZK5CMJ8R",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T11:19:06.470517+00:00"
+    },
+    {
       "id": "1005007635102518",
       "title": "Повністю автоматична парасолька для чоловіків і жінок із кільцевою пряжкою",
       "price": 6.46,
