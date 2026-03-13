@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006909422444",
+      "title": "Чоловічі бавовняні трусики MiiOW",
+      "price": 6.54,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 267,
+      "image": "https://ae01.alicdn.com/kf/S33dc82146f8046a99d5fdcfeb51649ffw.jpg",
+      "link": "https://aliexpress.com/item/1005006909422444.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006909422444.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T19:47:18.270749+00:00"
+    },
+    {
       "id": "1005007476943232",
       "title": "Сумка для зберігання кабелю Портативний кабель для передачі даних Органайзер для навушників",
       "price": 3.37,
