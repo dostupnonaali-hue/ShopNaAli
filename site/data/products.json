@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011828123546",
+      "title": "Автомобільна подушка для шиї та поперекової підтримки талії",
+      "price": 2.91,
+      "currency": "USD",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 491,
+      "image": "https://ae01.alicdn.com/kf/S4b2b6712ae264de9a4be243b1210c97c5.jpg",
+      "link": "https://aliexpress.com/item/1005011828123546.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011828123546.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-13T19:37:31.778642+00:00"
+    },
+    {
       "id": "1005008248094456",
       "title": "Ножиці DELI з м’якою ручкою для офісу та домашнього використання – довговічні",
       "price": 90.0,
