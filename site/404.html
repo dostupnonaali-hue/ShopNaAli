@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Сторінку не знайдено | ShopDoBaksa</title>
+    <meta name="description" content="Ой! Ця сторінка загубилась десь на складі AliExpress">
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon-180.png">
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .page-404 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: calc(100vh - var(--header-height));
+            padding: calc(var(--header-height) + 40px) 20px 60px;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        /* === Floating packages animation === */
+        .floating-packages {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .package {
+            position: absolute;
+            font-size: 2rem;
+            opacity: 0;
+            animation: floatPackage linear infinite;
+        }
+
+        @keyframes floatPackage {
+            0% {
+                transform: translateY(110vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% { opacity: 0.7; }
+            90% { opacity: 0.7; }
+            100% {
+                transform: translateY(-10vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* === The big 404 number === */
+        .error-number {
+            font-size: clamp(6rem, 20vw, 14rem);
+            font-weight: 900;
+            line-height: 1;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary), var(--accent-tertiary));
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradientShift 4s ease infinite;
+            margin-bottom: 10px;
+            position: relative;
+            cursor: default;
+            user-select: none;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        /* === Cart character === */
+        .cart-character {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            margin: 0 auto 20px;
+            animation: cartBounce 2s ease-in-out infinite;
+        }
+
+        .cart-body {
+            font-size: 5rem;
+            line-height: 1;
+            filter: drop-shadow(0 0 20px rgba(0, 255, 136, 0.3));
+        }
+
+        .cart-eyes {
+            position: absolute;
+            top: 22px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 12px;
+        }
+
+        .cart-eye {
+            width: 10px;
+            height: 10px;
+            background: #fff;
+            border-radius: 50%;
+            position: relative;
+            animation: blink 3s ease-in-out infinite;
+        }
+
+        .cart-eye::after {
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background: var(--bg-primary);
+            border-radius: 50%;
+            top: 3px;
+            left: 3px;
+            animation: lookAround 4s ease-in-out infinite;
+        }
+
+        @keyframes blink {
+            0%, 95%, 100% { transform: scaleY(1); }
+            97% { transform: scaleY(0.1); }
+        }
+
+        @keyframes lookAround {
+            0%, 100% { transform: translate(0, 0); }
+            25% { transform: translate(3px, 1px); }
+            50% { transform: translate(-2px, -1px); }
+            75% { transform: translate(1px, 2px); }
+        }
+
+        @keyframes cartBounce {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            25% { transform: translateY(-8px) rotate(-3deg); }
+            75% { transform: translateY(-4px) rotate(3deg); }
+        }
+
+        /* === Sweat drops === */
+        .sweat {
+            position: absolute;
+            font-size: 1rem;
+            right: 10px;
+            top: 15px;
+            opacity: 0;
+            animation: sweatDrop 2.5s ease-in-out infinite;
+        }
+
+        @keyframes sweatDrop {
+            0%, 60%, 100% { opacity: 0; transform: translate(0, 0); }
+            70% { opacity: 1; transform: translate(4px, -6px); }
+            90% { opacity: 0; transform: translate(6px, 10px); }
+        }
+
+        /* === Message === */
+        .error-message {
+            font-size: clamp(1.2rem, 3vw, 1.6rem);
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .error-subtitle {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            max-width: 480px;
+            margin: 0 auto 32px;
+            line-height: 1.6;
+        }
+
+        /* === Search bar === */
+        .error-search {
+            display: flex;
+            gap: 8px;
+            max-width: 420px;
+            width: 100%;
+            margin: 0 auto 24px;
+        }
+
+        .error-search input {
+            flex: 1;
+            padding: 14px 20px;
+            background: var(--bg-glass);
+            border: 1px solid var(--bg-glass-border);
+            border-radius: var(--radius-full);
+            color: var(--text-primary);
+            font-size: 0.95rem;
+            font-family: inherit;
+            outline: none;
+            transition: all var(--transition-normal);
+        }
+
+        .error-search input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .error-search input:focus {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px var(--accent-primary-glow);
+        }
+
+        .error-search button {
+            padding: 14px 24px;
+            background: linear-gradient(135deg, var(--accent-primary), #00d4aa);
+            border: none;
+            border-radius: var(--radius-full);
+            color: var(--bg-primary);
+            font-size: 0.95rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all var(--transition-normal);
+            white-space: nowrap;
+        }
+
+        .error-search button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-glow);
+        }
+
+        /* === Action buttons === */
+        .error-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .error-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: var(--radius-full);
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all var(--transition-normal);
+            text-decoration: none;
+        }
+
+        .error-btn--primary {
+            background: linear-gradient(135deg, var(--accent-primary), #00d4aa);
+            color: var(--bg-primary);
+        }
+
+        .error-btn--primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-glow);
+            color: var(--bg-primary);
+        }
+
+        .error-btn--secondary {
+            background: var(--bg-glass);
+            border: 1px solid var(--bg-glass-border);
+            color: var(--text-secondary);
+        }
+
+        .error-btn--secondary:hover {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+
+        /* === Easter egg: click counter === */
+        .click-counter {
+            margin-top: 24px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .click-counter.visible {
+            opacity: 1;
+        }
+
+        /* === Confetti === */
+        .confetti-piece {
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 300;
+            animation: confettiFall 1.5s ease-out forwards;
+        }
+
+        @keyframes confettiFall {
+            0% { transform: translateY(0) rotate(0deg) scale(1); opacity: 1; }
+            100% { transform: translateY(120vh) rotate(720deg) scale(0); opacity: 0; }
+        }
+
+        /* === Responsive === */
+        @media (max-width: 480px) {
+            .error-search {
+                flex-direction: column;
+            }
+
+            .error-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+
+            <nav class="header__nav">
+                <a href="index.html" class="header__nav-link">🏠 Головна</a>
+                <a href="faq.html" class="header__nav-link">📖 Гайд</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__nav-link header__nav-link--tg">✈️ Telegram</a>
+            </nav>
+
+            <button class="burger" id="burgerBtn" aria-label="Меню">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+            <button class="mobile-menu__close" id="menuClose" aria-label="Закрити">✕</button>
+        </div>
+        <div class="mobile-menu__links">
+            <a href="index.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🏠</span> Головна
+            </a>
+            <a href="faq.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">📖</span> Гайд
+            </a>
+            <a href="promos.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✂️</span> Промокоди
+            </a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✈️</span> Наш Telegram
+            </a>
+            <a href="#" class="mobile-menu__link mobile-menu__link--soon">
+                <span class="mobile-menu__icon">💰</span> Товар DoBaksa
+                <span class="mobile-menu__badge">Скоро</span>
+            </a>
+            <a href="#" class="mobile-menu__link mobile-menu__link--soon">
+                <span class="mobile-menu__icon">📝</span> Блог
+                <span class="mobile-menu__badge">Скоро</span>
+            </a>
+        </div>
+        <div class="mobile-menu__footer">
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__tg-btn">
+                ✈️ Підписатись на Telegram
+            </a>
+        </div>
+    </nav>
+
+    <!-- Floating packages background -->
+    <div class="floating-packages" id="floatingPackages"></div>
+
+    <!-- 404 Content -->
+    <div class="page-404">
+
+        <!-- Animated cart character -->
+        <div class="cart-character" id="cartCharacter">
+            <div class="cart-body">🛒</div>
+            <div class="cart-eyes">
+                <div class="cart-eye"></div>
+                <div class="cart-eye"></div>
+            </div>
+            <span class="sweat">💧</span>
+        </div>
+
+        <!-- Big 404 -->
+        <div class="error-number" id="errorNumber">404</div>
+
+        <div class="error-message">Ой! Ця сторінка загубилась 📦</div>
+        <p class="error-subtitle">
+            Схоже, що посилка з цією сторінкою застрягла десь між Китаєм та вашим браузером. 
+            Спробуйте пошукати щось цікавіше!
+        </p>
+
+        <!-- Search -->
+        <div class="error-search">
+            <input type="text" id="searchInput404" placeholder="Шукати товари...">
+            <button onclick="doSearch()">🔍 Знайти</button>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="error-actions">
+            <a href="index.html" class="error-btn error-btn--primary">🏠 На головну</a>
+            <a href="faq.html" class="error-btn error-btn--secondary">📖 Читати гайд</a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="error-btn error-btn--secondary">✈️ Telegram</a>
+        </div>
+
+        <!-- Easter egg click counter -->
+        <div class="click-counter" id="clickCounter"></div>
+    </div>
+
+    <script>
+    // === Burger menu ===
+    (function() {
+        const burger = document.getElementById('burgerBtn');
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        const closeBtn = document.getElementById('menuClose');
+        function toggleMenu() {
+            const isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
+            burger.classList.toggle('open', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        }
+        burger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+    })();
+
+    // === Floating packages ===
+    (function() {
+        const container = document.getElementById('floatingPackages');
+        const emojis = ['📦', '🛒', '✈️', '🎁', '🛍️', '📮', '🏷️', '💸', '🪙', '🧧'];
+
+        function createPackage() {
+            const el = document.createElement('span');
+            el.className = 'package';
+            el.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+            el.style.left = Math.random() * 100 + '%';
+            el.style.fontSize = (1.2 + Math.random() * 1.8) + 'rem';
+            const duration = 8 + Math.random() * 12;
+            el.style.animationDuration = duration + 's';
+            el.style.animationDelay = Math.random() * 2 + 's';
+            container.appendChild(el);
+            setTimeout(() => el.remove(), (duration + 3) * 1000);
+        }
+
+        // Initial burst
+        for (let i = 0; i < 8; i++) {
+            setTimeout(createPackage, i * 400);
+        }
+        // Continuous
+        setInterval(createPackage, 2000);
+    })();
+
+    // === Easter egg: click 404 number ===
+    (function() {
+        const num = document.getElementById('errorNumber');
+        const counter = document.getElementById('clickCounter');
+        let clicks = 0;
+        const messages = [
+            '',
+            '🤔 Один клік...',
+            '🧐 Ще раз?',
+            '😏 Наполегливий...',
+            '😅 Хватить клікати!',
+            '🤪 5 разів! Ти нереальний!',
+            '🏆 6! Ти офіційний клікер!',
+            '🌟 7! Ти заслуговуєш знижку!',
+            '🚀 8! Ракета летить!',
+            '🎆 9! Ще один...',
+            '🎉🎉🎉 10! КОНФЕТІ!!!'
+        ];
+
+        num.addEventListener('click', function() {
+            clicks++;
+            counter.classList.add('visible');
+            
+            if (clicks <= 10) {
+                counter.textContent = messages[clicks];
+            } else {
+                counter.textContent = '🤯 ' + clicks + ' кліків! Тобі точно нічого робити?';
+            }
+
+            // Shake animation
+            num.style.animation = 'none';
+            num.offsetHeight; // reflow
+            num.style.animation = 'gradientShift 4s ease infinite';
+            num.style.transform = 'scale(1.1)';
+            setTimeout(() => num.style.transform = 'scale(1)', 150);
+
+            // Confetti at 10 clicks
+            if (clicks === 10) {
+                spawnConfetti();
+            }
+        });
+
+        function spawnConfetti() {
+            const colors = ['#00ff88', '#8b5cf6', '#ff6b35', '#2AABEE', '#fbbf24', '#ef4444', '#06b6d4'];
+            for (let i = 0; i < 60; i++) {
+                setTimeout(() => {
+                    const c = document.createElement('div');
+                    c.className = 'confetti-piece';
+                    c.style.left = Math.random() * 100 + 'vw';
+                    c.style.top = '-10px';
+                    c.style.background = colors[Math.floor(Math.random() * colors.length)];
+                    c.style.width = (5 + Math.random() * 8) + 'px';
+                    c.style.height = c.style.width;
+                    c.style.animationDuration = (1 + Math.random() * 2) + 's';
+                    document.body.appendChild(c);
+                    setTimeout(() => c.remove(), 3000);
+                }, i * 30);
+            }
+        }
+    })();
+
+    // === Search redirect ===
+    function doSearch() {
+        const q = document.getElementById('searchInput404').value.trim();
+        if (q) {
+            window.location.href = 'index.html?search=' + encodeURIComponent(q);
+        } else {
+            window.location.href = 'index.html';
+        }
+    }
+
+    document.getElementById('searchInput404').addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') doSearch();
+    });
+    </script>
+
+</body>
+</html>
