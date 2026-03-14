@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011811680881",
+      "title": "Високоякісний складний захват для ручних інструментів",
+      "price": 120.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.9,
+      "orders": 650,
+      "image": "https://ae01.alicdn.com/kf/Sc6a9634e81c04a969e1bba7437367cc4V.jpg",
+      "link": "https://aliexpress.com/item/1005011811680881.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011811680881.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T11:10:39.327732+00:00"
+    },
+    {
       "id": "1005011785288685",
       "title": "1 пара роз’ємів клем для важкої батареї, універсальний автомобіль",
       "price": 38.0,
