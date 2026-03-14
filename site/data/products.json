@@ -1,5 +1,22 @@
 {
   "products": [
+      {
+      "id": "150117899646",
+      "title": "Наживка на рибу",
+      "price": 28.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1366,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9f692072d28d4b21a716e7ca0a01f1dcG.jpg",
+      "link": "https://s.click.aliexpress.com/e/_c3kKDTOF",
+      "affiliate_link": "https://s.click.aliexpress.com/e/_c3kKDTOF",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T19:54:08.756396+00:00"
+    },
     {
       "id": "1005011789966646",
       "title": "Автомобільний повітрозабірний тримач для телефону. Кронштейн для підтримки телефону",
