@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011799580179",
+      "title": "{YY30} /box Рибальські гачки з вуглецевої сталі з одним колом",
+      "price": 49.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 645,
+      "image": "https://ae01.alicdn.com/kf/Sf2b8bf444166430ab155804aa14b270dv.jpg",
+      "link": "https://aliexpress.com/item/1005011799580179.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011799580179.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T12:14:27.160626+00:00"
+    },
+    {
       "id": "1005011762894576",
       "title": "Ємність портативної батареї QOOVI Power Bank PD зі швидкою зарядкою",
       "price": 48.78,
