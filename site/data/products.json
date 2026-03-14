@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007856997942",
+      "title": "HOMEFISH Електрична відкривачка для пляшок вина Автоматична для червоного вина",
+      "price": 237.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 1798,
+      "image": "https://ae01.alicdn.com/kf/S43df4655dabf4a93bba1d2c468b42d7fq.jpg",
+      "link": "https://aliexpress.com/item/1005007856997942.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007856997942.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "180 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T13:11:08.981297+00:00"
+    },
+    {
       "id": "1005007791809002",
       "title": "1/3 упаковки Four Seasons Men",
       "price": 81.0,
