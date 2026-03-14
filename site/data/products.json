@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011789966646",
+      "title": "Автомобільний повітрозабірний тримач для телефону. Кронштейн для підтримки телефону",
+      "price": 32.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1366,
+      "image": "https://ae01.alicdn.com/kf/S41e69d21c2ca45f3bbfb3e8ac4eccec92.jpg",
+      "link": "https://aliexpress.com/item/1005011789966646.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011789966646.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T19:54:08.756396+00:00"
+    },
+    {
       "id": "1005011802194192",
       "title": "2026 Світлодіодна точкова лампочка - заміна галогенної MR11",
       "price": 54.0,
