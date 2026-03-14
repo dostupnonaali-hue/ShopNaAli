@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007348164742",
+      "title": "Модні жіночі чоловічі весна-осінь моряцький чорний жіночий берет",
+      "price": 2.33,
+      "currency": "USD",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 275,
+      "image": "https://ae01.alicdn.com/kf/S3b46572bd9cd47379d6fcb4991387e28I.jpg",
+      "link": "https://aliexpress.com/item/1005007348164742.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007348164742.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-14T10:21:23.780349+00:00"
+    },
+    {
       "id": "1005010662792114",
       "title": "Багатофункціональний портативний кухонний подрібнювач для овочів",
       "price": 234.0,
