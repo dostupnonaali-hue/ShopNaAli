@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008005686645",
+      "title": "1- LiitoKala King4000-JT 3. 18650 12A Розрядка",
+      "price": 26.0,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 737,
+      "image": "https://ae01.alicdn.com/kf/S80d55776b10540ac95788dec8e5b7f60D.jpg",
+      "link": "https://aliexpress.com/item/1005008005686645.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008005686645.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-14T18:11:15.363643+00:00"
+    },
+    {
       "id": "1005010490860176",
       "title": "Soundcore від Anker Liberty 4 NC Wireless Noise Canceling",
       "price": 32.97,
