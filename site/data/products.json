@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007169585766",
+      "title": "Міцний диспенсер для яєць із автоматичним прокручуванням, який можна штабелювати",
+      "price": 147.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 1862,
+      "image": "https://ae01.alicdn.com/kf/S445cd110ef044be9b3eaacd803e84292P.jpg",
+      "link": "https://aliexpress.com/item/1005007169585766.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007169585766.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "176 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T13:51:11.681028+00:00"
+    },
+    {
       "id": "1005011817186829",
       "title": "’ 1шт Бездротовий Bluetooth 5.0 MP3 плата Car Audio USB TF FM",
       "price": 35.0,
