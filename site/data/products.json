@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005004533173953",
+      "title": "Велике ліжко для собак Теплий будиночок Цукеркове квадратне гніздо Pet",
+      "price": 167.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1607,
+      "image": "https://ae01.alicdn.com/kf/Sdbd5bd2474b34abb951125dba09822e0N.jpg",
+      "link": "https://aliexpress.com/item/1005004533173953.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004533173953.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "171 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T10:50:19.903743+00:00"
+    },
+    {
       "id": "1005010484301313",
       "title": "Дорожня сумка на плече великої місткості. Простий спортивний органайзер",
       "price": 7.52,
