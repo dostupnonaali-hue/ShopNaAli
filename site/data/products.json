@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007636147815",
+      "title": "1/4 упаковки сонячних наземних ліхтарів, 14 світлодіодних водонепроникних зовнішніх світильників",
+      "price": 91.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1330,
+      "image": "https://ae01.alicdn.com/kf/S53361566d1764b6b878095074fd16423G.jpg",
+      "link": "https://aliexpress.com/item/1005007636147815.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007636147815.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T09:11:29.929790+00:00"
+    },
+    {
       "id": "1005005286806720",
       "title": "Ручне шиття мікрофібри Шкіряна оплетка автомобільного керма",
       "price": 35.0,
