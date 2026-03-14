@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011828205387",
+      "title": "Набір високоякісних шкарпеток до щиколотки з принтом серця, м’який комфорт",
+      "price": 60.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 815,
+      "image": "https://ae01.alicdn.com/kf/Sa9b6d244496a4f648a8893dec47e36daW.jpg",
+      "link": "https://aliexpress.com/item/1005011828205387.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011828205387.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-14T13:15:18.595817+00:00"
+    },
+    {
       "id": "1005007856997942",
       "title": "HOMEFISH Електрична відкривачка для пляшок вина Автоматична для червоного вина",
       "price": 237.0,
