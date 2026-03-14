@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010662792114",
+      "title": "Багатофункціональний портативний кухонний подрібнювач для овочів",
+      "price": 234.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1955,
+      "image": "https://ae01.alicdn.com/kf/S869f1cf866d94a588c24b4613a7334d3d.jpg",
+      "link": "https://aliexpress.com/item/1005010662792114.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010662792114.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T10:09:19.575897+00:00"
+    },
+    {
       "id": "1005010718910676",
       "title": "Корейське аніме ловить! Teenieping косплей костюм дівчина плаття",
       "price": 14.0,
