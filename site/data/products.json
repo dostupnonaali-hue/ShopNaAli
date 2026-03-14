@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011848727787",
+      "title": "Жінки",
+      "price": 143.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1603,
+      "image": "https://ae01.alicdn.com/kf/Sb1af82e0d6b947e898881224cb98dbb3q.jpg",
+      "link": "https://aliexpress.com/item/1005011848727787.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011848727787.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-14T14:40:01.521949+00:00"
+    },
+    {
       "id": "1005011805460743",
       "title": "Модні сонцезахисні окуляри COOLMEN унісекс із протиковзкою дужкою",
       "price": 75.0,
