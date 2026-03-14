@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011829689862",
+      "title": "Подарунковий безпілотник YP1 4K Dual WiFi FPV HD камера перешкода",
+      "price": 377.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1011,
+      "image": "https://ae01.alicdn.com/kf/S20a49abfa25d4102b3bc663115419cc2D.jpg",
+      "link": "https://aliexpress.com/item/1005011829689862.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011829689862.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T08:30:25.595536+00:00"
+    },
+    {
       "id": "1005011828643073",
       "title": "Автоматичний висувний повідець для собак, тягова мотузка для домашніх тварин для маленьких",
       "price": 75.0,
