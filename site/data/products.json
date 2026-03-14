@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007635844460",
+      "title": "1шт двошарова знімна багатофункціональна клітка для паличок",
+      "price": 149.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.7,
+      "orders": 876,
+      "image": "https://ae01.alicdn.com/kf/S0d218fc481bd4e81804a28b55a4107a1A.jpg",
+      "link": "https://aliexpress.com/item/1005007635844460.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007635844460.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "198 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T12:50:39.493596+00:00"
+    },
+    {
       "id": "1005011794851272",
       "title": "Розкішний брендовий чоловічий ремінь із високоякісної шкіри",
       "price": 41.0,
