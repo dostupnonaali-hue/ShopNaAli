@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008378969280",
+      "title": "Перезаряджуваний світлодіодний налобний ліхтар COB, сильне світло, водонепроникний",
+      "price": 134.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1610,
+      "image": "https://ae01.alicdn.com/kf/S85ab2369d43347b6a2e751d7eabf9543V.jpg",
+      "link": "https://aliexpress.com/item/1005008378969280.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008378969280.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "171 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T11:12:44.449775+00:00"
+    },
+    {
       "id": "1005011811680881",
       "title": "Високоякісний складний захват для ручних інструментів",
       "price": 120.0,
