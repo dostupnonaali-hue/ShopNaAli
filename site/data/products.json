@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006860681732",
+      "title": "Багатофункціональна сумка для зберігання інструментів",
+      "price": 136.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 1837,
+      "image": "https://ae01.alicdn.com/kf/S85a317b62ef640d4baf91f082cd5bb735.jpg",
+      "link": "https://aliexpress.com/item/1005006860681732.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006860681732.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "166 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T19:20:24.189150+00:00"
+    },
+    {
       "id": "1005007129485408",
       "title": "Сумка для ноутбука",
       "price": 103.0,
