@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011794851272",
+      "title": "Розкішний брендовий чоловічий ремінь із високоякісної шкіри",
+      "price": 41.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 1035,
+      "image": "https://ae01.alicdn.com/kf/S2d451cbb69ff43d3ba3e7df42d7e6463R.jpg",
+      "link": "https://aliexpress.com/item/1005011794851272.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011794851272.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-14T12:45:57.136998+00:00"
+    },
+    {
       "id": "1005002997495884",
       "title": "Світлодіодна стрічка RGB. Світло. Музика. Звук. Керування звуком",
       "price": 3.42,
