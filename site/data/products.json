@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008631663120",
+      "title": "Жіночі літні босоніжки 2026 року. Взуття на танкетці для відпочинку. М’який EVA",
+      "price": 132.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 837,
+      "image": "https://ae01.alicdn.com/kf/S55cbba698e1f41beaefa719d5700f3abl.jpg",
+      "link": "https://aliexpress.com/item/1005008631663120.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008631663120.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "216 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T11:52:35.048387+00:00"
+    },
+    {
       "id": "1005011803541460",
       "title": "1 шт. Вишукані та милі плюшеві забавні шпильки для волосся, милі великоокі",
       "price": 26.0,
