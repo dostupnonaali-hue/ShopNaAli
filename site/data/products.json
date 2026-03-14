@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011785288685",
+      "title": "1 пара роз’ємів клем для важкої батареї, універсальний автомобіль",
+      "price": 38.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1898,
+      "image": "https://ae01.alicdn.com/kf/Sebf74a10cf364e6896c43218e713e959E.jpg",
+      "link": "https://aliexpress.com/item/1005011785288685.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011785288685.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T11:08:16.413328+00:00"
+    },
+    {
       "id": "4000817682431",
       "title": "Зимові шапки для унісекс Нові шапочки-біні В'язана однотонна мила шапка",
       "price": 1.71,
