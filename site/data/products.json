@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008144995121",
+      "title": "Багатофункціональний складний ніж для кемпінгу Bottle Opene \"три в одному\".",
+      "price": 77.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 1685,
+      "image": "https://ae01.alicdn.com/kf/S2f7939b3c333456ba6d4e75b5b55ccf5z.jpg",
+      "link": "https://aliexpress.com/item/1005008144995121.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008144995121.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T17:40:44.110876+00:00"
+    },
+    {
       "id": "1005006982675420",
       "title": "Водонепроникний двошаровий туалет для котячих туалетів",
       "price": 81.0,
