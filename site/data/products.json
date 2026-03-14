@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010209307090",
+      "title": "Смартфон realme 15T NFC Dimensity 6400 Max Chipset Dual",
+      "price": 166.91,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 797,
+      "image": "https://ae01.alicdn.com/kf/S64076481301744df88f4794e83c580b3U.jpg",
+      "link": "https://aliexpress.com/item/1005010209307090.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010209307090.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-14T12:34:38.986235+00:00"
+    },
+    {
       "id": "1005011812114044",
       "title": "НОВИЙ розпродаж 3/ Отвори для ремонту алюмінію під паяння міді",
       "price": 34.0,
