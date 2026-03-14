@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011788587118",
+      "title": "Бездротовий пульт дистанційного керування E27 Light Socket патрон 8M",
+      "price": 71.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 695,
+      "image": "https://ae01.alicdn.com/kf/S02a63b870b4948c3aa507f09616daed4x.jpg",
+      "link": "https://aliexpress.com/item/1005011788587118.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011788587118.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T08:32:18.591359+00:00"
+    },
+    {
       "id": "1005011829689862",
       "title": "Подарунковий безпілотник YP1 4K Dual WiFi FPV HD камера перешкода",
       "price": 377.0,
