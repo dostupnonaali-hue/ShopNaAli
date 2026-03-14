@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011817186829",
+      "title": "’ 1шт Бездротовий Bluetooth 5.0 MP3 плата Car Audio USB TF FM",
+      "price": 35.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 755,
+      "image": "https://ae01.alicdn.com/kf/Sa8c50e6e9eb043388b38c1353e99fe4er.jpg",
+      "link": "https://aliexpress.com/item/1005011817186829.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011817186829.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T13:49:11.627470+00:00"
+    },
+    {
       "id": "1005011828205387",
       "title": "Набір високоякісних шкарпеток до щиколотки з принтом серця, м’який комфорт",
       "price": 60.0,
