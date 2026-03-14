@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008248042786",
+      "title": "Ультратонкий складаний регульований тримач для телефону Toocki",
+      "price": 66.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1369,
+      "image": "https://ae01.alicdn.com/kf/Sb066e165530a410db63b1fcfe712f4b65.jpg",
+      "link": "https://aliexpress.com/item/1005008248042786.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008248042786.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "65 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T14:50:22.552396+00:00"
+    },
+    {
       "id": "1005011848727787",
       "title": "Жінки",
       "price": 143.0,
