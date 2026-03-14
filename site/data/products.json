@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006652910078",
+      "title": "AMD Ryzen 5 7500F , R5 7500F Новий 6C/12T 5NM L3=32M",
+      "price": 269.99,
+      "currency": "USD",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 707,
+      "image": "https://ae01.alicdn.com/kf/Seff9b9d34a194eccb376773a98957ee9K.jpg",
+      "link": "https://aliexpress.com/item/1005006652910078.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006652910078.html",
+      "description": "",
+      "promo_text": "ASUA30, UAAFF30, UAS30",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-14T12:22:12.012345+00:00"
+    },
+    {
       "id": "1005011799580179",
       "title": "{YY30} /box Рибальські гачки з вуглецевої сталі з одним колом",
       "price": 49.0,
