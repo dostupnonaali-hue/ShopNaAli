@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011821147986",
+      "title": "Потужний безщітковий турбоструминний вентилятор 100000 об/хв",
+      "price": 370.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 595,
+      "image": "https://ae01.alicdn.com/kf/S27534f34faee4b16bcd5eaaec77405740.jpg",
+      "link": "https://aliexpress.com/item/1005011821147986.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011821147986.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T19:31:58.848631+00:00"
+    },
+    {
       "id": "1005011803013229",
       "title": "Цього року",
       "price": 57.0,
