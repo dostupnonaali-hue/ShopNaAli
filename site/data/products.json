@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011797601815",
+      "title": "Стелаж для мисок із нержавіючої сталі. Артефакт для зберігання",
+      "price": 60.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1666,
+      "image": "https://ae01.alicdn.com/kf/Sb5dd181ed878420183fdf241096309928.jpeg",
+      "link": "https://aliexpress.com/item/1005011797601815.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011797601815.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-14T11:56:53.393687+00:00"
+    },
+    {
       "id": "1005008631663120",
       "title": "Жіночі літні босоніжки 2026 року. Взуття на танкетці для відпочинку. М’який EVA",
       "price": 132.0,
