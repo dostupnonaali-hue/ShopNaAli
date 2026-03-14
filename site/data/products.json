@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005002997495884",
+      "title": "Світлодіодна стрічка RGB. Світло. Музика. Звук. Керування звуком",
+      "price": 3.42,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1526,
+      "image": "https://ae01.alicdn.com/kf/S64e59c6f8db54d5b880019d9184e7d58J.jpg",
+      "link": "https://aliexpress.com/item/1005002997495884.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005002997495884.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-14T12:44:14.050967+00:00"
+    },
+    {
       "id": "1005008637114330",
       "title": "REDRAGON GS570 Darknets підтримує Bluetooth Wireless aux 3.5",
       "price": 26.55,
