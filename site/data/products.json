@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011796029699",
+      "title": "30* Прозора світлозахисна плівка для автомобільних фар",
+      "price": 27.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 1483,
+      "image": "https://ae01.alicdn.com/kf/S08181d7fac954a419d251d57a27b5bbak.jpg",
+      "link": "https://aliexpress.com/item/1005011796029699.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011796029699.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T11:18:32.225562+00:00"
+    },
+    {
       "id": "1005011787443546",
       "title": "Фрезер з двома канавками з карбіду вольфраму з хвостовиком",
       "price": 20.0,
