@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008268956734",
+      "title": "Оригінальна зубна щітка DR.BEI з дорожнім ящиком Soft Hair",
+      "price": 95.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 1909,
+      "image": "https://ae01.alicdn.com/kf/S7057c3ca112d4792b7905af8823a8cbeo.jpg",
+      "link": "https://aliexpress.com/item/1005008268956734.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008268956734.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "295 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T15:50:24.432377+00:00"
+    },
+    {
       "id": "1005011812416113",
       "title": "Ремінь із заклепками з пентаграмою в готичному стилі, подвійна пряжка",
       "price": 33.0,
