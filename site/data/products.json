@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010497266281",
+      "title": "Розблокований смартфон Oneplus Ace 6T 6.83",
+      "price": 370.99,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1758,
+      "image": "https://ae01.alicdn.com/kf/Sb0b7489f73b74db3a044e6311bc99142K.jpg",
+      "link": "https://aliexpress.com/item/1005010497266281.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010497266281.html",
+      "description": "",
+      "promo_text": "ASUA45, UAAFF45, UAS45",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-14T18:22:24.341431+00:00"
+    },
+    {
       "id": "1005009330821798",
       "title": "Глобальна версія OnePlus Buds 4 True Wireless AI Call Noise",
       "price": 57.8,
