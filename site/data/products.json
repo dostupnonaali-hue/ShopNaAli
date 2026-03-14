@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006861025488",
+      "title": "Зарядний пристрій Essager GaN PD USB C",
+      "price": 117.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 784,
+      "image": "https://ae01.alicdn.com/kf/Sd1adc5a9d4244c1e866efa8d437e30cbr.jpg",
+      "link": "https://aliexpress.com/item/1005006861025488.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006861025488.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "139 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T17:10:23.627935+00:00"
+    },
+    {
       "id": "1005008268956734",
       "title": "Оригінальна зубна щітка DR.BEI з дорожнім ящиком Soft Hair",
       "price": 95.0,
