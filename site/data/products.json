@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007621221008",
+      "title": "UGREEN Power Bank Вбудований кабель Type-C, ноутбук PD3.0",
+      "price": 31.5,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1764,
+      "image": "https://ae01.alicdn.com/kf/S05ebf438d5d84996b1841b1c08829bd9D.jpg",
+      "link": "https://aliexpress.com/item/1005007621221008.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007621221008.html",
+      "description": "",
+      "promo_text": "POW006, ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-14T12:37:06.892784+00:00"
+    },
+    {
       "id": "1005010209307090",
       "title": "Смартфон realme 15T NFC Dimensity 6400 Max Chipset Dual",
       "price": 166.91,
