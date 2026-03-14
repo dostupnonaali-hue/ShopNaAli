@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010798522480",
+      "title": "Lenovo moto series Buds Wireless Earphones Bluetooth 5.3",
+      "price": 25.79,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 246,
+      "image": "https://ae01.alicdn.com/kf/Sd6a9a3f2115d4f09b17241db54526131L.jpg",
+      "link": "https://aliexpress.com/item/1005010798522480.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010798522480.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-14T11:44:15.163275+00:00"
+    },
+    {
       "id": "1005007334728123",
       "title": "UGREEN 1000 Мбіт/с RJ45 Splitter 1 to 2 Ethernet Adapter Lan",
       "price": 11.39,
