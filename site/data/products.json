@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005005286806720",
+      "title": "Ручне шиття мікрофібри Шкіряна оплетка автомобільного керма",
+      "price": 35.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.8,
+      "orders": 377,
+      "image": "https://ae01.alicdn.com/kf/Sc37c74916bdb45f7b38aa9e7d6976acbh.jpg",
+      "link": "https://aliexpress.com/item/1005005286806720.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005286806720.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T09:09:41.505986+00:00"
+    },
+    {
       "id": "1005011788587118",
       "title": "Бездротовий пульт дистанційного керування E27 Light Socket патрон 8M",
       "price": 71.0,
