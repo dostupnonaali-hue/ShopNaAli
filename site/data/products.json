@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007857227162",
+      "title": "Теплі пухнасті пухнасті жіночі тапочки Cross на легкій підошві",
+      "price": 154.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1812,
+      "image": "https://ae01.alicdn.com/kf/S64395d9ce233437b9c84bd6c6578e8bcT.jpg",
+      "link": "https://aliexpress.com/item/1005007857227162.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007857227162.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "176 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T11:33:58.609782+00:00"
+    },
+    {
       "id": "1005008979776299",
       "title": "Складна магнітна підставка для бездротового зарядного пристрою Baseus Qi2",
       "price": 20.99,
