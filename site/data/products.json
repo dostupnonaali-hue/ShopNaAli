@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007129485408",
+      "title": "Сумка для ноутбука",
+      "price": 103.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 295,
+      "image": "https://ae01.alicdn.com/kf/S55a7393e146a455c8e2d2f1d2821b87f2.jpg",
+      "link": "https://aliexpress.com/item/1005007129485408.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007129485408.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-14T19:05:10.687495+00:00"
+    },
+    {
       "id": "1005011811284449",
       "title": "Новий блиск для губ BSIMONE Velvet Matte Lip Gloss - Waterproof,",
       "price": 32.0,
