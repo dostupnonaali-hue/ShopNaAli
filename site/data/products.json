@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011802194192",
+      "title": "2026 Світлодіодна точкова лампочка - заміна галогенної MR11",
+      "price": 54.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 153,
+      "image": "https://ae01.alicdn.com/kf/S9f19b92a467d4da9a7a8187d00a5d087L.jpg",
+      "link": "https://aliexpress.com/item/1005011802194192.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011802194192.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-14T19:52:17.607551+00:00"
+    },
+    {
       "id": "1005011808313942",
       "title": "Контейнер для масла Food Grade PP Box Restaurant Sealed",
       "price": 87.0,
