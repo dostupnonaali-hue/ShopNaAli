@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005009889175016",
+      "title": "М'який силіконовий чохол для телефону в горошок",
+      "price": 30.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1744,
+      "image": "https://ae01.alicdn.com/kf/Se7b3596428494930a066088f64c09c05R.jpg",
+      "link": "https://aliexpress.com/item/1005009889175016.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009889175016.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "82 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-15T08:54:58.418478+00:00"
+    },
+    {
       "id": "1005011810800275",
       "title": "Електростатичні рукавички для видалення шерсті домашніх тварин, нова шерсть домашніх тварин 2025 р",
       "price": 43.0,
