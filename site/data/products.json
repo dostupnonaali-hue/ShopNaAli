@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007822639341",
+      "title": "8,5\"/10\"/12\" дошка для малювання РК-планшет для письма",
+      "price": 103.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1594,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007822639341.jpg",
+      "link": "https://aliexpress.com/item/1005007822639341.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007822639341.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "118 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-15T10:46:59.048379+00:00"
+    },
+    {
       "id": "1005007581099595",
       "title": "Сексуальний комплект нижньої білизни Krasapt Eyelash Lace Bralette and Thongs",
       "price": 4.95,
