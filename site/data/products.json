@@ -1,6 +1,23 @@
 {
   "products": [
-      {
+    {
+      "id": "1005008660358341",
+      "title": "2025 Світлодіодна пляшкова настільна лампа Touch 3 Colours Rechargeable",
+      "price": 253.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1552,
+      "image": "https://ae01.alicdn.com/kf/S4d784412fde74f479d0155cb6b3a6662Q.jpg",
+      "link": "https://aliexpress.com/item/1005008660358341.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008660358341.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "50 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-15T07:46:54.830311+00:00"
+    },
+    {
       "id": "150117899646",
       "title": "Наживка на рибу",
       "price": 28.0,
