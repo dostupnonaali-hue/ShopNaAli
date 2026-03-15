@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008870372901",
+      "title": "Навушники Baseus EP10 Pro ANC Wireless Bluetooth 6.0",
+      "price": 19.65,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 965,
+      "image": "https://ae01.alicdn.com/kf/S4d66682473f84374b4a1e13660e4f6b5u.jpg",
+      "link": "https://aliexpress.com/item/1005008870372901.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008870372901.html",
+      "description": "",
+      "promo_text": "BSEP02, ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-15T09:32:57.731266+00:00"
+    },
+    {
       "id": "1005007805594243",
       "title": "Розетка ЄС із зарядним портом USB та інтерфейсом типу C",
       "price": 124.0,
