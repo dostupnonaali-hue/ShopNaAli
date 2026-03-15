@@ -1045,8 +1045,16 @@ async def handle_new_post(event):
         product_ids_found = []
         clean_links_added = set()
         
+        # Limit processing if there are 3 or more links
+        limit_to_first = len(urls_sorted) >= 3
+        
         async with aiohttp.ClientSession() as session:
             for u in urls_sorted:
+                if limit_to_first and len(product_ids_found) >= 1:
+                    # If we have 3+ links, we only process the first valid product
+                    text_html = text_html.replace(u, '')
+                    continue
+                    
                 clean_url, item_id = await resolve_and_clean_url(u, session)
                 if clean_url != u:
                     text_html = text_html.replace(u, '')
