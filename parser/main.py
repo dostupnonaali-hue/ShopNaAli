@@ -33,6 +33,12 @@ from config import (
     AFF_SHORT_KEY,
 )
 
+# --- Proxy for AliExpress scraping ---
+PROXY_URL = os.getenv('PROXY_URL', 'http://ApQSygpB:gYQ9zwvK@194.107.92.209:63072')
+
+
+# --- Proxy for AliExpress scraping ---
+
 # --- Logging ---
 logging.basicConfig(
     level=logging.INFO,
@@ -100,13 +106,21 @@ def clean_and_translate_title(raw_title: str) -> str:
     return title
 
 # --- User-Agent rotation for scraping ---
-_USER_AGENTS = [
+_USER_AGENTS_DESKTOP = [
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0',
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0',
 ]
+_USER_AGENTS_MOBILE = [
+    'Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Mobile/15E148 Safari/604.1',
+    'Mozilla/5.0 (Linux; Android 14; SM-A546B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36',
+    'Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36',
+]
+_USER_AGENTS = _USER_AGENTS_DESKTOP + _USER_AGENTS_MOBILE
 
 # --- Ensure directories ---
 os.makedirs(IMAGES_DIR, exist_ok=True)
@@ -255,10 +269,16 @@ def extract_title_from_image(image_path: str) -> str:
         # 1. Usually the title is the longest string of text
         # 2. Or it's the text block right before the price block
         # Let's filter out known UI elements
-        ignore_words = ['купить', 'buy', 'корзин', 'cart', 'доставк', 'delivery', 
-                        'отзыв', 'review', 'заказ', 'order', 'aliexpress', 
+        ignore_words = ['купить', 'buy', 'корзин', 'cart', 'доставк', 'delivery',
+                        'отзыв', 'review', 'заказ', 'order', 'aliexpress',
                         'скидк', 'discount', 'монет', 'coin', 'оплат', 'pay',
-                        'цвет', 'color', 'размер', 'size', 'характеристик']
+                        'цвет', 'color', 'размер', 'size', 'характеристик',
+                        'продавец', 'продавець', 'продаж', 'бренд', 'brand',
+                        'www', 'http', 'положительн', 'позитивн', 'загальн',
+                        'free shipping', 'безкоштовн', 'безплатн',
+                        'товар 1/', 'товар 2/', 'товар 3/', 'товар 4/',
+                        'колір', 'people gave', 'positive review',
+                        'цей продавець', 'этот продавец', 'wk www']
         
         valid_lines = []
         for line in lines:
@@ -290,44 +310,69 @@ def extract_title_from_image(image_path: str) -> str:
 async def scrape_aliexpress_product(product_url: str, session: aiohttp.ClientSession):
     """
     Scrape AliExpress product page to get title and image URL.
-    Uses retry logic with rotating User-Agents and multiple extraction strategies.
+    Uses multiple strategies:
+    1. Desktop page with OG meta / JSON-LD / <title>
+    2. Mobile page (m.aliexpress.com) — less aggressive blocking
+    3. URL slug extraction as last resort
     Returns {'title': str, 'image_url': str, 'price': float} or None on failure.
     """
     max_retries = 3
     
+    # Extract product ID for URL construction
+    item_match = re.search(r'/item/(\d+)\.html', product_url)
+    pid = item_match.group(1) if item_match else None
+    
     for attempt in range(max_retries):
-        ua = random.choice(_USER_AGENTS)
+        # Alternate between desktop and mobile on retries
+        use_mobile = (attempt >= 1)  # First try desktop, then mobile
+        
+        if use_mobile:
+            ua = random.choice(_USER_AGENTS_MOBILE)
+            referer = 'https://m.aliexpress.com/'
+        else:
+            ua = random.choice(_USER_AGENTS_DESKTOP)
+            referer = 'https://www.google.com/'
+        
         headers = {
             'User-Agent': ua,
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.9,uk;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9,uk;q=0.8,ru;q=0.7',
             'Accept-Encoding': 'gzip, deflate, br',
+            'Referer': referer,
             'Sec-Fetch-Dest': 'document',
             'Sec-Fetch-Mode': 'navigate',
-            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-Site': 'cross-site' if not use_mobile else 'same-origin',
             'Sec-Fetch-User': '?1',
             'Cache-Control': 'max-age=0',
             'Upgrade-Insecure-Requests': '1',
+            'Connection': 'keep-alive',
+            'DNT': '1',
         }
         
-        # Try different URL variants
-        urls_to_try = [product_url]
-        if 'aliexpress.com' in product_url and '/item/' in product_url:
-            # Try with www prefix and different TLDs
-            item_match = re.search(r'/item/(\d+)\.html', product_url)
-            if item_match:
-                pid = item_match.group(1)
+        # Build URL list based on attempt
+        urls_to_try = []
+        if pid:
+            if use_mobile:
+                urls_to_try = [
+                    f'https://m.aliexpress.com/item/{pid}.html',
+                    f'https://www.aliexpress.com/item/{pid}.html',
+                ]
+            else:
                 urls_to_try = [
                     f'https://www.aliexpress.com/item/{pid}.html',
                     f'https://aliexpress.com/item/{pid}.html',
                 ]
+        else:
+            urls_to_try = [product_url]
         
         for url in urls_to_try:
             try:
                 timeout = aiohttp.ClientTimeout(total=25)
-                async with session.get(url, headers=headers, timeout=timeout, allow_redirects=True) as resp:
+                # Use proxy for scraping
+                proxy = PROXY_URL if PROXY_URL else None
+                async with session.get(url, headers=headers, timeout=timeout, allow_redirects=True, proxy=proxy) as resp:
                     if resp.status != 200:
-                        log.warning(f'AliExpress returned {resp.status} for {url} (attempt {attempt+1})')
+                        log.warning(f'AliExpress returned {resp.status} for {url} (attempt {attempt+1}, {"mobile" if use_mobile else "desktop"})')
                         continue
                     html = await resp.text()
                 
@@ -338,7 +383,7 @@ async def scrape_aliexpress_product(product_url: str, session: aiohttp.ClientSes
                 title, image_url, price = _extract_from_html(html)
                 
                 if title or image_url:
-                    log.info(f'🔍 Scraped from AliExpress: "{(title or "?")[:60]}" | Image: {"yes" if image_url else "no"} | Price: {price} (attempt {attempt+1})')
+                    log.info(f'🔍 Scraped from AliExpress: "{(title or "?")[:60]}" | Image: {"yes" if image_url else "no"} | Price: {price} (attempt {attempt+1}, {"mobile" if use_mobile else "desktop"})')
                     return {'title': title, 'image_url': image_url, 'price': price}
                     
             except asyncio.TimeoutError:
@@ -352,8 +397,37 @@ async def scrape_aliexpress_product(product_url: str, session: aiohttp.ClientSes
             log.info(f'Retrying scrape in {delay:.1f}s...')
             await asyncio.sleep(delay)
     
+    # === LAST RESORT: extract title from URL slug ===
+    if pid:
+        slug_title = _extract_title_from_url_slug(product_url)
+        if slug_title:
+            log.info(f'📝 Extracted title from URL slug: "{slug_title[:60]}"')
+            return {'title': slug_title, 'image_url': None, 'price': None}
+    
     log.warning(f'Failed to scrape AliExpress after {max_retries} attempts: {product_url}')
     return None
+
+
+def _extract_title_from_url_slug(url: str) -> str:
+    """
+    Try to extract a product title from the URL slug.
+    Example: https://aliexpress.com/item/Baseus-100W-USB-C-Cable_1234567890.html
+    -> "Baseus 100W USB C Cable"
+    """
+    try:
+        # Look for text before the product ID in the URL path
+        match = re.search(r'/item/([A-Za-z][\w-]+?)[-_]\d+\.html', url)
+        if match:
+            slug = match.group(1)
+            # Convert hyphens/underscores to spaces
+            title = slug.replace('-', ' ').replace('_', ' ')
+            # Clean up
+            title = re.sub(r'\s+', ' ', title).strip()
+            if len(title) > 10:
+                return title
+    except Exception:
+        pass
+    return ""
 
 async def download_image(url: str, filepath: str, session: aiohttp.ClientSession):
     """Download image from URL to local file."""
@@ -669,49 +743,62 @@ async def save_product_to_github(product_data):
         'added_at': product_data['timestamp'],
     }
     
-    try:
-        async with aiohttp.ClientSession() as session:
-            # GET current file
-            async with session.get(api_url, headers=headers, timeout=15) as resp:
-                if resp.status != 200:
-                    log.error(f'GitHub GET failed: {resp.status}')
-                    return False
-                gh_data = await resp.json()
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            async with aiohttp.ClientSession() as session:
+                # GET current file
+                async with session.get(api_url, headers=headers, timeout=15) as resp:
+                    if resp.status != 200:
+                        log.error(f'GitHub GET failed: {resp.status}')
+                        if attempt < max_retries - 1 and resp.status >= 500:
+                            await asyncio.sleep(2)
+                            continue
+                        return False
+                    gh_data = await resp.json()
+                
+                sha = gh_data['sha']
+                content = base64.b64decode(gh_data['content']).decode('utf-8')
+                products = json.loads(content)
+                
+                # Add new product at the beginning
+                products.setdefault('products', []).insert(0, site_product)
+                
+                # Encode back
+                updated = base64.b64encode(
+                    json.dumps(products, ensure_ascii=False, indent=2).encode('utf-8')
+                ).decode('utf-8')
+                
+                # PUT updated file
+                put_body = {
+                    'message': f'Add product {site_product["id"]}',
+                    'content': updated,
+                    'sha': sha,
+                }
+                async with session.put(
+                    api_url,
+                    headers=headers,
+                    json=put_body,
+                    timeout=15,
+                ) as put_resp:
+                    if put_resp.status == 200:
+                        log.info(f'🌐 Saved to GitHub: {site_product["id"]}')
+                        return True
+                    else:
+                        error_text = await put_resp.text()
+                        log.error(f'GitHub PUT failed: {put_resp.status} — {error_text}')
+                        if attempt < max_retries - 1 and put_resp.status >= 500:
+                            await asyncio.sleep(2)
+                            continue
+                        return False
+        except Exception as e:
+            log.error(f'GitHub API error: {e}')
+            if attempt < max_retries - 1:
+                await asyncio.sleep(2)
+                continue
+            return False
             
-            sha = gh_data['sha']
-            content = base64.b64decode(gh_data['content']).decode('utf-8')
-            products = json.loads(content)
-            
-            # Add new product at the beginning
-            products.setdefault('products', []).insert(0, site_product)
-            
-            # Encode back
-            updated = base64.b64encode(
-                json.dumps(products, ensure_ascii=False, indent=2).encode('utf-8')
-            ).decode('utf-8')
-            
-            # PUT updated file
-            put_body = {
-                'message': f'Add product {site_product["id"]}',
-                'content': updated,
-                'sha': sha,
-            }
-            async with session.put(
-                api_url,
-                headers=headers,
-                json=put_body,
-                timeout=15,
-            ) as put_resp:
-                if put_resp.status == 200:
-                    log.info(f'🌐 Saved to GitHub: {site_product["id"]}')
-                    return True
-                else:
-                    error_text = await put_resp.text()
-                    log.error(f'GitHub PUT failed: {put_resp.status} — {error_text}')
-                    return False
-    except Exception as e:
-        log.error(f'GitHub API error: {e}')
-        return False
+    return False
 
 async def update_sitemap_on_github():
     """Regenerate sitemap.xml on GitHub from current products.json."""
@@ -724,48 +811,66 @@ async def update_sitemap_on_github():
     site_url = 'https://dobaksa.shop'
     today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
     
-    try:
-        async with aiohttp.ClientSession() as session:
-            # GET products.json
-            async with session.get(f'{api_base}/{GITHUB_PRODUCTS_PATH}', headers=headers, timeout=15) as resp:
-                if resp.status != 200:
-                    return
-                gh_data = await resp.json()
-            
-            content = base64.b64decode(gh_data['content']).decode('utf-8')
-            products = json.loads(content).get('products', [])
-            
-            # Build sitemap
-            urls = [f'  <url>\n    <loc>{site_url}/</loc>\n    <lastmod>{today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>']
-            for p in products:
-                pid = p.get('id', '')
-                added = p.get('added_at', today)[:10]
-                urls.append(f'  <url>\n    <loc>{site_url}/product.html?id={pid}</loc>\n    <lastmod>{added}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>')
-            
-            sitemap_xml = f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(urls) + '\n</urlset>\n'
-            encoded = base64.b64encode(sitemap_xml.encode('utf-8')).decode('utf-8')
-            
-            # GET existing sitemap SHA
-            sha = None
-            async with session.get(f'{api_base}/site/sitemap.xml', headers=headers, timeout=15) as resp:
-                if resp.status == 200:
-                    sha = (await resp.json()).get('sha')
-            
-            # PUT sitemap
-            put_body = {
-                'message': f'Update sitemap ({len(products)} products)',
-                'content': encoded,
-            }
-            if sha:
-                put_body['sha'] = sha
-            
-            async with session.put(f'{api_base}/site/sitemap.xml', headers=headers, json=put_body, timeout=15) as resp:
-                if resp.status in (200, 201):
-                    log.info(f'🗺️ Sitemap updated: {len(products)} products')
-                else:
-                    log.warning(f'Sitemap update failed: {resp.status}')
-    except Exception as e:
-        log.warning(f'Sitemap update error: {e}')
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            async with aiohttp.ClientSession() as session:
+                # GET products.json
+                async with session.get(f'{api_base}/{GITHUB_PRODUCTS_PATH}', headers=headers, timeout=15) as resp:
+                    if resp.status != 200:
+                        if attempt < max_retries - 1 and resp.status >= 500:
+                            await asyncio.sleep(2)
+                            continue
+                        return
+                    gh_data = await resp.json()
+                
+                content = base64.b64decode(gh_data['content']).decode('utf-8')
+                products = json.loads(content).get('products', [])
+                
+                # Build sitemap
+                urls = [
+                    f'  <url>\n    <loc>{site_url}/</loc>\n    <lastmod>{today}</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>',
+                    f'  <url>\n    <loc>{site_url}/promos.html</loc>\n    <lastmod>{today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>',
+                    f'  <url>\n    <loc>{site_url}/faq.html</loc>\n    <lastmod>{today}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>'
+                ]
+                for p in products:
+                    pid = p.get('id', '')
+                    added = p.get('added_at', today)[:10]
+                    urls.append(f'  <url>\n    <loc>{site_url}/product.html?id={pid}</loc>\n    <lastmod>{added}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.7</priority>\n  </url>')
+                
+                sitemap_xml = f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + '\n'.join(urls) + '\n</urlset>\n'
+                encoded = base64.b64encode(sitemap_xml.encode('utf-8')).decode('utf-8')
+                
+                # GET existing sitemap SHA
+                sha = None
+                async with session.get(f'{api_base}/site/sitemap.xml', headers=headers, timeout=15) as resp:
+                    if resp.status == 200:
+                        sha = (await resp.json()).get('sha')
+                
+                # PUT sitemap
+                put_body = {
+                    'message': f'Update sitemap ({len(products)} products)',
+                    'content': encoded,
+                }
+                if sha:
+                    put_body['sha'] = sha
+                
+                async with session.put(f'{api_base}/site/sitemap.xml', headers=headers, json=put_body, timeout=15) as resp:
+                    if resp.status in (200, 201):
+                        log.info(f'🗺️ Sitemap updated: {len(products)} products')
+                        return
+                    else:
+                        log.warning(f'Sitemap update failed: {resp.status}')
+                        if attempt < max_retries - 1 and resp.status >= 500:
+                            await asyncio.sleep(2)
+                            continue
+                        return
+        except Exception as e:
+            log.warning(f'Sitemap update error: {e}')
+            if attempt < max_retries - 1:
+                await asyncio.sleep(2)
+                continue
+            return
 
 # --- Telegram Client ---
 client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
@@ -934,7 +1039,23 @@ async def handle_new_post(event):
         save_seen(seen_products)
 
         # --- Extract product info FIRST, then build clean post ---
-        fallback_title = clean_text(raw_text)[:200]
+        # Build fallback title: skip price/instruction lines
+        _fb_lines = clean_text(raw_text).split('\n')
+        _fb_cleaned = []
+        for _fbl in _fb_lines:
+            _fbl_s = _fbl.strip()
+            if not _fbl_s or len(_fbl_s) < 5:
+                continue
+            _fbl_low = _fbl_s.lower()
+            # Skip lines that are just prices, coin info, or delivery instructions
+            if re.match(r'^[\d\s.,\u20bd\$\u20ac\u20b4грнuah]+$', _fbl_s):
+                continue
+            if any(w in _fbl_low for w in ['монет', 'coin', 'як замовити', 'как заказать',
+                    'безкоштовн', 'доставк', 'з монетами', 'грн з ', 'грн с ',
+                    'підписуй', 'subscribe', 'ціна на', 'цена на']):
+                continue
+            _fb_cleaned.append(_fbl_s)
+        fallback_title = ' '.join(_fb_cleaned)[:200] if _fb_cleaned else clean_text(raw_text)[:200]
         fallback_price = extract_price(raw_text)
         
         # Extract coins/монети info from raw text
@@ -971,10 +1092,10 @@ async def handle_new_post(event):
                         promo_codes.append(code)
         promo_text = ", ".join(promo_codes)
 
-        # Extract price note
+        # Extract price note (ONLY for coins/shipping, NOT promo codes)
         price_note = ""
         price_note_patterns = [
-            r'\(([^)]*(?:купон|монет|знижк|промокод|code|coin)[^)]*)\)',
+            r'\(([^)]*(?:монет|знижк|coin)[^)]*)\)',
             r'(?:ціна\s+)?(?:з|із)\s+(купон\w*(?:\s*\+?\s*монет\w*)?)',
             r'(купон\s+під\s+товаром(?:\s*\+?\s*монет\w*)?)',
             r'(?<!\w)(\+\s*монет\w*)',
@@ -984,6 +1105,9 @@ async def handle_new_post(event):
             note_match = re.search(pattern, raw_text, re.IGNORECASE)
             if note_match:
                 note = note_match.group(1).strip()
+                # Skip if this note is just about a promo code
+                if re.search(r'промокод|promo|code|coupon', note, re.IGNORECASE):
+                    continue
                 note = re.sub(r'\s+', ' ', note).strip(' .,;:!-')
                 if note and len(note) < 80:
                     price_note = note[0].upper() + note[1:] if len(note) > 1 else note.upper()
