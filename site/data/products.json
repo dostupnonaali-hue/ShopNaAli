@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008570789507",
+      "title": "Регульована швидкість ) _ | у",
+      "price": 2.43,
+      "currency": "USD",
+      "category": "sport",
+      "rating": 4.8,
+      "orders": 1277,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008570789507.jpg",
+      "link": "https://aliexpress.com/item/1005008570789507.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008570789507.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-15T10:55:11.206304+00:00"
+    },
+    {
       "id": "1005007524171634",
       "title": "Чашки з нержавіючої сталі. Термос",
       "price": 4.47,
