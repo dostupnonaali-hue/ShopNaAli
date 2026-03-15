@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007531428324",
+      "title": "Відро для холодної води 3,5/5 л із краном для фруктового соку",
+      "price": 214.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 704,
+      "image": "https://ae01.alicdn.com/kf/S52fbae6513b7452ea063b52e4c6f2ad8R.jpg",
+      "link": "https://aliexpress.com/item/1005007531428324.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007531428324.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "172 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-15T08:12:32.790708+00:00"
+    },
+    {
       "id": "1005008660358341",
       "title": "2025 Світлодіодна пляшкова настільна лампа Touch 3 Colours Rechargeable",
       "price": 253.0,
