@@ -710,21 +710,15 @@ def detect_category(title: str, raw_text: str) -> str:
     
     return 'new'
 
-# --- GitHub Direct API ---
-async def save_product_to_github(product_data):
-    """Save product directly to GitHub products.json via API."""
-    api_url = f'https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_PRODUCTS_PATH}'
-    headers = {
-        'Authorization': f'token {GITHUB_TOKEN}',
-        'Accept': 'application/vnd.github.v3+json',
-        'User-Agent': 'ShopNaAli-Parser',
-    }
-    
+# --- GitHub Direct API (Batch Mode) ---
+_github_pending = []  # Products waiting to be flushed to GitHub
+_github_flush_interval = 600  # Flush every 10 minutes (600 seconds)
+_github_flush_lock = asyncio.Lock()
+
+def queue_product_for_github(product_data):
+    """Add product to the pending queue (will be flushed in batch)."""
     import random
-    
-    # Detect category from title + raw text
     category = detect_category(product_data.get('title', ''), product_data['raw_text'])
-    
     site_product = {
         'id': product_data['id'],
         'title': product_data['title'],
@@ -742,63 +736,103 @@ async def save_product_to_github(product_data):
         'source_channel': product_data.get('source_channel', ''),
         'added_at': product_data['timestamp'],
     }
-    
-    max_retries = 3
-    for attempt in range(max_retries):
-        try:
-            async with aiohttp.ClientSession() as session:
-                # GET current file
-                async with session.get(api_url, headers=headers, timeout=15) as resp:
-                    if resp.status != 200:
-                        log.error(f'GitHub GET failed: {resp.status}')
-                        if attempt < max_retries - 1 and resp.status >= 500:
-                            await asyncio.sleep(2)
-                            continue
-                        return False
-                    gh_data = await resp.json()
-                
-                sha = gh_data['sha']
-                content = base64.b64decode(gh_data['content']).decode('utf-8')
-                products = json.loads(content)
-                
-                # Add new product at the beginning
-                products.setdefault('products', []).insert(0, site_product)
-                
-                # Encode back
-                updated = base64.b64encode(
-                    json.dumps(products, ensure_ascii=False, indent=2).encode('utf-8')
-                ).decode('utf-8')
-                
-                # PUT updated file
-                put_body = {
-                    'message': f'Add product {site_product["id"]}',
-                    'content': updated,
-                    'sha': sha,
-                }
-                async with session.put(
-                    api_url,
-                    headers=headers,
-                    json=put_body,
-                    timeout=15,
-                ) as put_resp:
-                    if put_resp.status == 200:
-                        log.info(f'🌐 Saved to GitHub: {site_product["id"]}')
+    _github_pending.append(site_product)
+    log.info(f'📦 Queued for GitHub: {site_product["id"]} (pending: {len(_github_pending)})')
+    return True
+
+async def flush_products_to_github():
+    """Flush all pending products to GitHub in a single commit."""
+    async with _github_flush_lock:
+        if not _github_pending:
+            return True
+        
+        products_to_save = list(_github_pending)
+        api_url = f'https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_PRODUCTS_PATH}'
+        headers = {
+            'Authorization': f'token {GITHUB_TOKEN}',
+            'Accept': 'application/vnd.github.v3+json',
+            'User-Agent': 'ShopNaAli-Parser',
+        }
+        
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                async with aiohttp.ClientSession() as session:
+                    # GET current file
+                    async with session.get(api_url, headers=headers, timeout=30) as resp:
+                        if resp.status != 200:
+                            log.error(f'GitHub GET failed: {resp.status}')
+                            if attempt < max_retries - 1 and resp.status >= 500:
+                                await asyncio.sleep(5)
+                                continue
+                            return False
+                        gh_data = await resp.json()
+                    
+                    sha = gh_data['sha']
+                    content = base64.b64decode(gh_data['content']).decode('utf-8')
+                    products = json.loads(content)
+                    
+                    # Insert all pending products at the beginning
+                    existing_ids = {p['id'] for p in products.get('products', [])}
+                    new_products = [p for p in products_to_save if p['id'] not in existing_ids]
+                    
+                    if not new_products:
+                        log.info('📦 All pending products already exist on GitHub, clearing queue')
+                        _github_pending.clear()
                         return True
-                    else:
-                        error_text = await put_resp.text()
-                        log.error(f'GitHub PUT failed: {put_resp.status} — {error_text}')
-                        if attempt < max_retries - 1 and put_resp.status >= 500:
-                            await asyncio.sleep(2)
-                            continue
-                        return False
-        except Exception as e:
-            log.error(f'GitHub API error: {e}')
-            if attempt < max_retries - 1:
-                await asyncio.sleep(2)
-                continue
-            return False
-            
-    return False
+                    
+                    for p in reversed(new_products):
+                        products.setdefault('products', []).insert(0, p)
+                    
+                    # Encode back
+                    updated = base64.b64encode(
+                        json.dumps(products, ensure_ascii=False, indent=2).encode('utf-8')
+                    ).decode('utf-8')
+                    
+                    # PUT updated file
+                    ids_str = ', '.join(p['id'] for p in new_products[:3])
+                    if len(new_products) > 3:
+                        ids_str += f' +{len(new_products)-3} more'
+                    put_body = {
+                        'message': f'Add {len(new_products)} products: {ids_str}',
+                        'content': updated,
+                        'sha': sha,
+                    }
+                    async with session.put(
+                        api_url,
+                        headers=headers,
+                        json=put_body,
+                        timeout=30,
+                    ) as put_resp:
+                        if put_resp.status == 200:
+                            log.info(f'🌐 Batch saved to GitHub: {len(new_products)} products')
+                            _github_pending.clear()
+                            return True
+                        else:
+                            error_text = await put_resp.text()
+                            log.error(f'GitHub PUT failed: {put_resp.status} — {error_text}')
+                            if attempt < max_retries - 1 and put_resp.status >= 500:
+                                await asyncio.sleep(5)
+                                continue
+                            return False
+            except Exception as e:
+                log.error(f'GitHub API error: {e}')
+                if attempt < max_retries - 1:
+                    await asyncio.sleep(5)
+                    continue
+                return False
+                
+        return False
+
+async def github_flush_task():
+    """Background task that periodically flushes pending products to GitHub."""
+    while True:
+        await asyncio.sleep(_github_flush_interval)
+        if _github_pending:
+            log.info(f'⏰ Auto-flushing {len(_github_pending)} products to GitHub...')
+            saved = await flush_products_to_github()
+            if saved:
+                await update_sitemap_on_github()
 
 async def update_sitemap_on_github():
     """Regenerate sitemap.xml on GitHub from current products.json."""
@@ -1326,9 +1360,7 @@ async def handle_new_post(event):
         }
         log.info(f'✅ New product for site: {pid} | Price: ${fallback_price or "?"}')
         
-        saved = await save_product_to_github(product_data)
-        if saved:
-            await update_sitemap_on_github()
+        saved = queue_product_for_github(product_data)
             
     except Exception as e:
         log.error(f"⚠️ Error processing message: {e}", exc_info=True)
@@ -1342,10 +1374,13 @@ async def main():
     log.info(f"📤 Цільовий канал: {TARGET_CHANNEL}")
     log.info(f"🌐 GitHub: {GITHUB_REPO}")
     log.info(f"⏱️ Затримка між постами: {MIN_POST_DELAY}-{MAX_POST_DELAY}с | Пропуск кожного {SKIP_EVERY_N}-го | Cooldown скрейпу: {SCRAPE_COOLDOWN}с")
+    log.info(f"📦 GitHub batch mode: flush every {_github_flush_interval}s")
     log.info("─" * 50)
     
     # Start queue processor as background task
     asyncio.create_task(process_queue())
+    # Start GitHub batch flusher as background task
+    asyncio.create_task(github_flush_task())
     
     await client.run_until_disconnected()
 
