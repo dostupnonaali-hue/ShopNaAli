@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007037950444",
+      "title": "KZ AE01 Бездротовий кабель оновлення, сумісний з Bluetooth 5.4",
+      "price": 14.85,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 610,
+      "image": "https://ae01.alicdn.com/kf/S04b468e1198c43559b5d966d43b757941.jpg",
+      "link": "https://aliexpress.com/item/1005007037950444.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007037950444.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-15T10:01:39.791769+00:00"
+    },
+    {
       "id": "1005011779883682",
       "title": "Гаряча промислова водонепроникна розетка EU розетка мідний контакт",
       "price": 40.0,
