@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007581099595",
+      "title": "Сексуальний комплект нижньої білизни Krasapt Eyelash Lace Bralette and Thongs",
+      "price": 4.95,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1948,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007581099595.jpg",
+      "link": "https://aliexpress.com/item/1005007581099595.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007581099595.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-15T10:44:33.265439+00:00"
+    },
+    {
       "id": "1005010226792733",
       "title": "Bluetooth V5.3",
       "price": 5.41,
