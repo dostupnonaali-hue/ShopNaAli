@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005009836578963",
+      "title": "QOOVI Power Bank PD Вбудований зовнішній кабель швидкої зарядки",
+      "price": 25.78,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1140,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005009836578963.jpg",
+      "link": "https://aliexpress.com/item/1005009836578963.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009836578963.html",
+      "description": "",
+      "promo_text": "AEQOOVI28, ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-15T10:08:55.727245+00:00"
+    },
+    {
       "id": "1005008345703260",
       "title": "Baseus Bowie MF1/Eli 15i Fit Open-Ear Sport Wireless",
       "price": 9.14,
