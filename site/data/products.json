@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011822205816",
+      "title": "77 грн 23 грн 72 грн 68 грн 59 грн 59 грн 50 грн 159 грн 69",
+      "price": 77.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 674,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011822205816.jpg",
+      "link": "https://aliexpress.com/item/1005011822205816.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011822205816.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-15T10:57:47.986247+00:00"
+    },
+    {
       "id": "1005008570789507",
       "title": "Регульована швидкість ) _ | у",
       "price": 2.43,
