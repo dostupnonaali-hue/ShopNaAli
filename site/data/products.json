@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008248040780",
+      "title": "Сталі, змінне лезо з високовуглецевої сталі М",
+      "price": 52.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 175,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008248040780.jpg",
+      "link": "https://aliexpress.com/item/1005008248040780.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008248040780.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-15T10:04:18.689090+00:00"
+    },
+    {
       "id": "1005007037950444",
       "title": "KZ AE01 Бездротовий кабель оновлення, сумісний з Bluetooth 5.4",
       "price": 14.85,
