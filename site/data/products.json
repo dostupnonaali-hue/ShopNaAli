@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011813592527",
+      "title": "=ен-427.21 | .грн.45.79 /шт. | Ціна без урахування податків",
+      "price": 109.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1849,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011813592527.jpg",
+      "link": "https://aliexpress.com/item/1005011813592527.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011813592527.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-15T14:30:02.099380+00:00"
+    },
+    {
+      "id": "1005011794100098",
+      "title": "Ot = Shop1105090429 Store (% 4,9 | 500+ продано)",
+      "price": 82.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1372,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011794100098.jpg",
+      "link": "https://aliexpress.com/item/1005011794100098.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011794100098.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-15T14:32:25.414335+00:00"
+    },
+    {
       "id": "1005011792319970",
       "title": "101 грн з монетами 101 грн з монетами 101 грн з монетами",
       "price": 101.0,
