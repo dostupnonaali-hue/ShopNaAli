@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011792319970",
+      "title": "101 грн з монетами 101 грн з монетами 101 грн з монетами",
+      "price": 101.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 774,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011792319970.jpg",
+      "link": "https://aliexpress.com/item/1005011792319970.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011792319970.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-15T14:01:00.684260+00:00"
+    },
+    {
       "id": "1005011795380447",
       "title": "Садовий шланг для поливу, труба для подачі води",
       "price": 211.0,
