@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007805594243",
+      "title": "Розетка ЄС із зарядним портом USB та інтерфейсом типу C",
+      "price": 124.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1878,
+      "image": "https://ae01.alicdn.com/kf/Sba57e9db812f4c628b416771e334ae9fA.jpg",
+      "link": "https://aliexpress.com/item/1005007805594243.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007805594243.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "220 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-15T09:20:22.036457+00:00"
+    },
+    {
       "id": "1005009889175016",
       "title": "М'який силіконовий чохол для телефону в горошок",
       "price": 30.0,
