@@ -31,7 +31,9 @@
     // --- Load Products ---
     async function loadProducts() {
         try {
-            const response = await fetch('data/products.json');
+            // Cache buster: updates every 5 minutes (300000 ms)
+            const cacheBuster = Math.floor(Date.now() / 300000);
+            const response = await fetch(`data/products.json?v=${cacheBuster}`);
             if (!response.ok) throw new Error('Failed to load products');
             const data = await response.json();
             allProducts = data.products || data || [];

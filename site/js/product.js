@@ -16,7 +16,9 @@
         }
 
         try {
-            const response = await fetch('data/products.json');
+            // Cache buster: updates every 5 minutes (300000 ms)
+            const cacheBuster = Math.floor(Date.now() / 300000);
+            const response = await fetch(`data/products.json?v=${cacheBuster}`);
             const data = await response.json();
             const products = data.products || data || [];
             const product = products.find(p => p.id === productId);
