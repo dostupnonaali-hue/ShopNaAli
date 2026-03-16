@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007546331498",
+      "title": "Лі-Нін Мен",
+      "price": 1044.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 1771,
+      "image": "https://ae01.alicdn.com/kf/S886096abbc684b0883faba2e54239e14B.jpg",
+      "link": "https://aliexpress.com/item/1005007546331498.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007546331498.html",
+      "description": "",
+      "promo_text": "IFPHUAZU",
+      "price_note": "116 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-16T18:40:20.401124+00:00"
+    },
+    {
       "id": "1005007921403693",
       "title": "6-дюймовий цифровий мікрометр з нержавіючої сталі з штангенциркулем",
       "price": 7.93,
