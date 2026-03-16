@@ -1430,3 +1430,189 @@ img {
     gap: var(--gap-xs);
   }
 }
+
+/* ========================================
+   DoBaksa Page — Styles
+   ======================================== */
+
+/* --- Breadcrumbs --- */
+.breadcrumbs {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: calc(var(--header-height) + 20px) var(--gap-lg) 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  position: relative;
+  z-index: 1;
+}
+
+.breadcrumbs__link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.breadcrumbs__link:hover {
+  color: var(--accent-primary);
+}
+
+.breadcrumbs__sep {
+  margin: 0 8px;
+  color: var(--text-muted);
+}
+
+.breadcrumbs__current {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+/* --- DoBaksa Hero --- */
+.dobaksa-hero {
+  text-align: center;
+  padding: var(--gap-xl) var(--gap-lg) var(--gap-2xl);
+  position: relative;
+  z-index: 1;
+}
+
+.dobaksa-hero__icon {
+  font-size: 3.5rem;
+  margin-bottom: var(--gap-md);
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.dobaksa-hero__title {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--gap-md);
+}
+
+.gradient-text-gold {
+  background: linear-gradient(135deg, #ffd700, #ffaa00, #ff8c00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dobaksa-hero__subtitle {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin: 0 auto var(--gap-lg);
+  line-height: 1.7;
+}
+
+.dobaksa-hero__subtitle strong {
+  color: #ffd700;
+  font-weight: 600;
+}
+
+/* Hero Stats */
+.dobaksa-hero__stats {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-2xl);
+  margin-top: var(--gap-lg);
+}
+
+.dobaksa-hero__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dobaksa-hero__stat-num {
+  font-size: 1.8rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ffd700, #ff8c00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dobaksa-hero__stat-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 4px;
+}
+
+/* --- Cheap Price Badge on Cards --- */
+.product-card__cheap-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: linear-gradient(135deg, #ffd700, #ff8c00);
+  color: #000;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);
+}
+
+/* --- SEO Text Block --- */
+.seo-text {
+  max-width: var(--max-width);
+  margin: var(--gap-3xl) auto var(--gap-2xl);
+  padding: var(--gap-xl) var(--gap-lg);
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid var(--bg-glass-border);
+}
+
+.seo-text h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: var(--gap-md);
+  color: var(--text-primary);
+}
+
+.seo-text p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: var(--gap-md);
+}
+
+.seo-text p:last-child {
+  margin-bottom: 0;
+}
+
+.seo-text a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity var(--transition-fast);
+}
+
+.seo-text a:hover {
+  opacity: 0.8;
+}
+
+/* --- DoBaksa Responsive --- */
+@media (max-width: 640px) {
+  .dobaksa-hero__title {
+    font-size: 1.6rem;
+  }
+  
+  .dobaksa-hero__stats {
+    gap: var(--gap-xl);
+  }
+  
+  .dobaksa-hero__stat-num {
+    font-size: 1.4rem;
+  }
+  
+  .breadcrumbs {
+    padding-top: calc(var(--header-height) + 12px);
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товари до 1$ з AliExpress — DoBaksa | Найдешевші знахідки</title>
+    <meta name="description"
+        content="Найкращі товари з AliExpress до 1 долара та до 50 грн. Щоденне оновлення, безкоштовна доставка, перевірені продавці.">
+    <meta name="keywords" content="AliExpress до 1 долара, товари до 50 грн, дешеві товари, до бакса, халява AliExpress">
+    <meta name="referrer" content="no-referrer">
+    <link rel="canonical" href="https://dobaksa.shop/dobaksa.html">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon-180.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Товари до 1$ з AliExpress — DoBaksa">
+    <meta property="og:description" content="Найдешевші знахідки з AliExpress — до 1 долара та до 50 грн. Оновлюється щодня.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="uk_UA">
+    <meta property="og:url" content="https://dobaksa.shop/dobaksa.html">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0a0f">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Товари до 1 долара — DoBaksa",
+        "description": "Каталог найдешевших товарів з AliExpress до 1 долара та до 50 гривень",
+        "url": "https://dobaksa.shop/dobaksa.html",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "ShopDoBaksa",
+            "url": "https://dobaksa.shop"
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+
+            <div class="header__search">
+                <span class="header__search-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="Шукати товари..." autocomplete="off">
+            </div>
+
+            <!-- Desktop nav -->
+            <nav class="header__nav" id="desktopNav">
+                <a href="index.html" class="header__nav-link">🏠 Головна</a>
+                <a href="dobaksa.html" class="header__nav-link active">💰 DoBaksa</a>
+                <a href="faq.html" class="header__nav-link">📖 Гайд</a>
+                <a href="promos.html" class="header__nav-link">✂️ Промокоди</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__nav-link header__nav-link--tg">✈️ Telegram</a>
+            </nav>
+
+            <!-- Burger button -->
+            <button class="burger" id="burgerBtn" aria-label="Меню">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile menu overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- Mobile slide-out menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+            <button class="mobile-menu__close" id="menuClose" aria-label="Закрити">✕</button>
+        </div>
+        <div class="mobile-menu__links">
+            <a href="index.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🏠</span> Головна
+            </a>
+            <a href="dobaksa.html" class="mobile-menu__link active">
+                <span class="mobile-menu__icon">💰</span> Товар DoBaksa
+            </a>
+            <a href="faq.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">📖</span> Гайд
+            </a>
+            <a href="promos.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✂️</span> Промокоди
+            </a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✈️</span> Наш Telegram
+            </a>
+            <a href="#" class="mobile-menu__link mobile-menu__link--soon">
+                <span class="mobile-menu__icon">📝</span> Блог
+                <span class="mobile-menu__badge">Скоро</span>
+            </a>
+        </div>
+        <div class="mobile-menu__footer">
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__tg-btn">
+                ✈️ Підписатись на Telegram
+            </a>
+        </div>
+    </nav>
+
+    <script>
+    (function() {
+        const burger = document.getElementById('burgerBtn');
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        const closeBtn = document.getElementById('menuClose');
+        function toggleMenu() {
+            const isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
+            burger.classList.toggle('open', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        }
+        burger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+    })();
+    </script>
+
+    <!-- Main Content -->
+    <main class="main">
+
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs" aria-label="Навігація">
+            <a href="index.html" class="breadcrumbs__link">Головна</a>
+            <span class="breadcrumbs__sep">›</span>
+            <span class="breadcrumbs__current">Товар DoBaksa</span>
+        </nav>
+
+        <!-- Hero -->
+        <section class="dobaksa-hero" id="hero">
+            <div class="dobaksa-hero__icon">💰</div>
+            <h1 class="dobaksa-hero__title">
+                Товар <span class="gradient-text-gold">DoBaksa</span>
+            </h1>
+            <p class="dobaksa-hero__subtitle">
+                Найкращі знахідки з AliExpress до <strong>1 долара</strong> та до <strong>50 гривень</strong>.<br>
+                Оновлюється автоматично щодня.
+            </p>
+            <div class="dobaksa-hero__stats">
+                <div class="dobaksa-hero__stat">
+                    <span class="dobaksa-hero__stat-num" id="statsCheap">0</span>
+                    <span class="dobaksa-hero__stat-label">товарів</span>
+                </div>
+                <div class="dobaksa-hero__stat">
+                    <span class="dobaksa-hero__stat-num" id="statsMinPrice">—</span>
+                    <span class="dobaksa-hero__stat-label">мін. ціна</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price Filters -->
+        <div class="filters" id="priceFilters">
+            <button class="filter-btn active" data-price="all">💰 Все до $1</button>
+            <button class="filter-btn" data-price="usd050">🪙 До $0.50</button>
+            <button class="filter-btn" data-price="uah25">🇺🇦 До 25₴</button>
+            <button class="filter-btn" data-price="uah50">🇺🇦 До 50₴</button>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid" id="productsGrid">
+            <!-- Products rendered by JS -->
+        </div>
+
+        <!-- SEO Text Block -->
+        <section class="seo-text">
+            <h2>Де знайти товари до 1 долара на AliExpress?</h2>
+            <p>
+                На сторінці <strong>Товар DoBaksa</strong> зібрані найвигідніші пропозиції з AliExpress — 
+                усі товари коштують менше 1 долара або менше 50 гривень. Ми автоматично відстежуємо 
+                десятки Telegram-каналів зі знижками та знахідками, і додаємо лише перевірені товари 
+                з реальними відгуками та безкоштовною доставкою.
+            </p>
+            <p>
+                Кожен товар містить пряме посилання на AliExpress з можливістю купити одразу. 
+                Використовуйте фільтри за ціною, щоб знайти товари ще дешевше — до $0.50 або до 25 гривень. 
+                Сторінка оновлюється щодня — заходьте частіше, щоб не пропустити найвигідніші знахідки!
+            </p>
+            <p>
+                Підписуйтесь на наш <a href="https://t.me/Shop_DoBaksa">Telegram-канал</a> — 
+                там ми публікуємо знахідки першими!
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 ShopDoBaksa — Агрегатор вигідних знахідок з AliExpress</p>
+        <p style="margin-top: 8px;">
+            <a href="index.html">Каталог</a> · 
+            <a href="dobaksa.html">Товар DoBaksa</a> · 
+            <a href="faq.html">Гайд по AliExpress</a> · 
+            <a href="https://t.me/Shop_DoBaksa" target="_blank">Telegram</a>
+        </p>
+    </footer>
+
+    <script src="js/dobaksa.js"></script>
+</body>
+
+</html>
