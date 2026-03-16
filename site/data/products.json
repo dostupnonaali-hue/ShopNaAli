@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005005732223888",
+      "title": "Смартфон Xiaomi Redmi Note 14S Глобальна версія MTK Helio",
+      "price": 6744.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1264,
+      "image": "https://ae01.alicdn.com/kf/S3beba20d0503424ca6a91b7413fa6c67Q.jpg",
+      "link": "https://aliexpress.com/item/1005005732223888.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005732223888.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "175 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-16T16:01:35.664986+00:00"
+    },
+    {
       "id": "1005007099009376",
       "title": "Багаторазова ковдра для собак, абсорбуюча пелюшка, яку можна прати",
       "price": 82.0,
