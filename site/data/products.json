@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007971914832",
+      "title": "MECHANIC CD48 Camera Lens Cleaner Resin Synthetic Stick",
+      "price": 1.98,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 721,
+      "image": "https://ae01.alicdn.com/kf/S831ab81271314309ae272782deafe394R.jpg",
+      "link": "https://aliexpress.com/item/1005007971914832.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007971914832.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T10:54:02.762774+00:00"
+    },
+    {
+      "id": "1005009463011323",
+      "title": "Адаптивні гібридні бездротові навушники Baseus EH10 NC ANC",
+      "price": 16.68,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1677,
+      "image": "https://ae01.alicdn.com/kf/S3e46c1fd67dc4c3f8d945d445289fb8ay.jpg",
+      "link": "https://aliexpress.com/item/1005009463011323.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009463011323.html",
+      "description": "",
+      "promo_text": "UAMAEH, ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T11:00:54.171076+00:00"
+    },
+    {
       "id": "1005008493129860",
       "title": "Автомобільний зарядний пристрій Baseus 600A Jump Starter",
       "price": 37.39,
