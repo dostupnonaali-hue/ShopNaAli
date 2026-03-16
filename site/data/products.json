@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005009716062190",
+      "title": "1- Плата тестування швидкої зарядки PD 5- Регульований тригер PD",
+      "price": 1.88,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 931,
+      "image": "https://ae01.alicdn.com/kf/S7555dbe1c0934f6c8f609e7a59688542y.jpg",
+      "link": "https://aliexpress.com/item/1005009716062190.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009716062190.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T21:55:30.120848+00:00"
+    },
+    {
+      "id": "1005007294643170",
+      "title": "11/13-дюймова плюшева сумка для планшета Stroge для ноутбука",
+      "price": 6.58,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 870,
+      "image": "https://ae01.alicdn.com/kf/S31e9dcf3b8644074b0b71337f85cab37o.jpg",
+      "link": "https://aliexpress.com/item/1005007294643170.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007294643170.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T21:58:37.982365+00:00"
+    },
+    {
       "id": "1005006225839098",
       "title": "GTMT 12KW Трифазний гібридний сонячний інвертор 48VDC To",
       "price": 3.0,
