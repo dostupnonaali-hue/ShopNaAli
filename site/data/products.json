@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007082248348",
+      "title": "LiitoKala LF-786 Робочі ліхтарі + 26650 акумуляторна батарея",
+      "price": 405.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1238,
+      "image": "https://ae01.alicdn.com/kf/Scf824bde879a4ea39787c526d47bce36A.jpg",
+      "link": "https://aliexpress.com/item/1005007082248348.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007082248348.html",
+      "description": "",
+      "promo_text": "IFPHUAZU",
+      "price_note": "212 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-16T11:15:11.491370+00:00"
+    },
+    {
+      "id": "1005009610082927",
+      "title": "Глобальна версія смартфона POCO M7 128 ГБ 256 ГБ Snapdragon",
+      "price": 5482.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1078,
+      "image": "https://ae01.alicdn.com/kf/Sac98f1eb53fc44fa85323c39f539461bA.jpg",
+      "link": "https://aliexpress.com/item/1005009610082927.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009610082927.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "172 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-16T11:20:54.533932+00:00"
+    },
+    {
       "id": "1005007971914832",
       "title": "MECHANIC CD48 Camera Lens Cleaner Resin Synthetic Stick",
       "price": 1.98,
