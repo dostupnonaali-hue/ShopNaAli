@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011750444530",
+      "title": "Мобільні телефони Xiaomi Redmi Note 15 Глобальна версія MTK Helio",
+      "price": 6961.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1113,
+      "image": "https://ae01.alicdn.com/kf/Sd251a8698652410b9f8e8c5b76870c44o.jpg",
+      "link": "https://aliexpress.com/item/1005011750444530.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011750444530.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "180 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-16T15:02:52.075407+00:00"
+    },
+    {
       "id": "1005008232219483",
       "title": "Глобальна версія Xiaomi Redmi Note 14 MediaTek Helio",
       "price": 5843.0,
