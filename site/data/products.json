@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011819612534",
+      "title": "Магічний гайковий ключ, 8-дюймовий регульований інструмент, багатофункціональна рука",
+      "price": 116.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.7,
+      "orders": 1752,
+      "image": "https://ae01.alicdn.com/kf/S1a8e9ce0a151476eab620f7229440a4cl.jpg",
+      "link": "https://aliexpress.com/item/1005011819612534.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011819612534.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-16T19:54:46.171712+00:00"
+    },
+    {
+      "id": "1005006784732012",
+      "title": "Жіночі безшовні безшовні спортивні легінси з підйомом стегон",
+      "price": 3.65,
+      "currency": "USD",
+      "category": "sport",
+      "rating": 4.7,
+      "orders": 1235,
+      "image": "https://ae01.alicdn.com/kf/Sf662d14bf1df4c59813c49b7b46ca90dj.jpg",
+      "link": "https://aliexpress.com/item/1005006784732012.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006784732012.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T19:56:56.881445+00:00"
+    },
+    {
       "id": "1005011820334248",
       "title": "Спеціальний подовжувач живлення в європейському стилі: 3 побутові розетки",
       "price": 84.0,
