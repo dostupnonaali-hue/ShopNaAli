@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007476909335",
+      "title": "Вакуумний компресійний мішок електричний насос всмоктуючий насос Mini",
+      "price": 85.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 824,
+      "image": "https://ae01.alicdn.com/kf/S1be07e88ac1944a2a0a3b9699433d2b4y.jpg",
+      "link": "https://aliexpress.com/item/1005007476909335.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007476909335.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-16T19:02:13.074727+00:00"
+    },
+    {
       "id": "1005007546331498",
       "title": "Лі-Нін Мен",
       "price": 1044.0,
