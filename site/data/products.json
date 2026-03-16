@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008801843438",
+      "title": "Кишенькові ножі Watchman Trapper з двома лезами",
+      "price": 14.97,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 729,
+      "image": "https://ae01.alicdn.com/kf/S9e9a843024ef4b41a55f7b21843cd1961.jpg",
+      "link": "https://aliexpress.com/item/1005008801843438.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008801843438.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T21:07:04.825548+00:00"
+    },
+    {
+      "id": "1005005453188357",
+      "title": "Кросівки Indestructible Shoes Робоче захисне взуття зі сталлю",
+      "price": 16.73,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 876,
+      "image": "https://ae01.alicdn.com/kf/S09a271997a924ab3b9eca5266d3637feL.jpg",
+      "link": "https://aliexpress.com/item/1005005453188357.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005453188357.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T21:09:57.812231+00:00"
+    },
+    {
       "id": "1005001344485526",
       "title": "IMILAB EC3 Lite Camera Home Security Protection 2K HD",
       "price": 23.33,
