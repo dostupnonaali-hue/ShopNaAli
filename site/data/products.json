@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007757180783",
+      "title": "KUULAA 2 в 1 USB C Cable PD Швидкий зарядний кабель",
+      "price": 42.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1143,
+      "image": "https://ae01.alicdn.com/kf/S83daeacb8a254efa9eb45eaa40313c1eP.jpg",
+      "link": "https://aliexpress.com/item/1005007757180783.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007757180783.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-16T19:34:28.881569+00:00"
+    },
+    {
+      "id": "1005007895928190",
+      "title": "Новий Sofirn HS21 SFT40 2000lm EDC Red Headlight 18650 USB C",
+      "price": 18.13,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1705,
+      "image": "https://ae01.alicdn.com/kf/S808ca17775234861bbcbb50049f98cb0N.png",
+      "link": "https://aliexpress.com/item/1005007895928190.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007895928190.html",
+      "description": "",
+      "promo_text": "HP0005, ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T19:38:00.406999+00:00"
+    },
+    {
       "id": "1005007476619590",
       "title": "Портативна міні-парова праска для видалення кліщів",
       "price": 602.0,
