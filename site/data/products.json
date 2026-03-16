@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011807855899",
+      "title": "Автомобільний USB-подовжувач зарядки 2.0, 3-портовий розширений розгалужувач USB",
+      "price": 19.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 712,
+      "image": "https://ae01.alicdn.com/kf/S300def3e11b54d6c8d958f2bf77ab188k.jpg",
+      "link": "https://aliexpress.com/item/1005011807855899.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011807855899.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-16T17:15:43.791749+00:00"
+    },
+    {
+      "id": "1005011811854076",
+      "title": "Автомобільний присосок Дзеркало заднього виду Автомобіль Вантажівка Широка плоска",
+      "price": 78.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.8,
+      "orders": 1506,
+      "image": "https://ae01.alicdn.com/kf/S49e8dd4b76b04b4da88057a849e1b22fz.jpg",
+      "link": "https://aliexpress.com/item/1005011811854076.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011811854076.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-16T17:18:28.010231+00:00"
+    },
+    {
       "id": "1005007044893154",
       "title": "Лі-Нін Мен",
       "price": 763.0,
