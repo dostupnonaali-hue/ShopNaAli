@@ -1597,6 +1597,69 @@ img {
   opacity: 0.8;
 }
 
+/* --- Tip Banner --- */
+.tip-banner {
+  max-width: var(--max-width);
+  margin: var(--gap-2xl) auto;
+  padding: var(--gap-lg) var(--gap-xl);
+  background: var(--bg-glass);
+  border: 1px solid rgba(0, 255, 136, 0.15);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--gap-lg);
+  position: relative;
+  z-index: 1;
+  transition: border-color var(--transition-normal);
+}
+
+.tip-banner:hover {
+  border-color: rgba(0, 255, 136, 0.3);
+}
+
+.tip-banner__icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.tip-banner__content {
+  flex: 1;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.tip-banner__content strong {
+  color: var(--text-primary);
+}
+
+.tip-banner__link {
+  flex-shrink: 0;
+  padding: 8px 20px;
+  background: linear-gradient(135deg, var(--accent-primary), #00cc6a);
+  color: var(--bg-primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  transition: all var(--transition-normal);
+  white-space: nowrap;
+}
+
+.tip-banner__link:hover {
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .tip-banner {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--gap-md);
+    padding: var(--gap-md);
+  }
+}
+
 /* --- DoBaksa Responsive --- */
 @media (max-width: 640px) {
   .dobaksa-hero__title {
