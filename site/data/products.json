@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010721732283",
+      "title": "Глобальна версія Xiaomi Redmi Note 15 Pro MTK Helio",
+      "price": 179.45,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 388,
+      "image": "https://ae01.alicdn.com/kf/S64a61a6a417b43bc889b73bd58873ba6C.jpg",
+      "link": "https://aliexpress.com/item/1005010721732283.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010721732283.html",
+      "description": "",
+      "promo_text": "SOWRSFB31QX5, ASUA45, UAAFF45, UAS45, ASZ, UA45",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T11:30:05.805217+00:00"
+    },
+    {
       "id": "1005007082248348",
       "title": "LiitoKala LF-786 Робочі ліхтарі + 26650 акумуляторна батарея",
       "price": 405.0,
