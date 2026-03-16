@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006225839098",
+      "title": "GTMT 12KW Трифазний гібридний сонячний інвертор 48VDC To",
+      "price": 3.0,
+      "currency": "USD",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1190,
+      "image": "https://ae01.alicdn.com/kf/S9c17e3226fc84ec9bd7f0111b28fd93fI.jpg",
+      "link": "https://aliexpress.com/item/1005006225839098.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006225839098.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T21:33:33.323564+00:00"
+    },
+    {
+      "id": "33002418514",
+      "title": "Лі-Нін Мен",
+      "price": 24.28,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 380,
+      "image": "https://ae01.alicdn.com/kf/Sa1413c5e0a1d4b60a733f93abe9f8b0am.jpg",
+      "link": "https://aliexpress.com/item/33002418514.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F33002418514.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T21:36:47.140031+00:00"
+    },
+    {
       "id": "1005009582424490",
       "title": "Автомобільний тримач для мобільного телефону 2025 Новий автомобільний магніт",
       "price": 4.6,
