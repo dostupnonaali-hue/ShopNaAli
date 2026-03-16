@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007921403693",
+      "title": "6-дюймовий цифровий мікрометр з нержавіючої сталі з штангенциркулем",
+      "price": 7.93,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 5.0,
+      "orders": 1231,
+      "image": "https://ae01.alicdn.com/kf/Seab8fea972944050970fe35622246fe1P.jpeg",
+      "link": "https://aliexpress.com/item/1005007921403693.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007921403693.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T18:30:56.940542+00:00"
+    },
+    {
+      "id": "1005010552822712",
+      "title": "Глобальна версія OnePlus Watch 2R Smart Watch 1,43” AMOLED",
+      "price": 97.16,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1193,
+      "image": "https://ae01.alicdn.com/kf/Se2f1a64d72c44ef8b9992ca51885dfa49.jpg",
+      "link": "https://aliexpress.com/item/1005010552822712.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010552822712.html",
+      "description": "",
+      "promo_text": "ASUA11, UAAFF11, UAS11, ASZ, UA11",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T18:33:27.643390+00:00"
+    },
+    {
       "id": "1005006435074705",
       "title": "Жіночі безшовні легінси для йоги з високою талією, спорт",
       "price": 103.0,
