@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007395229844",
+      "title": "Майка без рукавів Жіночий Y2k Одяг Повсякденний Спорт для дівчаток",
+      "price": 51.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1645,
+      "image": "https://ae01.alicdn.com/kf/Sca9a6cdf8ce14da5ad1aa0d516ebb636t.jpg",
+      "link": "https://aliexpress.com/item/1005007395229844.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007395229844.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-16T17:33:02.022404+00:00"
+    },
+    {
       "id": "1005008448321383",
       "title": "Зарядний пристрій Baseus Power Bank Capacity PD Fast Charging Battery Charger",
       "price": 1480.0,
