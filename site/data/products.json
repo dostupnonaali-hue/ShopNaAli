@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007038235830",
+      "title": "НОВИЙ Оригінальний маршрутизатор Xiaomi AX3000T 5GHz 160MHz Broadband",
+      "price": 1082.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 1711,
+      "image": "https://ae01.alicdn.com/kf/S287bc69b072d41899ff27d2d112610c24.jpg",
+      "link": "https://aliexpress.com/item/1005007038235830.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007038235830.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "154 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-16T13:00:52.340523+00:00"
+    },
+    {
+      "id": "1005011853434708",
+      "title": "7-жильний шнур Paracord 5M для виживання на природі",
+      "price": 24.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1310,
+      "image": "https://ae01.alicdn.com/kf/S55b8e61a09b544d89cbc4468f7dcb612A.jpg",
+      "link": "https://aliexpress.com/item/1005011853434708.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011853434708.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-16T13:06:09.630281+00:00"
+    },
+    {
       "id": "1005006462946557",
       "title": "Підставка для пароварки з ручною прасувальною дошкою 84- Портативна",
       "price": 603.0,
