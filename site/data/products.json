@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007857221133",
+      "title": "1 шт. Яскраве світло для проекції заходу сонця - 16-кольоровий спектр,",
+      "price": 83.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 854,
+      "image": "https://ae01.alicdn.com/kf/Sf5b6332ddb3447e2839456f9b8498892N.jpg",
+      "link": "https://aliexpress.com/item/1005007857221133.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007857221133.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-16T11:54:54.821121+00:00"
+    },
+    {
       "id": "1005010638774685",
       "title": "Самоклеюча наклейка Голова вовка Автомобільна наклейка Водонепроникний автомобіль",
       "price": 3.0,
