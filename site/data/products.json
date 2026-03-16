@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007693125427",
+      "title": "Професійний лазерний далекомір 50M/80M/120M",
+      "price": 386.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1478,
+      "image": "https://ae01.alicdn.com/kf/S5a9e200b45e242bab4d5b35bcaaae0b3Z.jpg",
+      "link": "https://aliexpress.com/item/1005007693125427.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007693125427.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-16T18:10:37.331649+00:00"
+    },
+    {
+      "id": "1005011821396577",
+      "title": "Модні жіночі кварцові годинники з силіконовим ремінцем. Повсякденний комплект",
+      "price": 46.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 574,
+      "image": "https://ae01.alicdn.com/kf/Sa47f009c877a4666ae418a755728f109A.jpg",
+      "link": "https://aliexpress.com/item/1005011821396577.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011821396577.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-16T18:16:54.943666+00:00"
+    },
+    {
       "id": "1005007395229844",
       "title": "Майка без рукавів Жіночий Y2k Одяг Повсякденний Спорт для дівчаток",
       "price": 51.0,
