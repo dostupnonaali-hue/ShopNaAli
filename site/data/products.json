@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007044893154",
+      "title": "Лі-Нін Мен",
+      "price": 763.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1457,
+      "image": "https://ae01.alicdn.com/kf/Sfec8ee8c77254b808a8ba4f18fea1bc0m.jpg",
+      "link": "https://aliexpress.com/item/1005007044893154.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007044893154.html",
+      "description": "",
+      "promo_text": "028J, IFPHUAZU",
+      "price_note": "88 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-16T16:40:22.204012+00:00"
+    },
+    {
+      "id": "1005006678027603",
+      "title": "Жіноча дизайнерська сумка модного бренду невелика з PU шкіри",
+      "price": 145.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 1900,
+      "image": "https://ae01.alicdn.com/kf/Sbd1bab2c7e084a6c901dbb3a53565a01u.jpg",
+      "link": "https://aliexpress.com/item/1005006678027603.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006678027603.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-16T16:47:03.251092+00:00"
+    },
+    {
       "id": "32960183079",
       "title": "Кросівки BONA Чоловіче взуття Спортивні сітчасті кросівки Легкі",
       "price": 767.0,
