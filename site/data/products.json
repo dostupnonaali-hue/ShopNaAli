@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008743740237",
+      "title": "Глобальна версія Xiaomi Mi TV Box 3-го покоління 4K UHD Bluetooth",
+      "price": 46.19,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1863,
+      "image": "https://ae01.alicdn.com/kf/Sf39c25aedf314af29cbeffa03f1aaa3cz.jpg",
+      "link": "https://aliexpress.com/item/1005008743740237.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008743740237.html",
+      "description": "",
+      "promo_text": "ASUA07, UAAFF07, UAS7, ASZ, UA07",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-16T13:30:10.287146+00:00"
+    },
+    {
+      "id": "1005008406252670",
+      "title": "Камера безпеки Baseus 3MP 2K Pan&Tilt Home Protection",
+      "price": 882.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 606,
+      "image": "https://ae01.alicdn.com/kf/S5fad28b5114844b49fceef083671ddd5H.jpg",
+      "link": "https://aliexpress.com/item/1005008406252670.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008406252670.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "255 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-16T13:37:41.742202+00:00"
+    },
+    {
       "id": "1005009447326619",
       "title": "Автоматична годівниця для котів ROJECO, 2 л Smart Dog Food Kibble",
       "price": 883.0,
