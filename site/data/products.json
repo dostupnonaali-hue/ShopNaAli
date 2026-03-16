@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006435074705",
+      "title": "Жіночі безшовні легінси для йоги з високою талією, спорт",
+      "price": 103.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 4.7,
+      "orders": 1934,
+      "image": "https://ae01.alicdn.com/kf/Sf016e79711684b698595093148d4bad2M.jpg",
+      "link": "https://aliexpress.com/item/1005006435074705.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006435074705.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-16T18:19:30.686005+00:00"
+    },
+    {
+      "id": "1005006398654272",
+      "title": "Настільна лампа Baseus Magnetic Screen Light для ноутбука",
+      "price": 1006.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1790,
+      "image": "https://ae01.alicdn.com/kf/S292d142e11e141359f7e1839f7fe5c82i.jpg",
+      "link": "https://aliexpress.com/item/1005006398654272.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006398654272.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "36 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-16T18:25:09.462831+00:00"
+    },
+    {
       "id": "1005007693125427",
       "title": "Професійний лазерний далекомір 50M/80M/120M",
       "price": 386.0,
