@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008091247148",
+      "title": "ROJECO Smart Cat Water Fountain Автоматична вода для домашніх тварин",
+      "price": 10.79,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 4.7,
+      "orders": 531,
+      "image": "https://ae01.alicdn.com/kf/S3df2ed6801984254a1d649e53ec11fb1n.jpg",
+      "link": "https://aliexpress.com/item/1005008091247148.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008091247148.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T19:36:18.632056+00:00"
+    },
+    {
+      "id": "1005005262174340",
+      "title": "Зарядний пристрій UGREEN GaN PD із розетками змінного струму для мобільних телефонів",
+      "price": 10.98,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 909,
+      "image": "https://ae01.alicdn.com/kf/Sd01b8ce9d18d4b6fb265cf86fcdbe263n.jpg",
+      "link": "https://aliexpress.com/item/1005005262174340.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005262174340.html",
+      "description": "",
+      "promo_text": "4ZKG6TQLA9E4, ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T19:44:20.358015+00:00"
+    },
+    {
       "id": "1005007096971576",
       "title": "M10 Wireless",
       "price": 72.0,
