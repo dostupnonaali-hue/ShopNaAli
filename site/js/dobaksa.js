@@ -48,11 +48,11 @@
                 return p.price <= 1;
             });
 
-            // Sort by price ascending (normalize UAH to USD for sorting)
+            // Sort by date descending (newest first)
             cheapProducts.sort(function(a, b) {
-                var priceA = a.currency === 'UAH' ? a.price / 41 : a.price;
-                var priceB = b.currency === 'UAH' ? b.price / 41 : b.price;
-                return priceA - priceB;
+                var dateA = a.added_at || '';
+                var dateB = b.added_at || '';
+                return dateB.localeCompare(dateA);
             });
 
             filteredProducts = cheapProducts.slice();
