@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007162731447",
+      "title": "HOCO W35 Max бездротова HiFi музична колонка для навушників",
+      "price": 461.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1886,
+      "image": "https://ae01.alicdn.com/kf/S2da0983a48fa4e6db06ceb246328fbfcr.jpg",
+      "link": "https://aliexpress.com/item/1005007162731447.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007162731447.html",
+      "description": "",
+      "promo_text": "IFPHUAZU",
+      "price_note": "362 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T10:40:18.634024+00:00"
+    },
+    {
       "id": "1005010638771530",
       "title": "Світова прем'єра смартфона OnePlus 15R у глобальній версії",
       "price": 19241.0,
