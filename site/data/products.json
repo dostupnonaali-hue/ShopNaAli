@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006429354631",
+      "title": "Функщею 36inbweHHA, акумуляторний, типу С, для рибол М",
+      "price": 183.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 424,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006429354631.jpg",
+      "link": "https://aliexpress.com/item/1005006429354631.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006429354631.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "153 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T16:20:35.226529+00:00"
+    },
+    {
       "id": "1005006429976725",
       "title": "18650, багатофункщюнальний зовнишнй лЁхтарик, порта Vv",
       "price": 165.0,
