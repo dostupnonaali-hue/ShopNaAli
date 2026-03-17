@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011806096292",
+      "title": "Жіночі кросівки на платформі Baasploa, модні шкіряні повсякденні",
+      "price": 12.19,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 636,
+      "image": "https://ae01.alicdn.com/kf/S362127715bd54251aa6156bdf000c245Y.jpg",
+      "link": "https://aliexpress.com/item/1005011806096292.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011806096292.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T08:33:47.784709+00:00"
+    },
+    {
+      "id": "1005009236049716",
+      "title": "Портативний великий акумулятор QOOVI Power Bank PD зі швидкою зарядкою",
+      "price": 2313.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1514,
+      "image": "https://ae01.alicdn.com/kf/S4e7710c6cb9041779af5d0124ceb210cd.jpg",
+      "link": "https://aliexpress.com/item/1005009236049716.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009236049716.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "197 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T08:36:05.055084+00:00"
+    },
+    {
       "id": "1005010745247840",
       "title": "Жіночі світшоти з капюшоном Baasploa, нова мода, суцільний колір",
       "price": 11.74,
