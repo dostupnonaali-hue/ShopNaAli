@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "32986279792",
+      "title": "1шт пластиковий професійний безпечний кухонний інструмент із ручним приводом",
+      "price": 164.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.9,
+      "orders": 514,
+      "image": "https://ae01.alicdn.com/kf/HTB10AftLsbpK1RjSZFyq6x_qFXa4.jpg",
+      "link": "https://aliexpress.com/item/32986279792.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F32986279792.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "109 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T12:40:17.528373+00:00"
+    },
+    {
       "id": "4001305804975",
       "title": "Робот-пилосос ABIR X8, лазерна система, багатоповерховий",
       "price": 145.15,
