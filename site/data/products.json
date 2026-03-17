@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010120015102",
+      "title": "Ультразвуковий зволожувач повітря великої ємності ROUNY 4 л",
+      "price": 864.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1722,
+      "image": "https://ae01.alicdn.com/kf/S32e01a7d28814ccf94b2c5f8da92cabcn.jpg",
+      "link": "https://aliexpress.com/item/1005010120015102.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010120015102.html",
+      "description": "",
+      "promo_text": "IFPMP0EG",
+      "price_note": "434 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T12:03:05.381713+00:00"
+    },
+    {
+      "id": "1005007039361763",
+      "title": "DC - 8A PIR датчик руху Автоматичний регульований перемикач",
+      "price": 55.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.8,
+      "orders": 1030,
+      "image": "https://ae01.alicdn.com/kf/S5ab1b1cc44864c24a6426f46034eec04b.jpg",
+      "link": "https://aliexpress.com/item/1005007039361763.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007039361763.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-17T12:09:03.195566+00:00"
+    },
+    {
       "id": "1005008406447372",
       "title": "Ігровий мікрофон MAONO PD100X, динамічний мікрофон USB/XLR з",
       "price": 26.11,
