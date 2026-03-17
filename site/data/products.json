@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010572684824",
+      "title": "Переносне резервне джерело живлення ДБЖ постійного струму для модему відеоспостереження маршрутизатора",
+      "price": 659.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1969,
+      "image": "https://ae01.alicdn.com/kf/S642b9fe0ce2e43a4b0a89c43643d079cc.jpg",
+      "link": "https://aliexpress.com/item/1005010572684824.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010572684824.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "155 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T07:37:59.753998+00:00"
+    },
+    {
       "id": "1005008493518271",
       "title": "Baseus 2000A Car Jump Starter Power Bank Car Booster для",
       "price": 2413.0,
