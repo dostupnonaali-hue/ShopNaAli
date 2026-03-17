@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006861937070",
+      "title": "Змнного струму 220 В 230 B 1500 Вт/2200 Вт/2600 Вт. v",
+      "price": 1255.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 368,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006861937070.jpg",
+      "link": "https://aliexpress.com/item/1005006861937070.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006861937070.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "289 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T15:20:38.561360+00:00"
+    },
+    {
       "id": "1005007097144251",
       "title": "MR.GREEN Кусачки для нігтів на ногах Ножки для нігтів Професійні",
       "price": 346.0,
