@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010404275115",
+      "title": "Зарядний пристрій Liitokala lii-700 3./1.",
+      "price": 1438.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1337,
+      "image": "https://ae01.alicdn.com/kf/Scbfee1142f13485888b2c778a1dfbab6Q.jpg",
+      "link": "https://aliexpress.com/item/1005010404275115.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010404275115.html",
+      "description": "",
+      "promo_text": "IFPMP0EG",
+      "price_note": "577 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T13:20:24.657979+00:00"
+    },
+    {
       "id": "1005008797050137",
       "title": "Ультратонкі спеціальні наколінники для бігу,",
       "price": 29.0,
