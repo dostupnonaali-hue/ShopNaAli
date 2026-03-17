@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011818457563",
+      "title": "Ракель для скла побутовий висувний, скло рідинне",
+      "price": 116.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1361,
+      "image": "https://ae01.alicdn.com/kf/S6797fe9a221e4badac3beeb2b7cfbbba9.jpg",
+      "link": "https://aliexpress.com/item/1005011818457563.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011818457563.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-17T09:59:41.907217+00:00"
+    },
+    {
       "id": "1005008563084684",
       "title": "Розумний паяльник постійної температури ZOYI ZT-n1",
       "price": 434.0,
