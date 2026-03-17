@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010745697803",
+      "title": "Нове туристичне взуття Baasploa, легка еластична сітка",
+      "price": 20.41,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1335,
+      "image": "https://ae01.alicdn.com/kf/S9e1fa29029e046c2a0d754dc2d672ccf5.jpg",
+      "link": "https://aliexpress.com/item/1005010745697803.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010745697803.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T19:59:21.722586+00:00"
+    },
+    {
+      "id": "1005011524703655",
+      "title": "Білі кросівки Xtep для жінок 2026, весна, пара, універсальні",
+      "price": 15.96,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 645,
+      "image": "https://ae01.alicdn.com/kf/S98186a73240b4cd6903153b87bcd6a1f6.jpg",
+      "link": "https://aliexpress.com/item/1005011524703655.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011524703655.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T20:03:09.640444+00:00"
+    },
+    {
       "id": "1005003112552254",
       "title": "Жіноча пов'язка на голову, еластичні гумки для волосся, м'які дівчата",
       "price": 6.0,
