@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007937914858",
+      "title": "Фіксуючий ремінь, сумка для зберігання, стрічки, ф М",
+      "price": 26.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 517,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007937914858.jpg",
+      "link": "https://aliexpress.com/item/1005007937914858.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007937914858.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-17T17:04:43.264598+00:00"
+    },
+    {
+      "id": "1005007189832730",
+      "title": "Подвійний Wi-Fi 290ANSI Allwinner H726 BT5.4 1080P 1280*",
+      "price": 1426.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 540,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007189832730.jpg",
+      "link": "https://aliexpress.com/item/1005007189832730.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007189832730.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "75 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T17:07:05.622566+00:00"
+    },
+    {
       "id": "1005011659481918",
       "title": "Автомобіль, складне кріплення, універсальна по М",
       "price": 54.0,
