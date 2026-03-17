@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "4001305804975",
+      "title": "Робот-пилосос ABIR X8, лазерна система, багатоповерховий",
+      "price": 145.15,
+      "currency": "USD",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 562,
+      "image": "https://ae01.alicdn.com/kf/S1fdb900b21954d2785164c52c14c58e6T.jpg",
+      "link": "https://aliexpress.com/item/4001305804975.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F4001305804975.html",
+      "description": "",
+      "promo_text": "UA1520, ASUA20, UAAFF20, UAS20",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T12:26:19.626773+00:00"
+    },
+    {
+      "id": "1005006904714392",
+      "title": "Набір гель-лаків для нігтів з УФ-лампою для нігтів Електрична дриль для нігтів",
+      "price": 668.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 1461,
+      "image": "https://ae01.alicdn.com/kf/S535da654e10c49338dba9b642a3b959bp.jpg",
+      "link": "https://aliexpress.com/item/1005006904714392.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006904714392.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "223 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T12:29:14.177059+00:00"
+    },
+    {
       "id": "1005011830007660",
       "title": "1 рулон паяльного дроту, олова, без очищення, каніфолі, сердечника 0,5-1. Зварювання",
       "price": 39.0,
