@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008248129368",
+      "title": "Портативна соковижималка Mijia 2 Автоматична соковижималка для фруктів типу C",
+      "price": 19.72,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 969,
+      "image": "https://ae01.alicdn.com/kf/Sc932278786024915b3b4a8e74bfff63d5.jpg",
+      "link": "https://aliexpress.com/item/1005008248129368.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008248129368.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T21:51:02.007686+00:00"
+    },
+    {
       "id": "1005011675421117",
       "title": "Ліхтарик SOFIRN ST2 3000LM Rotery SFT42R LED 6000K Red",
       "price": 46.82,
