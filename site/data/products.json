@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007096971576",
+      "title": "M10 Wireless",
+      "price": 72.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 381,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007096971576.jpg",
+      "link": "https://aliexpress.com/item/1005007096971576.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007096971576.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-17T18:08:31.278875+00:00"
+    },
+    {
+      "id": "1005011734908643",
+      "title": "7 грн",
+      "price": 7.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 205,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011734908643.jpg",
+      "link": "https://aliexpress.com/item/1005011734908643.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011734908643.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-17T18:12:12.884873+00:00"
+    },
+    {
       "id": "1005005905231130",
       "title": "Щну показано без урахування податку; Додаткова знижка 1%",
       "price": 3866.0,
