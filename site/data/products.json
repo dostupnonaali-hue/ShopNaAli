@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007908951821",
+      "title": "Чоловічі зимові шкіряні водонепроникні кросівки Xtep",
+      "price": 22.44,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 1502,
+      "image": "https://ae01.alicdn.com/kf/S7fe01201e99544389f506f6162a9951bW.png",
+      "link": "https://aliexpress.com/item/1005007908951821.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007908951821.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T08:44:34.105583+00:00"
+    },
+    {
+      "id": "1005007345137299",
+      "title": "Warsun Camping Lights SMD Rechargeable Outdoor Hanging",
+      "price": 7.45,
+      "currency": "USD",
+      "category": "sport",
+      "rating": 4.9,
+      "orders": 867,
+      "image": "https://ae01.alicdn.com/kf/S09c937dab8eb4813a9b80fdeab86db98O.jpg",
+      "link": "https://aliexpress.com/item/1005007345137299.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007345137299.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T08:47:15.453579+00:00"
+    },
+    {
       "id": "1005011806096292",
       "title": "Жіночі кросівки на платформі Baasploa, модні шкіряні повсякденні",
       "price": 12.19,
