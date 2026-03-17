@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005005680231794",
+      "title": "ONEMIX YUE SHUANG Кросівки для чоловіків Air Cushion",
+      "price": 1487.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 580,
+      "image": "https://ae01.alicdn.com/kf/Sd4de5ba6b0c841a8961cbce9eb603421K.jpg",
+      "link": "https://aliexpress.com/item/1005005680231794.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005680231794.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "414 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T06:31:18.397894+00:00"
+    },
+    {
+      "id": "1005003198020819",
+      "title": "Бігове взуття ONEMIX для дихаючого марафону",
+      "price": 1099.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 5.0,
+      "orders": 201,
+      "image": "https://ae01.alicdn.com/kf/H5f9b26c6707440bdb95dd353e950fce9u.jpg",
+      "link": "https://aliexpress.com/item/1005003198020819.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005003198020819.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "204 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T06:34:05.777448+00:00"
+    },
+    {
       "id": "1005004008076326",
       "title": "Чоловічі кросівки ONEMIX 2022. Нековзка амортизація",
       "price": 684.0,
