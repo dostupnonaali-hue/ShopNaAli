@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006241426460",
+      "title": "Автомобільні світлодіодні лампи НУ, 12",
+      "price": 108.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 829,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006241426460.jpg",
+      "link": "https://aliexpress.com/item/1005006241426460.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006241426460.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-17T16:32:03.764383+00:00"
+    },
+    {
       "id": "1005006429354631",
       "title": "Функщею 36inbweHHA, акумуляторний, типу С, для рибол М",
       "price": 183.0,
