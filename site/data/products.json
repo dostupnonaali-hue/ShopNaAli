@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011659481918",
+      "title": "Автомобіль, складне кріплення, універсальна по М",
+      "price": 54.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 1692,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011659481918.jpg",
+      "link": "https://aliexpress.com/item/1005011659481918.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011659481918.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-17T17:01:28.765661+00:00"
+    },
+    {
       "id": "1005007009921585",
       "title": "Ліхтар сильний магнітний потужний налобний фон М",
       "price": 57.0,
