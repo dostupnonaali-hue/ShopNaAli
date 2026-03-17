@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008563084684",
+      "title": "Розумний паяльник постійної температури ZOYI ZT-n1",
+      "price": 434.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.7,
+      "orders": 1569,
+      "image": "https://ae01.alicdn.com/kf/S2c2079e231d443f1937277e79977dbe2n.jpg",
+      "link": "https://aliexpress.com/item/1005008563084684.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008563084684.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "280 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T09:50:56.344919+00:00"
+    },
+    {
       "id": "1005007345697545",
       "title": "AULA F75 2. Бездротова/Bluetooth/дротова ігрова механіка",
       "price": 1951.0,
