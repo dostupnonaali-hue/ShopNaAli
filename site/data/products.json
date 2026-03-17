@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005009973725458",
+      "title": "1- Вихід 14. 20A для зарядного пристрою 12V20A 4S lifepo4",
+      "price": 956.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 512,
+      "image": "https://ae01.alicdn.com/kf/Scf0ce6e7f7004882b049fa5b407ff0a6G.jpg",
+      "link": "https://aliexpress.com/item/1005009973725458.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009973725458.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "435 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T14:03:54.027971+00:00"
+    },
+    {
       "id": "1005010373589658",
       "title": "Валентина",
       "price": 27.0,
