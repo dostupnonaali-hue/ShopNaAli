@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006987266143",
+      "title": "Нова камера IMOU Cell 3C All-In-One з вбудованою сонячною батареєю WiFi",
+      "price": 1597.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 846,
+      "image": "https://ae01.alicdn.com/kf/S74fd2321b3da4483ad3548fe8346b43eo.jpg",
+      "link": "https://aliexpress.com/item/1005006987266143.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006987266143.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "564 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T14:20:22.274850+00:00"
+    },
+    {
       "id": "1005009973725458",
       "title": "1- Вихід 14. 20A для зарядного пристрою 12V20A 4S lifepo4",
       "price": 956.0,
