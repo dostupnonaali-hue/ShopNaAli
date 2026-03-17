@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005009649304040",
+      "title": "Електричні ножиці HILDA безщіточні електричні секатори",
+      "price": 743.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1255,
+      "image": "https://ae01.alicdn.com/kf/S7f10a0fed41d4384ab5d8532241b5183n.jpg",
+      "link": "https://aliexpress.com/item/1005009649304040.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009649304040.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "171 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T07:55:14.455052+00:00"
+    },
+    {
       "id": "1005010572684824",
       "title": "Переносне резервне джерело живлення ДБЖ постійного струму для модему відеоспостереження маршрутизатора",
       "price": 659.0,
