@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010476155925",
+      "title": "OT == Drillpro Global Stor... ( # 4.8 | 482 продано )",
+      "price": 463.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.8,
+      "orders": 1138,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010476155925.jpg",
+      "link": "https://aliexpress.com/item/1005010476155925.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010476155925.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-17T15:45:52.099747+00:00"
+    },
+    {
+      "id": "1005006436688553",
+      "title": "Люмен, потужна, перезаряджувана, для кемп!нгу Ta акти Y",
+      "price": 332.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1676,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006436688553.jpg",
+      "link": "https://aliexpress.com/item/1005006436688553.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006436688553.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "154 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T15:48:53.218411+00:00"
+    },
+    {
       "id": "1005011781676968",
       "title": "ПРОФЕСІЙНІ ВЕСЛУГИ",
       "price": 430.0,
