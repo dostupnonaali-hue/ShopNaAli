@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011849538115",
+      "title": "Зарядний пристрій USB Li Battery Ports Charging Dual Slot 18650",
+      "price": 142.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1739,
+      "image": "https://ae01.alicdn.com/kf/S5099359fc7b94dc9af0e13f64f4b1631N.jpg",
+      "link": "https://aliexpress.com/item/1005011849538115.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011849538115.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-17T13:00:03.160496+00:00"
+    },
+    {
+      "id": "1005006904506903",
+      "title": "MR.GREEN Модні манікюрні набори Засоби особистої гігієни",
+      "price": 246.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 178,
+      "image": "https://ae01.alicdn.com/kf/Sa9f74117d8224846ab7dcd6c4f276742U.jpg",
+      "link": "https://aliexpress.com/item/1005006904506903.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006904506903.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "148 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T13:02:08.164941+00:00"
+    },
+    {
       "id": "32986279792",
       "title": "1шт пластиковий професійний безпечний кухонний інструмент із ручним приводом",
       "price": 164.0,
