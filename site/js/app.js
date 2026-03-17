@@ -1,23 +1,27 @@
 /**
- * ShopDoBaksa — Main App Logic
+ * ShopDoBaksa - Main App Logic
  * Loads products from data/products.json and renders the catalog
  */
 
 (function () {
     'use strict';
 
+    // --- Config ---
+    var BATCH_SIZE = 20;
+
     // --- State ---
-    let allProducts = [];
-    let filteredProducts = [];
-    let currentFilter = 'all';
-    let searchQuery = '';
+    var allProducts = [];
+    var filteredProducts = [];
+    var currentFilter = 'all';
+    var searchQuery = '';
+    var displayCount = BATCH_SIZE;
 
     // --- DOM Elements ---
-    const productsGrid = document.getElementById('productsGrid');
-    const searchInput = document.getElementById('searchInput');
-    const filtersContainer = document.getElementById('filters');
-    const statsProducts = document.getElementById('statsProducts');
-    const statsCategories = document.getElementById('statsCategories');
+    var productsGrid = document.getElementById('productsGrid');
+    var searchInput = document.getElementById('searchInput');
+    var filtersContainer = document.getElementById('filters');
+    var statsProducts = document.getElementById('statsProducts');
+    var statsCategories = document.getElementById('statsCategories');
 
     // --- Init ---
     async function init() {
@@ -31,13 +35,12 @@
     // --- Load Products ---
     async function loadProducts() {
         try {
-            // Cache buster: updates every 5 minutes (300000 ms)
-            const cacheBuster = Math.floor(Date.now() / 300000);
-            const response = await fetch(`data/products.json?v=${cacheBuster}`);
+            var cacheBuster = Math.floor(Date.now() / 300000);
+            var response = await fetch('data/products.json?v=' + cacheBuster);
             if (!response.ok) throw new Error('Failed to load products');
-            const data = await response.json();
+            var data = await response.json();
             allProducts = data.products || data || [];
-            filteredProducts = [...allProducts];
+            filteredProducts = allProducts.slice();
         } catch (err) {
             console.warn('Products not loaded yet:', err.message);
             allProducts = [];
@@ -48,110 +51,128 @@
     // --- Render Products ---
     function renderProducts() {
         if (filteredProducts.length === 0) {
-            productsGrid.innerHTML = `
-                <div class="empty-state">
-                    <div class="empty-state__icon">📦</div>
-                    <h3 class="empty-state__title">Товари скоро з'являться!</h3>
-                    <p class="empty-state__text">Парсер вже працює — нові знахідки додаються автоматично</p>
-                </div>
-            `;
+            productsGrid.innerHTML = '<div class="empty-state">' +
+                '<div class="empty-state__icon">\uD83D\uDCE6</div>' +
+                '<h3 class="empty-state__title">\u0422\u043E\u0432\u0430\u0440\u0438 \u0441\u043A\u043E\u0440\u043E \u0437\'\u044F\u0432\u043B\u044F\u0442\u044C\u0441\u044F!</h3>' +
+                '<p class="empty-state__text">\u041F\u0430\u0440\u0441\u0435\u0440 \u0432\u0436\u0435 \u043F\u0440\u0430\u0446\u044E\u0454 \u2014 \u043D\u043E\u0432\u0456 \u0437\u043D\u0430\u0445\u0456\u0434\u043A\u0438 \u0434\u043E\u0434\u0430\u044E\u0442\u044C\u0441\u044F \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u043D\u043E</p>' +
+                '</div>';
+            removeLoadMore();
             return;
         }
 
-        productsGrid.innerHTML = filteredProducts.map((product, index) => {
-            const badgeHTML = product.badge
-                ? `<span class="product-card__badge product-card__badge--${product.badge}">${getBadgeText(product.badge)}</span>`
+        var visible = filteredProducts.slice(0, displayCount);
+
+        productsGrid.innerHTML = visible.map(function(product, index) {
+            var badgeHTML = product.badge
+                ? '<span class="product-card__badge product-card__badge--' + product.badge + '">' + getBadgeText(product.badge) + '</span>'
                 : '';
 
-            const ratingStars = '⭐'.repeat(Math.round(product.rating || 0));
-            const currencySymbol = product.currency === 'UAH' ? '₴' : '$';
-            const priceOld = product.price_old
-                ? `<span class="product-card__price-old">${currencySymbol}${product.price_old.toFixed(2)}</span>`
+            var ratingStars = '\u2B50'.repeat(Math.round(product.rating || 0));
+            var currencySymbol = product.currency === 'UAH' ? '\u20B4' : '$';
+            var priceOld = product.price_old
+                ? '<span class="product-card__price-old">' + currencySymbol + product.price_old.toFixed(2) + '</span>'
                 : '';
 
-            return `
-                <article class="product-card" style="animation-delay: ${index * 0.05}s" onclick="openProduct('${product.id}')">
-                    <div class="product-card__image-wrap">
-                        ${badgeHTML}
-                        <img class="product-card__image" 
-                             src="${product.image ? product.image : 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMzAwIDMwMCc+PHJlY3QgZmlsbD0nIzEyMTIxYScgd2lkdGg9JzMwMCcgaGVpZ2h0PSczMDAnLz48dGV4dCBmaWxsPScjNjA2MDcwJyBmb250LWZhbWlseT0nc2Fucy1zZXJpZicgZm9udC1zaXplPScxOCcgZm9udC13ZWlnaHQ9JzYwMCcgZG9taW5hbnQtYmFzZWxpbmU9J21pZGRsZScgdGV4dC1hbmNob3I9J21pZGRsZScgeD0nNTAlJyB5PSc1MCUnPtCX0L7QsdGA0LDQttC10L3QvdGPINC90LUg0LfQvdCw0LnQtNC10L3QvjwvdGV4dD48L3N2Zz4='}"
-                             alt="${escapeHtml(product.title)}" 
-                             loading="lazy"
-                             onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMzAwIDMwMCc+PHJlY3QgZmlsbD0nIzEyMTIxYScgd2lkdGg9JzMwMCcgaGVpZ2h0PSczMDAnLz48dGV4dCBmaWxsPScjNjA2MDcwJyBmb250LWZhbWlseT0nc2Fucy1zZXJpZicgZm9udC1zaXplPScxOCcgZm9udC13ZWlnaHQ9JzYwMCcgZG9taW5hbnQtYmFzZWxpbmU9J21pZGRsZScgdGV4dC1hbmNob3I9J21pZGRsZScgeD0nNTAlJyB5PSc1MCUnPtCf0L7QvNC40LvQutCwINC30LDQstCw0L3RgtCw0LbQtdC90L3RjzwvdGV4dD48L3N2Zz4=''">
-                    </div>
-                    <div class="product-card__body">
-                        <h3 class="product-card__title">${escapeHtml(product.title)}</h3>
-                        <div class="product-card__meta">
-                            <div>
-                                <span class="product-card__price">${currencySymbol}${(product.price || 0).toFixed(2)}</span>
-                                ${priceOld}
-                            </div>
-                            <span class="product-card__rating">${ratingStars}</span>
-                        </div>
-                        ${product.price_note ? `<div class="product-card__price-note">🏷️ ${escapeHtml(product.price_note)}</div>` : ''}
-                        ${product.promo_text ? (() => {
-                            const promos = product.promo_text.split(',').map(s => s.trim()).filter(Boolean);
-                            if (!promos.length) return '';
-                            return `<div class="product-card__promos">` + promos.map(p => 
-                                `<div class="product-card__promo" title="Скопіювати промокод" data-promo="${escapeHtml(p)}" onclick="event.preventDefault(); event.stopPropagation(); navigator.clipboard.writeText(this.dataset.promo); const orig = this.innerHTML; this.innerHTML = '✅ Скопійовано!'; setTimeout(() => this.innerHTML = orig, 2000);">✂️ ${escapeHtml(p)}</div>`
-                            ).join('') + `</div>`;
-                        })() : ''}
-                        <div class="product-card__orders">${product.orders || 0} замовлень</div>
-                        <a href="${product.affiliate_link || product.link || '#'}" 
-                           target="_blank" 
-                           class="product-card__cta"
-                           onclick="event.stopPropagation()">
-                            🛒 Купити
-                        </a>
-                    </div>
-                </article>
-            `;
+            var imgFallback = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMzAwIDMwMCc+PHJlY3QgZmlsbD0nIzEyMTIxYScgd2lkdGg9JzMwMCcgaGVpZ2h0PSczMDAnLz48dGV4dCBmaWxsPScjNjA2MDcwJyBmb250LWZhbWlseT0nc2Fucy1zZXJpZicgZm9udC1zaXplPScxOCcgZm9udC13ZWlnaHQ9JzYwMCcgZG9taW5hbnQtYmFzZWxpbmU9J21pZGRsZScgdGV4dC1hbmNob3I9J21pZGRsZScgeD0nNTAlJyB5PSc1MCUnPtCX0L7QsdGA0LDQttC10L3QvdGPINC90LUg0LfQvdCw0LnQtNC10L3QvjwvdGV4dD48L3N2Zz4=';
+            var imgErrorFallback = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMzAwIDMwMCc+PHJlY3QgZmlsbD0nIzEyMTIxYScgd2lkdGg9JzMwMCcgaGVpZ2h0PSczMDAnLz48dGV4dCBmaWxsPScjNjA2MDcwJyBmb250LWZhbWlseT0nc2Fucy1zZXJpZicgZm9udC1zaXplPScxOCcgZm9udC13ZWlnaHQ9JzYwMCcgZG9taW5hbnQtYmFzZWxpbmU9J21pZGRsZScgdGV4dC1hbmNob3I9J21pZGRsZScgeD0nNTAlJyB5PSc1MCUnPtCf0L7QvNC40LvQutCwPC90ZXh0Pjwvc3ZnPg==';
+
+            var promoHTML = '';
+            if (product.promo_text) {
+                var promos = product.promo_text.split(',').map(function(s) { return s.trim(); }).filter(Boolean);
+                if (promos.length) {
+                    promoHTML = '<div class="product-card__promos">' + promos.map(function(p) {
+                        return '<div class="product-card__promo" title="\u0421\u043A\u043E\u043F\u0456\u044E\u0432\u0430\u0442\u0438 \u043F\u0440\u043E\u043C\u043E\u043A\u043E\u0434" data-promo="' + escapeHtml(p) + '" onclick="event.preventDefault(); event.stopPropagation(); navigator.clipboard.writeText(this.dataset.promo); var orig = this.innerHTML; this.innerHTML = \'\u2705 \u0421\u043A\u043E\u043F\u0456\u0439\u043E\u0432\u0430\u043D\u043E!\'; setTimeout(function() { this.innerHTML = orig; }.bind(this), 2000);">\u2702\uFE0F ' + escapeHtml(p) + '</div>';
+                    }).join('') + '</div>';
+                }
+            }
+
+            return '<article class="product-card" style="animation-delay: ' + ((index % BATCH_SIZE) * 0.05) + 's" onclick="openProduct(\'' + product.id + '\')">' +
+                '<div class="product-card__image-wrap">' +
+                    badgeHTML +
+                    '<img class="product-card__image" src="' + (product.image || imgFallback) + '" alt="' + escapeHtml(product.title) + '" loading="lazy" onerror="this.onerror=null;this.src=\'' + imgErrorFallback + '\'">' +
+                '</div>' +
+                '<div class="product-card__body">' +
+                    '<h3 class="product-card__title">' + escapeHtml(product.title) + '</h3>' +
+                    '<div class="product-card__meta">' +
+                        '<div><span class="product-card__price">' + currencySymbol + (product.price || 0).toFixed(2) + '</span>' + priceOld + '</div>' +
+                        '<span class="product-card__rating">' + ratingStars + '</span>' +
+                    '</div>' +
+                    (product.price_note ? '<div class="product-card__price-note">\uD83C\uDFF7\uFE0F ' + escapeHtml(product.price_note) + '</div>' : '') +
+                    promoHTML +
+                    '<div class="product-card__orders">' + (product.orders || 0) + ' \u0437\u0430\u043C\u043E\u0432\u043B\u0435\u043D\u044C</div>' +
+                    '<a href="' + (product.affiliate_link || product.link || '#') + '" target="_blank" class="product-card__cta" onclick="event.stopPropagation()">\uD83D\uDED2 \u041A\u0443\u043F\u0438\u0442\u0438</a>' +
+                '</div>' +
+            '</article>';
         }).join('');
+
+        renderLoadMore();
     }
+
+    // --- Load More ---
+    function renderLoadMore() {
+        removeLoadMore();
+        if (displayCount >= filteredProducts.length) return;
+
+        var wrapper = document.createElement('div');
+        wrapper.className = 'load-more';
+        wrapper.id = 'loadMore';
+        var shown = Math.min(displayCount, filteredProducts.length);
+        wrapper.innerHTML = '<span class="load-more__counter">\u041F\u043E\u043A\u0430\u0437\u0430\u043D\u043E ' + shown + ' \u0437 ' + filteredProducts.length + '</span>' +
+            '<button class="load-more__btn" onclick="window._loadMore()">\uD83D\uDCE6 \u041F\u043E\u043A\u0430\u0437\u0430\u0442\u0438 \u0449\u0435</button>';
+        productsGrid.after(wrapper);
+    }
+
+    function removeLoadMore() {
+        var el = document.getElementById('loadMore');
+        if (el) el.remove();
+    }
+
+    window._loadMore = function () {
+        displayCount += BATCH_SIZE;
+        renderProducts();
+    };
 
     // --- Skeletons ---
     function showSkeletons(count) {
-        productsGrid.innerHTML = Array.from({ length: count }, () =>
-            '<div class="skeleton skeleton-card"></div>'
-        ).join('');
+        productsGrid.innerHTML = Array.from({ length: count }, function() {
+            return '<div class="skeleton skeleton-card"></div>';
+        }).join('');
     }
 
     // --- Filter ---
     function applyFilters() {
-        filteredProducts = allProducts.filter(product => {
-            const matchesFilter = currentFilter === 'all' || product.category === currentFilter || product.badge === currentFilter;
-            const matchesSearch = !searchQuery ||
+        filteredProducts = allProducts.filter(function(product) {
+            var matchesFilter = currentFilter === 'all' || product.category === currentFilter || product.badge === currentFilter;
+            var matchesSearch = !searchQuery ||
                 product.title.toLowerCase().includes(searchQuery.toLowerCase());
             return matchesFilter && matchesSearch;
         });
+        displayCount = BATCH_SIZE;
         renderProducts();
     }
 
     // --- Stats ---
     function updateStats() {
         statsProducts.textContent = allProducts.length;
-        const categories = new Set(allProducts.map(p => p.category).filter(Boolean));
-        statsCategories.textContent = categories.size || '—';
+        var categories = new Set(allProducts.map(function(p) { return p.category; }).filter(Boolean));
+        statsCategories.textContent = categories.size || '\u2014';
     }
 
     // --- Events ---
     function bindEvents() {
-        // Search
-        let searchTimeout;
-        searchInput.addEventListener('input', (e) => {
+        var searchTimeout;
+        searchInput.addEventListener('input', function(e) {
             clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => {
+            searchTimeout = setTimeout(function() {
                 searchQuery = e.target.value.trim();
                 applyFilters();
             }, 300);
         });
 
-        // Filters
-        filtersContainer.addEventListener('click', (e) => {
-            const btn = e.target.closest('.filter-btn');
+        filtersContainer.addEventListener('click', function(e) {
+            var btn = e.target.closest('.filter-btn');
             if (!btn) return;
-
-            filtersContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            filtersContainer.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
             btn.classList.add('active');
             currentFilter = btn.dataset.filter;
             applyFilters();
@@ -160,22 +181,19 @@
 
     // --- Helpers ---
     function getBadgeText(badge) {
-        const badges = {
-            'hot': '🔥 Хіт',
-            'new': '🆕 Нове',
-        };
+        var badges = { 'hot': '\uD83D\uDD25 \u0425\u0456\u0442', 'new': '\uD83C\uDD95 \u041D\u043E\u0432\u0435' };
         return badges[badge] || badge;
     }
 
     function escapeHtml(str) {
-        const div = document.createElement('div');
+        var div = document.createElement('div');
         div.textContent = str || '';
         return div.innerHTML;
     }
 
     // --- Global: open product page ---
     window.openProduct = function (id) {
-        window.location.href = `product.html?id=${id}`;
+        window.location.href = 'product.html?id=' + id;
     };
 
     // --- Start ---
