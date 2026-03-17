@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006982664881",
+      "title": "Бездротовий спінювач молока, кавовий вінчик, електричний блендер",
+      "price": 90.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 248,
+      "image": "https://ae01.alicdn.com/kf/Hed8e51c3bd1441d8b6f2e3fcb6480e3fz.jpg",
+      "link": "https://aliexpress.com/item/1005006982664881.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006982664881.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "99 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T11:02:26.017334+00:00"
+    },
+    {
+      "id": "1005005001083192",
+      "title": "Вінтажні жінки",
+      "price": 27.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 808,
+      "image": "https://ae01.alicdn.com/kf/S181c4036a2ce4960997761f2be783d87m.jpg",
+      "link": "https://aliexpress.com/item/1005005001083192.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005001083192.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-17T11:08:05.974929+00:00"
+    },
+    {
       "id": "1005002662125139",
       "title": "Літня бейсболка з вишивкою для жінок і чоловіків, літня татова сітка",
       "price": 35.0,
