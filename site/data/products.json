@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011551673122",
+      "title": "SANDI 4,2 кВт гібридний сонячний інвертор Off Grid Pure Sine MPPT",
+      "price": 250.69,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1149,
+      "image": "https://ae01.alicdn.com/kf/S95616af2435d4afa880a7d50555e14d0L.jpg",
+      "link": "https://aliexpress.com/item/1005011551673122.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011551673122.html",
+      "description": "",
+      "promo_text": "ASUA45, UAAFF45, UAS45, ASZ, UA45",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T08:15:19.029515+00:00"
+    },
+    {
+      "id": "1005010210782442",
+      "title": "Zekye Women",
+      "price": 16.52,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 361,
+      "image": "https://ae01.alicdn.com/kf/S6272e8d25ff148648a60f519762ac9bb4.jpg",
+      "link": "https://aliexpress.com/item/1005010210782442.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010210782442.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T08:18:40.699418+00:00"
+    },
+    {
       "id": "1005010236280308",
       "title": "Глобальна версія смартфона POCO F8 Pro Snapdragon® 8 Elite",
       "price": 456.0,
