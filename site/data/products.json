@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007175694875",
+      "title": "Цифровий електричний паяльник JCD 908S Температура",
+      "price": 159.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 5.0,
+      "orders": 942,
+      "image": "https://ae01.alicdn.com/kf/S6ca5bddd912c44ca984509dbb68a36daB.png",
+      "link": "https://aliexpress.com/item/1005007175694875.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007175694875.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-17T09:04:26.756582+00:00"
+    },
+    {
+      "id": "1005001414781709",
+      "title": "Автоматичне відновлення повторного підключення TOMZN 40A DIN-рейки",
+      "price": 19.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.9,
+      "orders": 1996,
+      "image": "https://ae01.alicdn.com/kf/H83faa89e34a24c6dae3fac6be360543dv.jpg",
+      "link": "https://aliexpress.com/item/1005001414781709.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005001414781709.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-17T09:07:34.798206+00:00"
+    },
+    {
       "id": "32696800292",
       "title": "Жіночі кросівки BONA New Classics Style дихаючі",
       "price": 739.0,
