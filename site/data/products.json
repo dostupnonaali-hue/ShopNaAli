@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005001709830838",
+      "title": "60A Din-рейка, регульований захист від перевищення та зниження напруги",
+      "price": 2.76,
+      "currency": "USD",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 112,
+      "image": "https://ae01.alicdn.com/kf/S5575f9788f90476daa71c1edc6d75e9aY.jpg",
+      "link": "https://aliexpress.com/item/1005001709830838.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005001709830838.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T21:08:31.270033+00:00"
+    },
+    {
+      "id": "1005006904565432",
+      "title": "Новий портативний пістолет для масажу м'язів Mijia Mini Fascia Gun 3",
+      "price": 35.06,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1699,
+      "image": "https://ae01.alicdn.com/kf/Sce27ec2c666e47f781d17cb739adcc3e0.png",
+      "link": "https://aliexpress.com/item/1005006904565432.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006904565432.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T21:11:34.530395+00:00"
+    },
+    {
       "id": "1005007723724419",
       "title": "Портативні гумові стрічки для тренувань для фітнесу",
       "price": 1.49,
