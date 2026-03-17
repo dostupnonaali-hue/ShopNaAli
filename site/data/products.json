@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010638771530",
+      "title": "Світова прем'єра смартфона OnePlus 15R у глобальній версії",
+      "price": 19241.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 658,
+      "image": "https://ae01.alicdn.com/kf/S50380155552546768a055e416cc63feem.jpg",
+      "link": "https://aliexpress.com/item/1005010638771530.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010638771530.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "200 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T10:26:01.684779+00:00"
+    },
+    {
+      "id": "1005011849408391",
+      "title": "Ендоскоп 2.8",
+      "price": 355.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1435,
+      "image": "https://ae01.alicdn.com/kf/S81d5d293c62d4f7b863223b8d28f76cbN.jpg",
+      "link": "https://aliexpress.com/item/1005011849408391.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011849408391.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-17T10:31:25.771583+00:00"
+    },
+    {
       "id": "1005011818457563",
       "title": "Ракель для скла побутовий висувний, скло рідинне",
       "price": 116.0,
