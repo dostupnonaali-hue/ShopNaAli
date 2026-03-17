@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007805574439",
+      "title": "Високошвидкісний фен XIAOMI H501 SE, швидкість вітру 62 м/с",
+      "price": 34.24,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 4.7,
+      "orders": 1534,
+      "image": "https://ae01.alicdn.com/kf/S3e35dbf899cb46fabdab9600f7bdd366p.png",
+      "link": "https://aliexpress.com/item/1005007805574439.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007805574439.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T11:34:08.243918+00:00"
+    },
+    {
+      "id": "1005010490399993",
+      "title": "Навушники Soundcore від Anker Space A40 Adaptive Active",
+      "price": 33.06,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1438,
+      "image": "https://ae01.alicdn.com/kf/S04a9df6a9ad844a3984ba5c7d080b158a.jpg",
+      "link": "https://aliexpress.com/item/1005010490399993.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010490399993.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T11:40:30.417782+00:00"
+    },
+    {
       "id": "1005006603322969",
       "title": "LiFePO4 батарея 100AH ​​150AH 200AH 51. Літієва батарея 7,6 кВт",
       "price": 738.72,
