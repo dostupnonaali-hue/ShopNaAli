@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008797050137",
+      "title": "Ультратонкі спеціальні наколінники для бігу,",
+      "price": 29.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 5.0,
+      "orders": 1021,
+      "image": "https://ae01.alicdn.com/kf/Scceb869743304fbc8ffca1e958458589Y.jpg",
+      "link": "https://aliexpress.com/item/1005008797050137.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008797050137.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-17T13:12:28.135851+00:00"
+    },
+    {
       "id": "1005011849538115",
       "title": "Зарядний пристрій USB Li Battery Ports Charging Dual Slot 18650",
       "price": 142.0,
