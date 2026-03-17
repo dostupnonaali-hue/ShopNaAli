@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011840458198",
+      "title": "Модні жіночі бавовняні однотонні футболки з вільним круглим вирізом",
+      "price": 128.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1738,
+      "image": "https://ae01.alicdn.com/kf/S5b1871560b404a5a8979eb8f4d947dc5D.jpg",
+      "link": "https://aliexpress.com/item/1005011840458198.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011840458198.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-17T14:58:24.838477+00:00"
+    },
+    {
       "id": "1005007170395747",
       "title": "Маска для очей із гіалуроновою кислотою з 24-каратним золотом для догляду за шкірою",
       "price": 41.0,
