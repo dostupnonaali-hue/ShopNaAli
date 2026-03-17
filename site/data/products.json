@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005004008076326",
+      "title": "Чоловічі кросівки ONEMIX 2022. Нековзка амортизація",
+      "price": 684.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 948,
+      "image": "https://ae01.alicdn.com/kf/S8a81b4547217470a88500e7fb19ff84fH.jpg",
+      "link": "https://aliexpress.com/item/1005004008076326.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004008076326.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "228 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T06:23:39.254635+00:00"
+    },
+    {
       "id": "1005007843998146",
       "title": "Ультратонка індукційна плита XIAOMI Mijia Smart Home",
       "price": 105.41,
