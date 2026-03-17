@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008406447372",
+      "title": "Ігровий мікрофон MAONO PD100X, динамічний мікрофон USB/XLR з",
+      "price": 26.11,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1066,
+      "image": "https://ae01.alicdn.com/kf/S776cf449a99b4a45b8f5a022e24d8ce7q.jpg",
+      "link": "https://aliexpress.com/item/1005008406447372.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008406447372.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T11:57:48.110963+00:00"
+    },
+    {
+      "id": "1005008821391588",
+      "title": "KUULAA Magnetic Power Bank 10000Ah Wireless Portable",
+      "price": 13.58,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 438,
+      "image": "https://ae01.alicdn.com/kf/S7b2b869309f7486ab97a643c0483487eB.png",
+      "link": "https://aliexpress.com/item/1005008821391588.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008821391588.html",
+      "description": "",
+      "promo_text": "328KUULAA033, ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T12:00:28.340219+00:00"
+    },
+    {
       "id": "1005008301148700",
       "title": "Ємність зовнішньої батареї QOOVI PD Power Bank Fast Charging",
       "price": 23.66,
