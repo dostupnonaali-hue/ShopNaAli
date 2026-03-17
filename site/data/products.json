@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006784496384",
+      "title": "WISETIGER Speaker Outdoor Portable IPX7 Waterproof Sound",
+      "price": 18.12,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1985,
+      "image": "https://ae01.alicdn.com/kf/Sc1b0bcfac9f645a2b1d27d35fb323c649.jpg",
+      "link": "https://aliexpress.com/item/1005006784496384.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006784496384.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T22:19:30.548889+00:00"
+    },
+    {
+      "id": "1005006860718636",
+      "title": "Портативна bluetooth колонка mifa A10+ 360° Стереозвук IPX7",
+      "price": 22.13,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1175,
+      "image": "https://ae01.alicdn.com/kf/H0c378fb824cd46048bc21bda31b52643e.jpg",
+      "link": "https://aliexpress.com/item/1005006860718636.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006860718636.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-17T22:22:46.251342+00:00"
+    },
+    {
       "id": "1005009629958405",
       "title": "TOMZN TOSVA-16LM EU Plug Socket 3 розетки змінного струму 2 USB 1 Type-C",
       "price": 10.98,
