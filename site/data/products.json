@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005005997681339",
+      "title": "Акумулятор для шафового світла з датчиком руху теплого світла WILLED",
+      "price": 546.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 542,
+      "image": "https://ae01.alicdn.com/kf/Sefa3c3109bb04c6da49d4ab8badcf99b0.jpg",
+      "link": "https://aliexpress.com/item/1005005997681339.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005997681339.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "31 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-17T13:40:22.300928+00:00"
+    },
+    {
       "id": "1005006966447011",
       "title": "16 PIN-інтерфейс V2.1 ELM327 OBD2 Mini Code Reader Scan",
       "price": 37.0,
