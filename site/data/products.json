@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005005785956236",
+      "title": "Новий розумний годинник Amazfit GTS 4 mini із вбудованою функцією Alexa",
+      "price": 2001.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 227,
+      "image": "https://ae01.alicdn.com/kf/S3428ffd148cc4bdba2c7f5c995470250a.jpg",
+      "link": "https://aliexpress.com/item/1005005785956236.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005785956236.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "58 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T07:58:52.053490+00:00"
+    },
+    {
       "id": "32808302861",
       "title": "Професійна точилка для ножів Adaee з одностороннім точильним каменем",
       "price": 134.0,
