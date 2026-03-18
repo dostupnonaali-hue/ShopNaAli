@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005004024326088",
+      "title": "Feyree Portable EV Charger Wallbox Type2 Cable 32A 7KW with",
+      "price": 4310.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1184,
+      "image": "https://ae01.alicdn.com/kf/Se87c7261e3f743a4ab7a2b7f052c3caf6.jpg",
+      "link": "https://aliexpress.com/item/1005004024326088.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004024326088.html",
+      "description": "",
+      "promo_text": "IFPWWA02",
+      "price_note": "343 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T17:50:31.911343+00:00"
+    },
+    {
+      "id": "1005010044005973",
+      "title": "Youpin Fan Small White Настільний таймер Mute з чотирма швидкостями",
+      "price": 557.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1249,
+      "image": "https://ae01.alicdn.com/kf/S52ade168d5084f649c2d05e58a8b5910O.jpg",
+      "link": "https://aliexpress.com/item/1005010044005973.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010044005973.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "110 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T17:57:15.177742+00:00"
+    },
+    {
       "id": "1005007308260528",
       "title": "Дев'ятиколірна палітра тіней для повік з перламутром, тонким блиском,",
       "price": 35.0,
