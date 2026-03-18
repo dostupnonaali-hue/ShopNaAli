@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011697089259",
+      "title": "Realme TechLife Cabled Power Bank Ємність Вбудований",
+      "price": 42.4,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1559,
+      "image": "https://ae01.alicdn.com/kf/S53977493b8cc4988bde4016c34f36767K.jpg",
+      "link": "https://aliexpress.com/item/1005011697089259.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011697089259.html",
+      "description": "",
+      "promo_text": "ASUA07, UAAFF07, UAS7, ASZ, UA07",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T20:34:09.403863+00:00"
+    },
+    {
+      "id": "1005011652194493",
+      "title": "DATOUBOSS 100Ah LiFePO4 батарея з BMS 8000 циклів",
+      "price": 117.14,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 477,
+      "image": "https://ae01.alicdn.com/kf/Sb3db32d654f64f1797d7c38d720966929.jpg",
+      "link": "https://aliexpress.com/item/1005011652194493.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011652194493.html",
+      "description": "",
+      "promo_text": "ASUA20, UAAFF20, UAS20",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T20:37:33.326080+00:00"
+    },
+    {
       "id": "1005008325221940",
       "title": "Гарний спортивний бюстгальтер для спини. Професійний протиударний фітнес",
       "price": 100.0,
