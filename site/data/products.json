@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007728081630",
+      "title": "16-дюймовий ноутбук із дисплеєм Intel Core i5 1240P 2,5K IPS",
+      "price": 198.56,
+      "currency": "USD",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1190,
+      "image": "https://ae01.alicdn.com/kf/Sfd5b163d6b3f4c5b890a8eaf9a876a77g.jpg",
+      "link": "https://aliexpress.com/item/1005007728081630.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007728081630.html",
+      "description": "",
+      "promo_text": "ASUA30, UAAFF30, UAS30",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T21:12:24.900259+00:00"
+    },
+    {
+      "id": "1005011737981574",
+      "title": "Легка ігрова миша KYSONA Saturn Pro PAW3395 з сенсором",
+      "price": 22.81,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 624,
+      "image": "https://ae01.alicdn.com/kf/Se3f1938fd22d45af922daca15641997ez.jpg",
+      "link": "https://aliexpress.com/item/1005011737981574.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011737981574.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T21:16:44.830845+00:00"
+    },
+    {
       "id": "1005007097119350",
       "title": "3. Роз’єм AUX RCA Bluetooth 5.0 Приймач аудіопередавача",
       "price": 2.48,
