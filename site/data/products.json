@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005005545157982",
+      "title": "Тканина для чищення автомобіля з натуральної замші. Натуральна овчина",
+      "price": 7.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 874,
+      "image": "https://ae01.alicdn.com/kf/S7144495ed4ed450d9bf6874176d3fbaer.jpg",
+      "link": "https://aliexpress.com/item/1005005545157982.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005545157982.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T09:46:55.616218+00:00"
+    },
+    {
+      "id": "1005005644784105",
+      "title": "FNIRSI Новий DSO510 DSO152 DSO153 міні ручний цифровий 2 входи",
+      "price": 812.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 673,
+      "image": "https://ae01.alicdn.com/kf/S85a6972576814396a3779345043441b3C.jpg",
+      "link": "https://aliexpress.com/item/1005005644784105.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005644784105.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "22 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T09:55:23.730297+00:00"
+    },
+    {
       "id": "1005008749889843",
       "title": "Акумуляторні ручні електричні кущорізи HILDA 2 IN1",
       "price": 1382.0,
