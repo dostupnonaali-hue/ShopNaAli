@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010671155864",
+      "title": "Швабра для плоскої підлоги без рук і відро з мікрофібри Magic",
+      "price": 312.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 786,
+      "image": "https://ae01.alicdn.com/kf/S6b3234d8e3154442a31fe59fdd008821P.jpg",
+      "link": "https://aliexpress.com/item/1005010671155864.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010671155864.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T16:10:40.179515+00:00"
+    },
+    {
+      "id": "1005006012781837",
+      "title": "Робот-мийник вікон ABIR WD8, Dual Water Spray, Smart",
+      "price": 64.55,
+      "currency": "USD",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 157,
+      "image": "https://ae01.alicdn.com/kf/S55f51016f9e44a92894efac9742fb8cbB.jpg",
+      "link": "https://aliexpress.com/item/1005006012781837.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006012781837.html",
+      "description": "",
+      "promo_text": "UAUA20, ASUA11, UAAFF11, UAS11, ASZ, UA11",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T16:16:16.489486+00:00"
+    },
+    {
       "id": "1005010472331812",
       "title": "KDEAM TR90 Чоловіки",
       "price": 12.86,
