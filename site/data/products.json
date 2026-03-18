@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005003280283261",
+      "title": "Чоловіча дорожня сумка Tigernu. Міні-сумка для чоловіків",
+      "price": 367.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 993,
+      "image": "https://ae01.alicdn.com/kf/S25001bbbd8214be58985c10a06bf6d83l.jpg",
+      "link": "https://aliexpress.com/item/1005003280283261.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005003280283261.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "170 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T14:39:34.931566+00:00"
+    },
+    {
+      "id": "1005010415928827",
+      "title": "Комбінований набір із вуглецевої сталі 1/4",
+      "price": 182.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 202,
+      "image": "https://ae01.alicdn.com/kf/S5da0ba46d6e14dc38f548170a703fc5cS.jpg",
+      "link": "https://aliexpress.com/item/1005010415928827.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010415928827.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T14:45:56.369123+00:00"
+    },
+    {
       "id": "1005011610676258",
       "title": "Жінки",
       "price": 84.0,
