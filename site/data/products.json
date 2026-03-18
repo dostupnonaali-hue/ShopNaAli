@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007345789074",
+      "title": "5/ HSS M35 Кобальтове свердло 1. 2. Для шнека з нержавіючої сталі",
+      "price": 26.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.9,
+      "orders": 1938,
+      "image": "https://ae01.alicdn.com/kf/Sbd2e5153e3ba430e8c040196b68f3484V.jpeg",
+      "link": "https://aliexpress.com/item/1005007345789074.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007345789074.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T14:24:53.334106+00:00"
+    },
+    {
       "id": "1005009587249153",
       "title": "Fiat 500 500C 2012 500X 500L Abarth 695 Автомобіль з повітряним сигналом",
       "price": 38.0,
