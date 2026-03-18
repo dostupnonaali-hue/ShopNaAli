@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007308260528",
+      "title": "Дев'ятиколірна палітра тіней для повік з перламутром, тонким блиском,",
+      "price": 35.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1400,
+      "image": "https://ae01.alicdn.com/kf/S94385a0baef54912bda909e781ce1701n.jpg",
+      "link": "https://aliexpress.com/item/1005007308260528.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007308260528.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-18T17:40:54.343223+00:00"
+    },
+    {
+      "id": "1005007009814822",
+      "title": "Зварювальна маска з автоматичним затемненням True Color Auto",
+      "price": 280.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 634,
+      "image": "https://ae01.alicdn.com/kf/Sb48dd93b791f4b84a88815001211d9de2.jpg",
+      "link": "https://aliexpress.com/item/1005007009814822.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007009814822.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T17:47:10.691496+00:00"
+    },
+    {
       "id": "1005008406299207",
       "title": "Газовий пальник Зварювальний пальник Портативна паяльна лампа Copper High",
       "price": 51.0,
