@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006787735663",
+      "title": "Бездротова клавіатура Bluetooth із сенсорною панеллю та 7-кольоровим підсвічуванням",
+      "price": 25.19,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 110,
+      "image": "https://ae01.alicdn.com/kf/Sa8069fafd6a84749badbacb3e1de1987p.jpg",
+      "link": "https://aliexpress.com/item/1005006787735663.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006787735663.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T15:31:21.119602+00:00"
+    },
+    {
+      "id": "1005008584051404",
+      "title": "Кишеньковий принтер Xiaomi ZINK AR Photo Video DIY Bluetooth",
+      "price": 2356.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 176,
+      "image": "https://ae01.alicdn.com/kf/S1efb296418a8419f82ad27caf467c083t.jpg",
+      "link": "https://aliexpress.com/item/1005008584051404.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008584051404.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "61 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T15:35:43.737708+00:00"
+    },
+    {
       "id": "1005004370049268",
       "title": "Розумний годинник Amazfit GTS 2 Всебічне здоров’я та фітнес",
       "price": 38.24,
