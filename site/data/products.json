@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011831319693",
+      "title": "Весняний дитячий світшот з дизайном Cute Goose",
+      "price": 3.88,
+      "currency": "USD",
+      "category": "toys",
+      "rating": 4.8,
+      "orders": 1440,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011831319693.jpg",
+      "link": "https://aliexpress.com/item/1005011831319693.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011831319693.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T22:40:16.210103+00:00"
+    },
+    {
       "id": "1005011771647969",
       "title": "Ліхтарик",
       "price": 3.31,
