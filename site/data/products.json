@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011773585906",
+      "title": "FINETOO Безшовні жінки",
+      "price": 122.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1795,
+      "image": "https://ae01.alicdn.com/kf/S9c00b67dea2d49ac9d5916ef837a0936n.jpg",
+      "link": "https://aliexpress.com/item/1005011773585906.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011773585906.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "30 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T18:50:21.806340+00:00"
+    },
+    {
+      "id": "1005008248083465",
+      "title": "Крем для очей з ретинолом освітлює темні кола, зміцнює шкіру",
+      "price": 36.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 504,
+      "image": "https://ae01.alicdn.com/kf/S7f854b6720ec48a69d7be5eb14fd13a4H.jpg",
+      "link": "https://aliexpress.com/item/1005008248083465.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008248083465.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-18T18:59:18.618159+00:00"
+    },
+    {
       "id": "1005008832368736",
       "title": "Колагеновий лосьйон для тіла для зміцнення та зволоження - Інтенсивний",
       "price": 277.0,
