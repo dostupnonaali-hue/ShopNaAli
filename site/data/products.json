@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011814357329",
+      "title": "Ручна відкривачка для консервів - ергономічний кухонний інструмент з нержавіючої сталі",
+      "price": 88.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 139,
+      "image": "https://ae01.alicdn.com/kf/Sf2f26ded6b984019a533033ad2d261a0c.jpg",
+      "link": "https://aliexpress.com/item/1005011814357329.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011814357329.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T18:34:51.096140+00:00"
+    },
+    {
       "id": "1005007634706556",
       "title": "Маленький розмір SS3-SS20 Високоякісний скляний плаский кришталь",
       "price": 3.0,
