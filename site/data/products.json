@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008203050563",
+      "title": "Електричний фарборозпилювач для Makita BL1830 з акумулятором 1л",
+      "price": 927.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1685,
+      "image": "https://ae01.alicdn.com/kf/Sce04d5a85d4e4d9a88e1ed928ef2277dj.jpg",
+      "link": "https://aliexpress.com/item/1005008203050563.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008203050563.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "268 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T09:13:33.070396+00:00"
+    },
+    {
       "id": "1005007010109488",
       "title": "90-градусний лазерний рівень. Електронний інфрачервоний лінійний рівень",
       "price": 90.0,
