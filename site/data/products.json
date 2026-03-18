@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011610676258",
+      "title": "Жінки",
+      "price": 84.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1258,
+      "image": "https://ae01.alicdn.com/kf/S39fba6d6ad6641758fad0f5f34f03717z.jpg",
+      "link": "https://aliexpress.com/item/1005011610676258.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011610676258.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-18T14:32:14.960554+00:00"
+    },
+    {
       "id": "1005007345789074",
       "title": "5/ HSS M35 Кобальтове свердло 1. 2. Для шнека з нержавіючої сталі",
       "price": 26.0,
