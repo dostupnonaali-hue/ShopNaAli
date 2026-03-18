@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010488215558",
+      "title": "Брелок Kawaii Miffy Star Милий мультяшний п'ятикутна зірка",
+      "price": 0.6,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1449,
+      "image": "https://ae01.alicdn.com/kf/S6da1bff2ffa64d158208caafc4747973S.jpg",
+      "link": "https://aliexpress.com/item/1005010488215558.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010488215558.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-18T10:11:17.752387+00:00"
+    },
+    {
+      "id": "1005011752621349",
+      "title": "Wurkkos HD17 Фара 2500LM SST40 LED 18650 Ліхтарик EDC",
+      "price": 34.17,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 942,
+      "image": "https://ae01.alicdn.com/kf/S9f300adc12f24002a75d605835835e2cM.png",
+      "link": "https://aliexpress.com/item/1005011752621349.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011752621349.html",
+      "description": "",
+      "promo_text": "HD17NEW, ASUA07, UAAFF07, UAS7, ASZ, UA07",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T10:15:05.679216+00:00"
+    },
+    {
       "id": "1005006329263992",
       "title": "Пластик+Т-подібний замок із нержавіючої сталі. Захист віконних дверей",
       "price": 19.0,
