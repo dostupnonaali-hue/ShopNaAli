@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006329263992",
+      "title": "Пластик+Т-подібний замок із нержавіючої сталі. Захист віконних дверей",
+      "price": 19.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 357,
+      "image": "https://ae01.alicdn.com/kf/S1174489b3f9b4457aef66134bfb95f053.jpg",
+      "link": "https://aliexpress.com/item/1005006329263992.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006329263992.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T10:03:08.797091+00:00"
+    },
+    {
       "id": "1005005545157982",
       "title": "Тканина для чищення автомобіля з натуральної замші. Натуральна овчина",
       "price": 7.0,
