@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006374608354",
+      "title": "Sofirn Mini SC13 SST40 LED 1300lm Tactical 18350",
+      "price": 375.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1573,
+      "image": "https://ae01.alicdn.com/kf/S4984e06f8cd443cd95e72a475d228a6f2.png",
+      "link": "https://aliexpress.com/item/1005006374608354.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006374608354.html",
+      "description": "",
+      "promo_text": "IFPHUAZU",
+      "price_note": "239 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T11:21:59.671867+00:00"
+    },
+    {
       "id": "1005009156198424",
       "title": "Бездротові навушники Baseus Bluetooth 5.3 HIFI Level",
       "price": 12.05,
