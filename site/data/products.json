@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007129153874",
+      "title": "Ручний міні-вентилятор, складаний портативний стіл, зовнішня шия",
+      "price": 86.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1229,
+      "image": "https://ae01.alicdn.com/kf/S7b1f2bea3a6343828f62ee42b2afb039R.jpg",
+      "link": "https://aliexpress.com/item/1005007129153874.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007129153874.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-18T13:23:24.837906+00:00"
+    },
+    {
       "id": "1005006505205662",
       "title": "Міні-проектор ThundeaL TD92Pro Full HD 1080P WiFi",
       "price": 127.1,
