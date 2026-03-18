@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005003555324965",
+      "title": "Delux M820DC PAW3335 Дротовий + Бездротовий + Bluetooth Ігри",
+      "price": 13.33,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1237,
+      "image": "https://ae01.alicdn.com/kf/S8467d590ad094f0499d980991c85fee2o.jpg",
+      "link": "https://aliexpress.com/item/1005003555324965.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005003555324965.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T16:51:54.863981+00:00"
+    },
+    {
+      "id": "1005010492240413",
+      "title": "Soundcore Anker Space Q45 Адаптивне шумозаглушення",
+      "price": 312.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1775,
+      "image": "https://ae01.alicdn.com/kf/Sebf0cb5f75be4edfa8bd4cfa5098ac39Z.jpg",
+      "link": "https://aliexpress.com/item/1005010492240413.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010492240413.html",
+      "description": "",
+      "promo_text": "IFPHDDHT",
+      "price_note": "205 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T16:56:28.442611+00:00"
+    },
+    {
       "id": "1005006079931969",
       "title": "Бездротові навушники Baseus Bowie MA10 Pro ANC Hybrid ANC",
       "price": 25.47,
