@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007477022151",
+      "title": "Нічне світло Mijia 3",
+      "price": 7.99,
+      "currency": "USD",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1153,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007477022151.jpg",
+      "link": "https://aliexpress.com/item/1005007477022151.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007477022151.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T21:54:10.447963+00:00"
+    },
+    {
+      "id": "1005011550186112",
+      "title": "Деякий № (( за замовчуванням TOR",
+      "price": 152.13,
+      "currency": "USD",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 771,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011550186112.jpg",
+      "link": "https://aliexpress.com/item/1005011550186112.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011550186112.html",
+      "description": "",
+      "promo_text": "ASUA20, UAAFF20, UAS20",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T21:57:43.250312+00:00"
+    },
+    {
       "id": "1005007540064236",
       "title": "17-дюймовий міський чоловічий діловий рюкзак Модний високий рюкзак",
       "price": 10.7,
