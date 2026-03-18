@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011531567283",
+      "title": "Оригінал | Google Play",
+      "price": 210.78,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 480,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011531567283.jpg",
+      "link": "https://aliexpress.com/item/1005011531567283.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011531567283.html",
+      "description": "",
+      "promo_text": "ASUA30, UAAFF30, UAS30",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T22:02:08.349895+00:00"
+    },
+    {
       "id": "1005007477022151",
       "title": "Нічне світло Mijia 3",
       "price": 7.99,
