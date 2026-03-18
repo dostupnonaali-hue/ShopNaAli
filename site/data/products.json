@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008832368736",
+      "title": "Колагеновий лосьйон для тіла для зміцнення та зволоження - Інтенсивний",
+      "price": 277.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 5.0,
+      "orders": 1216,
+      "image": "https://ae01.alicdn.com/kf/Sf4331993a86f48cfb401901c69f56d26I.jpg",
+      "link": "https://aliexpress.com/item/1005008832368736.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008832368736.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T18:40:28.669550+00:00"
+    },
+    {
       "id": "1005011814357329",
       "title": "Ручна відкривачка для консервів - ергономічний кухонний інструмент з нержавіючої сталі",
       "price": 88.0,
