@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005005473337037",
+      "title": "IDsonix SSD Case .2 NVMe SATA Корпус Dual Protocol Case",
+      "price": 4.87,
+      "currency": "USD",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 146,
+      "image": "https://ae01.alicdn.com/kf/S746e51aec59449af8c8955c17bffa13ev.jpg",
+      "link": "https://aliexpress.com/item/1005005473337037.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005473337037.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T14:00:06.608862+00:00"
+    },
+    {
+      "id": "1005010656922924",
+      "title": "Бездротові навушники SOUNDPEATS C30 - гібридний ANC Bluetooth",
+      "price": 21.98,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1539,
+      "image": "https://ae01.alicdn.com/kf/S13e92dcce3214bf0b7b689e992406b15p.jpg",
+      "link": "https://aliexpress.com/item/1005010656922924.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010656922924.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T14:04:12.140827+00:00"
+    },
+    {
       "id": "1005009895636552",
       "title": "Toocki C35 Power Strip Електрична розетка заземлення 2M",
       "price": 13.79,
