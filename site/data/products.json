@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007097119350",
+      "title": "3. Роз’єм AUX RCA Bluetooth 5.0 Приймач аудіопередавача",
+      "price": 2.48,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 921,
+      "image": "https://ae01.alicdn.com/kf/S90652c14db4a41c68e926a8874173cbbY.jpg",
+      "link": "https://aliexpress.com/item/1005007097119350.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007097119350.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T20:41:49.494574+00:00"
+    },
+    {
+      "id": "1005007010398379",
+      "title": "Бездротові Bluetooth-навушники HIFI Bass із вушним гачком HD MIC",
+      "price": 1.78,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1473,
+      "image": "https://ae01.alicdn.com/kf/S613a7123840542b4b6ea83427a1ad0edw.jpg",
+      "link": "https://aliexpress.com/item/1005007010398379.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007010398379.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T20:44:56.897702+00:00"
+    },
+    {
       "id": "1005011697089259",
       "title": "Realme TechLife Cabled Power Bank Ємність Вбудований",
       "price": 42.4,
