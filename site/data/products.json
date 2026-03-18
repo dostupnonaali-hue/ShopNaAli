@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007009858805",
+      "title": "TOOLTOP T7 256*192 Тепловізор Android Type-C 25 Гц",
+      "price": 90.47,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1502,
+      "image": "https://ae01.alicdn.com/kf/A54ecfa1935f74bd38381e82214b5358eB.jpg",
+      "link": "https://aliexpress.com/item/1005007009858805.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007009858805.html",
+      "description": "",
+      "promo_text": "ASUA11, UAAFF11, UAS11, ASZ, UA11",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T11:40:14.417708+00:00"
+    },
+    {
       "id": "baseus-10000mah-22-5w",
       "title": "Baseus 10000mAh Power Bank 22.5W",
       "price": 8.74,
