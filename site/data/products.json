@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006505205662",
+      "title": "Міні-проектор ThundeaL TD92Pro Full HD 1080P WiFi",
+      "price": 127.1,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 280,
+      "image": "https://ae01.alicdn.com/kf/S87d95ccd166c42f8964dac6ba6c587e0w.png",
+      "link": "https://aliexpress.com/item/1005006505205662.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006505205662.html",
+      "description": "",
+      "promo_text": "ASUA20, UAAFF20, UAS20",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T13:11:27.378914+00:00"
+    },
+    {
       "id": "1005008429993454",
       "title": "Hi-Fi MP3-плеєр з Bluetooth і WiFi, Oilsky Lossless",
       "price": 35.71,
