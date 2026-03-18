@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008666371073",
+      "title": "Міні-принтер Cat Sticker Друк на термопринтері без чорнила",
+      "price": 292.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 553,
+      "image": "https://ae01.alicdn.com/kf/S1d199badcb944f5e8d8b50a3639438387.jpg",
+      "link": "https://aliexpress.com/item/1005008666371073.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008666371073.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "658 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T08:42:59.881634+00:00"
+    },
+    {
       "id": "1005010631347927",
       "title": "Бездротові навушники Anker Soundcore P20i Bluetooth 5.3",
       "price": 483.0,
