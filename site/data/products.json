@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006494810196",
+      "title": "Чоловіча футболка з короткими рукавами Semir 2024, весна, нова чиста бавовна",
+      "price": 264.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1535,
+      "image": "https://ae01.alicdn.com/kf/Sfcf8a37994114ea886c2318b94c21e2eL.jpg",
+      "link": "https://aliexpress.com/item/1005006494810196.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006494810196.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "233 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T10:33:34.480152+00:00"
+    },
+    {
       "id": "1005009410883289",
       "title": "Осцилограф 3-в-1, 10 МГц Портативні осцилографи, 48",
       "price": 1579.0,
