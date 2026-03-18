@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010157020393",
+      "title": "Автомобільний пилосос Mijia 21 кПа, всмоктування типу C, зарядка",
+      "price": 58.51,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 233,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010157020393.jpg",
+      "link": "https://aliexpress.com/item/1005010157020393.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010157020393.html",
+      "description": "",
+      "promo_text": "ASUA07, UAAFF07, UAS7, ASZ, UA07",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T21:27:53.534186+00:00"
+    },
+    {
       "id": "1005007728081630",
       "title": "16-дюймовий ноутбук із дисплеєм Intel Core i5 1240P 2,5K IPS",
       "price": 198.56,
