@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008406299207",
+      "title": "Газовий пальник Зварювальний пальник Портативна паяльна лампа Copper High",
+      "price": 51.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1698,
+      "image": "https://ae01.alicdn.com/kf/S4f73af0e40884045908494ce97ad6b8bD.jpg",
+      "link": "https://aliexpress.com/item/1005008406299207.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008406299207.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T17:30:59.696835+00:00"
+    },
+    {
+      "id": "1005007585437576",
+      "title": "Cool Hollow Heat Dissipation Cool Skull Ghostface Plating",
+      "price": 137.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 708,
+      "image": "https://ae01.alicdn.com/kf/S54242e457bda4d68b0d0505f004b1a37w.jpg",
+      "link": "https://aliexpress.com/item/1005007585437576.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007585437576.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "87 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T17:34:36.467165+00:00"
+    },
+    {
       "id": "1005008248088642",
       "title": "Ручна пила Садова пила, деревообробна пила, міні-пила для різання",
       "price": 40.0,
