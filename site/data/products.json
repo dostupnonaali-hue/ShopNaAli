@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006861760498",
+      "title": "100A Tuya WiFi Din Rail Power Meter AC50- Smart",
+      "price": 9.93,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1367,
+      "image": "https://ae01.alicdn.com/kf/Sa14fb82aae4d49c88456136ccb35a8dd2.jpg",
+      "link": "https://aliexpress.com/item/1005006861760498.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006861760498.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T12:18:34.884091+00:00"
+    },
+    {
+      "id": "1005010063421935",
+      "title": "Кросівки Xtep для чоловіків, зручні, дихаючі",
+      "price": 885.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 253,
+      "image": "https://ae01.alicdn.com/kf/Scfad73d5ee0a42be9c14a46d8de6fc91H.jpg",
+      "link": "https://aliexpress.com/item/1005010063421935.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010063421935.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "89 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T12:22:12.782484+00:00"
+    },
+    {
       "id": "1005006460796556",
       "title": "Нові іграшки для розширення капсули Єдиноріг Динозавр Русалка",
       "price": 11.0,
