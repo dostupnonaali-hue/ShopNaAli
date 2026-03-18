@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005004217347049",
+      "title": "Надпотужний світлодіодний ліхтарик Sofirn Q8 Plus 16000 лм USB C",
+      "price": 2410.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 801,
+      "image": "https://ae01.alicdn.com/kf/S0757d66c02154473866d007dadc6cec67.png",
+      "link": "https://aliexpress.com/item/1005004217347049.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004217347049.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "552 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T06:37:49.761345+00:00"
+    },
+    {
       "id": "1005006784496384",
       "title": "WISETIGER Speaker Outdoor Portable IPX7 Waterproof Sound",
       "price": 18.12,
