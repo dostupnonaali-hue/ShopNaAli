@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008429993454",
+      "title": "Hi-Fi MP3-плеєр з Bluetooth і WiFi, Oilsky Lossless",
+      "price": 35.71,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1272,
+      "image": "https://ae01.alicdn.com/kf/S71ce8f21c5be466c99c34ca05844064aq.png",
+      "link": "https://aliexpress.com/item/1005008429993454.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008429993454.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T12:59:17.905790+00:00"
+    },
+    {
+      "id": "1005006727724291",
+      "title": "Регульована стійка для відпарювання одягу Телескопічний відпарювач для одягу",
+      "price": 458.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1135,
+      "image": "https://ae01.alicdn.com/kf/S83d7667fdd0a49fb90dec075f58d512fu.jpg",
+      "link": "https://aliexpress.com/item/1005006727724291.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727724291.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "198 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T13:03:44.127029+00:00"
+    },
+    {
       "id": "1005007783563482",
       "title": "Домашній кінотеатр ThundeaL 3000Ansi 4K Full HD TD98Pro",
       "price": 219.74,
