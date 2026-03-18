@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006839216814",
+      "title": "Брелоки-карабіни Плетений шнурок для ключів із затискачем для",
+      "price": 11.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 5.0,
+      "orders": 1644,
+      "image": "https://ae01.alicdn.com/kf/Sc2d5c0e2366845029b246e020c24e79eP.jpg",
+      "link": "https://aliexpress.com/item/1005006839216814.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006839216814.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T18:05:15.226347+00:00"
+    },
+    {
       "id": "1005004024326088",
       "title": "Feyree Portable EV Charger Wallbox Type2 Cable 32A 7KW with",
       "price": 4310.0,
