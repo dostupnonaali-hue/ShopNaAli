@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007218784686",
+      "title": "Кабель для передачі даних Rocoren USB Type C Шнур для швидкого заряджання 3A",
+      "price": 1.62,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 435,
+      "image": "https://ae01.alicdn.com/kf/Sb11f30f853954c49a6ed1ab9ec7dd9688.jpg",
+      "link": "https://aliexpress.com/item/1005007218784686.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007218784686.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T15:42:22.251472+00:00"
+    },
+    {
+      "id": "4000974156712",
+      "title": "BONA Нові дизайнерські білі кросівки Жіночі туфлі на плоскій підошві",
+      "price": 15.7,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 116,
+      "image": "https://ae01.alicdn.com/kf/Ha691247a54624219b02ac678fc9d3c8dV.jpg",
+      "link": "https://aliexpress.com/item/4000974156712.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F4000974156712.html",
+      "description": "",
+      "promo_text": "GWCQE6IOL8HJ, ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T15:46:33.787446+00:00"
+    },
+    {
       "id": "1005006787735663",
       "title": "Бездротова клавіатура Bluetooth із сенсорною панеллю та 7-кольоровим підсвічуванням",
       "price": 25.19,
