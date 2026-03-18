@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006079931969",
+      "title": "Бездротові навушники Baseus Bowie MA10 Pro ANC Hybrid ANC",
+      "price": 25.47,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1368,
+      "image": "https://ae01.alicdn.com/kf/S3807b36fa961430d9c8681060d9d15b9a.jpg",
+      "link": "https://aliexpress.com/item/1005006079931969.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006079931969.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T16:42:55.261785+00:00"
+    },
+    {
+      "id": "1005005243849649",
+      "title": "Міцний поводок для собак Повідці для домашніх тварин Світловідбиваючий поводок для великих маленьких",
+      "price": 2.12,
+      "currency": "USD",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 648,
+      "image": "https://ae01.alicdn.com/kf/Sa492de9784eb45998f493b97a8ee15beR.jpg",
+      "link": "https://aliexpress.com/item/1005005243849649.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005243849649.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T16:47:22.494014+00:00"
+    },
+    {
       "id": "1005007532664791",
       "title": "Перезаряджуваний налобний ліхтар NITECORE NU20 Classic USB-C Ultra",
       "price": 17.58,
