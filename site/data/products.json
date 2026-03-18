@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "4001176087687",
+      "title": "Тактичні велосипедні рукавички з сенсорним екраном для бойових дій на відкритому повітрі",
+      "price": 4.76,
+      "currency": "USD",
+      "category": "sport",
+      "rating": 4.7,
+      "orders": 1647,
+      "image": "https://ae01.alicdn.com/kf/S37d13041350f41a6bd4c7dc1e9545d59W.jpg",
+      "link": "https://aliexpress.com/item/4001176087687.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F4001176087687.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T13:31:54.303222+00:00"
+    },
+    {
+      "id": "1005007739534799",
+      "title": "Вуличні багатофункціональні молоткові кліщі портативні самооборони",
+      "price": 14.54,
+      "currency": "USD",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 1687,
+      "image": "https://ae01.alicdn.com/kf/S61d26fe9ce75473f8dc4a5bf8eab2775j.jpg",
+      "link": "https://aliexpress.com/item/1005007739534799.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007739534799.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T13:34:57.070560+00:00"
+    },
+    {
       "id": "1005007129153874",
       "title": "Ручний міні-вентилятор, складаний портативний стіл, зовнішня шия",
       "price": 86.0,
