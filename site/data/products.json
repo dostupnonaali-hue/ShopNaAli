@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005005506265813",
+      "title": "XINZUO Кухонні ножиці Ножиці з нержавіючої сталі Інструмент для дому",
+      "price": 8.93,
+      "currency": "USD",
+      "category": "tools",
+      "rating": 4.9,
+      "orders": 902,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005005506265813.jpg",
+      "link": "https://aliexpress.com/item/1005005506265813.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005506265813.html",
+      "description": "",
+      "promo_text": "BV84FC7YOQAE",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T21:30:59.513950+00:00"
+    },
+    {
+      "id": "1005006259367273",
+      "title": "Коди діють під час розпродажу: 18 серпня 00:00 - 27 серпня,",
+      "price": 84.89,
+      "currency": "USD",
+      "category": "home",
+      "rating": 4.7,
+      "orders": 465,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006259367273.jpg",
+      "link": "https://aliexpress.com/item/1005006259367273.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006259367273.html",
+      "description": "",
+      "promo_text": "QZ9T39D59BCD, ASUA11, UAAFF11, UAS11, ASZ, UA11",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T21:35:34.465399+00:00"
+    },
+    {
       "id": "1005010157020393",
       "title": "Автомобільний пилосос Mijia 21 кПа, всмоктування типу C, зарядка",
       "price": 58.51,
