@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007010109488",
+      "title": "90-градусний лазерний рівень. Електронний інфрачервоний лінійний рівень",
+      "price": 90.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 5.0,
+      "orders": 256,
+      "image": "https://ae01.alicdn.com/kf/Sdc52767220b3447890c8cc5fe858eb174.jpg",
+      "link": "https://aliexpress.com/item/1005007010109488.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007010109488.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T08:57:00.978525+00:00"
+    },
+    {
+      "id": "1005007442344935",
+      "title": "Новий лазерний рівень гоніометр, ливарний інструмент, вимірювальний",
+      "price": 579.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.8,
+      "orders": 1422,
+      "image": "https://ae01.alicdn.com/kf/S4ba0c36dc23c46369add4f85ac2dac22a.png",
+      "link": "https://aliexpress.com/item/1005007442344935.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007442344935.html",
+      "description": "",
+      "promo_text": "ASUA03",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T09:00:53.241923+00:00"
+    },
+    {
       "id": "1005011848401030",
       "title": "Ручний металодетектор Pinpointer Pointer Probe",
       "price": 200.0,
