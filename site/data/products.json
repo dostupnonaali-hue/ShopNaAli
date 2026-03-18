@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005009587249153",
+      "title": "Fiat 500 500C 2012 500X 500L Abarth 695 Автомобіль з повітряним сигналом",
+      "price": 38.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 1259,
+      "image": "https://ae01.alicdn.com/kf/Sad5df34557f04e2989de1421420a7bb3A.jpg",
+      "link": "https://aliexpress.com/item/1005009587249153.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009587249153.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-18T14:07:58.917701+00:00"
+    },
+    {
+      "id": "1005006428889491",
+      "title": "Жіночі ретро тапочки UTUNE EVA Light Soft Simple Home",
+      "price": 232.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 332,
+      "image": "https://ae01.alicdn.com/kf/A12571324317d42458939bfdc06ff7f6fQ.jpeg",
+      "link": "https://aliexpress.com/item/1005006428889491.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006428889491.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "225 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T14:16:32.670882+00:00"
+    },
+    {
       "id": "1005005473337037",
       "title": "IDsonix SSD Case .2 NVMe SATA Корпус Dual Protocol Case",
       "price": 4.87,
