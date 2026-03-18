@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008325221940",
+      "title": "Гарний спортивний бюстгальтер для спини. Професійний протиударний фітнес",
+      "price": 100.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 4.8,
+      "orders": 674,
+      "image": "https://ae01.alicdn.com/kf/Sebac4e72990f4ccd8204c9fe67eb7f21Z.jpg",
+      "link": "https://aliexpress.com/item/1005008325221940.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008325221940.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-18T19:29:50.028405+00:00"
+    },
+    {
       "id": "1005010500169047",
       "title": "Світлодіодне світлодіодне п'ятиголове водонепроникне рибальство на відкритому повітрі",
       "price": 127.0,
