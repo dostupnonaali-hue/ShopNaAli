@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007975642193",
+      "title": "Портативний бездротовий пилосос CENRR 98000PA для автомобіля",
+      "price": 778.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 1476,
+      "image": "https://ae01.alicdn.com/kf/S232b32fa0b8b4aadbfbd9d1cec38656dS.jpg",
+      "link": "https://aliexpress.com/item/1005007975642193.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007975642193.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "41 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T11:49:59.903454+00:00"
+    },
+    {
       "id": "1005007009858805",
       "title": "TOOLTOP T7 256*192 Тепловізор Android Type-C 25 Гц",
       "price": 90.47,
