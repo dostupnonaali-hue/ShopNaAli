@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008749889843",
+      "title": "Акумуляторні ручні електричні кущорізи HILDA 2 IN1",
+      "price": 1382.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.7,
+      "orders": 1981,
+      "image": "https://ae01.alicdn.com/kf/Sfd358a7ba35c4e3d8c0a6b312914ce77D.jpg",
+      "link": "https://aliexpress.com/item/1005008749889843.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008749889843.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "73 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T09:32:10.534249+00:00"
+    },
+    {
       "id": "1005008203050563",
       "title": "Електричний фарборозпилювач для Makita BL1830 з акумулятором 1л",
       "price": 927.0,
