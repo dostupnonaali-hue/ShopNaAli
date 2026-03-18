@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007634706556",
+      "title": "Маленький розмір SS3-SS20 Високоякісний скляний плаский кришталь",
+      "price": 3.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 192,
+      "image": "https://ae01.alicdn.com/kf/Se3873fa6f999457c8a5412f22f5d4821a.jpg",
+      "link": "https://aliexpress.com/item/1005007634706556.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007634706556.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-18T18:19:51.894788+00:00"
+    },
+    {
+      "id": "1005008916539041",
+      "title": "Soundcore від Anker Liberty 5 Noise-Cancelling Wireless",
+      "price": 2231.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 794,
+      "image": "https://ae01.alicdn.com/kf/S86e67fcbf8484533be724c6d3842e914h.jpg",
+      "link": "https://aliexpress.com/item/1005008916539041.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008916539041.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "178 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-18T18:23:11.184280+00:00"
+    },
+    {
       "id": "1005006839216814",
       "title": "Брелоки-карабіни Плетений шнурок для ключів із затискачем для",
       "price": 11.0,
