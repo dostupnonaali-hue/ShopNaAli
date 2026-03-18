@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007540064236",
+      "title": "17-дюймовий міський чоловічий діловий рюкзак Модний високий рюкзак",
+      "price": 10.7,
+      "currency": "USD",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 1299,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007540064236.jpg",
+      "link": "https://aliexpress.com/item/1005007540064236.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007540064236.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-18T21:46:35.477089+00:00"
+    },
+    {
       "id": "1005005506265813",
       "title": "XINZUO Кухонні ножиці Ножиці з нержавіючої сталі Інструмент для дому",
       "price": 8.93,
