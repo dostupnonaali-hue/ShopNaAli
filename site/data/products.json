@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005009916208760",
+      "title": "Фокусуванням, Android 14, 4K, 400ANSI, 8K, нативне 720 М",
+      "price": 2000.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1178,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005009916208760.jpg",
+      "link": "https://aliexpress.com/item/1005009916208760.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009916208760.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "332 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T09:53:07.129909+00:00"
+    },
+    {
+      "id": "1005008575310429",
+      "title": "29. Швидкий зарядний пристрій 7S Li-ion 20A, накопичувач літієвої енергії 7S",
+      "price": 32.42,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1469,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008575310429.jpg",
+      "link": "https://aliexpress.com/item/1005008575310429.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008575310429.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T10:00:38.066050+00:00"
+    },
+    {
       "id": "1005008051126317",
       "title": "Показує прихований ледачий",
       "price": 26.0,
