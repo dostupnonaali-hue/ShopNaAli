@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010638755680",
+      "title": "Глобальна Bepcia Snapdragon® 6 Gen 3 6,77\" 120 Гц Дис М",
+      "price": 6743.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1280,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010638755680.jpg",
+      "link": "https://aliexpress.com/item/1005010638755680.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010638755680.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "200 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T15:26:54.667543+00:00"
+    },
+    {
       "id": "1005008706702583",
       "title": "ATK VXE Dragonfly R1 Mouse of The Game E-Sports Long",
       "price": 12.81,
