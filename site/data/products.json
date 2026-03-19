@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006864388966",
+      "title": "126 грн з купоном+монети",
+      "price": 126.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1860,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006864388966.jpg",
+      "link": "https://aliexpress.com/item/1005006864388966.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006864388966.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-19T13:10:12.557239+00:00"
+    },
+    {
       "id": "1005006745905398",
       "title": "Точок на дюйм, ергономічна миша, звук, У$В-миші Y",
       "price": 91.0,
