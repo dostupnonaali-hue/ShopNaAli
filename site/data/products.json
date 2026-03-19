@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006873953378",
+      "title": "Модний повсякденний світшот Supzoom 2024, нове надходження, гарячий топ",
+      "price": 13.55,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1820,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006873953378.jpg",
+      "link": "https://aliexpress.com/item/1005006873953378.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006873953378.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T10:34:09.457781+00:00"
+    },
+    {
+      "id": "32931282121",
+      "title": "Акційна ціна Код продавця Код",
+      "price": 54.25,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1625,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/32931282121.jpg",
+      "link": "https://aliexpress.com/item/32931282121.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F32931282121.html",
+      "description": "",
+      "promo_text": "ASUA07, UAAFF07, UAS7, ASZ, UA07",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T10:37:59.561983+00:00"
+    },
+    {
       "id": "1005009202951249",
       "title": "Зарядний пристрій SHARGE GaN Зарядний пристрій USB-C QC4.0 PD3.1 Quick Charge",
       "price": 47.49,
