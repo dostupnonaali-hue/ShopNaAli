@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006227643100",
+      "title": "Цну показано без урахування податку; Додаткова знижка 25%",
+      "price": 223.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 506,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006227643100.jpg",
+      "link": "https://aliexpress.com/item/1005006227643100.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006227643100.html",
+      "description": "",
+      "promo_text": "7EV7",
+      "price_note": "202 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T08:28:43.101785+00:00"
+    },
+    {
       "id": "1005009303413626",
       "title": "Чоловіча літня футболка, що дихає швидкосохнуча",
       "price": 148.0,
