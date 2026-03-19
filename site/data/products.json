@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007805432896",
+      "title": "Bigkxputun IP67 Стерео Потужна звукова коробка BT5.3. v",
+      "price": 613.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 586,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007805432896.jpg",
+      "link": "https://aliexpress.com/item/1005007805432896.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007805432896.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "208 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T13:29:12.183573+00:00"
+    },
+    {
       "id": "4000438776494",
       "title": "3 грн з купоном+монети Як замовити з безкоштовною доставкою",
       "price": 3.0,
