@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006108619558",
+      "title": "Snapdragon 685 6,9 дюйми 144 Гц FHD+ Дисплей 7000 м м",
+      "price": 4168.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1467,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006108619558.jpg",
+      "link": "https://aliexpress.com/item/1005006108619558.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006108619558.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "200 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T08:40:31.474100+00:00"
+    },
+    {
       "id": "1005006227643100",
       "title": "Цну показано без урахування податку; Додаткова знижка 25%",
       "price": 223.0,
