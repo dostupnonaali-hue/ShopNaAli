@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011662510247",
+      "title": "Повсякденний жіночий дизайнерський комір-стійка Sle ort Jaet Faion",
+      "price": 5.83,
+      "currency": "USD",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 1575,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011662510247.jpg",
+      "link": "https://aliexpress.com/item/1005011662510247.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011662510247.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T09:23:24.914222+00:00"
+    },
+    {
+      "id": "1005010555207460",
+      "title": "Жіночі широкі джинси в стилі ретро з леопардовим принтом",
+      "price": 9.37,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 497,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010555207460.jpg",
+      "link": "https://aliexpress.com/item/1005010555207460.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010555207460.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T09:28:06.538213+00:00"
+    },
+    {
       "id": "1005005170706921",
       "title": "НОВІ Годинники CURREN. Жіночі наручні шкіряні кварцові годинники",
       "price": 11.73,
