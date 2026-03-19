@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007539891944",
+      "title": "Дітей - чоловічі та жіночі підтяжки, комплект під? М",
+      "price": 46.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 513,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007539891944.jpg",
+      "link": "https://aliexpress.com/item/1005007539891944.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007539891944.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-19T08:03:01.003034+00:00"
+    },
+    {
+      "id": "1005009131155949",
+      "title": "Power Bank 10000 мАг 22.5 Вт із швидкою зарядкою Г Vv",
+      "price": 370.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 927,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005009131155949.jpg",
+      "link": "https://aliexpress.com/item/1005009131155949.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009131155949.html",
+      "description": "",
+      "promo_text": "ASUA03",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-19T08:06:55.142148+00:00"
+    },
+    {
       "id": "1005008305625518",
       "title": "Чоловічий годинник Casio top luxury комплект Military LED relogio 50m",
       "price": 24.55,
