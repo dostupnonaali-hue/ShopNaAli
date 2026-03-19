@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008252536616",
+      "title": "Максимальний струм сонячного заряду MPPT",
+      "price": 231.39,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1936,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008252536616.jpg",
+      "link": "https://aliexpress.com/item/1005008252536616.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008252536616.html",
+      "description": "",
+      "promo_text": "ASUA30, UAAFF30, UAS30",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T09:32:48.338475+00:00"
+    },
+    {
+      "id": "1005007171683045",
+      "title": "16 березня 00:00 - 25 березня 23:59",
+      "price": 68.77,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1599,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007171683045.jpg",
+      "link": "https://aliexpress.com/item/1005007171683045.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007171683045.html",
+      "description": "",
+      "promo_text": "ASUA11, UAAFF11, UAS11, ASZ, UA11",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T09:37:11.268307+00:00"
+    },
+    {
       "id": "1005011662510247",
       "title": "Повсякденний жіночий дизайнерський комір-стійка Sle ort Jaet Faion",
       "price": 5.83,
