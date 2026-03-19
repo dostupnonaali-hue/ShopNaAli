@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005009303413626",
+      "title": "Чоловіча літня футболка, що дихає швидкосохнуча",
+      "price": 148.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1477,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005009303413626.jpg",
+      "link": "https://aliexpress.com/item/1005009303413626.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009303413626.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-19T08:11:09.980361+00:00"
+    },
+    {
+      "id": "1005007352577591",
+      "title": "Дихаюча та зручна чоловіча нижня білизна-боксер. V",
+      "price": 40.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1703,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007352577591.jpg",
+      "link": "https://aliexpress.com/item/1005007352577591.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007352577591.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-19T08:15:38.099862+00:00"
+    },
+    {
       "id": "1005007539891944",
       "title": "Дітей - чоловічі та жіночі підтяжки, комплект під? М",
       "price": 46.0,
