@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005003743865013",
+      "title": "Перезаряджаеться, потужний налобний Nixtapuk i3 яскр М",
+      "price": 291.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 116,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005003743865013.jpg",
+      "link": "https://aliexpress.com/item/1005003743865013.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005003743865013.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "162 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T10:53:59.135808+00:00"
+    },
+    {
+      "id": "1005008411766889",
+      "title": "Цну показано без урахування податку; Додаткова знижка 26%",
+      "price": 305.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1665,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008411766889.jpg",
+      "link": "https://aliexpress.com/item/1005008411766889.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008411766889.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "243 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T11:01:10.007020+00:00"
+    },
+    {
       "id": "1005006405553471",
       "title": "Xiaomi Smart Band 9 Pro",
       "price": 48.2,
