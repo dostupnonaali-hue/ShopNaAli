@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006727568728",
+      "title": "58 грн 5пар з монетами 62 грн 5пар з монетами 63 грн 5пар з",
+      "price": 58.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 506,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006727568728.jpg",
+      "link": "https://aliexpress.com/item/1005006727568728.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727568728.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-19T14:12:49.128682+00:00"
+    },
+    {
       "id": "1005008708117856",
       "title": "Швидкий зарядний пристрій Baseus GaN",
       "price": 750.0,
