@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006308897223",
+      "title": "Зарядний пристрій Baseus Fast Power Strip 3AC Розетка Настільна зарядка",
+      "price": 17.52,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 943,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006308897223.jpg",
+      "link": "https://aliexpress.com/item/1005006308897223.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006308897223.html",
+      "description": "",
+      "promo_text": "BAMAR1, ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T11:43:48.380274+00:00"
+    },
+    {
+      "id": "1005009914541166",
+      "title": "Легкі дихаючі кросівки Xtep для бігу",
+      "price": 23.24,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 1469,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005009914541166.jpg",
+      "link": "https://aliexpress.com/item/1005009914541166.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009914541166.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T11:51:31.891837+00:00"
+    },
+    {
       "id": "1005005896232973",
       "title": "Подвййний лазер, очищення ультрафолетових точок, 24. v",
       "price": 7726.0,
