@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008708117856",
+      "title": "Швидкий зарядний пристрій Baseus GaN",
+      "price": 750.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1898,
+      "image": "https://ae01.alicdn.com/kf/S7edf9fc780ef4f6f847ec9869277a0beo.jpg",
+      "link": "https://aliexpress.com/item/1005008708117856.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008708117856.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "24 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T14:05:11.613647+00:00"
+    },
+    {
       "id": "1005010288977800",
       "title": "16 грн",
       "price": 16.0,
