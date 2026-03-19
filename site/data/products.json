@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008706702583",
+      "title": "ATK VXE Dragonfly R1 Mouse of The Game E-Sports Long",
+      "price": 12.81,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1783,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008706702583.jpg",
+      "link": "https://aliexpress.com/item/1005008706702583.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008706702583.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T15:19:05.108802+00:00"
+    },
+    {
+      "id": "1005007922648638",
+      "title": "Сигналізації .....Телефон...... Звук. музика",
+      "price": 23.8,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 260,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007922648638.jpg",
+      "link": "https://aliexpress.com/item/1005007922648638.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007922648638.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T15:22:10.036858+00:00"
+    },
+    {
       "id": "1005006727568728",
       "title": "58 грн 5пар з монетами 62 грн 5пар з монетами 63 грн 5пар з",
       "price": 58.0,
