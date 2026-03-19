@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011597833100",
+      "title": "Fanuocetar для активного відпочинку, риболовлі, водонеп.",
+      "price": 63.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 4.8,
+      "orders": 497,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011597833100.jpg",
+      "link": "https://aliexpress.com/item/1005011597833100.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011597833100.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-19T17:14:45.285253+00:00"
+    },
+    {
       "id": "1005006727556973",
       "title": "83 грн з монетами Як замовити з безкоштовною доставкою",
       "price": 83.0,
