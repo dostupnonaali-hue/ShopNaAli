@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007916324062",
+      "title": "Освітлення АС 110 В 220 В прожектор IP65 відображає м",
+      "price": 104.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 441,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007916324062.jpg",
+      "link": "https://aliexpress.com/item/1005007916324062.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007916324062.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-19T17:41:56.710955+00:00"
+    },
+    {
       "id": "1005006996251801",
       "title": "Зарядка, He включаючи акумулятори, 6000 мАг, 5 B, 2 м",
       "price": 46.0,
