@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010280392821",
+      "title": "Шукач дерева, електронний вимірювальний приб м",
+      "price": 256.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1667,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010280392821.jpg",
+      "link": "https://aliexpress.com/item/1005010280392821.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010280392821.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-19T12:22:18.146491+00:00"
+    },
+    {
+      "id": "1005006672319997",
+      "title": "Наволочка 3i 100% натурального шовку тутового дерева 3",
+      "price": 340.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 1528,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006672319997.jpg",
+      "link": "https://aliexpress.com/item/1005006672319997.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006672319997.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "255 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T12:27:04.982025+00:00"
+    },
+    {
       "id": "1005006308897223",
       "title": "Зарядний пристрій Baseus Fast Power Strip 3AC Розетка Настільна зарядка",
       "price": 17.52,
