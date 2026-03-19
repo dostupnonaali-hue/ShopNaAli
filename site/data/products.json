@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008543153884",
+      "title": "Легкі ретро кросівки Kelme для тренувань",
+      "price": 26.9,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 5.0,
+      "orders": 469,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008543153884.jpg",
+      "link": "https://aliexpress.com/item/1005008543153884.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008543153884.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T10:07:27.302458+00:00"
+    },
+    {
       "id": "1005009916208760",
       "title": "Фокусуванням, Android 14, 4K, 400ANSI, 8K, нативне 720 М",
       "price": 2000.0,
