@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011549705049",
+      "title": "Ювлейний розпрод. КЮнець: 25 березня, 23:59 CET",
+      "price": 6400.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1466,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011549705049.jpg",
+      "link": "https://aliexpress.com/item/1005011549705049.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011549705049.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "167 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T16:15:14.149786+00:00"
+    },
+    {
+      "id": "4000955862321",
+      "title": "Для жилки, ножиці з висувним утримувачем ANAS м",
+      "price": 23.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1425,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/4000955862321.jpg",
+      "link": "https://aliexpress.com/item/4000955862321.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F4000955862321.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-19T16:22:25.364905+00:00"
+    },
+    {
       "id": "1005006860848366",
       "title": "Магнітна підвісна настільна лампа Baseus Desk Light, перезаряджається",
       "price": 11.71,
