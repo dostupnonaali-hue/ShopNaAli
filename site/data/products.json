@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006527690815",
+      "title": "Пилосос ABIR \\С205, 27000 NA, 1нтелектуальний датчик",
+      "price": 3792.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 295,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006527690815.jpg",
+      "link": "https://aliexpress.com/item/1005006527690815.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006527690815.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T12:42:30.274322+00:00"
+    },
+    {
+      "id": "1005007009972677",
+      "title": "Портативний автомов1льний насос для накачування ши! М",
+      "price": 730.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.7,
+      "orders": 173,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007009972677.jpg",
+      "link": "https://aliexpress.com/item/1005007009972677.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007009972677.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "216 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-19T12:50:56.267324+00:00"
+    },
+    {
       "id": "1005007039725349",
       "title": "38 грн з монетами Як замовити з безкоштовною доставкою",
       "price": 38.0,
