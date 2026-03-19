@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006798557296",
+      "title": "7 грн з купоном+монети 13 грн з купоном+монети Як замовити",
+      "price": 7.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1239,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006798557296.jpg",
+      "link": "https://aliexpress.com/item/1005006798557296.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006798557296.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-19T11:21:46.570393+00:00"
+    },
+    {
+      "id": "1005009465190932",
+      "title": "Bird справжній бездротовий зв'язок",
+      "price": 9.01,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 252,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005009465190932.jpg",
+      "link": "https://aliexpress.com/item/1005009465190932.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009465190932.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-19T11:28:49.161532+00:00"
+    },
+    {
       "id": "1005003743865013",
       "title": "Перезаряджаеться, потужний налобний Nixtapuk i3 яскр М",
       "price": 291.0,
