@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011754191271",
+      "title": "Універсальний автомобільний інвертор DC/To/Auto Power Converter",
+      "price": 248.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 248,
+      "image": "https://ae01.alicdn.com/kf/S859bf79ed8654e46a09c0069bcb7b6f0C.jpg",
+      "link": "https://aliexpress.com/item/1005011754191271.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011754191271.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-20T17:31:40.427472+00:00"
+    },
+    {
       "id": "1005009786729263",
       "title": "Baseus Charger PD Charger USB C Charger Fast Charger Для",
       "price": 916.0,
