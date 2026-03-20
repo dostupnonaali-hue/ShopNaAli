@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008077628410",
+      "title": "MiaoMiaoCe Інтелектуальний термометр Гігрометр Метр Мульти",
+      "price": 2.21,
+      "currency": "USD",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 1171,
+      "image": "https://ae01.alicdn.com/kf/Sc9a7465acd07456ba4d5d4a0917c570aH.jpg",
+      "link": "https://aliexpress.com/item/1005008077628410.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008077628410.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-20T12:24:49.645620+00:00"
+    },
+    {
+      "id": "1005010274192956",
+      "title": "Бездротові навушники Oneodio A1 Pro Bluetooth 6.0 ANC",
+      "price": 28.59,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1152,
+      "image": "https://ae01.alicdn.com/kf/S5ace2882f07d4fbf957c5a149ea4b56eE.jpg",
+      "link": "https://aliexpress.com/item/1005010274192956.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010274192956.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-20T12:28:38.423380+00:00"
+    },
+    {
       "id": "1005006966521037",
       "title": "Електричний бездротовий автоматичний дозатор води в пляшках",
       "price": 83.0,
