@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010751709238",
+      "title": "Чоловіки",
+      "price": 37.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 243,
+      "image": "https://ae01.alicdn.com/kf/S116571a9bcd7476e8a55b4b6365a0d24M.jpg",
+      "link": "https://aliexpress.com/item/1005010751709238.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010751709238.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-20T11:21:37.457374+00:00"
+    },
+    {
+      "id": "1005009928460311",
+      "title": "Realme 15 Smartphone Dimensity 7300+ Chipset Battery Charge",
+      "price": 9632.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 703,
+      "image": "https://ae01.alicdn.com/kf/S020df22128a34aae8d82d642b7061213p.jpg",
+      "link": "https://aliexpress.com/item/1005009928460311.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009928460311.html",
+      "description": "",
+      "promo_text": "ASUA30",
+      "price_note": "200 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-20T11:29:02.054655+00:00"
+    },
+    {
       "id": "1005007097182247",
       "title": "Лазерний далекомір HILDA 50/100/120M",
       "price": 8.94,
