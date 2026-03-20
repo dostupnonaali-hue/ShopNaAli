@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006966521037",
+      "title": "Електричний бездротовий автоматичний дозатор води в пляшках",
+      "price": 83.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 1073,
+      "image": "https://ae01.alicdn.com/kf/S6c8d6560c6504f7b84f4460e877f1160z.jpg",
+      "link": "https://aliexpress.com/item/1005006966521037.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006966521037.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-20T12:13:24.140407+00:00"
+    },
+    {
+      "id": "1005002504471989",
+      "title": "BULLCAPTAIN Casual Men",
+      "price": 517.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 920,
+      "image": "https://ae01.alicdn.com/kf/S8065ad83fed247409999bd9c2ea5dca28.jpg",
+      "link": "https://aliexpress.com/item/1005002504471989.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005002504471989.html",
+      "description": "",
+      "promo_text": "ASUA03",
+      "price_note": "251 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-20T12:16:51.229905+00:00"
+    },
+    {
       "id": "1005009554183334",
       "title": "Світова прем'єра надійного проектора Blackview Active 12 Pro",
       "price": 499.07,
