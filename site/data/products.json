@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007791991757",
+      "title": "Комплект світлодіодних ламп H7 для автомобільних протитуманних фар високої потужності",
+      "price": 76.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 237,
+      "image": "https://ae01.alicdn.com/kf/S3311f43ea8b04568823c0da47a02bf77q.jpg",
+      "link": "https://aliexpress.com/item/1005007791991757.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007791991757.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-20T17:48:01.132054+00:00"
+    },
+    {
       "id": "1005008896779073",
       "title": "3D-принтер Creality Ender 3 V3 SE / s CR Touch Auto Leveling",
       "price": 6850.0,
