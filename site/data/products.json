@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011763620995",
+      "title": "Sandisk 512 ГБ пам'яті TF SD MicroCard 256 ГБ 128 ГБ 64 ГБ 32 ГБ",
+      "price": 4.38,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 1764,
+      "image": "https://ae01.alicdn.com/kf/Scd7c813b7a8b4101b3e6e7b950c54932A.jpg",
+      "link": "https://aliexpress.com/item/1005011763620995.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011763620995.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-20T12:40:04.679492+00:00"
+    },
+    {
+      "id": "1005011528245310",
+      "title": "Mijia Lint Remover 2 - USB-перезаряджувана тканинна бритва з",
+      "price": 12.03,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1941,
+      "image": "https://ae01.alicdn.com/kf/S18f561e7458e436a9fa17642347bc09bj.jpg",
+      "link": "https://aliexpress.com/item/1005011528245310.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011528245310.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-20T12:49:04.963928+00:00"
+    },
+    {
       "id": "1005006064662810",
       "title": "Дверний дзвінок Meian-Smart Home, бездротовий зовнішній дверний дзвінок, IP65",
       "price": 6.86,
