@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006995039757",
+      "title": "Багатофункціональний міні-електронний цифровий портативний підвісний пристрій",
+      "price": 65.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1924,
+      "image": "https://ae01.alicdn.com/kf/S3c2a9e654ba448f690c86789bf884906n.jpeg",
+      "link": "https://aliexpress.com/item/1005006995039757.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006995039757.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-20T19:18:20.750438+00:00"
+    },
+    {
       "id": "1005008459776314",
       "title": "Бездротові навушники UGREEN HiTune S5 TWS Open Ear Clip",
       "price": 626.0,
