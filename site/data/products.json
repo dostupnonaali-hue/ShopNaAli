@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005009554183334",
+      "title": "Світова прем'єра надійного проектора Blackview Active 12 Pro",
+      "price": 499.07,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1142,
+      "image": "https://ae01.alicdn.com/kf/S5b979d3a8a91428f97b4b3bf1cc42472L.png",
+      "link": "https://aliexpress.com/item/1005009554183334.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009554183334.html",
+      "description": "",
+      "promo_text": "ASUA70, UAAFF70, UAS70",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-20T12:06:56.702661+00:00"
+    },
+    {
+      "id": "1005006925466968",
+      "title": "AGM P2 Активний 11",
+      "price": 190.59,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1046,
+      "image": "https://ae01.alicdn.com/kf/Sf20e3618cf0a48e0bbf7ae845c1a9be3n.jpg",
+      "link": "https://aliexpress.com/item/1005006925466968.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006925466968.html",
+      "description": "",
+      "promo_text": "ASUA30, UAAFF30, UAS30",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-20T12:09:34.256348+00:00"
+    },
+    {
       "id": "1005007908448028",
       "title": "Захищений планшет Oukitel RT7 TITAN 10.1",
       "price": 253.85,
