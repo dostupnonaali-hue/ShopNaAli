@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010554907522",
+      "title": "Звуковий динамік Soundcore 3 Bluetooth зі стереозвуком, чистий",
+      "price": 1357.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 317,
+      "image": "https://ae01.alicdn.com/kf/S4497481a361c4d6cad2243fae3c647dbJ.jpeg",
+      "link": "https://aliexpress.com/item/1005010554907522.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010554907522.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "224 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-20T15:25:34.529596+00:00"
+    },
+    {
       "id": "1005010376498156",
       "title": "Портативна електрична сушарка Багатофункціональна сушарка Складна",
       "price": 807.0,
