@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008158702917",
+      "title": "Ручний бездротовий пилосос із трубчатим фільтром Електроживлення",
+      "price": 2128.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 1318,
+      "image": "https://ae01.alicdn.com/kf/Saa25e288d2f3400db86433dd23998bcf9.jpg",
+      "link": "https://aliexpress.com/item/1005008158702917.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008158702917.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "111 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-20T15:42:03.413762+00:00"
+    },
+    {
       "id": "1005008144786725",
       "title": "Герметик для видалення силікону 9 в 1. Гладкий скребок",
       "price": 59.0,
