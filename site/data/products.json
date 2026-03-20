@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010265550944",
+      "title": "Кабель для швидкого заряджання Toocki USB C до USB C, порожнистий світлодіод RGB",
+      "price": 3.77,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1380,
+      "image": "https://ae01.alicdn.com/kf/S488dc21556cb4b39a366e159463abcaab.jpg",
+      "link": "https://aliexpress.com/item/1005010265550944.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010265550944.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-20T14:14:23.437335+00:00"
+    },
+    {
+      "id": "1005008492369396",
+      "title": "IMOU DK 2 4MP IP-камера 360° PTZ Виявлення людини дитини",
+      "price": 25.79,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1597,
+      "image": "https://ae01.alicdn.com/kf/Sd0af1771b909415c803637aa5913d585H.jpg",
+      "link": "https://aliexpress.com/item/1005008492369396.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008492369396.html",
+      "description": "",
+      "promo_text": "ASUA05, UAAFF05, UAS5, ASZ, UA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-20T14:17:31.123292+00:00"
+    },
+    {
       "id": "1005006904479906",
       "title": "Чорно-білий тримач для навушників, знімний комп’ютерний кіберспорт",
       "price": 2.22,
