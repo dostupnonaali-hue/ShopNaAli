@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005005253831122",
+      "title": "Лот Аксесуари для волосся з бантом Милі еластичні гумки Вузлик",
+      "price": 5.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 477,
+      "image": "https://ae01.alicdn.com/kf/S83618acf25a54ac89e1a40427114a982Q.jpg",
+      "link": "https://aliexpress.com/item/1005005253831122.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005253831122.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-20T17:58:33.707295+00:00"
+    },
+    {
       "id": "1005007791991757",
       "title": "Комплект світлодіодних ламп H7 для автомобільних протитуманних фар високої потужності",
       "price": 76.0,
