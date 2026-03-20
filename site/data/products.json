@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008375294829",
+      "title": "Kuugro USB 1. Акумуляторна батарея AA 2800 мВт-год USB Type-C",
+      "price": 179.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1563,
+      "image": "https://ae01.alicdn.com/kf/Sfd5fe4b11a00427a9858ba5822f4fe51b.jpg",
+      "link": "https://aliexpress.com/item/1005008375294829.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008375294829.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-20T18:48:00.982365+00:00"
+    },
+    {
       "id": "1005007419207873",
       "title": "Випраний джинсовий капелюх. Чоловіки. Жінки. Однотонний унісекс",
       "price": 52.0,
