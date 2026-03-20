@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "4000493792969",
+      "title": "Балетне взуття Танцювальне взуття Жіноче балетне взуття М'які дівчата",
+      "price": 39.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 1014,
+      "image": "https://ae01.alicdn.com/kf/H939b6d29ad6145be8ea7842a8fb16485W.jpg",
+      "link": "https://aliexpress.com/item/4000493792969.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F4000493792969.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-20T16:15:47.577345+00:00"
+    },
+    {
       "id": "1005010584860282",
       "title": "Toocki TWS Bluetooth 5.3 Earphones True Wireless In-Ear",
       "price": 7.34,
