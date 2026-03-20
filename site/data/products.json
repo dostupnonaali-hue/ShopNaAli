@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006468313365",
+      "title": "Біла футболка з коротким рукавом, однотонні жіночі літні топи",
+      "price": 85.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 206,
+      "image": "https://ae01.alicdn.com/kf/Sa69f25c5a8a94b50bf56593685f5db7cC.jpg",
+      "link": "https://aliexpress.com/item/1005006468313365.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006468313365.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-20T14:33:55.597112+00:00"
+    },
+    {
       "id": "1005006317487283",
       "title": "Набір електричних викруток WORX WX242 Smart Cordless",
       "price": 25.89,
