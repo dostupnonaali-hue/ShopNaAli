@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011859449785",
+      "title": "Жінки",
+      "price": 68.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1738,
+      "image": "https://ae01.alicdn.com/kf/Sb8b74e69ef30485088d97685caa40ab4Y.jpg",
+      "link": "https://aliexpress.com/item/1005011859449785.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011859449785.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-20T11:36:25.081657+00:00"
+    },
+    {
       "id": "1005010751709238",
       "title": "Чоловіки",
       "price": 37.0,
