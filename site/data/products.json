@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011837167115",
+      "title": "﻿Кишенькова коралово-оксамитова спідниця для душу. Сексуальний халат. Слінг",
+      "price": 142.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1898,
+      "image": "https://ae01.alicdn.com/kf/S3aa6a2526747424fbc47eaa33934b386K.jpg",
+      "link": "https://aliexpress.com/item/1005011837167115.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011837167115.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-20T13:01:19.532620+00:00"
+    },
+    {
+      "id": "1005011557016158",
+      "title": "Realme P4 Power Smartphone Battery Charge 50MP Sony OIS",
+      "price": 11479.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1398,
+      "image": "https://ae01.alicdn.com/kf/S44a371a83cb943f19d47a47dfe339905S.jpg",
+      "link": "https://aliexpress.com/item/1005011557016158.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011557016158.html",
+      "description": "",
+      "promo_text": "ASUA45",
+      "price_note": "200 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-20T13:08:31.209488+00:00"
+    },
+    {
       "id": "1005007652780207",
       "title": "Маска для очей Mijia Dreamlight 3s Sleep 3D Stereoscopic Sleep",
       "price": 242.0,
