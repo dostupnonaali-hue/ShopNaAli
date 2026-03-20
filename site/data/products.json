@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005009223488897",
+      "title": "Чоловічі кросівки Xtep Qiyuan FW",
+      "price": 958.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1683,
+      "image": "https://ae01.alicdn.com/kf/Sd379932f7cf743d5a088ea4481325fd7G.jpg",
+      "link": "https://aliexpress.com/item/1005009223488897.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009223488897.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "77 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-20T13:41:40.750312+00:00"
+    },
+    {
+      "id": "1005007791582345",
+      "title": "AVATTO ZigBee3.0 Термостат Радіатор Актуатор Smart TRV",
+      "price": 10.12,
+      "currency": "USD",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 915,
+      "image": "https://ae01.alicdn.com/kf/Sc084db73cec746959616a196ccf982cas.jpg",
+      "link": "https://aliexpress.com/item/1005007791582345.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007791582345.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3, ASZ, UA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-20T13:48:57.839723+00:00"
+    },
+    {
       "id": "1005008406025954",
       "title": "Світлодіодний проектор Galaxy Light Багатобарвний пульт дистанційного керування для",
       "price": 81.0,
