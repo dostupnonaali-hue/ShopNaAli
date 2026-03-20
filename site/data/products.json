@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005009312935164",
+      "title": "Жіночий костюм для йоги з тай-дай",
+      "price": 218.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1653,
+      "image": "https://ae01.alicdn.com/kf/Sa4ea78befa684547bdf27e05fff5f90aV.png",
+      "link": "https://aliexpress.com/item/1005009312935164.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009312935164.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-20T20:19:26.075770+00:00"
+    },
+    {
       "id": "1005008304347297",
       "title": "433RF бездротовий міні-перемикач дистанційного керування DC6V",
       "price": 56.0,
