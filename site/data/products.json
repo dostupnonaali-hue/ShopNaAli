@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010376498156",
+      "title": "Портативна електрична сушарка Багатофункціональна сушарка Складна",
+      "price": 807.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1859,
+      "image": "https://ae01.alicdn.com/kf/Sa5a4a2e0cdfc4e20a15a7fcbe734a699k.jpg",
+      "link": "https://aliexpress.com/item/1005010376498156.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010376498156.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "184 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-20T15:12:00.634400+00:00"
+    },
+    {
+      "id": "1005007171346053",
+      "title": "Одинарний кран для холодної води з нержавіючої сталі. Чорний умивальник",
+      "price": 214.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1984,
+      "image": "https://ae01.alicdn.com/kf/Se6e00074913b47f18f792c633adf4042U.jpg",
+      "link": "https://aliexpress.com/item/1005007171346053.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007171346053.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "145 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-20T15:18:17.650151+00:00"
+    },
+    {
       "id": "1005008113296412",
       "title": "Акумуляторна електрична викрутка з літієвою батареєю",
       "price": 505.0,
