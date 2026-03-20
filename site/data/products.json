@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008113296412",
+      "title": "Акумуляторна електрична викрутка з літієвою батареєю",
+      "price": 505.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1520,
+      "image": "https://ae01.alicdn.com/kf/S8ada536b0c934d72a6f16d53a5825075M.jpg",
+      "link": "https://aliexpress.com/item/1005008113296412.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008113296412.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "287 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-20T14:53:55.506172+00:00"
+    },
+    {
+      "id": "1005007481741986",
+      "title": "Багаторазовий вакуумний пакет і кришка насоса для зберігання одягу",
+      "price": 165.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 652,
+      "image": "https://ae01.alicdn.com/kf/S42ee05ad5150455d8aa3842e2b9db0ca7.jpg",
+      "link": "https://aliexpress.com/item/1005007481741986.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007481741986.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "161 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-20T15:01:17.519559+00:00"
+    },
+    {
       "id": "1005006468313365",
       "title": "Біла футболка з коротким рукавом, однотонні жіночі літні топи",
       "price": 85.0,
