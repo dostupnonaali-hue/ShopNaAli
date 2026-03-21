@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006616890268",
+      "title": "Xiaomi Router BE3600 WiFi 7 Dual-Band Qualcomm quad-core",
+      "price": 1357.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1458,
+      "image": "https://ae01.alicdn.com/kf/S2b6f47421e584926a65e2a1313fe1e010.jpg",
+      "link": "https://aliexpress.com/item/1005006616890268.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006616890268.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "73 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-21T13:01:19.064012+00:00"
+    },
+    {
       "id": "1005007389346806",
       "title": "1 Для домашньої кухні 2 в 1 Коробка для рідкого мила,",
       "price": 93.0,
