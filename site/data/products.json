@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007782517711",
+      "title": "Портативний ручний пилосос, багатофункціональний пилосос",
+      "price": 1512.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.7,
+      "orders": 1082,
+      "image": "https://ae01.alicdn.com/kf/Sb2ee0e4ff0ed405fa163e2841df660f2L.jpg",
+      "link": "https://aliexpress.com/item/1005007782517711.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007782517711.html",
+      "description": "",
+      "promo_text": "ASUA05",
+      "price_note": "682 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-21T14:20:23.171633+00:00"
+    },
+    {
       "id": "1005007010099857",
       "title": "Телескопічна вудка легка лита з карбону 1,5М-3М",
       "price": 94.0,
