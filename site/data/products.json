@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006745010987",
+      "title": "Лот нано-рибальських поплавців + 5 поплавкових трубок + 1 гачок для сумок + 1 буй",
+      "price": 88.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 1125,
+      "image": "https://ae01.alicdn.com/kf/Sf120288ad2b04f79a957581d92b32750b.jpg",
+      "link": "https://aliexpress.com/item/1005006745010987.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006745010987.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-21T13:57:03.170724+00:00"
+    },
+    {
       "id": "1005006678304059",
       "title": "Портативна дорожня сумка для зберігання косметики великої місткості",
       "price": 106.0,
