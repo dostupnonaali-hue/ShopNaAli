@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006678304059",
+      "title": "Портативна дорожня сумка для зберігання косметики великої місткості",
+      "price": 106.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 5.0,
+      "orders": 1010,
+      "image": "https://ae01.alicdn.com/kf/S75e8dcb69f714a2d9bb23945a199e7faw.jpg",
+      "link": "https://aliexpress.com/item/1005006678304059.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006678304059.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "183 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-21T13:40:19.803456+00:00"
+    },
+    {
       "id": "1005006616890268",
       "title": "Xiaomi Router BE3600 WiFi 7 Dual-Band Qualcomm quad-core",
       "price": 1357.0,
