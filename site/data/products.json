@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007539957514",
+      "title": "Садові секатори: багатофункціональний секатор з",
+      "price": 62.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 872,
+      "image": "https://ae01.alicdn.com/kf/Sd9d6194798e64064b657ed2e89da86a2c.jpg",
+      "link": "https://aliexpress.com/item/1005007539957514.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007539957514.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-21T12:19:24.884440+00:00"
+    },
+    {
       "id": "1005010490701246",
       "title": "Soundcore від Anker P20i True Wireless Earbuds 30H Wireless",
       "price": 513.0,
