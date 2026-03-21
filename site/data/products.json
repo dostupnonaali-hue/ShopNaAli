@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006860316013",
+      "title": "Автомобільний високочастотний динамік Водонепроникний Нержавіючий Потужність Високе шумозаглушення",
+      "price": 102.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1799,
+      "image": "https://ae01.alicdn.com/kf/S062fcdb6eace48c0aa825e971209d235U.jpg",
+      "link": "https://aliexpress.com/item/1005006860316013.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006860316013.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-21T11:05:25.263548+00:00"
+    },
+    {
+      "id": "1005010444455083",
+      "title": "Жіночий браслет з п'ятикутною зіркою в богемному стилі",
+      "price": 8.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 641,
+      "image": "https://ae01.alicdn.com/kf/S4140d6be8444438db5d6cd2731bc4619M.png",
+      "link": "https://aliexpress.com/item/1005010444455083.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010444455083.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-21T11:08:39.925879+00:00"
+    },
+    {
       "id": "1005008252578442",
       "title": "Інструмент для обтиску ZoeRax RJ45 CAT7 CAT6A для Cat7/6a/6/5e",
       "price": 7.31,
