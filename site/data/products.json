@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008455810567",
+      "title": "LANHABEE Fishing Equipment Spinning Reel Saltwater Jigging",
+      "price": 335.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 4.9,
+      "orders": 1855,
+      "image": "https://ae01.alicdn.com/kf/Sa26a251587fb4ecbb6e885ade32b36e5O.jpg",
+      "link": "https://aliexpress.com/item/1005008455810567.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008455810567.html",
+      "description": "",
+      "promo_text": "IFPRZBMF, HTTPS",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-21T11:47:58.060301+00:00"
+    },
+    {
       "id": "1005007928765266",
       "title": "Літій-іонні акумулятори Kuugro AAA та AA USB",
       "price": 11.86,
