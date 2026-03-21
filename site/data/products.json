@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007168424990",
+      "title": "Медичний інфрачервоний налобний термометр цифровий з підсвічуванням",
+      "price": 79.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.7,
+      "orders": 1398,
+      "image": "https://ae01.alicdn.com/kf/Sac8cf3d3f9f74d02978e3e5a878e64a0y.jpg",
+      "link": "https://aliexpress.com/item/1005007168424990.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007168424990.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-21T12:23:50.197266+00:00"
+    },
+    {
       "id": "1005007539957514",
       "title": "Садові секатори: багатофункціональний секатор з",
       "price": 62.0,
