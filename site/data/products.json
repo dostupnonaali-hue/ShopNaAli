@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007536744714",
+      "title": "Легка амортизуюча шкіра Daofeng 2.0 на 361 градус",
+      "price": 847.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 913,
+      "image": "https://ae01.alicdn.com/kf/S64cb0d4fa3c741a49b4f78abc55ab671N.jpg",
+      "link": "https://aliexpress.com/item/1005007536744714.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007536744714.html",
+      "description": "",
+      "promo_text": "3PN8T, ASUA03",
+      "price_note": "75 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-21T10:47:34.095686+00:00"
+    },
+    {
       "id": "1005011741415462",
       "title": "Портативна зовнішня електрична душова установка з довгим акумулятором",
       "price": 815.0,
