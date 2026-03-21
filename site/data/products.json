@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007928765266",
+      "title": "Літій-іонні акумулятори Kuugro AAA та AA USB",
+      "price": 11.86,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 152,
+      "image": "https://ae01.alicdn.com/kf/Sedf98b15c5044028adf38eba7b041b97F.jpg",
+      "link": "https://aliexpress.com/item/1005007928765266.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007928765266.html",
+      "description": "",
+      "promo_text": "ASUA03, IFP1NDAX, IFPERDJP, IFPJ4HEE, IFPMUY2Q, IFP7L3IC",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-21T11:34:49.660317+00:00"
+    },
+    {
+      "id": "1005001722869719",
+      "title": "Система безпеки мережі Wi-Fi IMOU 8CH Wireless NVR 1080P",
+      "price": 74.71,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1786,
+      "image": "https://ae01.alicdn.com/kf/S08f8ace26c2c49e4ab098a0212d8d3de6.jpg",
+      "link": "https://aliexpress.com/item/1005001722869719.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005001722869719.html",
+      "description": "",
+      "promo_text": "ASUA11, IFP2L0JB, IFPRNQZY, IFPTTK4E, IFPAIDXO",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-21T11:37:36.745496+00:00"
+    },
+    {
       "id": "1005007539931788",
       "title": "Чоловічий цифровий годинник NORTH EDGE APACHE-46 Спорт на свіжому повітрі",
       "price": 21.44,
