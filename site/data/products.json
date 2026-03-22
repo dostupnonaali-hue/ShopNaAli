@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010584830615",
+      "title": "Гребінець з повітряною подушкою. Гребінець для заплутаного волосся. Масажна щітка для волосся",
+      "price": 39.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.7,
+      "orders": 1391,
+      "image": "https://ae01.alicdn.com/kf/S3675714b73d84954a15a930234d7156aL.jpg",
+      "link": "https://aliexpress.com/item/1005010584830615.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010584830615.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-22T16:02:08.771548+00:00"
+    },
+    {
       "id": "1005007805600265",
       "title": "2025 Оригінальний Xiaomi Mijia Wireless Car Washer 2 160L/h",
       "price": 2510.0,
