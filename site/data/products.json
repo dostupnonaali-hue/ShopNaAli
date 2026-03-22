@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011699605567",
+      "title": "Портативний бездротовий апарат для зварювання пластику з літієвою батареєю",
+      "price": 12.67,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1750,
+      "image": "https://ae01.alicdn.com/kf/Sc77a62b70e904961b0de22e7a5ed18cb5.jpg",
+      "link": "https://aliexpress.com/item/1005011699605567.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011699605567.html",
+      "description": "",
+      "promo_text": "AW8GB6C77LZS",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T10:53:29.429500+00:00"
+    },
+    {
       "id": "1005009644531327",
       "title": "Вимірювач напруги та струму K2 USB тестер PD3.1 швидка зарядка",
       "price": 17.97,
