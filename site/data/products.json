@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007849474553",
+      "title": "Тест протоколу швидкої зарядки ATORCH Type-C PD3.1 4-дротовий",
+      "price": 4.72,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1297,
+      "image": "https://ae01.alicdn.com/kf/S2c10cb336d1f4e56a8086cbab579c0c21.jpg",
+      "link": "https://aliexpress.com/item/1005007849474553.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007849474553.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T10:31:12.090347+00:00"
+    },
+    {
+      "id": "4000479624068",
+      "title": "DL24/P Колір 2.4",
+      "price": 22.67,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 203,
+      "image": "https://ae01.alicdn.com/kf/Sd93f180baa9645fc86b54113af7bb376a.jpg",
+      "link": "https://aliexpress.com/item/4000479624068.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F4000479624068.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T10:34:05.881840+00:00"
+    },
+    {
       "id": "1005008850261694",
       "title": "HAYLOU Watch 4S GPS Smartwatch 1,43” HD AMOLED-дисплей 5",
       "price": 17.94,
