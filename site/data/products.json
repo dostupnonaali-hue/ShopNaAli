@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011840634228",
+      "title": "Магнітні затискачі для фіксації ременя безпеки автомобіля для BAIC JISHI",
+      "price": 40.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 884,
+      "image": "https://ae01.alicdn.com/kf/S03a77d2005c740c7aadf15f207201ae5F.jpg",
+      "link": "https://aliexpress.com/item/1005011840634228.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011840634228.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-22T09:37:19.102372+00:00"
+    },
+    {
+      "id": "1005011850913593",
+      "title": "Преміальний набір кистей для макіяжу для косметичної основи Blush",
+      "price": 53.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 1078,
+      "image": "https://ae01.alicdn.com/kf/S13eda06f0bda4fa1a69b8a08296eef7fa.jpg",
+      "link": "https://aliexpress.com/item/1005011850913593.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011850913593.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-22T09:40:33.468680+00:00"
+    },
+    {
       "id": "32860992997",
       "title": "TOMZN Din-рейка 60A з можливістю регулювання перевищення та зниження напруги",
       "price": 119.0,
