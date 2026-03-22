@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005009999458783",
+      "title": "2025 Новий смартфон nubia Z80 Ultra, глобальна версія",
+      "price": 702.41,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1577,
+      "image": "https://ae01.alicdn.com/kf/S64b86df098cc472d8fe6e51a19f7d0feH.jpg",
+      "link": "https://aliexpress.com/item/1005009999458783.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009999458783.html",
+      "description": "",
+      "promo_text": "ASUA70, UAAFF70, UAS70",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T11:38:19.455871+00:00"
+    },
+    {
+      "id": "1005010161709463",
+      "title": "CHOVERY Ultra Thin робот для миття вікон",
+      "price": 1915.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1701,
+      "image": "https://ae01.alicdn.com/kf/S35935d05477f473183e81a577bc190cew.jpg",
+      "link": "https://aliexpress.com/item/1005010161709463.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010161709463.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "225 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T11:41:06.552605+00:00"
+    },
+    {
       "id": "1005009435228066",
       "title": "XINZUO 5,83 дюйма Choice Bunka Chef Knife German Steel Olive",
       "price": 10.01,
