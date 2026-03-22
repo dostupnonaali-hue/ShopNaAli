@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006863854402",
+      "title": "Знімна косметичка портативна великої ємності 4 в 1",
+      "price": 1.95,
+      "currency": "USD",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 1631,
+      "image": "https://ae01.alicdn.com/kf/Saf3d4e7e64c640fe97c73307e9e226e6B.jpg",
+      "link": "https://aliexpress.com/item/1005006863854402.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006863854402.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T13:18:52.564645+00:00"
+    },
+    {
+      "id": "1005006783101193",
+      "title": "Реєстратор 2K для автомобільного відеореєстратора Реєстратор в автомобілі KAWA D5",
+      "price": 764.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.8,
+      "orders": 1858,
+      "image": "https://ae01.alicdn.com/kf/S7e2b620037314c04a980590feb72c49eQ.jpg",
+      "link": "https://aliexpress.com/item/1005006783101193.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006783101193.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "250 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T13:21:39.127967+00:00"
+    },
+    {
       "id": "1005006995270509",
       "title": "Багатопортовий USB-кабель Toocki 3 в 1",
       "price": 1.37,
