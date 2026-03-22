@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010166258277",
+      "title": "Портативна електростанція ALLPOWERS R1500 LITE 1056 Вт·год LiFePO4",
+      "price": 18942.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1816,
+      "image": "https://ae01.alicdn.com/kf/Sa694db4bd28e4808a7a251cf93553cbaF.jpg",
+      "link": "https://aliexpress.com/item/1005010166258277.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010166258277.html",
+      "description": "",
+      "promo_text": "CC2T, ASUA70, 5794",
+      "price_note": "5794 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T12:36:01.380309+00:00"
+    },
+    {
       "id": "1005011895969703",
       "title": "Бездротовий адаптер Carplay і дротове оновлення до Android Auto 2026",
       "price": 153.0,
