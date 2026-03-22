@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "32860992997",
+      "title": "TOMZN Din-рейка 60A з можливістю регулювання перевищення та зниження напруги",
+      "price": 119.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1970,
+      "image": "https://ae01.alicdn.com/kf/S5575f9788f90476daa71c1edc6d75e9aY.jpg",
+      "link": "https://aliexpress.com/item/32860992997.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F32860992997.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-22T09:30:42.433213+00:00"
+    },
+    {
+      "id": "1005007714541936",
+      "title": "Тонкий лазерний рівень 2 лінії перетинають зелений лазер рівня",
+      "price": 452.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.8,
+      "orders": 1993,
+      "image": "https://ae01.alicdn.com/kf/Sf8bc2ce556cb4ebb94390bb0772eb719Q.jpg",
+      "link": "https://aliexpress.com/item/1005007714541936.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007714541936.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-22T09:34:03.559834+00:00"
+    },
+    {
       "id": "1005011836786649",
       "title": "Набір посуду для кемпінгу, складна виделка-ложка з нержавіючої сталі",
       "price": 54.0,
