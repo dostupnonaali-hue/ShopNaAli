@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011847947390",
+      "title": "Кріпильний шків натягувача мотузки для кемпінгу",
+      "price": 98.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 5.0,
+      "orders": 702,
+      "image": "https://ae01.alicdn.com/kf/S1373a5eca8d84e0b8633b258719da014t.jpg",
+      "link": "https://aliexpress.com/item/1005011847947390.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011847947390.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-22T14:20:14.974892+00:00"
+    },
+    {
+      "id": "1005006135625604",
+      "title": "Подовжувач живлення з штепсельною вилкою ЄС 4 AC Розетка Multi Extension з 4 USB",
+      "price": 438.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 198,
+      "image": "https://ae01.alicdn.com/kf/S31d3f0b9f42e47b1b342f1693121e0ceb.jpg",
+      "link": "https://aliexpress.com/item/1005006135625604.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006135625604.html",
+      "description": "",
+      "promo_text": "ASUA03",
+      "price_note": "16 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T14:24:42.414188+00:00"
+    },
+    {
       "id": "1005011850596908",
       "title": "Лампа з датчиком руху Smart Motion Нічник Декор сидіння унітазу PIR",
       "price": 49.0,
