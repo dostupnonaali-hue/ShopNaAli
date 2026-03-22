@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011831530094",
+      "title": "Муляр з нержавіючої сталі",
+      "price": 69.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 214,
+      "image": "https://ae01.alicdn.com/kf/S625b39c61e624248b9a3b23a191fe157S.jpg",
+      "link": "https://aliexpress.com/item/1005011831530094.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011831530094.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-22T12:03:59.316796+00:00"
+    },
+    {
       "id": "1005006982913042",
       "title": "5,5/7. Ендоскопічна камера Type-C IP67 Водонепроникна з 6",
       "price": 1.9,
