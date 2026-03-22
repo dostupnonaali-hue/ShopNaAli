@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006967539259",
+      "title": "Безщітковий двигун вентилятора з електричним повітродувом на 130000 обертів на хвилину",
+      "price": 455.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.7,
+      "orders": 1424,
+      "image": "https://ae01.alicdn.com/kf/Sfce71001239b41ffbf86223901b2e4b4d.jpg",
+      "link": "https://aliexpress.com/item/1005006967539259.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006967539259.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "251 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T12:07:05.950579+00:00"
+    },
+    {
+      "id": "1005011626383130",
+      "title": "Багатофункціональна фен-щітка-масажна гребінець-порожниста",
+      "price": 23.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 634,
+      "image": "https://ae01.alicdn.com/kf/S46e35db0328c47bcbfc48f70f68b183bh.png",
+      "link": "https://aliexpress.com/item/1005011626383130.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011626383130.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-22T12:14:40.646810+00:00"
+    },
+    {
       "id": "1005011831530094",
       "title": "Муляр з нержавіючої сталі",
       "price": 69.0,
