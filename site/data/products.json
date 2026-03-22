@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006727642734",
+      "title": "Роторна електробритва для чоловіків ENCHEN Blackstone 3D",
+      "price": 269.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 336,
+      "image": "https://ae01.alicdn.com/kf/Sab08ed2eb4ef4ef48da842f3969fbbbfh.jpg",
+      "link": "https://aliexpress.com/item/1005006727642734.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727642734.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "192 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T14:02:23.703588+00:00"
+    },
+    {
       "id": "1005009456675950",
       "title": "Сонячна бездротова камера безпеки Baseus Security S1 Lite",
       "price": 1748.0,
