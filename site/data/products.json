@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005009319861014",
+      "title": "Літо жінки",
+      "price": 69.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 473,
+      "image": "https://ae01.alicdn.com/kf/S3e443140bdc6479cbd6b034f7b773aacS.png",
+      "link": "https://aliexpress.com/item/1005009319861014.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009319861014.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-22T15:03:47.745849+00:00"
+    },
+    {
       "id": "1005010376374580",
       "title": "Портативна Bluetooth-колонка Tribit PocketGo IP68, водонепроникна",
       "price": 617.0,
