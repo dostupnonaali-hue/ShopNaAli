@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006104824812",
+      "title": "Жінки",
+      "price": 114.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1612,
+      "image": "https://ae01.alicdn.com/kf/Sa5ca7ebca24c4a22b01ca0688224158eV.jpg",
+      "link": "https://aliexpress.com/item/1005006104824812.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006104824812.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "112 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T16:10:22.672736+00:00"
+    },
+    {
+      "id": "1005007129365470",
+      "title": "Зарядний пристрій USB типу C, 3 порти PD QC3.0 Швидка зарядка настінна",
+      "price": 49.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 664,
+      "image": "https://ae01.alicdn.com/kf/S1543956db21745bfb4a86bb46b4b3f2fb.jpg",
+      "link": "https://aliexpress.com/item/1005007129365470.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007129365470.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-22T16:17:18.252389+00:00"
+    },
+    {
       "id": "1005010584830615",
       "title": "Гребінець з повітряною подушкою. Гребінець для заплутаного волосся. Масажна щітка для волосся",
       "price": 39.0,
