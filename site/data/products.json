@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011854059634",
+      "title": "Фільтр для кави з нержавіючої сталі Чашка для настоювання в’єтнамської кави",
+      "price": 60.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.7,
+      "orders": 388,
+      "image": "https://ae01.alicdn.com/kf/Sb7d91c6b28e24c0f97dd5e71a47139e6n.jpg",
+      "link": "https://aliexpress.com/item/1005011854059634.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011854059634.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-22T14:31:17.370160+00:00"
+    },
+    {
       "id": "1005011847947390",
       "title": "Кріпильний шків натягувача мотузки для кемпінгу",
       "price": 98.0,
