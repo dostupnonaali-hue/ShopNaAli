@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011863289912",
+      "title": "2026 Робочий одяг Уніформа Чоловіки Жінки Робочі комбінезони",
+      "price": 281.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 428,
+      "image": "https://ae01.alicdn.com/kf/Sb3e5bf87804d44ffa4331e88ac474607K.png",
+      "link": "https://aliexpress.com/item/1005011863289912.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011863289912.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-22T09:12:05.183844+00:00"
+    },
+    {
       "id": "1005011829075622",
       "title": "Підкладка для шліфувального диска. Самоклеюча пластина",
       "price": 43.0,
