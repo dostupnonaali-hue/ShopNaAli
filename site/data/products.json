@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005009644531327",
+      "title": "Вимірювач напруги та струму K2 USB тестер PD3.1 швидка зарядка",
+      "price": 17.97,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1911,
+      "image": "https://ae01.alicdn.com/kf/S176ad2e743c341a08ae2ad02954a0bd12.jpg",
+      "link": "https://aliexpress.com/item/1005009644531327.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009644531327.html",
+      "description": "",
+      "promo_text": "ASUA03, UAAFF03, UAS3",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T10:37:54.878271+00:00"
+    },
+    {
+      "id": "1005006282217875",
+      "title": "Імпортована 12 плетених волосінь YGKV8 Genuine Lure Pe Line Special",
+      "price": 25.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 693,
+      "image": "https://ae01.alicdn.com/kf/S02a5d91312c64697af55ae8dd1164298E.jpg",
+      "link": "https://aliexpress.com/item/1005006282217875.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006282217875.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-22T10:45:16.027142+00:00"
+    },
+    {
       "id": "1005007849474553",
       "title": "Тест протоколу швидкої зарядки ATORCH Type-C PD3.1 4-дротовий",
       "price": 4.72,
