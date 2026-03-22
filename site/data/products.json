@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006445275495",
+      "title": "Зарядний пристрій UGREEN GaN PD3.1 Type C QC4.0 3.0 Quick Charge для",
+      "price": 1674.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 312,
+      "image": "https://ae01.alicdn.com/kf/Sb0dd3f3b21b24984a4d3a2217f5ef3a5Z.jpg",
+      "link": "https://aliexpress.com/item/1005006445275495.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006445275495.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "59 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T10:56:31.303105+00:00"
+    },
+    {
+      "id": "1005009615196456",
+      "title": "​​UTRAI All-in-One 7000A Автомобільний пусковий пристрій з повітрям",
+      "price": 93.96,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 1833,
+      "image": "https://ae01.alicdn.com/kf/S60882eba5a58496ca31563ca16a4c645L.png",
+      "link": "https://aliexpress.com/item/1005009615196456.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009615196456.html",
+      "description": "",
+      "promo_text": "UKUTRAI10, ASUA11, IFP2L0JB",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T11:03:36.000063+00:00"
+    },
+    {
       "id": "1005011699605567",
       "title": "Портативний бездротовий апарат для зварювання пластику з літієвою батареєю",
       "price": 12.67,
