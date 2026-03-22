@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007805602153",
+      "title": "Кухонний змішувач із захистом від бризок можна обертати, розширюючи фільтр",
+      "price": 64.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1583,
+      "image": "https://ae01.alicdn.com/kf/S585697e2c9844eb886780b9197c946df5.jpg",
+      "link": "https://aliexpress.com/item/1005007805602153.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007805602153.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "91 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T13:39:23.867274+00:00"
+    },
+    {
       "id": "1005011838599812",
       "title": "Z. Мила туалетна щітка в мультяшному стилі",
       "price": 93.0,
