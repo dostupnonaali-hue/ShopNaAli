@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006127387274",
+      "title": "Жіночі квадратні сонцезахисні окуляри унісекс, модні маленькі, жовті",
+      "price": 22.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1915,
+      "image": "https://ae01.alicdn.com/kf/Se23f4fbf75954971a7d4873a096dd78e5.jpg",
+      "link": "https://aliexpress.com/item/1005006127387274.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006127387274.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-22T09:48:03.823968+00:00"
+    },
+    {
+      "id": "1005006995101703",
+      "title": "Елегантні портативні міні-окуляри для читання в металевій рамі для ручок",
+      "price": 9.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1839,
+      "image": "https://ae01.alicdn.com/kf/S9e7cb19e56684046ad1a9919d475c839z.jpg",
+      "link": "https://aliexpress.com/item/1005006995101703.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006995101703.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-22T09:51:46.643013+00:00"
+    },
+    {
       "id": "1005011840634228",
       "title": "Магнітні затискачі для фіксації ременя безпеки автомобіля для BAIC JISHI",
       "price": 40.0,
