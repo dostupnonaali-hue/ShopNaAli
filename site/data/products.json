@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005004575114859",
+      "title": "Sofirn SC18 1800lm EDC Ліхтарик USB C Перезаряджається SST40",
+      "price": 8.55,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1831,
+      "image": "https://ae01.alicdn.com/kf/S763fbed42648442e9590d8ac0418464ah.png",
+      "link": "https://aliexpress.com/item/1005004575114859.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004575114859.html",
+      "description": "",
+      "promo_text": "MAR303, ASUA03, UAAFF03, UAS3",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T11:19:23.624127+00:00"
+    },
+    {
+      "id": "1005006968885618",
+      "title": "Sofirn SC13 519A 5000K Міні потужний світлодіодний світильник LED 1100lm",
+      "price": 7.71,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1223,
+      "image": "https://ae01.alicdn.com/kf/S7bbf195154324a7b845da0c8d6acdad5N.png",
+      "link": "https://aliexpress.com/item/1005006968885618.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006968885618.html",
+      "description": "",
+      "promo_text": "MAR303, ASUA03, UAAFF03, UAS3",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T11:23:08.956455+00:00"
+    },
+    {
       "id": "1005006445275495",
       "title": "Зарядний пристрій UGREEN GaN PD3.1 Type C QC4.0 3.0 Quick Charge для",
       "price": 1674.0,
