@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007931358677",
+      "title": "TOMZN 2P 63A Smart Life WIFI Switch Схема вимірювання кВт/год",
+      "price": 7.78,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1464,
+      "image": "https://ae01.alicdn.com/kf/S658414ab422646f685a7b1ad7323b0f00.jpg",
+      "link": "https://aliexpress.com/item/1005007931358677.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007931358677.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T12:47:30.779052+00:00"
+    },
+    {
+      "id": "1005006212936185",
+      "title": "Global 70mai Dash Cam A200 Двоканальний запис 1080P HDR 2",
+      "price": 34.09,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 730,
+      "image": "https://ae01.alicdn.com/kf/S7fa60f8ce2864d8aa9bf81f404514470W.jpg",
+      "link": "https://aliexpress.com/item/1005006212936185.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006212936185.html",
+      "description": "",
+      "promo_text": "ASUA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-22T12:55:10.084234+00:00"
+    },
+    {
       "id": "1005009870319811",
       "title": "Навушники MOONDROP Golden Ages 2 TWS ANC Bluetooth 6.0 LDAC",
       "price": 62.65,
