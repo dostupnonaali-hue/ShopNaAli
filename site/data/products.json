@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011706492015",
+      "title": "Безщіткова електрична садова фреза PATUOPRO для газонокосарки",
+      "price": 2671.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 1523,
+      "image": "https://ae01.alicdn.com/kf/S638efd534ed94c34a738c9cf7f8a29851.jpg",
+      "link": "https://aliexpress.com/item/1005011706492015.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011706492015.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "68 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T16:33:14.795539+00:00"
+    },
+    {
       "id": "1005006104824812",
       "title": "Жінки",
       "price": 114.0,
