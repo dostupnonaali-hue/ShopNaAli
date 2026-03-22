@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005009456675950",
+      "title": "Сонячна бездротова камера безпеки Baseus Security S1 Lite",
+      "price": 1748.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1297,
+      "image": "https://ae01.alicdn.com/kf/S14b4bd58bcc2495d9577e3cfb612352c9.jpg",
+      "link": "https://aliexpress.com/item/1005009456675950.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009456675950.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "82 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T13:47:48.515951+00:00"
+    },
+    {
+      "id": "1005007636289171",
+      "title": "Жінки",
+      "price": 74.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1590,
+      "image": "https://ae01.alicdn.com/kf/S5c49f41a9c03468687cd934c1cd427e2T.jpg",
+      "link": "https://aliexpress.com/item/1005007636289171.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007636289171.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-22T13:55:26.844023+00:00"
+    },
+    {
       "id": "1005007805602153",
       "title": "Кухонний змішувач із захистом від бризок можна обертати, розширюючи фільтр",
       "price": 64.0,
