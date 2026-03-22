@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011850596908",
+      "title": "Лампа з датчиком руху Smart Motion Нічник Декор сидіння унітазу PIR",
+      "price": 49.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1359,
+      "image": "https://ae01.alicdn.com/kf/Sc0272f03c6c2446d94c101a0ef3bc2eaC.jpg",
+      "link": "https://aliexpress.com/item/1005011850596908.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011850596908.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-22T14:16:41.345542+00:00"
+    },
+    {
       "id": "1005006727642734",
       "title": "Роторна електробритва для чоловіків ENCHEN Blackstone 3D",
       "price": 269.0,
