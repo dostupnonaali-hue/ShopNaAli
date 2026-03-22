@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005010376374580",
+      "title": "Портативна Bluetooth-колонка Tribit PocketGo IP68, водонепроникна",
+      "price": 617.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1239,
+      "image": "https://ae01.alicdn.com/kf/Sab2696e4b1ff44b7b115ddf78fe3ed44N.png",
+      "link": "https://aliexpress.com/item/1005010376374580.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010376374580.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "147 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-22T14:43:05.139371+00:00"
+    },
+    {
       "id": "1005011854059634",
       "title": "Фільтр для кави з нержавіючої сталі Чашка для настоювання в’єтнамської кави",
       "price": 60.0,
