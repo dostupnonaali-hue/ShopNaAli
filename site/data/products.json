@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011854579056",
+      "title": "Універсальна приманка для прісної та морської води T-Tail Soft Bait",
+      "price": 31.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 590,
+      "image": "https://ae01.alicdn.com/kf/S45c5afe1deee40feb54746a1e79995cfR.jpg",
+      "link": "https://aliexpress.com/item/1005011854579056.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011854579056.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-23T12:35:55.226939+00:00"
+    },
+    {
       "id": "1005008825660425",
       "title": "Камери 2K KAWA MINI 3 Pro для автомобільного відеореєстратора Tiny Dash Cam 24",
       "price": 25.29,
