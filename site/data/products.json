@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007038209277",
+      "title": "Велика прозора сумка для косметики та туалетного приладдя з трьох предметів",
+      "price": 82.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 1922,
+      "image": "https://ae01.alicdn.com/kf/S848c2584908643c481ed6bd03c81faedL.jpg",
+      "link": "https://aliexpress.com/item/1005007038209277.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007038209277.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "87 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-23T14:51:22.357141+00:00"
+    },
+    {
       "id": "1005011855668794",
       "title": "Жінки",
       "price": 88.0,
