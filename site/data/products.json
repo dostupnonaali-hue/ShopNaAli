@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007096998490",
+      "title": "Спринклерна насадка Автоматичний розпилювач води, що обертається на 360 градусів",
+      "price": 95.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.8,
+      "orders": 824,
+      "image": "https://ae01.alicdn.com/kf/S06daee6160e04775a24554334c6fe4ebz.jpeg",
+      "link": "https://aliexpress.com/item/1005007096998490.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007096998490.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "159 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-23T13:35:16.546657+00:00"
+    },
+    {
       "id": "1005008918373612",
       "title": "UGREEN Nexode Power Bank PD3.0 Портативний пристрій зі швидкою зарядкою",
       "price": 49.85,
