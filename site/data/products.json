@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010080374129",
+      "title": "Професійні ножиці для стрижки волосся, перукарня/салон",
+      "price": 94.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1271,
+      "image": "https://ae01.alicdn.com/kf/Sd3006e7d39814dc7be45eca7cc8c6ac6K.jpg",
+      "link": "https://aliexpress.com/item/1005010080374129.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010080374129.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-23T10:58:30.743706+00:00"
+    },
+    {
+      "id": "1005006727681704",
+      "title": "Багатофункціональний міні-молоток AIRAJ, протиковзкий і",
+      "price": 3.67,
+      "currency": "USD",
+      "category": "tools",
+      "rating": 4.9,
+      "orders": 584,
+      "image": "https://ae01.alicdn.com/kf/S0b2d2e8c70c14d04935fd77893a6bc91r.jpg",
+      "link": "https://aliexpress.com/item/1005006727681704.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727681704.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-23T11:01:52.722060+00:00"
+    },
+    {
       "id": "1005005062269807",
       "title": "Ящик для початкового лотка для насіння зі світлодіодним освітлювальним горщиком для вирощування",
       "price": 298.0,
