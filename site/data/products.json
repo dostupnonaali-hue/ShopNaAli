@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011837772896",
+      "title": "Жінки",
+      "price": 44.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1701,
+      "image": "https://ae01.alicdn.com/kf/Sd7b266e8c29b4ef4805feb6dd6e6795dl.jpg",
+      "link": "https://aliexpress.com/item/1005011837772896.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011837772896.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-23T11:09:39.368278+00:00"
+    },
+    {
+      "id": "1005008541147648",
+      "title": "Realme 14 Смартфон Snapdragon® 6 Gen 4 Чіпсет 120 Гц",
+      "price": 177.33,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1236,
+      "image": "https://ae01.alicdn.com/kf/Sd5abe7056d8a4b4b800d1cc411ee5623Y.jpg",
+      "link": "https://aliexpress.com/item/1005008541147648.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008541147648.html",
+      "description": "",
+      "promo_text": "ASUA20, IFPRTA4P, IFP7O3JU",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-23T11:16:20.256559+00:00"
+    },
+    {
       "id": "1005010080374129",
       "title": "Професійні ножиці для стрижки волосся, перукарня/салон",
       "price": 94.0,
