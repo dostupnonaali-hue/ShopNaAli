@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008097708916",
+      "title": "Перехідник патрона лампи E27 на E14 Перехідник патрона лампи E14",
+      "price": 29.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1702,
+      "image": "https://ae01.alicdn.com/kf/S7bd87f6165904f4ca1cff8aeb08e5158l.jpg",
+      "link": "https://aliexpress.com/item/1005008097708916.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008097708916.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-23T12:03:43.505171+00:00"
+    },
+    {
+      "id": "1005009997999346",
+      "title": "DC - Цифровий вимірювач напруги Автомобільний мотоциклетний вольтметр Напруга",
+      "price": 16.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 1124,
+      "image": "https://ae01.alicdn.com/kf/Sa57c229eac89403e9eafca0d5951dea0r.jpg",
+      "link": "https://aliexpress.com/item/1005009997999346.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009997999346.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-23T12:07:47.572442+00:00"
+    },
+    {
       "id": "1005010254048280",
       "title": "Портативний сонячний генератор ALLPOWERS R600 299 Вт/год",
       "price": 139.7,
