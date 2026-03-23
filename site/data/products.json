@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005011854179165",
+      "title": "Сексуальна жіноча нижня білизна Black Deep V",
+      "price": 64.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 579,
+      "image": "https://ae01.alicdn.com/kf/Sc305238dfb134d178cbc43deea3ba9fbH.jpg",
+      "link": "https://aliexpress.com/item/1005011854179165.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011854179165.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-23T12:50:57.179760+00:00"
+    },
+    {
+      "id": "1005008347561100",
+      "title": "IMOU Video Doorbell 2S Комплект акумуляторної батареї 30° Pan Lens",
+      "price": 2280.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1106,
+      "image": "https://ae01.alicdn.com/kf/Sfeece01ab19c4522bf04e593d0f31e7dz.jpg",
+      "link": "https://aliexpress.com/item/1005008347561100.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008347561100.html",
+      "description": "",
+      "promo_text": "ASUA07",
+      "price_note": "816 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-23T12:58:11.129015+00:00"
+    },
+    {
       "id": "1005011851774122",
       "title": "Еластичні спіральні гумки для волосся Телефонний дріт Каблучка для волосся",
       "price": 14.0,
