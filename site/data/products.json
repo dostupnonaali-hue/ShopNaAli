@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005008090364864",
+      "title": "Різак для сигар Набір сигар Кишеньковий V-Cut Гострі ножиці для сигар",
+      "price": 12.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 1711,
+      "image": "https://ae01.alicdn.com/kf/Sd55e804711e14f42a61fe77a449b10d4t.jpg",
+      "link": "https://aliexpress.com/item/1005008090364864.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008090364864.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-23T09:46:53.319848+00:00"
+    },
+    {
       "id": "1005008487977050",
       "title": "Realme Buds Air 8 Global Version Active Noise Canceling",
       "price": 37.36,
