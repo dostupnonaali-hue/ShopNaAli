@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005009880872663",
+      "title": "Механічна клавіатура з інтелектуальним екраном AULA L99 Bluetooth",
+      "price": 3260.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1698,
+      "image": "https://ae01.alicdn.com/kf/Sa6a4a8fb4e4941a489da169f709d7798U.jpg",
+      "link": "https://aliexpress.com/item/1005009880872663.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009880872663.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "172 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-23T10:20:28.196530+00:00"
+    },
+    {
       "id": "1005008093290499",
       "title": "Портативний багатоцільовий розпилювач дезінфекції під високим тиском",
       "price": 704.0,
