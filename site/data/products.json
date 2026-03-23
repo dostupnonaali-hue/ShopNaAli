@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007628068040",
+      "title": "Літнє пляжне взуття та шкарпетки на відкритому повітрі для жінок для плавання",
+      "price": 17.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 1542,
+      "image": "https://ae01.alicdn.com/kf/Sc32c79344df14158a40293687a42df14H.jpg",
+      "link": "https://aliexpress.com/item/1005007628068040.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007628068040.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-23T09:50:34.214616+00:00"
+    },
+    {
       "id": "1005008090364864",
       "title": "Різак для сигар Набір сигар Кишеньковий V-Cut Гострі ножиці для сигар",
       "price": 12.0,
