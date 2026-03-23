@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005007257780498",
+      "title": "Жінки",
+      "price": 3.55,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 835,
+      "image": "https://ae01.alicdn.com/kf/S7d68b623607f4ef7b5155b6ec3da0f3ch.jpg",
+      "link": "https://aliexpress.com/item/1005007257780498.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007257780498.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-23T10:40:57.031546+00:00"
+    },
+    {
       "id": "1005007575302849",
       "title": "Lenovo 5MP WiFi Camera Smart Home Indoor IP Camera Full",
       "price": 408.0,
