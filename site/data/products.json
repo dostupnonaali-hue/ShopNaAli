@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005005363439524",
+      "title": "Світлодіодні лампи Освітлювальні стрічки Світлодіодні прилади Світлодіодні трубки",
+      "price": 62.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 564,
+      "image": "https://ae01.alicdn.com/kf/Sa860fe854e8248c9b745b0c24abd7feb4.jpg",
+      "link": "https://aliexpress.com/item/1005005363439524.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005363439524.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-23T15:07:22.556410+00:00"
+    },
+    {
       "id": "1005007038209277",
       "title": "Велика прозора сумка для косметики та туалетного приладдя з трьох предметів",
       "price": 82.0,
