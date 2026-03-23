@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007523418871",
+      "title": "70mai t800e 3-канальний передній 4k + задній 1080p + внутрішній",
+      "price": 66.07,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 515,
+      "image": "https://ae01.alicdn.com/kf/S69272e536f774c979eacf7b316dc1f98F.jpg",
+      "link": "https://aliexpress.com/item/1005007523418871.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007523418871.html",
+      "description": "",
+      "promo_text": "70MAAS2, ASUA07, IFPYBX72",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-23T16:23:33.719551+00:00"
+    },
+    {
+      "id": "1005009076696043",
+      "title": "Xiaomi Redmi Pad 2 Глобальна версія Advanced Helio G100-Ultra",
+      "price": 5449.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1126,
+      "image": "https://ae01.alicdn.com/kf/S8064ae2e7139479a967c207291eb43c7x.jpg",
+      "link": "https://aliexpress.com/item/1005009076696043.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009076696043.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "182 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-23T16:27:39.440157+00:00"
+    },
+    {
       "id": "1005007403491872",
       "title": "Складні плоскогубці SOG 19 в 1 PowerLitre, ніж EDC Mini",
       "price": 25.87,
