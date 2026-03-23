@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007403491872",
+      "title": "Складні плоскогубці SOG 19 в 1 PowerLitre, ніж EDC Mini",
+      "price": 25.87,
+      "currency": "USD",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 1428,
+      "image": "https://ae01.alicdn.com/kf/S7f2643c93d0649e581759e108f1e80827.jpg",
+      "link": "https://aliexpress.com/item/1005007403491872.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007403491872.html",
+      "description": "",
+      "promo_text": "ASUA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-23T16:15:39.742559+00:00"
+    },
+    {
+      "id": "1005008564373536",
+      "title": "Портативна Bluetooth-колонка Edifier ES60 Mini Sound Box",
+      "price": 69.62,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 686,
+      "image": "https://ae01.alicdn.com/kf/A47dc19e6bdcd47139fd5ebf6854f1a23N.jpg",
+      "link": "https://aliexpress.com/item/1005008564373536.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008564373536.html",
+      "description": "",
+      "promo_text": "ASUA11, IFP2L0JB",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-23T16:19:47.124385+00:00"
+    },
+    {
       "id": "1005006727542000",
       "title": "Компактний бездротовий Bluetooth-динамік M3 - дизайн Steel Gun",
       "price": 61.0,
