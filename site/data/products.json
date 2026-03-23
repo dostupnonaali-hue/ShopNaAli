@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008487977050",
+      "title": "Realme Buds Air 8 Global Version Active Noise Canceling",
+      "price": 37.36,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 989,
+      "image": "https://ae01.alicdn.com/kf/S22de0b1cde574ca286d776e5d2cde5a6B.jpg",
+      "link": "https://aliexpress.com/item/1005008487977050.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008487977050.html",
+      "description": "",
+      "promo_text": "ASUA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-23T09:28:31.235783+00:00"
+    },
+    {
+      "id": "1005007247038480",
+      "title": "Бездротова миша VXE Dragonfly R1 PAW3395 Sensor Nordic 52840",
+      "price": 16.1,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1584,
+      "image": "https://ae01.alicdn.com/kf/S878d2a33df2c466eb851f69e0f117044P.jpg",
+      "link": "https://aliexpress.com/item/1005007247038480.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007247038480.html",
+      "description": "",
+      "promo_text": "ASUA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-23T09:32:14.062365+00:00"
+    },
+    {
       "id": "1005011706492015",
       "title": "Безщіткова електрична садова фреза PATUOPRO для газонокосарки",
       "price": 2671.0,
