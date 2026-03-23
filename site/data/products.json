@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011855799609",
+      "title": "Дитяча шапочка для плавання з поліуретанової тканини Шапочка для плавання для хлопчиків і дівчаток",
+      "price": 21.0,
+      "currency": "UAH",
+      "category": "toys",
+      "rating": 4.9,
+      "orders": 1577,
+      "image": "https://ae01.alicdn.com/kf/Sf1413158d37a4c11b822b9431c4d3e781.jpg",
+      "link": "https://aliexpress.com/item/1005011855799609.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011855799609.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-23T11:19:55.155327+00:00"
+    },
+    {
       "id": "1005011837772896",
       "title": "Жінки",
       "price": 44.0,
