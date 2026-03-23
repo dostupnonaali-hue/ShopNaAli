@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005005062269807",
+      "title": "Ящик для початкового лотка для насіння зі світлодіодним освітлювальним горщиком для вирощування",
+      "price": 298.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1956,
+      "image": "https://ae01.alicdn.com/kf/Sc7523338faf849b6bb6fdb1cf709a383J.jpg",
+      "link": "https://aliexpress.com/item/1005005062269807.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005062269807.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-23T10:50:16.887359+00:00"
+    },
+    {
       "id": "1005007257780498",
       "title": "Жінки",
       "price": 3.55,
