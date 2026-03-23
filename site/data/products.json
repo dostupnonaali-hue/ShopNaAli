@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008404235407",
+      "title": "UGREEN Smart Bluetooth Tracker, Keys Finder Item Locator",
+      "price": 619.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 176,
+      "image": "https://ae01.alicdn.com/kf/S164716c2de17495d99f4799dc712790ct.jpg",
+      "link": "https://aliexpress.com/item/1005008404235407.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008404235407.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "17 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-23T14:10:22.776320+00:00"
+    },
+    {
+      "id": "1005006861709687",
+      "title": "Наколінники Робочий захист Pad Грязьові робочі Коліна Паста Підлога",
+      "price": 47.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1102,
+      "image": "https://ae01.alicdn.com/kf/S0083e540d0a8474884925851efc1a196o.png",
+      "link": "https://aliexpress.com/item/1005006861709687.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006861709687.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-23T14:18:02.523065+00:00"
+    },
+    {
       "id": "1005011890753090",
       "title": "Шкіряний автомобільний чохол для ручки перемикання передач",
       "price": 90.0,
