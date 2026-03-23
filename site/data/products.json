@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011890753090",
+      "title": "Шкіряний автомобільний чохол для ручки перемикання передач",
+      "price": 90.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 296,
+      "image": "https://ae01.alicdn.com/kf/Sc5402477e9f3491495a20d740f04c14ek.jpg",
+      "link": "https://aliexpress.com/item/1005011890753090.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011890753090.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-23T14:06:48.212162+00:00"
+    },
+    {
       "id": "1005011850252573",
       "title": "Жінки",
       "price": 88.0,
