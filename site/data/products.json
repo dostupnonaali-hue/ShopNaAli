@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007476777512",
+      "title": "Стайлер 6 в 1 Новий гладкий фен для волосся 6 в 1",
+      "price": 1109.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1136,
+      "image": "https://ae01.alicdn.com/kf/Seb186958b267491f861359911a9726c8i.jpg",
+      "link": "https://aliexpress.com/item/1005007476777512.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007476777512.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "149 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-23T15:52:25.275283+00:00"
+    },
+    {
+      "id": "1005011856974358",
+      "title": "Жінки",
+      "price": 73.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 547,
+      "image": "https://ae01.alicdn.com/kf/Se50c579757f74a20b20e1205687ccbe1K.jpg",
+      "link": "https://aliexpress.com/item/1005011856974358.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011856974358.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-23T15:59:23.560421+00:00"
+    },
+    {
       "id": "1005011846743163",
       "title": "Медичний цифровий наручний світлодіодний тонометр артеріального тиску",
       "price": 183.0,
