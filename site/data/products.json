@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005006727542000",
+      "title": "Компактний бездротовий Bluetooth-динамік M3 - дизайн Steel Gun",
+      "price": 61.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 499,
+      "image": "https://ae01.alicdn.com/kf/S7c46a6dc2b374300bdd2e4f44ff5e90f0.jpg",
+      "link": "https://aliexpress.com/item/1005006727542000.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727542000.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-23T16:02:40.482016+00:00"
+    },
+    {
+      "id": "1005008550922485",
+      "title": "Навушники KZ Carol Pro ANC True Wireless TWS Bluetooth 5.4 6",
+      "price": 17.5,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 792,
+      "image": "https://ae01.alicdn.com/kf/Sb8e611198ebd43dfaef906a5889a409ad.jpg",
+      "link": "https://aliexpress.com/item/1005008550922485.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008550922485.html",
+      "description": "",
+      "promo_text": "ASUA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-23T16:09:12.824817+00:00"
+    },
+    {
       "id": "1005007476777512",
       "title": "Стайлер 6 в 1 Новий гладкий фен для волосся 6 в 1",
       "price": 1109.0,
