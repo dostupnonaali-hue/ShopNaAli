@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006803904702",
+      "title": "3-осьовий підвісний стабілізатор для складного портативного смартфона",
+      "price": 1709.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1684,
+      "image": "https://ae01.alicdn.com/kf/Sdcf730b9402d4a62ac578801e351fc049.jpg",
+      "link": "https://aliexpress.com/item/1005006803904702.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006803904702.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "89 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-23T11:41:55.670503+00:00"
+    },
+    {
       "id": "1005009876489521",
       "title": "HONOR 400 Smart Global Version Snapdragon 6s Gen 3 6.77",
       "price": 176.9,
