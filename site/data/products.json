@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005010195158192",
+      "title": "Бездротова клавіатура UGREEN 99 клавіш Bluetooth 2. Подвійний режим",
+      "title_pl": "Bezprzewodowa klawiatura UGREEN 99 klawiszy Bluetooth 2.4G podwójny tryb USB-C akumulator 500mAh konstrukcja nożycowa ergonomiczna do laptopa PC",
+      "price": 22.19,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1392,
+      "image": "https://ae01.alicdn.com/kf/Scaec638885b94304bbf68ed4011f51fbf.jpg",
+      "link": "https://aliexpress.com/item/1005010195158192.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010195158192.html",
+      "description": "",
+      "promo_text": "UGREEN304, ASUA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T13:31:01.921684+00:00"
+    },
+    {
+      "id": "1005011856606615",
+      "title": "Багатофункціональна спортивна поясна сумка, водонепроникна унісекс",
+      "title_pl": "Wielofunkcyjna sportowa torba na pas, unisex Wodoodporna duża pojemność Odporna na zużycie saszetka biodrowa do pracy Kasjer codziennego użytku",
+      "price": 55.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 268,
+      "image": "https://ae01.alicdn.com/kf/S7f178eaa99934162adfbb76eac592793W.jpg",
+      "link": "https://aliexpress.com/item/1005011856606615.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011856606615.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-24T13:37:45.267093+00:00"
+    },
+    {
       "id": "1005006783075254",
       "title": "Портативний нанорозпилювач для обличчя - портативний USB-перезаряджуваний",
       "title_pl": "Przenośny rozpylacz do twarzy Nano o pojemności 20 ml — ręczny parowiec do twarzy i nawilżacz powietrza z możliwością ładowania przez USB do nawilżającej pielęgnacji skóry w podróży",
