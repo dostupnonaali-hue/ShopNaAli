@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Produkt — ShopDoBaksa</title>
+    <meta name="description" id="pageMeta" content="Najlepsza oferta z AliExpress w najniższej cenie">
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/icon-180.png">
+    <!-- Open Graph (dynamic) -->
+    <meta property="og:title" id="ogTitle" content="Produkt — ShopDoBaksa">
+    <meta property="og:description" id="ogDesc" content="Najlepsza oferta z AliExpress">
+    <meta property="og:image" id="ogImage" content="">
+    <meta property="og:type" content="product">
+    <meta property="og:locale" content="pl_PL">
+
+    <meta name="theme-color" content="#0a0a0f">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+
+            <nav class="header__nav">
+                <a href="index.html" class="header__nav-link">🏠 Strona główna</a>
+                <a href="faq.html" class="header__nav-link">📖 Poradnik</a>
+                <a href="promos.html" class="header__nav-link">✂️ Kody rabatowe</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__nav-link header__nav-link--tg">✈️ Telegram</a>
+                <a href="../index.html" class="header__nav-link lang-switch" title="Українська">🇺🇦</a>
+            </nav>
+
+            <button class="burger" id="burgerBtn" aria-label="Menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+            <button class="mobile-menu__close" id="menuClose" aria-label="Zamknij">✕</button>
+        </div>
+        <div class="mobile-menu__links">
+            <a href="index.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🏠</span> Strona główna
+            </a>
+            <a href="faq.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">📖</span> Poradnik
+            </a>
+            <a href="promos.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✂️</span> Kody rabatowe
+            </a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✈️</span> Nasz Telegram
+            </a>
+            <a href="../index.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🇺🇦</span> Українська версія
+            </a>
+        </div>
+        <div class="mobile-menu__footer">
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__tg-btn">
+                ✈️ Subskrybuj Telegram
+            </a>
+        </div>
+    </nav>
+
+    <script>
+    (function() {
+        const burger = document.getElementById('burgerBtn');
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        const closeBtn = document.getElementById('menuClose');
+        function toggleMenu() {
+            const isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
+            burger.classList.toggle('open', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        }
+        burger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+    })();
+    </script>
+
+
+    <!-- Product Page -->
+    <div class="product-page" id="productPage">
+
+        <a href="index.html" class="product-page__back">← Powrót do katalogu</a>
+
+        <div class="product-page__card">
+            <div class="product-page__image-wrap">
+                <img id="productImage" class="product-page__image" src="" alt="">
+            </div>
+
+            <div class="product-page__content">
+                <h1 id="productTitle" class="product-page__title">Ładowanie...</h1>
+
+                <div class="product-page__price-row">
+                    <span id="productPrice" class="product-page__price">0.00 zł</span>
+                    <span id="productPriceOld" class="product-page__price-old"></span>
+                    <span id="productDiscount" class="product-page__discount" style="display:none"></span>
+                </div>
+
+                <div id="productPromo" class="product-page__promo" style="display:none"></div>
+
+                <!-- Timer -->
+                <div class="timer" id="timer">
+                    <span class="timer__label">⏰ Oferta ważna jeszcze:</span>
+                    <div class="timer__digits">
+                        <span class="timer__unit" id="timerH">00</span>
+                        <span class="timer__separator">:</span>
+                        <span class="timer__unit" id="timerM">00</span>
+                        <span class="timer__separator">:</span>
+                        <span class="timer__unit" id="timerS">00</span>
+                    </div>
+                </div>
+
+                <!-- Info -->
+                <div class="product-page__info">
+                    <div class="product-page__info-item">
+                        <div class="product-page__info-value" id="productRating">⭐ 0</div>
+                        <div class="product-page__info-label">Ocena</div>
+                    </div>
+                    <div class="product-page__info-item">
+                        <div class="product-page__info-value" id="productOrders">0</div>
+                        <div class="product-page__info-label">Zamówień</div>
+                    </div>
+                    <div class="product-page__info-item">
+                        <div class="product-page__info-value" id="productShipping">🚚 Bezpłatnie</div>
+                        <div class="product-page__info-label">Dostawa</div>
+                    </div>
+                </div>
+
+                <!-- Description -->
+                <p class="product-page__description" id="productDescription"></p>
+
+                <!-- Buy Button -->
+                <a id="buyButton" href="#" target="_blank" class="product-page__buy-btn">
+                    🛒 Kup na AliExpress
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 ShopDoBaksa — Agregator najlepszych ofert z AliExpress</p>
+    </footer>
+
+    <script src="../js/product-pl.js"></script>
+</body>
+
+</html>

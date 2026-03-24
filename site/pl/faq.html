@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poradnik AliExpress — Porady, lifehacki i FAQ | ShopDoBaksa</title>
+    <meta name="description"
+        content="Kompletny poradnik AliExpress: jak zdobyć zniżki, monety, kody rabatowe, darmową dostawę i kupować tanio. Odpowiedzi na najczęstsze pytania.">
+    <meta name="keywords" content="AliExpress, poradnik, porady, monety, kupony, kody rabatowe, zniżki, FAQ">
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/icon-180.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Poradnik AliExpress — Porady i FAQ | ShopDoBaksa">
+    <meta property="og:description" content="Kompletny poradnik: jak zdobyć zniżki, monety, kody rabatowe i kupować tanio na AliExpress">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="pl_PL">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .faq-page { max-width: 900px; margin: 0 auto; padding: calc(var(--header-height) + var(--gap-xl)) var(--gap-lg) var(--gap-3xl); position: relative; z-index: 1; }
+        .faq-hero { text-align: center; padding: var(--gap-xl) 0 var(--gap-2xl); }
+        .faq-hero__image { width: 100%; max-height: 280px; object-fit: cover; border-radius: var(--radius-xl); margin-bottom: var(--gap-xl); border: 1px solid var(--bg-glass-border); }
+        .faq-hero__title { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 900; line-height: 1.1; margin-bottom: var(--gap-md); }
+        .faq-hero__subtitle { font-size: 1.05rem; color: var(--text-secondary); max-width: 550px; margin: 0 auto; }
+        .faq-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--gap-sm); margin-bottom: var(--gap-2xl); padding: var(--gap-md); background: var(--bg-glass); border: 1px solid var(--bg-glass-border); border-radius: var(--radius-lg); }
+        .faq-nav__link { padding: 8px 16px; background: var(--bg-card); border: 1px solid var(--bg-glass-border); border-radius: var(--radius-full); color: var(--text-secondary); font-size: 0.82rem; font-weight: 500; transition: all var(--transition-normal); text-decoration: none; }
+        .faq-nav__link:hover { background: var(--accent-primary); color: var(--bg-primary); border-color: var(--accent-primary); }
+        .faq-section { margin-bottom: var(--gap-2xl); scroll-margin-top: calc(var(--header-height) + var(--gap-lg)); }
+        .faq-section__header { display: flex; align-items: center; gap: var(--gap-md); margin-bottom: var(--gap-lg); padding: var(--gap-md) var(--gap-lg); background: var(--bg-glass); border: 1px solid var(--bg-glass-border); border-radius: var(--radius-lg); }
+        .faq-section__icon { width: 56px; height: 56px; border-radius: var(--radius-md); object-fit: cover; flex-shrink: 0; }
+        .faq-section__title { font-size: 1.3rem; font-weight: 800; }
+        .faq-section__emoji { font-size: 2rem; flex-shrink: 0; }
+        .faq-item { background: var(--bg-card); border: 1px solid var(--bg-glass-border); border-radius: var(--radius-lg); margin-bottom: var(--gap-md); overflow: hidden; transition: all var(--transition-normal); }
+        .faq-item:hover { border-color: rgba(0, 255, 136, 0.2); box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3); }
+        .faq-item__question { display: flex; align-items: center; gap: var(--gap-md); padding: var(--gap-md) var(--gap-lg); cursor: pointer; user-select: none; transition: background var(--transition-fast); }
+        .faq-item__question:hover { background: var(--bg-card-hover); }
+        .faq-item__q-icon { width: 28px; height: 28px; background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 800; color: var(--bg-primary); flex-shrink: 0; }
+        .faq-item__q-text { font-size: 0.95rem; font-weight: 600; color: var(--text-primary); flex: 1; }
+        .faq-item__toggle { font-size: 1.2rem; color: var(--text-muted); transition: transform var(--transition-normal); flex-shrink: 0; }
+        .faq-item.open .faq-item__toggle { transform: rotate(180deg); color: var(--accent-primary); }
+        .faq-item__answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.3s ease; }
+        .faq-item.open .faq-item__answer { max-height: 2000px; }
+        .faq-item__a-content { padding: 0 var(--gap-lg) var(--gap-lg) calc(var(--gap-lg) + 28px + var(--gap-md)); color: var(--text-secondary); font-size: 0.9rem; line-height: 1.8; }
+        .faq-item__a-content ul { margin: var(--gap-sm) 0; padding-left: var(--gap-lg); }
+        .faq-item__a-content li { margin-bottom: 6px; }
+        .faq-item__a-content strong { color: var(--accent-primary); font-weight: 600; }
+        .faq-item__a-content .tip { display: inline-block; padding: 2px 8px; background: rgba(0, 255, 136, 0.1); border: 1px solid rgba(0, 255, 136, 0.15); border-radius: var(--radius-sm); font-size: 0.82rem; color: var(--accent-primary); margin: 4px 0; }
+        .faq-item__a-content .warning { display: inline-block; padding: 2px 8px; background: rgba(255, 107, 53, 0.1); border: 1px solid rgba(255, 107, 53, 0.15); border-radius: var(--radius-sm); font-size: 0.82rem; color: var(--accent-tertiary); margin: 4px 0; }
+        .faq-back { display: inline-flex; align-items: center; gap: 6px; color: var(--text-secondary); font-size: 0.9rem; margin-bottom: var(--gap-lg); transition: color var(--transition-fast); }
+        .faq-back:hover { color: var(--accent-primary); }
+        .faq-stats { display: flex; justify-content: center; gap: var(--gap-xl); margin-bottom: var(--gap-xl); }
+        .faq-stat { text-align: center; padding: var(--gap-md); background: var(--bg-glass); border: 1px solid var(--bg-glass-border); border-radius: var(--radius-md); min-width: 100px; }
+        .faq-stat__num { font-size: 1.5rem; font-weight: 800; color: var(--accent-primary); }
+        .faq-stat__label { font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+        @media (max-width: 768px) {
+            .faq-hero__image { max-height: 180px; }
+            .faq-section__header { padding: var(--gap-sm) var(--gap-md); }
+            .faq-section__icon { width: 40px; height: 40px; }
+            .faq-section__title { font-size: 1.1rem; }
+            .faq-item__a-content { padding-left: var(--gap-lg); }
+            .faq-nav { gap: 6px; }
+            .faq-nav__link { font-size: 0.75rem; padding: 6px 12px; }
+            .faq-stats { flex-wrap: wrap; gap: var(--gap-sm); }
+            .faq-stat { min-width: 80px; }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+
+            <nav class="header__nav">
+                <a href="index.html" class="header__nav-link">🏠 Strona główna</a>
+                <a href="faq.html" class="header__nav-link active">📖 Poradnik</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__nav-link header__nav-link--tg">✈️ Telegram</a>
+                <a href="../faq.html" class="header__nav-link lang-switch" title="Українська">🇺🇦</a>
+            </nav>
+
+            <button class="burger" id="burgerBtn" aria-label="Menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+            <button class="mobile-menu__close" id="menuClose" aria-label="Zamknij">✕</button>
+        </div>
+        <div class="mobile-menu__links">
+            <a href="index.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🏠</span> Strona główna
+            </a>
+            <a href="faq.html" class="mobile-menu__link active">
+                <span class="mobile-menu__icon">📖</span> Poradnik
+            </a>
+            <a href="promos.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✂️</span> Kody rabatowe
+            </a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✈️</span> Nasz Telegram
+            </a>
+            <a href="../faq.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🇺🇦</span> Українська версія
+            </a>
+        </div>
+        <div class="mobile-menu__footer">
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__tg-btn">
+                ✈️ Subskrybuj Telegram
+            </a>
+        </div>
+    </nav>
+
+    <script>
+    (function() {
+        const burger = document.getElementById('burgerBtn');
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        const closeBtn = document.getElementById('menuClose');
+        function toggleMenu() {
+            const isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
+            burger.classList.toggle('open', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        }
+        burger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+    })();
+    </script>
+
+    <main class="faq-page">
+
+        <a href="index.html" class="faq-back">← Powrót do produktów</a>
+
+        <!-- Hero -->
+        <section class="faq-hero">
+            <img src="../images/faq-hero.png" alt="Poradnik AliExpress" class="faq-hero__image">
+            <h1 class="faq-hero__title">
+                Poradnik <span class="gradient-text">AliExpress</span>
+            </h1>
+            <p class="faq-hero__subtitle">
+                Wszystko, co musisz wiedzieć o zakupach: zniżki, monety, kody rabatowe, dostawa i ochrona przed oszustami
+            </p>
+        </section>
+
+        <!-- Stats -->
+        <div class="faq-stats">
+            <div class="faq-stat">
+                <div class="faq-stat__num">25+</div>
+                <div class="faq-stat__label">Pytań</div>
+            </div>
+            <div class="faq-stat">
+                <div class="faq-stat__num">6</div>
+                <div class="faq-stat__label">Sekcji</div>
+            </div>
+            <div class="faq-stat">
+                <div class="faq-stat__num">2026</div>
+                <div class="faq-stat__label">Aktualne</div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="faq-nav" id="faqNav">
+            <a href="#coupons" class="faq-nav__link">🏷 Zniżki i kupony</a>
+            <a href="#coins" class="faq-nav__link">🪙 Monety</a>
+            <a href="#choice" class="faq-nav__link">🛒 Choice i oferty</a>
+            <a href="#payment" class="faq-nav__link">🛑 Blokady i płatności</a>
+            <a href="#delivery" class="faq-nav__link">📦 Dostawa</a>
+            <a href="#disputes" class="faq-nav__link">⚖️ Spory i oszuści</a>
+        </nav>
+
+        <!-- ========== SECTION: Zniżki, kupony, kody rabatowe ========== -->
+        <section class="faq-section" id="coupons">
+            <div class="faq-section__header">
+                <img src="../images/faq-coupons.png" alt="" class="faq-section__icon">
+                <h2 class="faq-section__title">🏷 Zniżki, kupony i kody rabatowe</h2>
+            </div>
+
+            <div class="faq-item open">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Co zrobić, jeśli kod rabatowy nie działa, lub jak sprawić, by kupon pojawił się na dany produkt?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Aby celowo uzyskać zniżkę na produkt przez <strong>Centrum kuponów</strong>:
+                        <ul>
+                            <li>Otwórz ofertę produktu i dodaj go do <strong>koszyka</strong></li>
+                            <li>Dodaj go do <strong>„Listy życzeń"</strong> (kliknij ❤️)</li>
+                            <li>Zasubskrybuj <strong>sklep sprzedawcy</strong></li>
+                        </ul>
+                        Po tym w „Centrum kuponów" zniżka na wszystkie produkty tego sklepu pojawi się jako jedna z pierwszych.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Jak zarezerwować kody rabatowe przed rozpoczęciem wyprzedaży?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <ul>
+                            <li>Dodaj do koszyka jakikolwiek <strong>drogi produkt</strong>, tak by kwota przekraczała największy kod (ponad $500)</li>
+                            <li>Przejdź do realizacji zamówienia i w polu „kod rabatowy" po kolei wpisuj wszystkie aktualne kody</li>
+                            <li>Nawet jeśli system wyświetla błąd — klikaj <strong>„zastosuj"</strong></li>
+                            <li>Wszystkie kody zostaną zapisane w sekcji <strong>„Moje kupony"</strong></li>
+                        </ul>
+                        <span class="warning">⚠️ Ten sposób nie działa z kategorią smartfonów</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Jak kupować produkty promocyjne jeszcze taniej, jeśli produkt kosztuje mniej niż wymagana kwota?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <ul>
+                            <li>Dodaj potrzebny produkt do koszyka</li>
+                            <li>Dodaj <strong>drogi produkt z innego sklepu</strong> z takim samym oznaczeniem promocyjnym, żeby łączna kwota osiągnęła minimum (np. $20)</li>
+                            <li>Przejdź do płatności i wybierz kartę, na której <strong>nie ma wystarczających środków</strong></li>
+                            <li>Zamówienie trafi do sekcji <strong>„Nie opłacono"</strong> (Unpaid)</li>
+                            <li>Anuluj niepotrzebny produkt, a potrzebny opłać już z niższą ceną</li>
+                        </ul>
+                        <span class="tip">💡 Zniżka rozdzieli się proporcjonalnie między produktami</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION: Monety ========== -->
+        <section class="faq-section" id="coins">
+            <div class="faq-section__header">
+                <img src="../images/faq-coins.png" alt="" class="faq-section__icon">
+                <h2 class="faq-section__title">🪙 Monety: zarabianie i wykorzystanie</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Jak zarabiać maksymalną liczbę monet każdego dnia?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Monety można zbierać na kilka sposobów:
+                        <ul>
+                            <li>Codziennie klikać <strong>przycisk zbierania</strong> w sekcji monet</li>
+                            <li>Grać w gry: <strong>„Merge Boss"</strong>, <strong>„GoGo Match"</strong> i <strong>„Uprawiaj i zbieraj"</strong></li>
+                            <li>Zostawiać opinie: <strong>3 monety</strong> za ocenę, <strong>7 monet</strong> za tekst od 100 znaków, <strong>10 monet</strong> za zdjęcie</li>
+                            <li>Sprawdzać status przesyłek w sekcji śledzenia do <strong>5 razy dziennie</strong></li>
+                        </ul>
+                        <span class="tip">💡 Kupuj tanie produkty za grosze — AliExpress nalicza +10 monet za każde zamówienie!</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Jak sprawdzić dodatkową zniżkę za monety i uzyskać maksymalną korzyść?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <strong>Nie kupuj produktu po prostu z koszyka!</strong> Są dwa sposoby:
+                        <br><br>
+                        <strong>Sposób 1 (Przez historię/koszyk):</strong>
+                        <ul>
+                            <li>Znajdź produkt i dodaj do koszyka</li>
+                            <li>Otwórz kilka ogłoszeń z tym samym produktem od różnych sprzedawców</li>
+                            <li>Przejdź do sekcji <strong>„Monety" → „Szukaj zniżek" 🔎</strong></li>
+                            <li>W zakładkach „Koszyk" i „Historia" będą produkty z procentem zniżki <strong>(50%-99%)</strong></li>
+                        </ul>
+                        <span class="warning">⚠️ Otwieranie produktu i przechodzenie do płatności musi odbywać się właśnie z sekcji monet!</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Procent zniżki za monety spadł do 2-10%. Jak przywrócić wysokie zniżki?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <ul>
+                            <li><strong>Zaktualizuj lub ponownie zainstaluj</strong> aplikację AliExpress i wyczyść cache</li>
+                            <li>Zmień w ustawieniach adres dostawy na <strong>USA</strong>, sprawdź procent, potem wróć do swojego kraju</li>
+                            <li>Jeśli masz kilka kont — <strong>usuń dodatkowe</strong> lub wyloguj się z nich</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION: Choice ========== -->
+        <section class="faq-section" id="choice">
+            <div class="faq-section__header">
+                <span class="faq-section__emoji">🛒</span>
+                <h2 class="faq-section__title">Oferty specjalne i Choice</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Jak kupować produkty Choice z darmową dostawą, jeśli jest wskazana jako płatna?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Lifehack przez <strong>„nieopłacone zamówienia"</strong>:
+                        <ul>
+                            <li>Dodaj potrzebny produkt do koszyka</li>
+                            <li>Dodaj jeszcze jeden produkt <strong>Choice z innego sklepu</strong> (łączna kwota &gt; $10+)</li>
+                            <li>Zaznacz oba — dostawa stanie się <strong>bezpłatna</strong></li>
+                            <li>Przejdź do płatności, wybierz kartę <strong>bez wystarczających środków</strong></li>
+                            <li>W sekcji „Nie opłacono" anuluj niepotrzebny produkt</li>
+                            <li>Opłać pożądany produkt <strong>już bez płatnej dostawy</strong></li>
+                        </ul>
+                        <span class="warning">⚠️ Produkty muszą być z różnych sklepów i z oznaczeniem „Choice". Nie działa dla większości „SuperDeals"</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Czym jest Choice Day i jak uzyskać zniżkę $3?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <strong>Choice Day</strong> — comiesięczna wyprzedaż (zwykle na początku miesiąca). Automatyczna zniżka <strong>-$3 z każdych $20</strong>, ale nie więcej niż <strong>-$9</strong> na jedno zamówienie. Po prostu dodaj produkty „Choice" do koszyka na odpowiednią kwotę — zniżka zostanie zastosowana automatycznie.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION: Blokady i płatności ========== -->
+        <section class="faq-section" id="payment">
+            <div class="faq-section__header">
+                <span class="faq-section__emoji">🛑</span>
+                <h2 class="faq-section__title">Blokady, błędy płatności i bezpieczeństwo</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Przy płatności błąd „Order unsuccessful" lub błędy CSC. Co robić?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Ten <strong>shadow ban</strong> często pojawia się przez kupony lub kilka kont na jednym urządzeniu/Wi-Fi. Rozwiązania:
+                        <br><br>
+                        <strong>Sposób 1 (Szybki):</strong> Napisz do wsparcia technicznego przez bota Eva (komenda <strong>livechat_link</strong>), wyślij zrzut ekranu. Operator poprosi o odczekanie 1 godziny.
+                        <br><br>
+                        <strong>Sposób 2 (Rozgrzewka):</strong> Złóż zamówienie <strong>bez zniżek</strong> (bez monet, kodów rabatowych, nie z Choice). Po kilku dniach ograniczenie zostanie zdjęte.
+                        <br><br>
+                        <strong>Sposób 3 (Nowe konto):</strong>
+                        <ul>
+                            <li>Utwórz nowe konto Google z <strong>innego urządzenia</strong> przez internet mobilny</li>
+                            <li>Zmień sposób zapisu imienia i nazwiska</li>
+                            <li>Podaj <strong>nową kartę</strong> i adres</li>
+                            <li>Używaj tylko w trybie <strong>„Incognito"</strong> w przeglądarce</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION: Dostawa ========== -->
+        <section class="faq-section" id="delivery">
+            <div class="faq-section__header">
+                <img src="../images/faq-delivery.png" alt="" class="faq-section__icon">
+                <h2 class="faq-section__title">📦 Dostawa i śledzenie</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Status „Unshipped" (Nie wysłano) lub „Odebrane przez kuriera" wisi długo. Czy to normalne?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <strong>Tak</strong>, to oznacza, że sprzedawca utworzył elektroniczny list przewozowy, ale fizycznie jeszcze nie przekazał towaru. Śledzenie zwykle aktualizuje się w ciągu <strong>3-5 dni</strong>.
+                        <br><br>
+                        <span class="warning">⚠️ Jeśli status nie zmienia się przez ponad 3-4 tygodnie — otwórz spór o zwrot pieniędzy</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Czy można kliknąć „Potwierdź dostawę", jeśli towar jest jeszcze w drodze?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <strong style="color: var(--accent-tertiary);">NIGDY</strong> tego nie rób! Ten przycisk oznacza, że przesyłka jest już w twoich rękach. Jeśli go klikniesz — <strong>stracisz możliwość</strong> otwarcia sporu, jeśli towar przyjdzie uszkodzony lub zgubi się.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION: Spory i oszuści ========== -->
+        <section class="faq-section" id="disputes">
+            <div class="faq-section__header">
+                <span class="faq-section__emoji">⚖️</span>
+                <h2 class="faq-section__title">Spory, zwroty i oszuści</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Jak prawidłowo otworzyć spór (dispute)?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        <ul>
+                            <li>Zawsze <strong>nagrywaj rozpakowywanie na wideo</strong>, gdzie wyraźnie widać numer śledzenia i stan opakowania</li>
+                            <li>Otwórz spór i wybierz <strong>„Tylko zwrot pieniędzy"</strong></li>
+                            <li>Dodaj wideo/zdjęcia dowodowe i zrzuty ekranu śledzenia</li>
+                        </ul>
+                        <span class="tip">💡 Proś o kwotę o 10-20% mniejszą od pełnej wartości — tak system AliExpress częściej staje po stronie kupującego</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-item__question" onclick="this.parentElement.classList.toggle('open')">
+                    <div class="faq-item__q-icon">Q</div>
+                    <span class="faq-item__q-text">Jak rozpoznać sprzedawcę-oszusta?</span>
+                    <span class="faq-item__toggle">▼</span>
+                </div>
+                <div class="faq-item__answer">
+                    <div class="faq-item__a-content">
+                        Zwróć uwagę na:
+                        <ul>
+                            <li><strong>Ocena poniżej 4.7</strong> — lepiej nie kupować</li>
+                            <li>Wszystkie opinie ze zdjęciami zostawione <strong>w jednym dniu co 2-3 minuty</strong> — to fałszywki</li>
+                            <li>Sklep z dziwną nazwą, sprzedający <strong>drogie rzeczy za grosze</strong> — oszuści, wyślą pustą paczkę lub cudzy numer śledzenia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 ShopDoBaksa — Agregator najlepszych ofert z AliExpress</p>
+        <p style="margin-top: 8px;">
+            <a href="index.html">Produkty</a> ·
+            <a href="https://t.me/Shop_DoBaksa" target="_blank">Telegram</a>
+        </p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.faq-nav__link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = document.querySelector(link.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

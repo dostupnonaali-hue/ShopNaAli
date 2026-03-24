@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produkty do 1$ z AliExpress — DoBaksa | Najtańsze znaleziska</title>
+    <meta name="description"
+        content="Najlepsze produkty z AliExpress do 1 dolara. Codzienne aktualizacje, darmowa dostawa, sprawdzeni sprzedawcy.">
+    <meta name="keywords" content="AliExpress do 1 dolara, tanie produkty, DoBaksa, okazje AliExpress">
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/icon-180.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Produkty do 1$ z AliExpress — DoBaksa">
+    <meta property="og:description" content="Najtańsze znaleziska z AliExpress — do 1 dolara. Aktualizowane codziennie.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+
+    <meta name="theme-color" content="#0a0a0f">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+
+            <div class="header__search">
+                <span class="header__search-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="Szukaj produktów..." autocomplete="off">
+            </div>
+
+            <nav class="header__nav" id="desktopNav">
+                <a href="index.html" class="header__nav-link">🏠 Strona główna</a>
+                <a href="dobaksa.html" class="header__nav-link active">💰 DoBaksa</a>
+                <a href="faq.html" class="header__nav-link">📖 Poradnik</a>
+                <a href="promos.html" class="header__nav-link">✂️ Kody rabatowe</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__nav-link header__nav-link--tg">✈️ Telegram</a>
+                <a href="../dobaksa.html" class="header__nav-link lang-switch" title="Українська">🇺🇦</a>
+            </nav>
+
+            <button class="burger" id="burgerBtn" aria-label="Menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+            <button class="mobile-menu__close" id="menuClose" aria-label="Zamknij">✕</button>
+        </div>
+        <div class="mobile-menu__links">
+            <a href="index.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🏠</span> Strona główna
+            </a>
+            <a href="dobaksa.html" class="mobile-menu__link active">
+                <span class="mobile-menu__icon">💰</span> Produkt DoBaksa
+            </a>
+            <a href="faq.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">📖</span> Poradnik
+            </a>
+            <a href="promos.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✂️</span> Kody rabatowe
+            </a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✈️</span> Nasz Telegram
+            </a>
+            <a href="../dobaksa.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🇺🇦</span> Українська версія
+            </a>
+        </div>
+        <div class="mobile-menu__footer">
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__tg-btn">
+                ✈️ Subskrybuj Telegram
+            </a>
+        </div>
+    </nav>
+
+    <script>
+    (function() {
+        const burger = document.getElementById('burgerBtn');
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        const closeBtn = document.getElementById('menuClose');
+        function toggleMenu() {
+            const isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
+            burger.classList.toggle('open', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        }
+        burger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+    })();
+    </script>
+
+    <!-- Main Content -->
+    <main class="main">
+
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs" aria-label="Nawigacja">
+            <a href="index.html" class="breadcrumbs__link">Strona główna</a>
+            <span class="breadcrumbs__sep">›</span>
+            <span class="breadcrumbs__current">Produkt DoBaksa</span>
+        </nav>
+
+        <!-- Hero -->
+        <section class="dobaksa-hero" id="hero">
+            <div class="dobaksa-hero__icon">💰</div>
+            <h1 class="dobaksa-hero__title">
+                Produkt <span class="gradient-text-gold">DoBaksa</span>
+            </h1>
+            <p class="dobaksa-hero__subtitle">
+                Najlepsze znaleziska z AliExpress do <strong>1 dolara</strong>.<br>
+                Aktualizowane automatycznie codziennie.
+            </p>
+            <div class="dobaksa-hero__stats">
+                <div class="dobaksa-hero__stat">
+                    <span class="dobaksa-hero__stat-num" id="statsCheap">0</span>
+                    <span class="dobaksa-hero__stat-label">produktów</span>
+                </div>
+                <div class="dobaksa-hero__stat">
+                    <span class="dobaksa-hero__stat-num" id="statsMinPrice">—</span>
+                    <span class="dobaksa-hero__stat-label">min. cena</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price Filters -->
+        <div class="filters" id="priceFilters">
+            <button class="filter-btn active" data-price="all">💰 Wszystko do $1</button>
+            <button class="filter-btn" data-price="usd050">🪙 Do $0.50</button>
+            <button class="filter-btn" data-price="pln5">🇵🇱 Do 5 zł</button>
+            <button class="filter-btn" data-price="pln10">🇵🇱 Do 10 zł</button>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid" id="productsGrid">
+            <!-- Products rendered by JS -->
+        </div>
+
+        <!-- Choice Tip Banner -->
+        <div class="tip-banner" id="choiceTip">
+            <div class="tip-banner__icon">🚚</div>
+            <div class="tip-banner__content">
+                <strong>Płatna dostawa?</strong> Jest lifehack — jak uzyskać darmową dostawę Choice nawet na tanie produkty!
+            </div>
+            <a href="faq.html#choice" class="tip-banner__link">Czytaj poradnik →</a>
+        </div>
+
+        <!-- SEO Text Block -->
+        <section class="seo-text">
+            <h2>Gdzie znaleźć produkty do 1 dolara na AliExpress?</h2>
+            <p>
+                Na stronie <strong>Produkt DoBaksa</strong> zebraliśmy najkorzystniejsze oferty z AliExpress —
+                wszystkie produkty kosztują mniej niż 1 dolara. Automatycznie monitorujemy
+                dziesiątki kanałów Telegram ze zniżkami i dodajemy tylko sprawdzone produkty
+                z prawdziwymi opiniami i darmową dostawą.
+            </p>
+            <p>
+                Każdy produkt zawiera bezpośredni link do AliExpress z możliwością natychmiastowego zakupu.
+                Użyj filtrów cenowych, aby znaleźć produkty jeszcze taniej — do $0.50 lub do 5 złotych.
+                Strona jest aktualizowana codziennie — wchodź częściej, aby nie przegapić najlepszych okazji!
+            </p>
+            <p>
+                Subskrybuj nasz <a href="https://t.me/Shop_DoBaksa">kanał Telegram</a> —
+                tam publikujemy znaleziska jako pierwsi!
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 ShopDoBaksa — Agregator najlepszych ofert z AliExpress</p>
+        <p style="margin-top: 8px;">
+            <a href="index.html">Katalog</a> ·
+            <a href="dobaksa.html">Produkt DoBaksa</a> ·
+            <a href="faq.html">Poradnik AliExpress</a> ·
+            <a href="https://t.me/Shop_DoBaksa" target="_blank">Telegram</a>
+        </p>
+    </footer>
+
+    <script src="../js/dobaksa-pl.js"></script>
+</body>
+
+</html>
