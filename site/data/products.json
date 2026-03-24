@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005010103013019",
+      "title": "Планшет Lenovo Xiaoxin Pad Pro GT TB710FU 128GB 256GB ROM",
+      "title_pl": "Tablet Lenovo Xiaoxin Pad Pro GT TB710FU 128 GB 256 GB ROM Snapdragon 8 Gen3 11.1",
+      "price": 250.97,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1305,
+      "image": "https://ae01.alicdn.com/kf/S382acf242c9a4d45b96b9036fbc3b6c3D.jpg",
+      "link": "https://aliexpress.com/item/1005010103013019.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010103013019.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T15:46:49.820366+00:00"
+    },
+    {
       "id": "1005010408541490",
       "title": "Глобальна версія POCO Pad M1 Snapdragone 7s Gen 4 Tablet 8MP",
       "title_pl": "Wersja globalna POCO Pad M1 Snapdragone 7s Gen 4 Tablet 8MP aparat 120 Hz 12.1",
