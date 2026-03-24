@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005006863920173",
+      "title": "OSRAM LED T10 6000K W5W 194 LEDriving SL Advance 6000K",
+      "title_pl": "OSRAM LED T10 6000K W5W 194 LEDriving SL Advance 6000K białe żarówki do czytania samochodu lampki na drzwi oświetlenie wnętrza 12V 1.5W 2980CW, para",
+      "price": 3.2,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1832,
+      "image": "https://ae01.alicdn.com/kf/S8b2a4fa0423d4917ade6e8a498233aceD.jpg",
+      "link": "https://aliexpress.com/item/1005006863920173.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006863920173.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T16:25:43.618535+00:00"
+    },
+    {
+      "id": "1005005659085072",
+      "title": "UGREEN USB C до 4K 8K HDMI-сумісний кабель 8K/60Hz 4K/120Hz",
+      "title_pl": "UGREEN USB C do 4K 8K kabel zgodny z HDMI 8K/60Hz 4K/120Hz dla MacBook Pro iMac iPad Pro dla Samsung Galaxy USB C do HDMI 2.1",
+      "price": 8.07,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 208,
+      "image": "https://ae01.alicdn.com/kf/S1e1bfdbbe7974be2a16d31e16853ec98R.jpg",
+      "link": "https://aliexpress.com/item/1005005659085072.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005659085072.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T16:27:34.300259+00:00"
+    },
+    {
       "id": "1005001845507676",
       "title": "1- LiitoKala Ni-26/AA 1. Акумулятор Ni-MH AA для",
       "title_pl": "1-16 sztuk LiitoKala Ni-26/AA 1.2V AA 2600mAh Ni-MH akumulator do pistoletu temperaturowego zdalnie sterowana mysz baterie do zabawek",
