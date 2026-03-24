@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008557842833",
+      "title": "USB Bluetooth-адаптер Baseus Bluetooth 5.1 Музичне аудіо",
+      "title_pl": "Baseus Adapter USB Bluetooth Bluetooth 5.1 Music Audio Odbiornik Nadajnik Do Głośnika PC Laptop Bezprzewodowa Mysz Nadajnik USB",
+      "price": 3.72,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1332,
+      "image": "https://ae01.alicdn.com/kf/S279c69e29f994b779d62074aa68101c7V.jpg",
+      "link": "https://aliexpress.com/item/1005008557842833.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008557842833.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T13:53:24.015410+00:00"
+    },
+    {
       "id": "1005004381914288",
       "title": "Jonsbo CR1200 CPU Cooler 2 Heat Pipe Tower RGB Colorful",
       "title_pl": "Jonsbo CR1200 chłodnica procesora 2 rura cieplna wieża RGB kolorowy efekt świetlny 9cm wentylator dla Intel 1151 1700 AMD AM4 opcjonalna klamra LGA2011",
