@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005006677941848",
+      "title": "Професійна бритва VGR V-353 Електробритва",
+      "title_pl": "Golarka VGR V-353 profesjonalna maszynka do golenia elektryczna maszynka do golenia przenośny trymer do brody maszynka na akumulator minigolarka dla mężczyzn",
+      "price": 130.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 653,
+      "image": "https://ae01.alicdn.com/kf/S88766a6cb2f640ab893bd3cd63128d30q.jpg",
+      "link": "https://aliexpress.com/item/1005006677941848.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006677941848.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-24T13:00:22.188132+00:00"
+    },
+    {
+      "id": "1005011670467370",
+      "title": "Глобальна версія POCO X8 Pro 120Hz Ultra-Bright AMOLED",
+      "title_pl": "【Światowa premiera】 Wersja globalna POCO X8 Pro 5G 120 Hz Ultra jasny wyświetlacz AMOLED Smartfon 1,5 tys. Rozmiar 8500-Ultra NFC 50 MP",
+      "price": 11088.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 862,
+      "image": "https://ae01.alicdn.com/kf/Sc1076c69d04f4b15a67dc6867b53bd56V.jpg",
+      "link": "https://aliexpress.com/item/1005011670467370.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011670467370.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "200 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-24T13:02:14.726341+00:00"
+    },
+    {
       "id": "1005007170888626",
       "title": "Електробритва ENCHEN 3D Blackstone 3 IPX7 водонепроникна",
       "title_pl": "ENCHEN golarka elektryczna 3D Blackstone 3 IPX7 wodoodporna maszynka do golenia na mokro i na sucho podwójnego zastosowania twarz broda akumulator cyfrowy wyświetlacz dla mężczyzn",
