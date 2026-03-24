@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005006783075254",
+      "title": "Портативний нанорозпилювач для обличчя - портативний USB-перезаряджуваний",
+      "title_pl": "Przenośny rozpylacz do twarzy Nano o pojemności 20 ml — ręczny parowiec do twarzy i nawilżacz powietrza z możliwością ładowania przez USB do nawilżającej pielęgnacji skóry w podróży",
+      "price": 55.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 805,
+      "image": "https://ae01.alicdn.com/kf/S81aa549b69994fad9a75c6d0062c8547G.jpg",
+      "link": "https://aliexpress.com/item/1005006783075254.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006783075254.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-24T13:23:58.772158+00:00"
+    },
+    {
+      "id": "1005009692789911",
+      "title": "FANTECH AURORA 7.1 HG29 Дротова гарнітура 7.1 Virtual Surround",
+      "title_pl": "FANTECH AURORA 7.1 HG29 Przewodowy zestaw słuchawkowy 7.1 wirtualny dźwięk przestrzenny i sterowniki Sotf RGB 50MM słuchawki z mikrofonem na PC",
+      "price": 17.0,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 925,
+      "image": "https://ae01.alicdn.com/kf/S49d8e1190fb24db9bbdaeb9c30fb1617p.jpg",
+      "link": "https://aliexpress.com/item/1005009692789911.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009692789911.html",
+      "description": "",
+      "promo_text": "ASUA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T13:26:07.033694+00:00"
+    },
+    {
       "id": "1005006677941848",
       "title": "Професійна бритва VGR V-353 Електробритва",
       "title_pl": "Golarka VGR V-353 profesjonalna maszynka do golenia elektryczna maszynka do golenia przenośny trymer do brody maszynka na akumulator minigolarka dla mężczyzn",
