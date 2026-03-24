@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005007406757658",
+      "title": "FiiO K5 Pro ESS ES9038Q2M|768K/32Bit і декодування DSD",
+      "price": 95.97,
+      "currency": "USD",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 657,
+      "image": "https://ae01.alicdn.com/kf/Sd5328ee6d5ba4ad6addfad4b472515e6a.jpg",
+      "link": "https://aliexpress.com/item/1005007406757658.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007406757658.html",
+      "description": "",
+      "promo_text": "ASUA11, IFP2L0JB",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T10:01:12.667940+00:00"
+    },
+    {
+      "id": "1005006966234672",
+      "title": "Мультирозетки TESSAN Tower Power Strip із 2 USB +1 Type C",
+      "price": 19.38,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1884,
+      "image": "https://ae01.alicdn.com/kf/Sadbddbc04fb94def8598906535e71984z.jpg",
+      "link": "https://aliexpress.com/item/1005006966234672.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006966234672.html",
+      "description": "",
+      "promo_text": "ASUA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T10:04:41.466532+00:00"
+    },
+    {
       "id": "1005008387850692",
       "title": "Dreamlight 4S Eye Mask Sleep 3D Stereoscopic Sleep Aid для",
       "price": 197.0,
