@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007476765523",
+      "title": "Дзеркало для макіяжу зі світлодіодним сенсорним екраном, складне дзеркало з підсвічуванням",
+      "title_pl": "Lusterko do makijażu z ekranem dotykowym LED Składane lusterko Podświetlane lusterko do makijażu 3 kolory Tryby oświetlenia USB Akumulatorowe lusterko kosmetyczne Narzędzia",
+      "price": 88.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 369,
+      "image": "https://ae01.alicdn.com/kf/S462a44ab492749a18904fecbc238b15bz.jpg",
+      "link": "https://aliexpress.com/item/1005007476765523.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007476765523.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "96 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-24T15:05:20.090434+00:00"
+    },
+    {
       "id": "1005011836244540",
       "title": "Чоловіки",
       "title_pl": "Mężczyźni",
