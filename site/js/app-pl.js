@@ -221,13 +221,10 @@
 
     function translatePriceNote(note) {
         if (!note) return '';
-        var translations = {
-            'Монетками': '🪙 Coins',
-            'монетками': '🪙 Coins',
-            'Монетами': '🪙 Coins',
-            'монетами': '🪙 Coins'
-        };
-        return translations[note.trim()] || note;
+        var trimmed = note.trim();
+        // Match any Ukrainian coin-related text
+        if (/монет/i.test(trimmed)) return '🪙 Coins';
+        return trimmed;
     }
 
     function escapeHtml(str) {
