@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011856961767",
+      "title": "Висувний стрижень розпилювача з нержавіючої сталі. Економія води",
+      "price": 80.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1271,
+      "image": "https://ae01.alicdn.com/kf/Sc442f6dfb7864e558efb5bddc600ee5cr.jpg",
+      "link": "https://aliexpress.com/item/1005011856961767.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011856961767.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-24T08:46:11.157544+00:00"
+    },
+    {
       "id": "1005011844513322",
       "title": "3 пари Чоловіки",
       "price": 33.0,
