@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005009077141458",
+      "title": "Новий зарядний пристрій для автомобільного акумулятора 10 А, сенсорний екран, імпульсний ремонт",
+      "title_pl": "Nowa ładowarka samochodowa 12V 10A ekran dotykowy naprawa impulsów cyfrowy wyświetlacz LCD inteligentna szybka ładowarka do motocykla samochodowego",
+      "price": 10.66,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 4.8,
+      "orders": 1868,
+      "image": "https://ae01.alicdn.com/kf/S9415189d95e3400487938f5b04dbf7cab.jpg",
+      "link": "https://aliexpress.com/item/1005009077141458.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009077141458.html",
+      "description": "",
+      "promo_text": "ASUA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T11:04:32.363740+00:00"
+    },
+    {
+      "id": "1005010388312396",
+      "title": "Бездротові навушники SOUNDPEATS C30 - Гібридний ANC Bluetooth 6.0",
+      "title_pl": "SOUNDPEATS C30 Bezprzewodowe słuchawki douszne -52dB Hybrydowe słuchawki ANC Bluetooth 6.0 Hi-Res LDAC Audio, 6 mikrofonów ENC, szybkie ładowanie IP54",
+      "price": 23.71,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1442,
+      "image": "https://ae01.alicdn.com/kf/S6bd85fa1a01a47ba9de83d341d07853f4.jpg",
+      "link": "https://aliexpress.com/item/1005010388312396.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010388312396.html",
+      "description": "",
+      "promo_text": "ANSALE1, ASUA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T11:07:03.728566+00:00"
+    },
+    {
       "id": "1005011857904869",
       "title": "Заміна двигуна вугільної щітки для домашньої швейної машини",
       "title_pl": "20 szt. Części zamienne do silnika domowej maszyny do szycia ze szczotką węglową",
