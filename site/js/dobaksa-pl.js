@@ -142,7 +142,7 @@
                         '<div><span class="product-card__price">' + pricePLN.toFixed(2) + ' z\u0142</span>' + priceOld + '</div>' +
                         '<span class="product-card__rating">' + ratingStars + '</span>' +
                     '</div>' +
-                    (product.price_note ? '<div class="product-card__price-note">\uD83C\uDFF7\uFE0F ' + escapeHtml(product.price_note) + '</div>' : '') +
+                    (product.price_note ? '<div class="product-card__price-note">\uD83C\uDFF7\uFE0F ' + escapeHtml(translatePriceNote(product.price_note)) + '</div>' : '') +
                     promoHTML +
                     '<div class="product-card__orders">' + (product.orders || 0) + ' zam\u00F3wie\u0144</div>' +
                     '<a href="' + (product.affiliate_link || product.link || '#') + '" target="_blank" class="product-card__cta" onclick="event.stopPropagation()">\uD83D\uDED2 Kup teraz</a>' +
@@ -247,6 +247,17 @@
     function getBadgeText(badge) {
         var badges = { 'hot': '\uD83D\uDD25 Hit', 'new': '\uD83C\uDD95 Nowo\u015B\u0107' };
         return badges[badge] || badge;
+    }
+
+    function translatePriceNote(note) {
+        if (!note) return '';
+        var translations = {
+            'Монетками': '🪙 Coins',
+            'монетками': '🪙 Coins',
+            'Монетами': '🪙 Coins',
+            'монетами': '🪙 Coins'
+        };
+        return translations[note.trim()] || note;
     }
 
     function escapeHtml(str) {
