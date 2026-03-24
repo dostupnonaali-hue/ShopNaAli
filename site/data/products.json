@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005010631971640",
+      "title": "Портативна колонка Anker Soundcore Boom 3i BassUp 2.0 IP68",
+      "price": 66.9,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1901,
+      "image": "https://ae01.alicdn.com/kf/S4a6bf778930744d58d2371181e272d2al.jpg",
+      "link": "https://aliexpress.com/item/1005010631971640.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010631971640.html",
+      "description": "",
+      "promo_text": "ASUA07, IFPYBX72",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T08:56:17.149866+00:00"
+    },
+    {
+      "id": "1005011858312865",
+      "title": "Гарячі розпродажі, осінь, зима, теплі рукавички з сенсорним екраном, які не ковзають",
+      "price": 30.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1705,
+      "image": "https://ae01.alicdn.com/kf/Sf65c8ad94ad048fa9835f19617e2eb12n.jpg",
+      "link": "https://aliexpress.com/item/1005011858312865.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011858312865.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-24T09:04:46.124969+00:00"
+    },
+    {
       "id": "1005011856961767",
       "title": "Висувний стрижень розпилювача з нержавіючої сталі. Економія води",
       "price": 80.0,
