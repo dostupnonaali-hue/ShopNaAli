@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011836244540",
+      "title": "Чоловіки",
+      "title_pl": "Mężczyźni",
+      "price": 101.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 290,
+      "image": "https://ae01.alicdn.com/kf/Sc28286635fdf4a47a1dec21157bb0789s.jpg",
+      "link": "https://aliexpress.com/item/1005011836244540.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011836244540.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-24T14:51:19.139663+00:00"
+    },
+    {
       "id": "1005007938146191",
       "title": "Перезаряджуваний світлодіодний робочий ліхтар: водонепроникний оглядовий ліхтар",
       "title_pl": "Lampa robocza LED z możliwością ładowania: wodoodporna lampa inspekcyjna z podstawą magnetyczną, do naprawy samochodów, zastosowań awaryjnych i warsztatowych",
