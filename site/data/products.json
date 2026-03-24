@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007476743547",
+      "title": "Шовковистий елегантний жіночий комплект із 2 предметів, повсякденний без рукавів і оборками",
+      "title_pl": "Jedwabiście eleganckie damskie 2-częściowy zestaw Casual Bez rękawów, falbany Camisole + spodenki Dopasowane stroje miejskie Casual Stroje",
+      "price": 4.72,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1429,
+      "image": "https://ae01.alicdn.com/kf/S1ee3eea99ad1416483749244f89853bfg.jpg",
+      "link": "https://aliexpress.com/item/1005007476743547.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007476743547.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T15:10:06.312820+00:00"
+    },
+    {
       "id": "1005007476765523",
       "title": "Дзеркало для макіяжу зі світлодіодним сенсорним екраном, складне дзеркало з підсвічуванням",
       "title_pl": "Lusterko do makijażu z ekranem dotykowym LED Składane lusterko Podświetlane lusterko do makijażu 3 kolory Tryby oświetlenia USB Akumulatorowe lusterko kosmetyczne Narzędzia",
