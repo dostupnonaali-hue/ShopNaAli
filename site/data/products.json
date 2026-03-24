@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011855605095",
+      "title": "Чохол для стрижки для перукаря Багаторазовий водонепроникний фарбоване волосся",
+      "title_pl": "Fryzjer ścinanie włosów pokrywa wielokrotnego użytku wodoodporny farbowany szal do włosów stylizacja włosów narzędzie jak z salonu fryzjerstwo kolorowy fartuch stylizacja tkaniny",
+      "price": 27.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 5.0,
+      "orders": 649,
+      "image": "https://ae01.alicdn.com/kf/S52b4a42488474558bf2c2e15625e2172y.jpg",
+      "link": "https://aliexpress.com/item/1005011855605095.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011855605095.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-24T12:19:00.342848+00:00"
+    },
+    {
+      "id": "1005010119788644",
+      "title": "H25L USB перезаряджається 1000LM 18650 налобний ліхтар подвійний TN-3535",
+      "title_pl": "H25L USB akumulator 1000LM 18650 latarka czołowa podwójny TN-3535 90CRI 5000K latarka czołowa IPX4 Camping latarka wędkarska",
+      "price": 469.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 449,
+      "image": "https://ae01.alicdn.com/kf/S11ab37d694a5464cb11222f5b6431ce0v.png",
+      "link": "https://aliexpress.com/item/1005010119788644.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010119788644.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "200 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-24T12:20:51.878935+00:00"
+    },
+    {
       "id": "1005009806669757",
       "title": "5-в-1 USB 3.0 Lightning Type C адаптер для зчитування карток SD TF",
       "title_pl": "Adapter czytnika kart SD TF 5 w 1 USB 3.0 Lightning Type C do iPhone'a iPada MacBooka Samsunga Aparaty z systemem Android Inne urządzenia",
