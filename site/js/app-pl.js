@@ -227,7 +227,7 @@
 
     // --- Global: open product page ---
     window.openProduct = function (id) {
-        window.location.href = '/product.html?id=' + id;
+        window.location.href = 'product.html?id=' + id;
     };
 
     // --- Start ---
