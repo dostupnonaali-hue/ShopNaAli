@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005004381914288",
+      "title": "Jonsbo CR1200 CPU Cooler 2 Heat Pipe Tower RGB Colorful",
+      "title_pl": "Jonsbo CR1200 chłodnica procesora 2 rura cieplna wieża RGB kolorowy efekt świetlny 9cm wentylator dla Intel 1151 1700 AMD AM4 opcjonalna klamra LGA2011",
+      "price": 10.41,
+      "currency": "USD",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 112,
+      "image": "https://ae01.alicdn.com/kf/S320601d19a864f08bfb63925185a70a8h.jpg",
+      "link": "https://aliexpress.com/item/1005004381914288.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004381914288.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T13:44:54.381052+00:00"
+    },
+    {
+      "id": "1005007170640362",
+      "title": "Модні гаманці на блискавці, жіночі довгі гаманці, сумки, монети",
+      "title_pl": "Modne portfele na zamek błyskawiczny Damskie długie torebki Torebki Moneta Kiesy Posiadacz kart PU Skórzany portfel składany",
+      "price": 63.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 1159,
+      "image": "https://ae01.alicdn.com/kf/S4c53332e86d54699a8f3fc2a73f10770i.jpg",
+      "link": "https://aliexpress.com/item/1005007170640362.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007170640362.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-24T13:46:53.315174+00:00"
+    },
+    {
       "id": "1005010195158192",
       "title": "Бездротова клавіатура UGREEN 99 клавіш Bluetooth 2. Подвійний режим",
       "title_pl": "Bezprzewodowa klawiatura UGREEN 99 klawiszy Bluetooth 2.4G podwójny tryb USB-C akumulator 500mAh konstrukcja nożycowa ergonomiczna do laptopa PC",
