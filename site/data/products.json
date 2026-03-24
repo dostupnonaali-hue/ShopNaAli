@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005011852201508",
+      "title": "0. Прецизійний портативний автомобільний ключ у формі міні-цифрової кишені",
+      "price": 56.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.7,
+      "orders": 1686,
+      "image": "https://ae01.alicdn.com/kf/S7dfceb379838498abedc730c7e670022o.jpeg",
+      "link": "https://aliexpress.com/item/1005011852201508.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011852201508.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-24T09:27:15.758168+00:00"
+    },
+    {
       "id": "1005006678205050",
       "title": "Термостатичний нагрівальний підстакан USB для домашнього опалення",
       "price": 90.0,
