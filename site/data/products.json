@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006380006491",
+      "title": "Baseus Digital GaN Charger Зарядний пристрій для ноутбука Lenovo HP",
+      "title_pl": "Baseus 240W cyfrowa ładowarka GaN ładowarka do laptopa Lenovo HP Macbook ładowarka USB C z portem DC szybkie ładowanie dla iPhone Xiaomi",
+      "price": 1628.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 152,
+      "image": "https://ae01.alicdn.com/kf/Sb29d14dce95849ac9ff29bd1a1eada29n.jpg",
+      "link": "https://aliexpress.com/item/1005006380006491.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006380006491.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "99 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-24T14:02:23.872280+00:00"
+    },
+    {
       "id": "1005008557842833",
       "title": "USB Bluetooth-адаптер Baseus Bluetooth 5.1 Музичне аудіо",
       "title_pl": "Baseus Adapter USB Bluetooth Bluetooth 5.1 Music Audio Odbiornik Nadajnik Do Głośnika PC Laptop Bezprzewodowa Mysz Nadajnik USB",
