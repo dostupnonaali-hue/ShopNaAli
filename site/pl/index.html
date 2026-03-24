@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopDoBaksa — Okazje z AliExpress w super cenach</title>
+    <meta name="description"
+        content="Codzienny wybór najkorzystniejszych okazji z AliExpress w super cenach. Sprawdzone produkty, prawdziwe opinie, kupony i zniżki.">
+    <meta name="keywords" content="AliExpress, okazje, tanie produkty, do 1 dolara, znaleziska, wyprzedaż">
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/icon-180.png">
+    <!-- Open Graph -->
+    <meta property="og:title" content="ShopDoBaksa — Okazje z AliExpress w super cenach">
+    <meta property="og:description" content="Codzienny wybór najkorzystniejszych okazji z AliExpress w super cenach">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+
+    <!-- PWA -->
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#0a0a0f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="/pl/" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+
+            <div class="header__search">
+                <span class="header__search-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="Szukaj produktów..." autocomplete="off">
+            </div>
+
+            <!-- Desktop nav -->
+            <nav class="header__nav" id="desktopNav">
+                <a href="/pl/" class="header__nav-link active">🏠 Główna</a>
+                <a href="/faq.html" class="header__nav-link">📖 Poradnik</a>
+                <a href="/promos.html" class="header__nav-link">✂️ Kody rabatowe</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__nav-link header__nav-link--tg">✈️ Telegram</a>
+                <a href="/" class="header__nav-link lang-switch" title="Українська версія">🇺🇦</a>
+            </nav>
+
+            <!-- Burger button -->
+            <button class="burger" id="burgerBtn" aria-label="Menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile menu overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- Mobile slide-out menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="/pl/" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+            <button class="mobile-menu__close" id="menuClose" aria-label="Zamknij">✕</button>
+        </div>
+        <div class="mobile-menu__links">
+            <a href="/pl/" class="mobile-menu__link active">
+                <span class="mobile-menu__icon">🏠</span> Główna
+            </a>
+            <a href="/faq.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">📖</span> Poradnik
+            </a>
+            <a href="/promos.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✂️</span> Kody rabatowe
+            </a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✈️</span> Nasz Telegram
+            </a>
+            <a href="/" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🇺🇦</span> Wersja ukraińska
+            </a>
+        </div>
+        <div class="mobile-menu__footer">
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__tg-btn">
+                ✈️ Subskrybuj na Telegramie
+            </a>
+        </div>
+    </nav>
+
+    <script>
+    (function() {
+        const burger = document.getElementById('burgerBtn');
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        const closeBtn = document.getElementById('menuClose');
+        function toggleMenu() {
+            const isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
+            burger.classList.toggle('open', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        }
+        burger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+    })();
+    </script>
+
+    <!-- Main Content -->
+    <main class="main">
+
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <div class="hero__badge">
+                <span class="pulse"></span>
+                Aktualizowane automatycznie
+            </div>
+            <h1 class="hero__title">
+                Okazje z AliExpress<br>
+                w <span class="gradient-text">super cenach</span>
+            </h1>
+            <p class="hero__subtitle">
+                Codzienny wybór sprawdzonych tanich produktów z prawdziwymi opiniami i darmową dostawą
+            </p>
+
+        </section>
+
+        <!-- Stats -->
+        <div class="stats" id="stats">
+            <div class="stats__item">
+                <div class="stats__number" id="statsProducts">0</div>
+                <div class="stats__label">Produktów</div>
+            </div>
+            <div class="stats__item">
+                <div class="stats__number" id="statsCategories">0</div>
+                <div class="stats__label">Kategorii</div>
+            </div>
+            <div class="stats__item">
+                <div class="stats__number">24/7</div>
+                <div class="stats__label">Monitoring</div>
+            </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters" id="filters">
+            <button class="filter-btn active" data-filter="all">🔥 Wszystko</button>
+            <button class="filter-btn" data-filter="new">🆕 Nowe</button>
+            <button class="filter-btn" data-filter="electronics">📱 Elektronika</button>
+            <button class="filter-btn" data-filter="home">🏠 Dom</button>
+            <button class="filter-btn" data-filter="fashion">👗 Moda</button>
+            <button class="filter-btn" data-filter="toys">🎮 Zabawki</button>
+            <button class="filter-btn" data-filter="auto">🚗 Auto</button>
+            <button class="filter-btn" data-filter="beauty">💄 Uroda</button>
+            <button class="filter-btn" data-filter="sport">⚽ Sport</button>
+            <button class="filter-btn" data-filter="accessories">🎒 Akcesoria</button>
+            <button class="filter-btn" data-filter="tools">🔧 Narzędzia</button>
+            <button class="filter-btn" data-filter="hot">💎 Hity</button>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid" id="productsGrid">
+            <!-- Products rendered by JS -->
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 ShopDoBaksa — Agregator najlepszych okazji z AliExpress</p>
+        <p style="margin-top: 8px;">
+            <a href="/faq.html">Poradnik AliExpress</a> · 
+            <a href="https://t.me/Shop_DoBaksa" target="_blank">Telegram</a> ·
+            <a href="/">🇺🇦 Українська</a>
+        </p>
+    </footer>
+
+    <script src="../js/app-pl.js"></script>
+</body>
+
+</html>

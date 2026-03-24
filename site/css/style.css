@@ -288,6 +288,12 @@ img {
   transform: translateY(-1px);
 }
 
+.header__nav-link.lang-switch {
+  font-size: 1.2rem;
+  padding: 6px 12px;
+  line-height: 1;
+}
+
 /* --- Burger Button --- */
 .burger {
   display: none;
