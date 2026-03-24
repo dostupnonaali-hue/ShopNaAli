@@ -1,6 +1,40 @@
 {
   "products": [
     {
+      "id": "1005008614140903",
+      "title": "Art Makima Comic Black & White Mouse Pad Dark Girl Gamer",
+      "price": 1.93,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 877,
+      "image": "https://ae01.alicdn.com/kf/S191c071aafc544deb34cb6780e28b6b4R.jpg",
+      "link": "https://aliexpress.com/item/1005008614140903.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008614140903.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-24T10:07:40.340831+00:00"
+    },
+    {
+      "id": "1005008406497229",
+      "title": "Розпилювач для оливкової олії AIWILL із нержавіючої сталі",
+      "price": 141.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 439,
+      "image": "https://ae01.alicdn.com/kf/S8d0852eed4314ba58eefe83433ddddd0W.jpg",
+      "link": "https://aliexpress.com/item/1005008406497229.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008406497229.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "173 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-24T10:10:54.051202+00:00"
+    },
+    {
       "id": "1005007406757658",
       "title": "FiiO K5 Pro ESS ES9038Q2M|768K/32Bit і декодування DSD",
       "price": 95.97,
