@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011836758074",
+      "title": "Багаторазові вечірні чашки великого розміру з луком із солом’яною кришкою",
+      "title_pl": "Duża pojemność 710ml kokardka wielokrotnego użytku kubki imprezowe ze słomkową pokrywką kawa sok herbata śliczne kubek ze słomką plastikowe kubki prezenty 24 uncje",
+      "price": 29.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 117,
+      "image": "https://ae01.alicdn.com/kf/Se6a8c53c46134e3680367db67f4cc95aL.jpg",
+      "link": "https://aliexpress.com/item/1005011836758074.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011836758074.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-24T11:32:06.254350+00:00"
+    },
+    {
+      "id": "1005005642344316",
+      "title": "UGREEN Power Bank Portable PD Fast Charging PowerBank для",
+      "title_pl": "UGREEN 140W Power Bank przenośny 25000mAh PD szybkie ładowanie PowerBank do laptopa Notebook Xiaomi 13 szybkie ładowanie bateria zewnętrzna",
+      "price": 1756.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1309,
+      "image": "https://ae01.alicdn.com/kf/S26cb6024a9544d7ca090f46a9a240892Q.jpg",
+      "link": "https://aliexpress.com/item/1005005642344316.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005642344316.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "60 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-24T11:34:19.821410+00:00"
+    },
+    {
       "id": "1005006994959053",
       "title": "Автоматичний індуктивний дозатор мила Foam Washing Phone Smart",
       "title_pl": "Automatyczny indukcyjny dozownik mydła pianka do mycia telefonu inteligentne mycie rąk dozownik mydła dozownik alkoholu w sprayu mycie",
