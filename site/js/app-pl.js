@@ -9,6 +9,9 @@
     // --- Config ---
     var BATCH_SIZE = 20;
 
+    // --- Exchange rates (fallback values) ---
+    var rates = { USD: 4.05, UAH: 0.098 }; // 1 USD ≈ 4.05 PLN, 1 UAH ≈ 0.098 PLN
+
     // --- State ---
     var allProducts = [];
     var filteredProducts = [];
@@ -26,10 +29,32 @@
     // --- Init ---
     async function init() {
         showSkeletons(8);
-        await loadProducts();
+        await Promise.all([loadProducts(), loadExchangeRates()]);
         renderProducts();
         updateStats();
         bindEvents();
+    }
+
+    // --- Load Exchange Rates ---
+    async function loadExchangeRates() {
+        try {
+            var resp = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+            if (!resp.ok) throw new Error('Rate API error');
+            var data = await resp.json();
+            if (data && data.rates) {
+                rates.USD = data.rates.PLN || rates.USD;
+                rates.UAH = (data.rates.PLN / data.rates.UAH) || rates.UAH;
+            }
+        } catch (e) {
+            console.warn('Using fallback exchange rates:', e.message);
+        }
+    }
+
+    // --- Convert price to PLN ---
+    function toPLN(price, currency) {
+        if (!price) return 0;
+        if (currency === 'UAH') return price * rates.UAH;
+        return price * rates.USD; // default USD
     }
 
     // --- Load Products ---
@@ -73,9 +98,10 @@
                 : '';
 
             var ratingStars = '\u2B50'.repeat(Math.round(product.rating || 0));
-            var currencySymbol = product.currency === 'UAH' ? '\u20B4' : '$';
-            var priceOld = product.price_old
-                ? '<span class="product-card__price-old">' + currencySymbol + product.price_old.toFixed(2) + '</span>'
+            var pricePLN = toPLN(product.price, product.currency);
+            var priceOldPLN = product.price_old ? toPLN(product.price_old, product.currency) : 0;
+            var priceOld = priceOldPLN
+                ? '<span class="product-card__price-old">' + priceOldPLN.toFixed(2) + ' z\u0142</span>'
                 : '';
 
             var imgFallback = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMzAwIDMwMCc+PHJlY3QgZmlsbD0nIzEyMTIxYScgd2lkdGg9JzMwMCcgaGVpZ2h0PSczMDAnLz48dGV4dCBmaWxsPScjNjA2MDcwJyBmb250LWZhbWlseT0nc2Fucy1zZXJpZicgZm9udC1zaXplPScxOCcgZm9udC13ZWlnaHQ9JzYwMCcgZG9taW5hbnQtYmFzZWxpbmU9J21pZGRsZScgdGV4dC1hbmNob3I9J21pZGRsZScgeD0nNTAlJyB5PSc1MCUnPkJyYWsgb2JyYXprYTwvdGV4dD48L3N2Zz4=';
@@ -101,7 +127,7 @@
                 '<div class="product-card__body">' +
                     '<h3 class="product-card__title">' + escapeHtml(title) + '</h3>' +
                     '<div class="product-card__meta">' +
-                        '<div><span class="product-card__price">' + currencySymbol + (product.price || 0).toFixed(2) + '</span>' + priceOld + '</div>' +
+                        '<div><span class="product-card__price">' + pricePLN.toFixed(2) + ' z\u0142</span>' + priceOld + '</div>' +
                         '<span class="product-card__rating">' + ratingStars + '</span>' +
                     '</div>' +
                     (product.price_note ? '<div class="product-card__price-note">\uD83C\uDFF7\uFE0F ' + escapeHtml(product.price_note) + '</div>' : '') +
