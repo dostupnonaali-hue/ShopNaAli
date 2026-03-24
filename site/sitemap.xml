@@ -13,16 +13,16 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://dobaksa.shop/dobaksa.html</loc>
-    <lastmod>2026-03-24</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>https://dobaksa.shop/faq.html</loc>
     <lastmod>2026-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dobaksa.shop/product.html?id=1005005073301642</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dobaksa.shop/product.html?id=1005008614140903</loc>
