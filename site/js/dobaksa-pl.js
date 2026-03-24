@@ -125,7 +125,7 @@
                 var promos = product.promo_text.split(',').map(function(s) { return s.trim(); }).filter(Boolean);
                 if (promos.length) {
                     promoHTML = '<div class="product-card__promos">' + promos.map(function(p) {
-                        return '<div class="product-card__promo" title="Skopiuj kod rabatowy" data-promo="' + escapeHtml(p) + '" onclick="event.preventDefault(); event.stopPropagation(); navigator.clipboard.writeText(this.dataset.promo); var orig = this.innerHTML; this.innerHTML = \'\\u2705 Skopiowano!\'; setTimeout(function() { this.innerHTML = orig; }.bind(this), 2000);">\u2702\uFE0F ' + escapeHtml(p) + '</div>';
+                        return '<div class="product-card__promo" title="Skopiuj kod rabatowy" data-promo="' + escapeHtml(p) + '" onclick="event.preventDefault(); event.stopPropagation(); navigator.clipboard.writeText(this.dataset.promo); var orig = this.innerHTML; this.innerHTML = \'✅ Skopiowano!\'; setTimeout(function() { this.innerHTML = orig; }.bind(this), 2000);">✂️ ' + escapeHtml(p) + '</div>';
                     }).join('') + '</div>';
                 }
             }
