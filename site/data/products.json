@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "1005006678205050",
+      "title": "Термостатичний нагрівальний підстакан USB для домашнього опалення",
+      "price": 90.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 240,
+      "image": "https://ae01.alicdn.com/kf/S5c0b92a0bd194fdc98f975091b638ec2z.jpg",
+      "link": "https://aliexpress.com/item/1005006678205050.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006678205050.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "148 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-24T09:17:31.277322+00:00"
+    },
+    {
       "id": "1005011699041008",
       "title": "5PCSsummer дихаюча вдосконалена антибактеріальна поверхня з графену",
       "price": 163.0,
