@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011856436909",
+      "title": "Пістолет для зварювання пластику з цвяхами для автомобільного бампера ПВХ",
+      "title_pl": "Zgrzewarka do tworzyw sztucznych Pistolet do gwoździ na gorąco z 200-800 gwoździami do zderzaka samochodowego Zestaw narzędzi do naprawy PCV do garażu Spawanie maszynowe",
+      "price": 290.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 834,
+      "image": "https://ae01.alicdn.com/kf/S0e82bf3f78bb410bbffc31fe62aa9c31k.jpeg",
+      "link": "https://aliexpress.com/item/1005011856436909.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011856436909.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-25T09:35:24.157602+00:00"
+    },
+    {
       "id": "1005009682073618",
       "title": "Розумний датчик витоку води ZigBee Smart Leakage",
       "title_pl": "Mały inteligentny czujnik wycieku wody ZigBee inteligentny alarm wykrywający wycieki obsługuje tuya/Home Assistant/eWeLink dla inteligentnego bezpieczeństwa w domu",
