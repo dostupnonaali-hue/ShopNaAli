@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005008074088973",
+      "title": "Багатоцільовий міні-портативний ДБЖ великої ємності для резервного живлення",
+      "title_pl": "Uniwersalny Mini przenośny UPS o dużej pojemności zasilacz awaryjny zasilanie awaryjne dla WiFi, router 5 V 9 V 12 V 15 V 2 V",
+      "price": 12.22,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1207,
+      "image": "https://ae01.alicdn.com/kf/Sb54185e221384dc99ff46f9908dfd18f4.jpg",
+      "link": "https://aliexpress.com/item/1005008074088973.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008074088973.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T08:07:23.469712+00:00"
+    },
+    {
+      "id": "1005006677982851",
+      "title": "Портативний електричний засіб для видалення ворсу зі світлодіодним дисплеєм USB",
+      "title_pl": "Przenośna, elektryczna maszynka do usuwania kłaczków z wyświetlaczem LED, ładowana przez USB golarka do swetrów, ubrania domowe, trymer do włosów",
+      "price": 2.37,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1955,
+      "image": "https://ae01.alicdn.com/kf/S183aadb2df734759ad7f6585ce73784eW.jpg",
+      "link": "https://aliexpress.com/item/1005006677982851.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006677982851.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T08:09:14.944161+00:00"
+    },
+    {
       "id": "1005011784124683",
       "title": "Нова акумуляторна дугова запальничка для зовнішнього освітлення",
       "title_pl": "Nowa ładowalna zapalniczka łukowa oświetlenie zewnętrzne wielofunkcyjna latarka zapalniczka mini brelok do kluczy",
