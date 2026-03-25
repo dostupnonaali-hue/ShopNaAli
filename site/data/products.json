@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005006994469851",
+      "title": "Кабель Baseus TPE USB C для IPhone 14 13 12 11 Pro Max Fast",
+      "title_pl": "Kabel Baseus TPE 20W USB C do IPhone 14 13 12 11 Pro Max XS Kabel szybkiego ładowania typu C do przewodu daty oświetlenia do iPada Macbook",
+      "price": 82.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1106,
+      "image": "https://ae01.alicdn.com/kf/S981a79201b7842f2a09e269c0b84bf1f0.jpg",
+      "link": "https://aliexpress.com/item/1005006994469851.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006994469851.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "87 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-25T13:46:17.604097+00:00"
+    },
+    {
+      "id": "1005011889026481",
+      "title": "НОВИЙ 105/110/115/ Пильний диск Мультиінструмент Дереворіз Кут",
+      "title_pl": "Nowy 105/110/115/125mm piła tarczowa Multitool przyrząd do cięcia drewna szlifierka kątowa do drewna brzeszczoty z węglików spiekanych tarcza do cięcia drewna cięcie drewna",
+      "price": 65.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.9,
+      "orders": 623,
+      "image": "https://ae01.alicdn.com/kf/S8f05767b1a724ea08d66f9e5e3cb351av.jpg",
+      "link": "https://aliexpress.com/item/1005011889026481.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011889026481.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-03-25T13:50:48.915869+00:00"
+    },
+    {
       "id": "1005011877545719",
       "title": "Тестер мережевого кабелю RJ45 RJ11 Кабель локальної мережі UTP Cat5 Cat6",
       "title_pl": "RJ45 RJ11 Tester kabli sieciowych Cat5 Cat6 UTP narzędzie do testowania kabli LAN przewód sieciowy detektor linii telefonicznej narzędzie śledzące",
