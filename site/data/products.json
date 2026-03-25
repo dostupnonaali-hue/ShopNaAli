@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011872643012",
+      "title": "Жіночий топ для йоги, безшовні спортивні футболки з коротким рукавом для йоги",
+      "title_pl": "Damski top do jogi Bezszwowe sportowe koszulki z krótkim rękawem Koszulka do jogi Top na siłownię Fitness Running Odzież sportowa V Neck Top sportowy damski",
+      "price": 82.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 100,
+      "image": "https://ae01.alicdn.com/kf/Se88514269695417c84f8b98680e300c5g.jpg",
+      "link": "https://aliexpress.com/item/1005011872643012.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011872643012.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-25T16:40:57.083505+00:00"
+    },
+    {
       "id": "1005009463144385",
       "title": "Зарядний пристрій Baseus GaN Mini USB C Fast Charger Quick Charger",
       "title_pl": "Baseus 67W GaN ładowarka Mini USB C szybka ładowarka szybka ładowarka do telefonu iPhone 17 16 przenośna ładowarka podróżna do laptopów",
