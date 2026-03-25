@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005010399569174",
+      "title": "11KW 6.2KW 3.5KW MPPT Гібридний сонячний інвертор Чиста синусоїда",
+      "title_pl": "11KW 6,2KW 48V 3,5KW 24V MPPT hybrydowy inwerter słoneczny czysta fala sinusoidalna podwójny MPPT 160A/100A PV 500VDC kontroler słoneczny z WIFI",
+      "price": 464.39,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1480,
+      "image": "https://ae01.alicdn.com/kf/Sd03ff0f2ce7c4583abe280e310b435adq.jpg",
+      "link": "https://aliexpress.com/item/1005010399569174.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010399569174.html",
+      "description": "",
+      "promo_text": "ASUA70",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T14:16:23.675562+00:00"
+    },
+    {
+      "id": "1005006360955735",
+      "title": "Багатоцільовий портативний очищувач килимів Засіб для чищення оббивки",
+      "title_pl": "Wielozadaniowy przenośny środek do czyszczenia dywanów Maszyna do czyszczenia tapicerki Szampon do głębokiego czyszczenia do użytku domowego",
+      "price": 3177.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 1694,
+      "image": "https://ae01.alicdn.com/kf/S633b00fba3bf48d799ec37a640d5a455d.jpg",
+      "link": "https://aliexpress.com/item/1005006360955735.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006360955735.html",
+      "description": "",
+      "promo_text": "ASUA11, 1065",
+      "price_note": "1065 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-03-25T14:23:02.512537+00:00"
+    },
+    {
       "id": "1005006499506320",
       "title": "Електричний занурювальний ручний міксер Wancle 5 в 1",
       "title_pl": "Wancle elektryczny zanurzeniowy blender ręczny mikser 1000W 5 w 1 potężny blender kuchenny do trzepaczki do jajek maszynka do mielenia mięsa robot kuchenny",
