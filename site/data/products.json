@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011844277745",
+      "title": "Модні милі тапочки з мультяшною пандою. Теплі домашні тапочки",
+      "title_pl": "Modne urocze pandy kapcie domowe kapcie z kreskówek ciepłe stylowe wygodne damskie zimowe para jesienne zimowe kapcie",
+      "price": 4.44,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 1441,
+      "image": "https://ae01.alicdn.com/kf/Sc8f9cbb3a6854b1ca0c339c9d9c5f987i.jpg",
+      "link": "https://aliexpress.com/item/1005011844277745.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011844277745.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T08:11:45.514524+00:00"
+    },
+    {
+      "id": "1005011852587859",
+      "title": "Зручні домашні тапочки, милі мультяшні чобітки, шапки, зима",
+      "title_pl": "Wygodne kapcie domowe, buty z uroczymi kreskówkami, czapki, kapcie zimowe, kapcie materiałowe, kapcie dla par męskich i damskich, grube",
+      "price": 3.17,
+      "currency": "USD",
+      "category": "accessories",
+      "rating": 5.0,
+      "orders": 1443,
+      "image": "https://ae01.alicdn.com/kf/Se9e7297130b04d04a72e01bf1dd0e6be0.jpg",
+      "link": "https://aliexpress.com/item/1005011852587859.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011852587859.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T08:14:04.628428+00:00"
+    },
+    {
       "id": "1005008074088973",
       "title": "Багатоцільовий міні-портативний ДБЖ великої ємності для резервного живлення",
       "title_pl": "Uniwersalny Mini przenośny UPS o dużej pojemności zasilacz awaryjny zasilanie awaryjne dla WiFi, router 5 V 9 V 12 V 15 V 2 V",
