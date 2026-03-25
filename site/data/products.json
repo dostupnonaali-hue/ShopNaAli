@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011869566252",
+      "title": "Повітропроникні еластичні жіночі",
+      "title_pl": "Oddychające elastyczne damskie",
+      "price": 21.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 883,
+      "image": "https://ae01.alicdn.com/kf/S7ab764f580d6439f8bbc020922a872e1Z.jpg",
+      "link": "https://aliexpress.com/item/1005011869566252.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011869566252.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-25T10:57:13.354534+00:00"
+    },
+    {
+      "id": "1005011845147612",
+      "title": "Жінки",
+      "title_pl": "Kobiety",
+      "price": 70.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 183,
+      "image": "https://ae01.alicdn.com/kf/S806bd90fa1e64af882c6817eec5fba8f2.jpg",
+      "link": "https://aliexpress.com/item/1005011845147612.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011845147612.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-25T10:59:46.035163+00:00"
+    },
+    {
       "id": "1005011856436909",
       "title": "Пістолет для зварювання пластику з цвяхами для автомобільного бампера ПВХ",
       "title_pl": "Zgrzewarka do tworzyw sztucznych Pistolet do gwoździ na gorąco z 200-800 gwoździami do zderzaka samochodowego Zestaw narzędzi do naprawy PCV do garażu Spawanie maszynowe",
