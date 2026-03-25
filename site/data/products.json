@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005008888593789",
+      "title": "Зовнішній акумулятор зі швидкою зарядкою Tuodes PD Power Bank",
+      "title_pl": "Tuodes PD 100W Power Bank szybkie ładowanie 20000mAh pojemność baterii zewnętrznej przenośna ładowarka do laptopa iPhone Samsung Xiaomi",
+      "price": 24.07,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1562,
+      "image": "https://ae01.alicdn.com/kf/Sf2268c5979de424cad9395429a658f50x.jpg",
+      "link": "https://aliexpress.com/item/1005008888593789.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008888593789.html",
+      "description": "",
+      "promo_text": "AETUODES02, ASUA05",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T14:44:41.524767+00:00"
+    },
+    {
+      "id": "1005011872257984",
+      "title": "Круглий порожнистий браслет-манжета, нержавіюча сталь золотого кольору",
+      "title_pl": "Okrągła wydrążona bransoletka mankietowa, szeroka bransoletka ze stali nierdzewnej w kolorze złotym dla kobiet, modna biżuteria Wyjątkowy prezent",
+      "price": 15.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 5.0,
+      "orders": 1403,
+      "image": "https://ae01.alicdn.com/kf/Sdc77944c19bc4fdc897c96c7bf8887c91.jpg",
+      "link": "https://aliexpress.com/item/1005011872257984.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011872257984.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-25T14:48:27.286012+00:00"
+    },
+    {
       "id": "1005007791313445",
       "title": "Легка дротова бездротова миша AJAZZ AJ179 PRO PAW3395",
       "title_pl": "AJAZZ AJ179 PRO PAW3395 Lekka przewodowa mysz bezprzewodowa z magnetyczną podstawą ładującą Ergonomiczna mysz do gier makro do laptopa PC",
