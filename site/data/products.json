@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011878870765",
+      "title": "Жінки",
+      "title_pl": "Kobiety",
+      "price": 5.45,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 5.0,
+      "orders": 278,
+      "image": "https://ae01.alicdn.com/kf/Sd24da95a6be141f5ba6e8faa3689a278S.jpg",
+      "link": "https://aliexpress.com/item/1005011878870765.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011878870765.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T12:09:15.996928+00:00"
+    },
+    {
+      "id": "1005011875298430",
+      "title": "❀Сітка з 6 отворами для рибальських сіток/снастей/клітки, що складаються раками",
+      "title_pl": "❀ Siatka z 6 otworami na sieć rybacką/sprzęt/klatkę Składany łapacz raków Casting/sieć rybna Krab/rak/krewetki/stynka/pułapki na węgorze",
+      "price": 3.27,
+      "currency": "USD",
+      "category": "sport",
+      "rating": 5.0,
+      "orders": 1485,
+      "image": "https://ae01.alicdn.com/kf/S12b0cab471c449e183ff4776d677f0f4V.jpg",
+      "link": "https://aliexpress.com/item/1005011875298430.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011875298430.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T12:11:25.351096+00:00"
+    },
+    {
       "id": "1005011892298088",
       "title": "Літній сексуальний чорний трикутний купальник бікіні з двох частин",
       "title_pl": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
