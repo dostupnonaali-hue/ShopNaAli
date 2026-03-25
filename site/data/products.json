@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005004532629229",
+      "title": "Акумуляторний очисник високого тиску на 30 бар. Водяний пістолет",
+      "title_pl": "30BAR bezprzewodowa myjka ciśnieniowa myjka w sprayu pistolet na wodę myjnia samochodowa maszyna do czyszczenia wodą pod ciśnieniem do akumulatora Makita 18V",
+      "price": 16.26,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 1926,
+      "image": "https://ae01.alicdn.com/kf/S20e86974e7a0449a8c63c4cbf600060eM.jpg",
+      "link": "https://aliexpress.com/item/1005004532629229.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004532629229.html",
+      "description": "",
+      "promo_text": "ASUA03",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T17:06:00.816612+00:00"
+    },
+    {
+      "id": "1005006861769432",
+      "title": "4 зовнішні датчики Автомобільна система контролю тиску в шинах Автомоб",
+      "title_pl": "4 czujniki zewnętrzne System monitorowania ciśnienia w oponach samochodowych Monitor ciśnienia w oponach samochodowych Alarm ciśnienia w oponach",
+      "price": 7.39,
+      "currency": "USD",
+      "category": "auto",
+      "rating": 4.8,
+      "orders": 342,
+      "image": "https://ae01.alicdn.com/kf/S47c66e25df7747be916f82f89a40b0f7T.jpeg",
+      "link": "https://aliexpress.com/item/1005006861769432.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006861769432.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T17:12:22.384392+00:00"
+    },
+    {
       "id": "1005008852027824",
       "title": "Смартфон realme P3, чіпсет NFC Snapdragon® 6 Gen 4",
       "title_pl": "[Światowa premiera] smartfon realme P3 5G NFC Snapdragon® 6 Gen 4 Chipset 6000 mAh Bateria 45 W Ładowanie 6,67",
