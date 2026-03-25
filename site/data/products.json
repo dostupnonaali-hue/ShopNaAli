@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005008934084089",
+      "title": "Жіноча модальна майка Slim Fit з круглим вирізом",
+      "title_pl": "Damski modalny tank top o dopasowanym kroju z okrągłym dekoltem",
+      "price": 2.74,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 637,
+      "image": "https://ae01.alicdn.com/kf/S0e033045e9d4405cabf9d376c5046d876.jpg",
+      "link": "https://aliexpress.com/item/1005008934084089.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008934084089.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-25T17:25:48.612810+00:00"
+    },
+    {
+      "id": "1005010427217460",
+      "title": "Наклейки Zootopia Сувеніри для вечірок Прикраси Подарункова сумка",
+      "title_pl": "50 sztuk Zootopia naklejki upominki na przyjęcie akcesoria dekoracja prezent torba wypełnienie wodoodporna naklejka telefon samochód deskorolka naklejka na laptopa",
+      "price": 16.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 1491,
+      "image": "https://ae01.alicdn.com/kf/S80dfc2911f4b4f8aba07ed76dcf304f4s.jpg",
+      "link": "https://aliexpress.com/item/1005010427217460.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010427217460.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-03-25T17:27:49.841584+00:00"
+    },
+    {
       "id": "1005007860996686",
       "title": "Портативний зарядний пристрій Vention Power Bank, вбудований кабель USB-C",
       "title_pl": "Vention 65W Power Bank 20000mAh wbudowany kabel USB-C przenośny Powerbank do laptopa PD szybka ładowarka do iPhone 17 Samsung S25 S24",
