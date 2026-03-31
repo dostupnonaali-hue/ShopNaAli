@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005009256392746",
+      "title": "Fashion Men Watches Casual Male",
+      "title_pl": "",
+      "price": 4.08,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 484,
+      "image": "https://ae01.alicdn.com/kf/Sbea3e7f8fe5844cbb356cd517014c715f.jpg",
+      "link": "https://aliexpress.com/item/1005009256392746.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009256392746.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-03-31T12:28:35.016001+00:00"
+    },
+    {
       "id": "1005008894295918",
       "title": "Ювелірні вироби G&D Unique Metal Love у формі серця з відкритим перстнем -",
       "title_pl": "G&D Wyjątkowa metalowa biżuteria w kształcie serca z otwartym pierścionkiem - stal nierdzewna, pozłacana, dodatek do noszenia na palcu",
