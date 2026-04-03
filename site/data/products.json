@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011915081916",
+      "title": "Щоденні поїздки на роботу та роботу Універсальний овальний пристрій із захистом від ультрафіолету",
+      "title_pl": "Codzienne dojazdy do pracy Owalne, chroniące przed promieniowaniem UV, uniwersalne polaryzacyjne okulary przeciwsłoneczne dla mężczyzn GJ3005",
+      "price": 30.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1204,
+      "image": "https://ae01.alicdn.com/kf/S9b4c48ac478e4f65ba219e3c06b46d4ci.png",
+      "link": "https://aliexpress.com/item/1005011915081916.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011915081916.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-03T19:20:17.322822+00:00"
+    },
+    {
       "id": "1005011895821092",
       "title": "3 Modes 5 Nozzles Water Flosser 1600 Pulses/min 0. Fine Jet",
       "title_pl": "",
