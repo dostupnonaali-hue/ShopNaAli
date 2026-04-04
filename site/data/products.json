@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005007343048136",
+      "title": "Чохол для планшета 11-13 дюймів",
+      "title_pl": "Pokrowiec na tablet 11-13 cali do iPada Samsung XiaoMi Lenovo, torba ochronna z kieszenią",
+      "price": 155.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 140,
+      "image": "https://ae01.alicdn.com/kf/S5bb210aee8ed4e53912efbba6f2557357.jpg",
+      "link": "https://aliexpress.com/item/1005007343048136.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007343048136.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T14:52:31.439952+00:00"
+    },
+    {
+      "id": "1005008593029506",
+      "title": "1/2/ Жіноче намисто з персиковим серцем. Модне солодке",
+      "title_pl": "1/2/5 sztuk drążą brzoskwiniowy naszyjnik w kształcie serca dla kobiet modny słodki Y2k Punk Gothic łańcuszek do obojczyka niszowy projekt biżuteria łańcuszek na szyję",
+      "price": 21.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1454,
+      "image": "https://ae01.alicdn.com/kf/Sa3c5d0cd6ded44af84dfd78bf13f4f21j.jpg",
+      "link": "https://aliexpress.com/item/1005008593029506.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008593029506.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-04T14:55:06.120370+00:00"
+    },
+    {
       "id": "32971123121",
       "title": "Чоловічі кросівки BONA Fashion Outdoor Light Breathable",
       "title_pl": "BONA Buty do biegania Moda męska Światło zewnętrzne Oddychające trampki Męskie sznurowane sportowe buty do chodzenia i joggingu Męskie wygodne",
