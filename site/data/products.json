@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011692956701",
+      "title": "Чоловіки",
+      "title_pl": "Mężczyźni",
+      "price": 57.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 180,
+      "image": "https://ae01.alicdn.com/kf/Sff673d0439344087b0a4b974e1c51624I.jpg",
+      "link": "https://aliexpress.com/item/1005011692956701.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011692956701.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T15:22:29.171728+00:00"
+    },
+    {
       "id": "1005006678061498",
       "title": "P47 Універсальне бездротове шумозаглушення Bluetooth",
       "title_pl": "P47 Uniwersalne bezprzewodowe słuchawki Bluetooth z redukcją szumów Gamer Zestaw słuchawkowy stereo Bezprzewodowy zestaw słuchawkowy do gier sportowych dla systemu IOS Android",
