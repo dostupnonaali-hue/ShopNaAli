@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005006678061498",
+      "title": "P47 Універсальне бездротове шумозаглушення Bluetooth",
+      "title_pl": "P47 Uniwersalne bezprzewodowe słuchawki Bluetooth z redukcją szumów Gamer Zestaw słuchawkowy stereo Bezprzewodowy zestaw słuchawkowy do gier sportowych dla systemu IOS Android",
+      "price": 87.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 984,
+      "image": "https://ae01.alicdn.com/kf/S3df6c7230a9e4bd6936fd43d0c6eb617i.jpg",
+      "link": "https://aliexpress.com/item/1005006678061498.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006678061498.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T15:09:46.285133+00:00"
+    },
+    {
+      "id": "1005011947569287",
+      "title": "Нова гаряча ароматерапевтична магнітна лампа для звукозапису Colorful Ambient",
+      "title_pl": "Nowa gorąca aromaterapeutyczna lampa magnetyczna kolorowe odświeżacz powietrza otoczenia okrągłe światła RGB akumulator do wylotu powietrza w samochodzie lub w pomieszczeniu",
+      "price": 103.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1376,
+      "image": "https://ae01.alicdn.com/kf/S7b5f8f9892eb4f7da32ef37ab411d988m.jpg",
+      "link": "https://aliexpress.com/item/1005011947569287.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011947569287.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T15:15:23.596537+00:00"
+    },
+    {
       "id": "1005007343048136",
       "title": "Чохол для планшета 11-13 дюймів",
       "title_pl": "Pokrowiec na tablet 11-13 cali do iPada Samsung XiaoMi Lenovo, torba ochronna z kieszenią",
