@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005004681224259",
+      "title": "Органайзер для кабелю Toocki 5M. Стрічка для намотування кабелю",
+      "title_pl": "Toocki 5M Organizer do kabli Zarządzanie kablami Taśma do nawijania drutu Słuchawki do myszy Ochraniacz do zarządzania przewodami dla iPhone'a Xiaomi Samsung",
+      "price": 34.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 429,
+      "image": "https://ae01.alicdn.com/kf/S36e1cae6a8c04059b1396060c524788aR.jpg",
+      "link": "https://aliexpress.com/item/1005004681224259.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004681224259.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "43 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-04T16:20:25.325223+00:00"
+    },
+    {
+      "id": "1005011918791885",
+      "title": "Барвистий",
+      "title_pl": "Kolorowy",
+      "price": 47.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1444,
+      "image": "https://ae01.alicdn.com/kf/S244496a28d174aad831fec20b69badc2R.jpg",
+      "link": "https://aliexpress.com/item/1005011918791885.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011918791885.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-04T16:25:38.629629+00:00"
+    },
+    {
       "id": "1005005925182461",
       "title": "Твердий засіб для очищення вітрового скла автомобіля Шипуча таблетка",
       "title_pl": "Środek czyszczący w postaci stałej Środek do czyszczenia szyb samochodowych Tabletka musująca Wycieraczki samochodowe Stałe środki czyszczące w skoncentrowanych tabletkach Detergent",
