@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011896871287",
+      "title": "Світлодіодний ліхтарик із запобіжним молотком. Аварійне робоче світло",
+      "title_pl": "Latarka Led z młotkiem bezpieczeństwa Światło robocze Awaryjna samoratownicza latarka z rozbitym oknem Latarka taktyczna z możliwością ładowania USB",
+      "price": 75.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1876,
+      "image": "https://ae01.alicdn.com/kf/S89fb0660071e4519aeec44e41d942da4o.jpeg",
+      "link": "https://aliexpress.com/item/1005011896871287.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011896871287.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T07:10:59.619310+00:00"
+    },
+    {
+      "id": "1005011947468821",
+      "title": "Акумуляторний апарат для зварювання пластику 590 °C 3 с Швидке нагрівання пластику",
+      "title_pl": "4000mAh Bezprzewodowa spawarka do tworzyw sztucznych 590°C 3s Szybko nagrzewająca się spawarka do tworzyw sztucznych z 400 szt. zszywek Zestaw naprawczy zderzaka samochodowego LED Light",
+      "price": 471.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 608,
+      "image": "https://ae01.alicdn.com/kf/S3eb1db5c1e8b4019a618113ee3ee5065G.jpg",
+      "link": "https://aliexpress.com/item/1005011947468821.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011947468821.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T07:14:12.679816+00:00"
+    },
+    {
       "id": "4000343799304",
       "title": "Дизайнерські сонцезахисні окуляри бренду GM для жінок з червоною дерев'яною ніжкою",
       "title_pl": "GM markowe designerskie okulary przeciwsłoneczne dla kobiet czerwone drewniane nogi z metalową ramką okulary przeciwsłoneczne mężczyźni kobiety drewniane okulary przeciwsłoneczne karton prezentowy S2801",
