@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011918843937",
+      "title": "Універсальний модний набір резинок для волосся з широкими полями з 4 предметів",
+      "title_pl": "4-częściowy modny zestaw opasek do włosów z szerokim rondem, uniwersalny na różne okazje, elegancka ozdoba do włosów do stylizacji włosów",
+      "price": 64.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 313,
+      "image": "https://ae01.alicdn.com/kf/S368bfe45677548eebdbd98c29032722d2.jpg",
+      "link": "https://aliexpress.com/item/1005011918843937.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011918843937.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-04T09:48:44.069132+00:00"
+    },
+    {
       "id": "1005007613613027",
       "title": "EXCO Python Programming Mouse Pad Large Shortcuts Cheat",
       "title_pl": "EXCO programowanie w języku Python podkładka pod mysz duże skróty ściągawka klawiatura podkładka pod mysz szyta krawędź antypoślizgowa podstawa podkładka na biurko dla inżyniera",
