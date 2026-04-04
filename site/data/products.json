@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011941490482",
+      "title": "Гострий рибальський гачок із двома наконечниками та високою міцністю",
+      "title_pl": "Ostry haczyk wędkarski z dwiema końcówkami o dużej trwałości i wytrzymałości, odporny na upadek, mocny, ostry grot, odpowiedni dla miłośników wędkarstwa",
+      "price": 46.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 197,
+      "image": "https://ae01.alicdn.com/kf/Sed816ecf27c04cb29e55992db6f0db12Q.jpg",
+      "link": "https://aliexpress.com/item/1005011941490482.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011941490482.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T17:28:42.741950+00:00"
+    },
+    {
       "id": "1005007389522937",
       "title": "Оригінальна глобальна версія Mi Band 7 Pro AMOLED Screen Blood",
       "title_pl": "Oryginalna wersja globalna Mi Band 7 Pro Ekran AMOLED Krew Sen Oddychanie Monitorowanie tlenu Zarządzanie zdrowiem Inteligentny zegarek",
