@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T977V5R5QZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T977V5R5QZ');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseus — Produkty Baseus z AliExpress | ShopDoBaksa</title>
+    <meta name="description"
+        content="Katalog produktów Baseus z AliExpress w najlepszych cenach. Ładowarki, kable, uchwyty samochodowe i akcesoria Baseus z darmową dostawą.">
+    <meta name="keywords" content="Baseus, Baseus AliExpress, Baseus ładowarka, Baseus kabel, Baseus uchwyt, Baseus Polska">
+    <meta name="referrer" content="no-referrer">
+    <link rel="canonical" href="https://dobaksa.shop/pl/baseus.html">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/icon-180.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Baseus — Produkty Baseus z AliExpress | ShopDoBaksa">
+    <meta property="og:description" content="Katalog produktów marki Baseus z AliExpress w najlepszych cenach. Aktualizowane codziennie.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:url" content="https://dobaksa.shop/pl/baseus.html">
+
+    <meta name="theme-color" content="#0a0a0f">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+
+            <div class="header__search">
+                <span class="header__search-icon">🔍</span>
+                <input type="text" id="searchInput" placeholder="Szukaj produktów Baseus..." autocomplete="off">
+            </div>
+
+            <nav class="header__nav" id="desktopNav">
+                <a href="index.html" class="header__nav-link">🏠 Strona główna</a>
+                <a href="dobaksa.html" class="header__nav-link">💰 DoBaksa</a>
+                <a href="baseus.html" class="header__nav-link active">🔋 Baseus</a>
+                <a href="faq.html" class="header__nav-link">📖 Poradnik</a>
+                <a href="promos.html" class="header__nav-link">✂️ Kody rabatowe</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__nav-link header__nav-link--tg">✈️ Telegram</a>
+                <a href="../baseus.html" class="header__nav-link lang-switch" title="Українська">🇺🇦</a>
+            </nav>
+
+            <button class="burger" id="burgerBtn" aria-label="Menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+            <button class="mobile-menu__close" id="menuClose" aria-label="Zamknij">✕</button>
+        </div>
+        <div class="mobile-menu__links">
+            <a href="index.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🏠</span> Strona główna
+            </a>
+            <a href="dobaksa.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">💰</span> Produkt DoBaksa
+            </a>
+            <a href="baseus.html" class="mobile-menu__link active">
+                <span class="mobile-menu__icon">🔋</span> Baseus
+            </a>
+            <a href="faq.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">📖</span> Poradnik
+            </a>
+            <a href="promos.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✂️</span> Kody rabatowe
+            </a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✈️</span> Nasz Telegram
+            </a>
+            <a href="../baseus.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🇺🇦</span> Українська версія
+            </a>
+        </div>
+        <div class="mobile-menu__footer">
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__tg-btn">
+                ✈️ Subskrybuj Telegram
+            </a>
+        </div>
+    </nav>
+
+    <script>
+    (function() {
+        const burger = document.getElementById('burgerBtn');
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        const closeBtn = document.getElementById('menuClose');
+        function toggleMenu() {
+            const isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
+            burger.classList.toggle('open', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        }
+        burger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+    })();
+    </script>
+
+    <!-- Main Content -->
+    <main class="main">
+
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs" aria-label="Nawigacja">
+            <a href="index.html" class="breadcrumbs__link">Strona główna</a>
+            <span class="breadcrumbs__sep">›</span>
+            <span class="breadcrumbs__current">Baseus</span>
+        </nav>
+
+        <!-- Hero -->
+        <section class="dobaksa-hero" id="hero">
+            <div class="dobaksa-hero__icon">🔋</div>
+            <h1 class="dobaksa-hero__title">
+                Produkty <span class="gradient-text">Baseus</span>
+            </h1>
+            <p class="dobaksa-hero__subtitle">
+                Oficjalne produkty marki <strong>Baseus</strong> z AliExpress w najlepszych cenach.<br>
+                Ładowarki, kable, uchwyty, powerbanki i akcesoria.
+            </p>
+            <div class="dobaksa-hero__stats">
+                <div class="dobaksa-hero__stat">
+                    <span class="dobaksa-hero__stat-num" id="statsCount">0</span>
+                    <span class="dobaksa-hero__stat-label">produktów</span>
+                </div>
+                <div class="dobaksa-hero__stat">
+                    <span class="dobaksa-hero__stat-num" id="statsMinPrice">—</span>
+                    <span class="dobaksa-hero__stat-label">min. cena</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sort Filters -->
+        <div class="filters" id="sortFilters">
+            <button class="filter-btn active" data-sort="new">🆕 Nowe</button>
+            <button class="filter-btn" data-sort="cheap">💰 Tańsze</button>
+            <button class="filter-btn" data-sort="expensive">💎 Droższe</button>
+            <button class="filter-btn" data-sort="popular">⭐ Popularne</button>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products-grid" id="productsGrid">
+            <!-- Products rendered by JS -->
+        </div>
+
+        <!-- SEO Text Block -->
+        <section class="seo-text">
+            <h2>Baseus na AliExpress — jakościowe akcesoria w przystępnej cenie</h2>
+            <p>
+                Na tej stronie zebraliśmy wszystkie produkty marki <strong>Baseus</strong>, które znaleźliśmy na AliExpress.
+                Baseus to jedna z najpopularniejszych chińskich marek elektroniki i akcesoriów, znana z
+                wysokiej jakości ładowarek, kabli, uchwytów samochodowych, powerbanków i innej elektroniki.
+            </p>
+            <p>
+                Wszystkie produkty są dodawane automatycznie z naszych kanałów Telegram ze znaleziskami. Każdy produkt zawiera
+                bezpośredni link do AliExpress z możliwością natychmiastowego zakupu. Strona jest aktualizowana codziennie —
+                wchodź częściej, aby nie przegapić korzystnych ofert od Baseus!
+            </p>
+            <p>
+                Subskrybuj nasz <a href="https://t.me/Shop_DoBaksa">kanał Telegram</a> —
+                tam publikujemy znaleziska jako pierwsi!
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 ShopDoBaksa — Agregator najlepszych ofert z AliExpress</p>
+        <p style="margin-top: 8px;">
+            <a href="index.html">Katalog</a> · 
+            <a href="dobaksa.html">Produkt DoBaksa</a> · 
+            <a href="baseus.html">Baseus</a> · 
+            <a href="faq.html">Poradnik AliExpress</a> · 
+            <a href="https://t.me/Shop_DoBaksa" target="_blank">Telegram</a>
+        </p>
+    </footer>
+
+    <script src="../js/baseus-pl.js"></script>
+</body>
+
+</html>
