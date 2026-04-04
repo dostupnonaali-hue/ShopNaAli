@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "32811174613",
+      "title": "Антиалергенна титанова сталь 1 великий 4 малий кубічний цирконій",
+      "title_pl": "Antyalergiczna stal tytanowa 1 duża 4 mała cyrkonia sześcienna obrączka dla kobiety różowe złoto kolor kryształu biżuteria ślubna bague",
+      "price": 37.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1057,
+      "image": "https://ae01.alicdn.com/kf/S3b959839420d442bb69c98ea7fbaa202B.jpg",
+      "link": "https://aliexpress.com/item/32811174613.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F32811174613.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "125 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-04T07:40:32.251797+00:00"
+    },
+    {
+      "id": "1005009427632044",
+      "title": "Професійний 4-ступеневий ручний ніж і ножиці TAIDEA",
+      "title_pl": "TAIDEA Profesjonalna 4-stopniowa ręczna ostrzałka do noży i nożyczek Wolframowe diamentowe krążki ceramiczne do domowej kuchni Łatwy chwyt i użytkowanie",
+      "price": 186.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.7,
+      "orders": 1542,
+      "image": "https://ae01.alicdn.com/kf/S583b284582b444b08c493fe94e762b51x.jpg",
+      "link": "https://aliexpress.com/item/1005009427632044.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009427632044.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "643 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-04T07:46:56.140770+00:00"
+    },
+    {
       "id": "1005011896871287",
       "title": "Світлодіодний ліхтарик із запобіжним молотком. Аварійне робоче світло",
       "title_pl": "Latarka Led z młotkiem bezpieczeństwa Światło robocze Awaryjna samoratownicza latarka z rozbitym oknem Latarka taktyczna z możliwością ładowania USB",
