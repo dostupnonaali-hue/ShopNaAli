@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005004347430643",
+      "title": "Xtep Men",
+      "title_pl": "Xtep Mężczyźni",
+      "price": 19.18,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.7,
+      "orders": 1901,
+      "image": "https://ae01.alicdn.com/kf/Sa894160fb6e941acbd2d89f4b2736091C.jpg",
+      "link": "https://aliexpress.com/item/1005004347430643.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004347430643.html",
+      "description": "",
+      "promo_text": "CDUA02, UACD02, UASN02, FUNZ, UA02, IFPNKAGD, IFPFOMIE, IFPAJA7X, IFPKV5MX, IFPKXK5R, IFPLDYRK, IFPY0IQ0, IFPPGZPW, IFPOJMMA",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-04-04T11:19:39.961312+00:00"
+    },
+    {
+      "id": "1005008216488185",
+      "title": "Запобіжник постійного струму Один набір 1P Тримач Високовольтний сонячний PV 10* 15A 20A",
+      "title_pl": "Bezpiecznik DC Jeden zestaw 1P Uchwyt 1000V Wysokie napięcie Solar PV 10*38mm 15A 20A 25A 32A Bezpiecznik System fotowoltaiczny Zabezpieczenie gpV",
+      "price": 2.61,
+      "currency": "USD",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 101,
+      "image": "https://ae01.alicdn.com/kf/Sfc227be04a094b6f93317788d42c3836g.jpg",
+      "link": "https://aliexpress.com/item/1005008216488185.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008216488185.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-04-04T11:23:46.080172+00:00"
+    },
+    {
       "id": "1005009458008795",
       "title": "Чоловічі кросівки Xtep 2025 літні дихаючі сітчасті",
       "title_pl": "Męskie buty do biegania Xtep 2025 letnie oddychające buty z siateczką miękka podeszwa amortyzujące lekkie buty sportowe 875419110053",
