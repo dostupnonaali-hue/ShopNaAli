@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011652908507",
+      "title": "Фігурка-брелок Honkai Star Rail 7 березня Цзін Юань",
+      "title_pl": "Honkai Star Rail 7 marca Jing Yuan brelok rysunek akrylowa dziewczyna akcesoria do prezentów samochód urocza torba Charms klucz wisiorek obrączka biżuteria",
+      "price": 5.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1516,
+      "image": "https://ae01.alicdn.com/kf/S2cafc426103c4a5a881f3b6d4af1bf97K.jpg",
+      "link": "https://aliexpress.com/item/1005011652908507.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011652908507.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-04T19:14:45.949650+00:00"
+    },
+    {
+      "id": "1005011921943474",
+      "title": "6/12 Пари Чоловіки",
+      "title_pl": "6/12 par, mężczyźni",
+      "price": 126.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1488,
+      "image": "https://ae01.alicdn.com/kf/Sbad8dce75f7e4b6f9547edc5bf55b7616.jpg",
+      "link": "https://aliexpress.com/item/1005011921943474.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011921943474.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T19:17:06.584035+00:00"
+    },
+    {
       "id": "1005008383917584",
       "title": "Коричневі багаторазові кріпильні кабельні стяжки Аксесуари для миші та телефону",
       "title_pl": "Brązowe opaski zaciskowe wielokrotnego użytku Akcesoria do myszy i telefonów Zarządzanie przewodami Odpinane nylonowe opaski kablowe z pętlą Paski typu T Krawat",
