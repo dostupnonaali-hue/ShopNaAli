@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006782926592",
+      "title": "Чорна сумочка-органайзер із 6 складними кишенями",
+      "title_pl": "Czarna torebka wiszący organizer z 6 kieszeniami składana torba do przechowywania torebek z tkaniny Oxford do rodzinnej sypialni",
+      "price": 74.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 1472,
+      "image": "https://ae01.alicdn.com/kf/S2a248f21bac34e219df125c91b758ca7i.jpg",
+      "link": "https://aliexpress.com/item/1005006782926592.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006782926592.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-04T19:27:46.840355+00:00"
+    },
+    {
       "id": "1005011652908507",
       "title": "Фігурка-брелок Honkai Star Rail 7 березня Цзін Юань",
       "title_pl": "Honkai Star Rail 7 marca Jing Yuan brelok rysunek akrylowa dziewczyna akcesoria do prezentów samochód urocza torba Charms klucz wisiorek obrączka biżuteria",
