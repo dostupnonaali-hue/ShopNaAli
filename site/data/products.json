@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011940154769",
+      "title": "Джерело живлення світлодіодного драйвера від змінного струму до 31 В постійного струму IP44 8 режимів ЄС США Великобританія",
+      "title_pl": "AC 110 V-220 V do 31 V DC 24 V 5 V zasilacz LED zasilacz 6 W IP44 8 trybów UE US UK wtyczka Adapter transformatora",
+      "price": 108.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 921,
+      "image": "https://ae01.alicdn.com/kf/S376f261a9f8147fe91a47fbc1323ce73t.jpg",
+      "link": "https://aliexpress.com/item/1005011940154769.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011940154769.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T12:51:14.218146+00:00"
+    },
+    {
+      "id": "1005006727860035",
+      "title": "Новий універсальний рюкзак для підлітків великої місткості в корейському стилі",
+      "title_pl": "Nowy, wszechstronny plecak w stylu koreańskim o dużej pojemności dla nastolatek. Minimalistyczny tornister w jednolitym kolorze. Modny plecak studencki",
+      "price": 286.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 1936,
+      "image": "https://ae01.alicdn.com/kf/Sc0494b3ec24c41618b99951c11475110d.jpg",
+      "link": "https://aliexpress.com/item/1005006727860035.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727860035.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-04T12:53:29.971080+00:00"
+    },
+    {
       "id": "1005007477015126",
       "title": "Новий портативний пістолет для масажу м'язів MIJIA Mini Fascia Gun 3",
       "title_pl": "Nowy pistolet MIJIA Mini konsola 3 przenośny pistolet do masażu mięśni 12kg ciąg bezszczotkowy cichy silnik 3 głowice masujące Relax Body Type-C",
