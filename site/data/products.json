@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011922842224",
+      "title": "Автомобільний тримач для телефону Lcars, універсальна навігація на присосці",
+      "title_pl": "Uchwyt samochodowy na telefon Lcars, uniwersalny uchwyt nawigacyjny z przyssawką do samochodu, samoprzylepny uchwyt do deski rozdzielczej",
+      "price": 109.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1675,
+      "image": "https://ae01.alicdn.com/kf/Sac90b5bcad864e0fb4d93175fdf014e0X.jpeg",
+      "link": "https://aliexpress.com/item/1005011922842224.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011922842224.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T17:39:13.152269+00:00"
+    },
+    {
+      "id": "1005011962501942",
+      "title": "Вагітні жінки",
+      "title_pl": "Kobiety w ciąży",
+      "price": 58.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1791,
+      "image": "https://ae01.alicdn.com/kf/S662d73960a4a4c0080610bc850a28844I.jpg",
+      "link": "https://aliexpress.com/item/1005011962501942.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011962501942.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-04T17:43:21.068149+00:00"
+    },
+    {
       "id": "1005011941490482",
       "title": "Гострий рибальський гачок із двома наконечниками та високою міцністю",
       "title_pl": "Ostry haczyk wędkarski z dwiema końcówkami o dużej trwałości i wytrzymałości, odporny na upadek, mocny, ostry grot, odpowiedni dla miłośników wędkarstwa",
