@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011926171506",
+      "title": "3 в 1 водонепроникний довгий плащ для дорослих, жінки, чоловіки, дощовик",
+      "title_pl": "3 w 1 wodoodporny długi płaszcz przeciwdeszczowy dla dorosłych kobiety mężczyźni płaszcz przeciwdeszczowy kurtka Poncho z kapturem na piesze wycieczki na świeżym powietrzu podróż wędkarstwo odzież przeciwdeszczowa",
+      "price": 76.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 746,
+      "image": "https://ae01.alicdn.com/kf/S8b0a3cfe61bd40d187840793c8a26b60z.jpg",
+      "link": "https://aliexpress.com/item/1005011926171506.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011926171506.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T12:03:54.022478+00:00"
+    },
+    {
       "id": "1005008825950173",
       "title": "Акумуляторна електрична паяльна станція для Makita",
       "title_pl": "Bezprzewodowa elektryczna stacja lutownicza narzędzie do Makita 18V akumulatorowa spawarka latarka 60W narzędzie do naprawy PCB dla domu na zewnątrz",
