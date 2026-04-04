@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007169862462",
+      "title": "Світлодіодна сонячна лампочка, водонепроникна зовнішня підвісна зарядка від USB",
+      "title_pl": "Żarówka LED na energię słoneczną Wodoodporna zewnętrzna 5 V ładowana przez USB wisząca awaryjna lampa zasilana światłem słonecznym Przenośny, mocny dom kryty",
+      "price": 111.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1903,
+      "image": "https://ae01.alicdn.com/kf/S0299e693e5764913b089dda159a4e420x.jpg",
+      "link": "https://aliexpress.com/item/1005007169862462.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007169862462.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-04T08:47:16.323606+00:00"
+    },
+    {
       "id": "1005011687361827",
       "title": "Навушники TRN Dolphin, 10 мм, динамічні з подвійним магнітним контуром",
       "title_pl": "Słuchawki TRN Dolphin 10 mm dynamiczny przetwornik z podwójnym obwodem magnetycznym Słuchawki z ciekłego metalu",
