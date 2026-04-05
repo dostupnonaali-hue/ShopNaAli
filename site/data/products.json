@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006727626667",
+      "title": "1/3-Piece Men",
+      "title_pl": "1/3-częściowy męski",
+      "price": 71.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 305,
+      "image": "https://ae01.alicdn.com/kf/Sd8b7cd8aa2244d988a3ef9881ca6d6b9H.jpg",
+      "link": "https://aliexpress.com/item/1005006727626667.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727626667.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-05T18:56:19.548501+00:00"
+    },
+    {
       "id": "1005007822454660",
       "title": "Підвісні вішалки на стіні та міцні гачки для. М",
       "title_pl": "Wiszące wieszaki ścienne i trwałe haczyki do. M",
