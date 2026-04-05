@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008406035799",
+      "title": "Викрутка електричний інструмент ручної інстру! М",
+      "title_pl": "Śrubokręt elektronarzędzie narzędzia ręczne! M",
+      "price": 27.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.9,
+      "orders": 1591,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008406035799.jpg",
+      "link": "https://aliexpress.com/item/1005008406035799.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008406035799.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-05T14:11:53.555361+00:00"
+    },
+    {
       "id": "1005008314295079",
       "title": "Для батаре! Makita 18 В, довга водопров!дна труба, регу; М",
       "title_pl": "Za baterię! Makita 18 V, długa fajka wodna, regu; M",
