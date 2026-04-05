@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006670672411",
+      "title": "Жінки",
+      "title_pl": "Kobiety",
+      "price": 1.29,
+      "currency": "USD",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1465,
+      "image": "https://ae01.alicdn.com/kf/S698f6057b7b242518d6c80c279efb2caM.jpg",
+      "link": "https://aliexpress.com/item/1005006670672411.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006670672411.html",
+      "description": "",
+      "promo_text": "5RM27A2NRF65, CDUA02, UACD02, UASN02, FUNZ, UA02, IFPNKAGD, IFPFOMIE, IFPAJA7X, IFPKV5MX, IFPKXK5R, IFPLDYRK, IFPY0IQ0, IFPPGZPW, IFPOJMMA",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-04-05T20:21:29.470194+00:00"
+    },
+    {
       "id": "1005007476695531",
       "title": "Зарядний пристрійLAB POWER-Z KM003C USB Tester PD3.1 Type-C Зарядка",
       "title_pl": "ChargerLAB POWER-Z KM003C Tester USB 240W PD3.1 240W Type-C Tester ładowania napięcie prądu miernik mocy do telefonu Laptop",
