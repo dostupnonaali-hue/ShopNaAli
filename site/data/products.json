@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012005562166",
+      "title": "Allwinner H713 BT5.0 1080P 1280*720P для кінотеат Vv",
+      "title_pl": "Allwinner H713 BT5.0 1080P 1280*720P dla kina Vv",
+      "price": 645.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 890,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012005562166.jpg",
+      "link": "https://aliexpress.com/item/1005012005562166.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012005562166.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-05T13:54:48.485588+00:00"
+    },
+    {
       "id": "1005007345160264",
       "title": "Для особистого захисту та дайвінгу, універсальний ніж. м",
       "title_pl": "Do ochrony osobistej i nurkowania, nóż uniwersalny. M",
