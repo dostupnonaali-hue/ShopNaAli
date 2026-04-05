@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005009755376639",
+      "title": "Вихід високої місткості © FE SE",
+      "title_pl": "Wysoka wydajność © FE SE",
+      "price": 9.83,
+      "currency": "USD",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 360,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005009755376639.jpg",
+      "link": "https://aliexpress.com/item/1005009755376639.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009755376639.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-04-05T16:44:53.328954+00:00"
+    },
+    {
       "id": "1005007345354130",
       "title": "Шлейка для собаки, яка не тягнеться, передня кліпса, міцна світловідбиваюча легка",
       "title_pl": "Szelki dla psa bez uchwytu Przedni klips Wytrzymały, odblaskowy, łatwy uchwyt do chodzenia z dużymi psami Cena: 4,34–6,81 USD Monety #⃣ #Aliexpress Zniżka na monety 222-236 Monety w aplikacji w sekcji monet.",
