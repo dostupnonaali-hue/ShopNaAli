@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008314295079",
+      "title": "Для батаре! Makita 18 В, довга водопров!дна труба, регу; М",
+      "title_pl": "Za baterię! Makita 18 V, długa fajka wodna, regu; M",
+      "price": 1053.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1592,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008314295079.jpg",
+      "link": "https://aliexpress.com/item/1005008314295079.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008314295079.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "96 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-05T14:05:38.093317+00:00"
+    },
+    {
       "id": "1005012005562166",
       "title": "Allwinner H713 BT5.0 1080P 1280*720P для кінотеат Vv",
       "title_pl": "Allwinner H713 BT5.0 1080P 1280*720P dla kina Vv",
