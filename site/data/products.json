@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005010760294217",
+      "title": "Набір кухонних ложок з антипригарним покриттям з 12 предметів і дерев'яними ручками,",
+      "title_pl": "12-częściowy zestaw łyżek kuchennych z powłoką nieprzywierającą, drewnianymi uchwytami, silikonowymi naczyniami kuchennymi i żaroodpornym pojemnikiem na narzędzia kuchenne.",
+      "price": 311.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1587,
+      "image": "https://ae01.alicdn.com/kf/Sab37778da7e64aa08d7bb47166aa44f5g.jpg",
+      "link": "https://aliexpress.com/item/1005010760294217.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010760294217.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-05T08:30:56.864897+00:00"
+    },
+    {
+      "id": "1005005471921758",
+      "title": "Водяний пістолет високого тиску, сумісний із піною для мийки автомобіля",
+      "title_pl": "Pistolet na wodę pod wysokim ciśnieniem myjnia samochodowa kompatybilny pianka natryskowa różne adaptery przezroczysty czajnik piankowy do Karcher Lavor Nilfisk",
+      "price": 131.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 384,
+      "image": "https://ae01.alicdn.com/kf/S39998949cfcb48fc84c54492d95473122.jpg",
+      "link": "https://aliexpress.com/item/1005005471921758.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005471921758.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-05T08:34:23.068302+00:00"
+    },
+    {
       "id": "1005004007710455",
       "title": "2/3/4-дюймові пружинні затискачі Інструменти DIY Пластиковий нейлоновий затискач типу A",
       "title_pl": "2/3/4 Cal zaciski sprężynowe narzędzia dla majsterkowiczów plastikowy nylonowy klips typu A zacisk do obróbki drewna trzymający zacisk sprężynowy Photo Studio klipy w tle",
