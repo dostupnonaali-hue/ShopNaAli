@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005009223877993",
+      "title": "Jeune Повсякденне взуття Жер для YonoBikiB, NiTo, нова",
+      "title_pl": "Buty codzienne Jeune Zher dla YonoBikiB, NiTo, nowe",
+      "price": 987.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 403,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005009223877993.jpg",
+      "link": "https://aliexpress.com/item/1005009223877993.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009223877993.html",
+      "description": "",
+      "promo_text": "IFPUSMIH",
+      "price_note": "88 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-05T14:40:38.903710+00:00"
+    },
+    {
       "id": "1005011541372845",
       "title": "Унверсальн!, модн!, повсякденни, на товст!й NigowsBi, cnc М",
       "title_pl": "Uniwersalny!, modny!, codzienny, gruby NigowsBi, cnc M",
