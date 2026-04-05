@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008429896714",
+      "title": "BL1815 Hong Song BoDa FoGo Lombum ZhiPu JiangMi Jin М",
+      "title_pl": "BL1815 Hong Song BoDa FoGo Lombum ZhiPu JiangMi Jin М",
+      "price": 138.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 980,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008429896714.jpg",
+      "link": "https://aliexpress.com/item/1005008429896714.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008429896714.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "168 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-05T16:05:33.839392+00:00"
+    },
+    {
       "id": "1005011848838319",
       "title": "Весни та літа, спортивне взуття для чоловіків, повсюди! м",
       "title_pl": "Wiosna-lato, buty sportowe dla mężczyzn, na co dzień! M",
