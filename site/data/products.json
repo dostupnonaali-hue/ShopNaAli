@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011848838319",
+      "title": "Весни та літа, спортивне взуття для чоловіків, повсюди! м",
+      "title_pl": "Wiosna-lato, buty sportowe dla mężczyzn, na co dzień! M",
+      "price": 130.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 594,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011848838319.jpg",
+      "link": "https://aliexpress.com/item/1005011848838319.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011848838319.html",
+      "description": "",
+      "promo_text": "CDUA02, HTTPS",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-05T15:49:17.434098+00:00"
+    },
+    {
+      "id": "1005007345039983",
+      "title": "Дихаючий i зручний еластичний рукав для гидтримки щи М",
+      "title_pl": "Oddychający i wygodny elastyczny rękaw do nawodnienia M",
+      "price": 72.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1306,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007345039983.jpg",
+      "link": "https://aliexpress.com/item/1005007345039983.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007345039983.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "72 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-05T15:53:08.245243+00:00"
+    },
+    {
       "id": "1005008196009083",
       "title": "84 грн з монетами+купон+ промокод IFPFOMIE 88 грн з",
       "title_pl": "84 UAH z monetami+kupon+kod promocyjny IFFPOMIE 88 UAH z monetami+kupon+kod promocyjny IFFPOMIE UAH 73 z monetami+kupon+kod promocyjny IFFPOMIE UAH 61 z monetami+kupon+kod promocyjny IFFPOMIE UAH 145 z monetami+kupon+pr",
