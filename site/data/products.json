@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005006994842360",
+      "title": "Портативний фен XIAOMI MIJIA H101 – , Складаний, 50 м",
+      "title_pl": "Przenośna suszarka do włosów XIAOMI MIJIA H101 – 1600 W, składana, jony ujemne 50 M, przepływ powietrza 15 m/s, dwa tryby ogrzewania i prędkości, 220 V z adapterem",
+      "price": 715.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1243,
+      "image": "https://ae01.alicdn.com/kf/S1e50023b45d248d9ac0f946e132519c41.jpg",
+      "link": "https://aliexpress.com/item/1005006994842360.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006994842360.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "96 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-05T10:40:18.195920+00:00"
+    },
+    {
+      "id": "1005010706574985",
+      "title": "Baseus Bass EP10 NC - шумопоглинаючий ANC True Wireless",
+      "title_pl": "Baseus Bass EP10 NC -43dB Redukcja szumów ANC Prawdziwe bezprzewodowe słuchawki douszne Bluetooth 6.0 Douszne bezprzewodowe słuchawki douszne 4 mikrofony ENC Wkładki douszne",
+      "price": 13.16,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 304,
+      "image": "https://ae01.alicdn.com/kf/Sa802af2e290b4ffdb151cacc25733ef8x.jpg",
+      "link": "https://aliexpress.com/item/1005010706574985.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010706574985.html",
+      "description": "",
+      "promo_text": "CDUA02, UACD02, UASN02, FUNZ, UA02, IFPNKAGD, IFPFOMIE, IFPAJA7X, IFPKV5MX, IFPKXK5R, IFPLDYRK, IFPY0IQ0, IFPPGZPW, IFPOJMMA",
+      "price_note": "Монетками",
+      "source_channel": "ZnyzhkaUA 🇺🇦 Знижки з AliExpress Україна 🎁",
+      "added_at": "2026-04-05T10:44:40.683804+00:00"
+    },
+    {
       "id": "1005009722501321",
       "title": "Realme Buds Air7 TWS Earphone Noise Cancellation До 52",
       "title_pl": "Realme Buds Air7 Słuchawki TWS 52dB Redukcja szumów Do 52 godzin odtwarzania Przetwornik basowy 12,4 mm LHDC 5.0 Bluetooth 5.4 IP55",
