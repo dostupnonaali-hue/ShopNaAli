@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006472998211",
+      "title": "HIKEUP Чоловічі кросівки з дихаючою амортизацією та нековзанням",
+      "title_pl": "HIKEUP Oddychające, amortyzujące, antypoślizgowe tenisówki męskie",
+      "price": 1015.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 845,
+      "image": "https://ae01.alicdn.com/kf/S9065cefe2bc84aeb859e25da68a4461b3.jpg",
+      "link": "https://aliexpress.com/item/1005006472998211.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006472998211.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "51 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-05T07:26:05.219284+00:00"
+    },
+    {
       "id": "1005006782926592",
       "title": "Чорна сумочка-органайзер із 6 складними кишенями",
       "title_pl": "Czarna torebka wiszący organizer z 6 kieszeniami składana torba do przechowywania torebek z tkaniny Oxford do rodzinnej sypialni",
