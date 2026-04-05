@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006997362007",
+      "title": "Він також має стабільну установку, що забезпечує довговічність",
+      "title_pl": "Posiada również stabilną instalację, która zapewnia trwałość i niezawodność.",
+      "price": 67.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1498,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006997362007.jpg",
+      "link": "https://aliexpress.com/item/1005006997362007.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006997362007.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-05T17:44:57.726429+00:00"
+    },
+    {
       "id": "1005011924377324",
       "title": "Від = FFYJXCLL Official St... ( # 44 | 5000+ продано )",
       "title_pl": "From = FFYJXCLL Oficjalny St... (nr 44 | 5000+ sprzedanych)",
