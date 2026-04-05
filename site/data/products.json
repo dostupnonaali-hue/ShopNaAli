@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011961684196",
+      "title": "НОВИЙ РОЗПРОДАЖ/упаковка Fishing Bobber Oval Black Silicon Stopper",
+      "title_pl": "NOWA SPRZEDAŻ 300 sztuk/paczka spławik wędkarski owalny czarny silikonowy korek Space Bean złącze odporność na żyłkę akcesoria wędkarskie",
+      "price": 34.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 5.0,
+      "orders": 117,
+      "image": "https://ae01.alicdn.com/kf/S5ba71adff7d24e9499592130d76acf4bJ.jpg",
+      "link": "https://aliexpress.com/item/1005011961684196.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011961684196.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-05T09:19:46.423341+00:00"
+    },
+    {
+      "id": "1005006966228833",
+      "title": "Звукознімач RGB Музика Ритм вогні Оновлений USB",
+      "title_pl": "Światło odbiorcze RGB Muzyka rytmiczna Światła Ulepszony model z możliwością ładowania USB Świąteczne dekoracje Pulpit Listwa świetlna RGB Rytm muzyczny",
+      "price": 111.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1366,
+      "image": "https://ae01.alicdn.com/kf/Se4395dbe94644aa8a8cab11b8f183644u.png",
+      "link": "https://aliexpress.com/item/1005006966228833.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006966228833.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-05T09:22:05.502315+00:00"
+    },
+    {
       "id": "1005007171113381",
       "title": "HILDA Лазерний рівень 2-лінійний зелений лазерний інструмент з магнітом",
       "title_pl": "Poziomica laserowa HILDA 2-liniowy przyrząd z zielonym laserem z poziomicą naścienną z magnesem Przenośny krzyżowy instrument laserowy do wsparcia prowincji",
