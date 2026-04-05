@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011541372845",
+      "title": "Унверсальн!, модн!, повсякденни, на товст!й NigowsBi, cnc М",
+      "title_pl": "Uniwersalny!, modny!, codzienny, gruby NigowsBi, cnc M",
+      "price": 904.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1296,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011541372845.jpg",
+      "link": "https://aliexpress.com/item/1005011541372845.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011541372845.html",
+      "description": "",
+      "promo_text": "4K044O, IFPUZR9L",
+      "price_note": "73 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-05T14:20:37.541764+00:00"
+    },
+    {
       "id": "1005008406035799",
       "title": "Викрутка електричний інструмент ручної інстру! М",
       "title_pl": "Śrubokręt elektronarzędzie narzędzia ręczne! M",
