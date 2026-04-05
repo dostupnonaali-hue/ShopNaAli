@@ -10,6 +10,9 @@
     var BATCH_SIZE = 30;
     var BRAND_KEYWORD = 'baseus';
 
+    // --- Exchange rates (fallback values) ---
+    var rates = { USD: 4.05, UAH: 0.098 }; // 1 USD ≈ 4.05 PLN, 1 UAH ≈ 0.098 PLN
+
     // --- State ---
     var brandProducts = [];
     var filteredProducts = [];
@@ -27,10 +30,32 @@
     // --- Init ---
     async function init() {
         showSkeletons(8);
-        await loadProducts();
+        await Promise.all([loadProducts(), loadExchangeRates()]);
         renderProducts();
         updateStats();
         bindEvents();
+    }
+
+    // --- Load Exchange Rates ---
+    async function loadExchangeRates() {
+        try {
+            var resp = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+            if (!resp.ok) throw new Error('Rate API error');
+            var data = await resp.json();
+            if (data && data.rates) {
+                rates.USD = data.rates.PLN || rates.USD;
+                rates.UAH = (data.rates.PLN / data.rates.UAH) || rates.UAH;
+            }
+        } catch (e) {
+            console.warn('Using fallback exchange rates:', e.message);
+        }
+    }
+
+    // --- Convert price to PLN ---
+    function toPLN(price, currency) {
+        if (!price) return 0;
+        if (currency === 'UAH') return price * rates.UAH;
+        return price * rates.USD; // default USD
     }
 
     // --- Load & Filter Products ---
@@ -87,11 +112,8 @@
                 : '';
 
             var ratingStars = '\u2B50'.repeat(Math.round(product.rating || 0));
-            var price = product.price_pln || product.price || 0;
-            var currencySymbol = product.price_pln ? 'z\u0142' : '$';
-            var priceDisplay = product.price_pln
-                ? price.toFixed(2) + ' z\u0142'
-                : '$' + price.toFixed(2);
+            var pricePLN = toPLN(product.price, product.currency);
+            var priceDisplay = pricePLN.toFixed(2) + ' z\u0142';
 
             var imgFallback = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMzAwIDMwMCc+PHJlY3QgZmlsbD0nIzEyMTIxYScgd2lkdGg9JzMwMCcgaGVpZ2h0PSczMDAnLz48dGV4dCBmaWxsPScjNjA2MDcwJyBmb250LWZhbWlseT0nc2Fucy1zZXJpZicgZm9udC1zaXplPScxOCcgZm9udC13ZWlnaHQ9JzYwMCcgZG9taW5hbnQtYmFzZWxpbmU9J21pZGRsZScgdGV4dC1hbmNob3I9J21pZGRsZScgeD0nNTAlJyB5PSc1MCUnPkJyYWsgb2JyYXprYTwvdGV4dD48L3N2Zz4=';
             var imgErrorFallback = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMzAwIDMwMCc+PHJlY3QgZmlsbD0nIzEyMTIxYScgd2lkdGg9JzMwMCcgaGVpZ2h0PSczMDAnLz48dGV4dCBmaWxsPScjNjA2MDcwJyBmb250LWZhbWlseT0nc2Fucy1zZXJpZicgZm9udC1zaXplPScxOCcgZm9udC13ZWlnaHQ9JzYwMCcgZG9taW5hbnQtYmFzZWxpbmU9J21pZGRsZScgdGV4dC1hbmNob3I9J21pZGRsZScgeD0nNTAlJyB5PSc1MCUnPkIzxIVkPC90ZXh0Pjwvc3ZnPg==';
@@ -174,11 +196,11 @@
             });
         } else if (currentSort === 'cheap') {
             filteredProducts.sort(function(a, b) {
-                return (a.price || 0) - (b.price || 0);
+                return toPLN(a.price, a.currency) - toPLN(b.price, b.currency);
             });
         } else if (currentSort === 'expensive') {
             filteredProducts.sort(function(a, b) {
-                return (b.price || 0) - (a.price || 0);
+                return toPLN(b.price, b.currency) - toPLN(a.price, a.currency);
             });
         } else if (currentSort === 'popular') {
             filteredProducts.sort(function(a, b) {
@@ -194,9 +216,9 @@
     function updateStats() {
         statsCount.textContent = brandProducts.length;
         if (brandProducts.length > 0) {
-            var prices = brandProducts.map(function(p) { return p.price || 999; });
+            var prices = brandProducts.map(function(p) { return toPLN(p.price, p.currency) || 999; });
             var minPrice = Math.min.apply(null, prices);
-            statsMinPrice.textContent = '$' + minPrice.toFixed(2);
+            statsMinPrice.textContent = minPrice.toFixed(2) + ' z\u0142';
         }
     }
 
