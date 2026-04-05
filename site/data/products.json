@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011704418197",
+      "title": "Вага нетто: 1,56/0",
+      "title_pl": "Waga netto: 1,56/0.",
+      "price": 105.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1775,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011704418197.jpg",
+      "link": "https://aliexpress.com/item/1005011704418197.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011704418197.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-05T11:58:49.061623+00:00"
+    },
+    {
       "id": "1005004704201122",
       "title": "Yy MAVET Ви:",
       "title_pl": "Yy MAVET Ty:",
