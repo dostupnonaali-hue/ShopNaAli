@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008196009083",
+      "title": "84 грн з монетами+купон+ промокод IFPFOMIE 88 грн з",
+      "title_pl": "84 UAH z monetami+kupon+kod promocyjny IFFPOMIE 88 UAH z monetami+kupon+kod promocyjny IFFPOMIE UAH 73 z monetami+kupon+kod promocyjny IFFPOMIE UAH 61 z monetami+kupon+kod promocyjny IFFPOMIE UAH 145 z monetami+kupon+pr",
+      "price": 84.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1892,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008196009083.jpg",
+      "link": "https://aliexpress.com/item/1005008196009083.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008196009083.html",
+      "description": "",
+      "promo_text": "IFPFOMIE",
+      "price_note": "З монетами+купон",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-05T15:36:02.577389+00:00"
+    },
+    {
       "id": "1005010039241900",
       "title": "2 грн з купоном+монети Як замовити з безкоштовною доставкою",
       "title_pl": "2 UAH z kuponem+monetami Jak zamówić z darmową dostawą",
