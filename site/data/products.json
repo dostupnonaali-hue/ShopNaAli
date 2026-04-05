@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005007857063931",
+      "title": "132 грн з монетами",
+      "title_pl": "132 UAH z monetami",
+      "price": 132.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 578,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007857063931.jpg",
+      "link": "https://aliexpress.com/item/1005007857063931.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007857063931.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-05T12:52:02.868592+00:00"
+    },
+    {
+      "id": "1005006678225038",
+      "title": "Світлодіодний нічник з датчиком освітлення",
+      "title_pl": "Lampka nocna LED z czujnikiem światła,",
+      "price": 50.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 821,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006678225038.jpg",
+      "link": "https://aliexpress.com/item/1005006678225038.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006678225038.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-05T12:56:54.414849+00:00"
+    },
+    {
       "id": "1005007171255184",
       "title": "Інтелектуальна індукція людини для прикров' V",
       "title_pl": "Intelektualna indukcja człowieka na okładkę` V",
