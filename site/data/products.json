@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008471979156",
+      "title": "Керамічна плитка, ручка для ремонту дерев'яної",
+      "title_pl": "Płytki ceramiczne, długopis do naprawy drewna",
+      "price": 41.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1704,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008471979156.jpg",
+      "link": "https://aliexpress.com/item/1005008471979156.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008471979156.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-05T16:16:53.757817+00:00"
+    },
+    {
       "id": "1005008429896714",
       "title": "BL1815 Hong Song BoDa FoGo Lombum ZhiPu JiangMi Jin М",
       "title_pl": "BL1815 Hong Song BoDa FoGo Lombum ZhiPu JiangMi Jin М",
