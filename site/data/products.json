@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007170228181",
+      "title": "USB кімната Photo Atmosphere Light",
+      "title_pl": "Nastrojowe oświetlenie pokoju USB",
+      "price": 50.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1408,
+      "image": "https://ae01.alicdn.com/kf/S699a6ab278ab408781a62dec7be7a9f6a.jpg",
+      "link": "https://aliexpress.com/item/1005007170228181.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007170228181.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-06T19:53:50.289280+00:00"
+    },
+    {
       "id": "1005007345458052",
       "title": "100/ Немає потреби в паяльних стрижнях з порошковим припоєм. Низька температура",
       "title_pl": "100/20g Nie ma potrzeby lutowania proszkowego Pręty lutownicze Niskotemperaturowy, łatwo topiący się drut lutowniczy Srebrny Uniwersalny pręt spawalniczy Drut spawalniczy proszkowy",
