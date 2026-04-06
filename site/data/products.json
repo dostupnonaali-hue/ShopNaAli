@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011910251710",
+      "title": "Сексуальний жіночий комплект бікіні з металевою квітковою підвіскою",
+      "title_pl": "Seksowny metalowy wisiorek w kształcie kwiatu bikini z nadrukiem dla kobiet",
+      "price": 121.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 1117,
+      "image": "https://ae01.alicdn.com/kf/S5b8a6563184b4ed48f50fbb15f4b877dm.jpg",
+      "link": "https://aliexpress.com/item/1005011910251710.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011910251710.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-06T18:10:08.148220+00:00"
+    },
+    {
       "id": "1005007308172743",
       "title": "Жінки",
       "title_pl": "Kobiety",
