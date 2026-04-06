@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005007308172743",
+      "title": "Жінки",
+      "title_pl": "Kobiety",
+      "price": 93.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1424,
+      "image": "https://ae01.alicdn.com/kf/Sde8270ce0d604e008d7fce5730cd8a2cN.jpg",
+      "link": "https://aliexpress.com/item/1005007308172743.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007308172743.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-06T17:59:12.029596+00:00"
+    },
+    {
+      "id": "1005007096748874",
+      "title": "Силіконова подушечка для чищення пензликів для макіяжу у формі яблука, 1 шт",
+      "title_pl": "1 szt. Silikonowa podkładka do czyszczenia pędzli do makijażu w kształcie jabłka z przyssawką do skutecznego czyszczenia narzędzi kosmetycznych Kwas acetohydroksamowy",
+      "price": 58.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 1607,
+      "image": "https://ae01.alicdn.com/kf/S940d1f910b9a4a8fbb382c19ed596ffeE.jpg",
+      "link": "https://aliexpress.com/item/1005007096748874.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007096748874.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "81 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-06T18:04:51.433697+00:00"
+    },
+    {
       "id": "1005007302544762",
       "title": "Новий високоякісний джунглі, пустеля, білий, підходить для різних розмірів",
       "title_pl": "Nowa, wysokiej jakości biała pustynna dżungla, wielowymiarowa 4x5 m, odpowiednia do siatki kamuflażowej markizy samochodu kempingowego",
