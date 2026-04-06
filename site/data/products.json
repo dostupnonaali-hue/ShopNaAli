@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005005999704484",
+      "title": "Новий весняно-осінній піжамний комплект для жінок 2026 року",
+      "title_pl": "2026 nowy zestaw piżam na wiosnę i jesień dla kobiet",
+      "price": 555.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1514,
+      "image": "https://ae01.alicdn.com/kf/S8481cbf108ed4e2c822eef4e485973b8s.jpg",
+      "link": "https://aliexpress.com/item/1005005999704484.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005999704484.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "219 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-06T15:20:22.288960+00:00"
+    },
+    {
+      "id": "1005006267248490",
+      "title": "Маскувальна плівка, захисна тканинна стрічка для автомобілів",
+      "title_pl": "Taśma materiałowa do zabezpieczania folii maskującej do pokrywania samochodów Malowanie Farba Narzędzie do cięcia folii maskującej",
+      "price": 79.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 5.0,
+      "orders": 1217,
+      "image": "https://ae01.alicdn.com/kf/S2a88c542e8284498bd2e7c325745d0d0g.jpg",
+      "link": "https://aliexpress.com/item/1005006267248490.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006267248490.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-06T15:25:16.401984+00:00"
+    },
+    {
       "id": "1005006592716178",
       "title": "Літні повсякденні шорти. Чоловічі бордшорти. Дихаючі вільні пляжні",
       "title_pl": "Letnie spodenki na co dzień męskie szorty oddychające luźne krótkie spodnie plażowe wygodne spodnie dresowe Fitness koszykówka bryczesy",
