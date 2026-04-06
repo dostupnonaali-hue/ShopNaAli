@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007857378013",
+      "title": "Чоловіки",
+      "title_pl": "Mężczyźni",
+      "price": 99.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 374,
+      "image": "https://ae01.alicdn.com/kf/S4ba653a2d46f478bb1551173c7f8e845O.jpg",
+      "link": "https://aliexpress.com/item/1005007857378013.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007857378013.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "114 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-06T10:48:52.371490+00:00"
+    },
+    {
       "id": "1005006727694636",
       "title": "5 пар Жінки",
       "title_pl": "5 par kobiet",
