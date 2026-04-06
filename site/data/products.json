@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011954994240",
+      "title": "Маленька сумка через плече Y2K VintagePULeather WomenShoulderBag",
+      "title_pl": "Y2K VintagePUskórzana damska torba na ramię mała torba typu Crossbody dla kobiet moda damska torba pod pachami kopertówka torebka damska",
+      "price": 163.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 1664,
+      "image": "https://ae01.alicdn.com/kf/S893b1091701a4ce6aff96ed2554b1cfbE.jpg",
+      "link": "https://aliexpress.com/item/1005011954994240.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011954994240.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-06T09:38:49.774091+00:00"
+    },
+    {
+      "id": "1005007096660981",
+      "title": "Електробритва MLG для чоловіків і жінок, портативна для всього тіла",
+      "title_pl": "Golarka elektryczna MLG dla mężczyzn i kobiet przenośny trymer do całego ciała USB maszynka do golenia w kształcie litery T do brody pod pachami do prania",
+      "price": 285.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 1076,
+      "image": "https://ae01.alicdn.com/kf/S438794ce1ec84233b9331050e54ee058b.jpg",
+      "link": "https://aliexpress.com/item/1005007096660981.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007096660981.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "216 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-06T09:44:28.723629+00:00"
+    },
+    {
       "id": "1005011956316386",
       "title": "Цифровий дисплей USB4 Type-C «папа-жінка» PD3.1",
       "title_pl": "Adapter USB4 typu C z męskiego na żeńskiego wyświetlacz cyfrowy 240 W PD3.1 80 gb/s 8K @ 60 Hz tester mocy konwerter OTG",
