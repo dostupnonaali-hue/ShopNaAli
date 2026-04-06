@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005008351962701",
+      "title": "Настінна полиця, регульований екран телевізора, верхня полиця, стійка, комп’ютер",
+      "title_pl": "Półka ścienna Regulowany ekran telewizora Półka górna Monitor komputerowy Stojak stojakowy Stojak Router Organizacja i przechowywanie w domu",
+      "price": 70.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 1699,
+      "image": "https://ae01.alicdn.com/kf/Sbb87c1adf7bc416babfb8001e78f8a62d.jpg",
+      "link": "https://aliexpress.com/item/1005008351962701.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008351962701.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-06T14:50:35.075270+00:00"
+    },
+    {
+      "id": "1005008406100998",
+      "title": "Набір рідкої помади з алое вера, 6 кольорів, що змінює колір губ",
+      "title_pl": "6 kolorów Aloe Vera zestaw szminek w płynie zmieniający kolor błyszczyk trwały nawilżający odcień ust uroda koreańskie kosmetyki przybory do makijażu",
+      "price": 86.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1764,
+      "image": "https://ae01.alicdn.com/kf/S24a6c5daf69f45bab2198e735059e703V.png",
+      "link": "https://aliexpress.com/item/1005008406100998.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008406100998.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-06T14:55:19.162842+00:00"
+    },
+    {
       "id": "1005006982449262",
       "title": "Кабель підвищувального перетворювача USB DC в USB 3..",
       "title_pl": "Konwerter USB Boost DC 5 V na 9 V 12 V USB Step-up Converter Kabel 3,5 x 1,35 mm Złącze do zasilacza/ładowarki/konwertera zasilania",
