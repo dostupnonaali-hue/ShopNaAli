@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011879262017",
+      "title": "1PC Квадратний маленький будильник з акриловою рамкою з кварцовим механізмом",
+      "title_pl": "1PC kwadratowy mały budzik akrylowa ramka mechanizm kwarcowy dokładny czas nocny zegar na biurko do sypialni obudź zegar studencki",
+      "price": 37.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 230,
+      "image": "https://ae01.alicdn.com/kf/Sd2405d8aaaea406fba8541d9d03e90984.jpg",
+      "link": "https://aliexpress.com/item/1005011879262017.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011879262017.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-06T09:50:37.059128+00:00"
+    },
+    {
+      "id": "1005009648938851",
+      "title": "Керамічний нанополірувальний віск для ремонту подряпин фарби автомобіля",
+      "title_pl": "Ceramiczny Nano polski wosk do lakieru samochodowego naprawa zarysowań powłoka platerowana kryształowa hydrofobowa farba polerska płynny wosk do polerowania samochodu",
+      "price": 69.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 969,
+      "image": "https://ae01.alicdn.com/kf/S98a54dc0f3e74fc896c35c640fe36786U.jpg",
+      "link": "https://aliexpress.com/item/1005009648938851.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009648938851.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-06T09:56:03.999123+00:00"
+    },
+    {
       "id": "1005011954994240",
       "title": "Маленька сумка через плече Y2K VintagePULeather WomenShoulderBag",
       "title_pl": "Y2K VintagePUskórzana damska torba na ramię mała torba typu Crossbody dla kobiet moda damska torba pod pachami kopertówka torebka damska",
