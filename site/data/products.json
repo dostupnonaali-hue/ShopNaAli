@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006727694636",
+      "title": "5 пар Жінки",
+      "title_pl": "5 par kobiet",
+      "price": 88.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 171,
+      "image": "https://ae01.alicdn.com/kf/S40ed576262d34fa0a66343b68807652eJ.jpg",
+      "link": "https://aliexpress.com/item/1005006727694636.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727694636.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-06T10:15:25.937655+00:00"
+    },
+    {
       "id": "1005007171135498",
       "title": "Водяний пістолет для автомийки високого тиску, новий",
       "title_pl": "Wysokociśnieniowy pistolet na wodę do myjni samochodowej, nowa miedziana dysza, pogrubiony długi pręt, dwufunkcyjny pistolet wysokociśnieniowy do samochodów rodzinnych",
