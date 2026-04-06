@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007345458052",
+      "title": "100/ Немає потреби в паяльних стрижнях з порошковим припоєм. Низька температура",
+      "title_pl": "100/20g Nie ma potrzeby lutowania proszkowego Pręty lutownicze Niskotemperaturowy, łatwo topiący się drut lutowniczy Srebrny Uniwersalny pręt spawalniczy Drut spawalniczy proszkowy",
+      "price": 35.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 239,
+      "image": "https://ae01.alicdn.com/kf/Sf4bed59e505645d4813d78e3701b0931G.jpg",
+      "link": "https://aliexpress.com/item/1005007345458052.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007345458052.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-06T19:10:46.837354+00:00"
+    },
+    {
       "id": "1005011888147803",
       "title": "Baellerry Retro Men",
       "title_pl": "Mężczyźni w stylu retro Baellerry",
