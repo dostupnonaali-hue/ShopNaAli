@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011975986146",
+      "title": "Гардероб Гачок для зберігання капелюхів Домашній настінний без перфорації",
+      "title_pl": "1 szt. Wieszak do przechowywania kapeluszy w domu, montowany na ścianie, nieperforowany, wieszak na torbę, stojak do przechowywania akcesoriów do włosów",
+      "price": 32.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 174,
+      "image": "https://ae01.alicdn.com/kf/Sfda9723a352e4b9d8d96ad0df85fe957b.jpg",
+      "link": "https://aliexpress.com/item/1005011975986146.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011975986146.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-07T18:16:23.913956+00:00"
+    },
+    {
       "id": "1005006966403292",
       "title": "Бездротові Bluetooth-навушники F9 TWS великої ємності",
       "title_pl": "Bezprzewodowe słuchawki F9 TWS Bluetooth z etui ładującym o dużej pojemności i wyświetlaczem cyfrowym oraz gamingowymi słuchawkami dousznymi o długiej żywotności baterii",
