@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005010035250627",
+      "title": "Жіноча нижня білизна з мереживом",
+      "title_pl": "3 szt. Koronkowej bielizny damskiej z wycięciem",
+      "price": 62.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1200,
+      "image": "https://ae01.alicdn.com/kf/S1621ce3371ce438f90bdb41bc7f772d3I.jpg",
+      "link": "https://aliexpress.com/item/1005010035250627.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010035250627.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-07T17:33:15.792557+00:00"
+    },
+    {
       "id": "1005007633998676",
       "title": "1/ Чоловіки",
       "title_pl": "1/5 sztuk mężczyzn",
