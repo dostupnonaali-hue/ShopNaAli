@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006727604602",
+      "title": "Настінний зарядний пристрій Total PD USB C Quick Charge QC 3.0",
+      "title_pl": "Całkowita ładowarka PD USB C o mocy 40 W Szybkie ładowanie QC 3.0 Adapter ładowarki ściennej do iPhone'a 14 13 Samsung Xiaomi Ładowarka USB Szybkie ładowanie",
+      "price": 75.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1002,
+      "image": "https://ae01.alicdn.com/kf/S44b71988801b4e00b1b6c7bbc2a8103eJ.jpg",
+      "link": "https://aliexpress.com/item/1005006727604602.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727604602.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T19:22:26.583918+00:00"
+    },
+    {
       "id": "1005007309382233",
       "title": "Емулятор дисплея віртуального монітора 4K HDR EDID",
       "title_pl": "Wirtualny monitor 4K HDR Emulator wyświetlacza EDID Zgodny z HDMI Dummy Plug Bezgłowy adapter Ghost Obsługuje do 4K przy 60 Hz 1080 przy 120 Hz",
