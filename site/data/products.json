@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005006966403292",
+      "title": "Бездротові Bluetooth-навушники F9 TWS великої ємності",
+      "title_pl": "Bezprzewodowe słuchawki F9 TWS Bluetooth z etui ładującym o dużej pojemności i wyświetlaczem cyfrowym oraz gamingowymi słuchawkami dousznymi o długiej żywotności baterii",
+      "price": 97.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 712,
+      "image": "https://ae01.alicdn.com/kf/S6422e18041ab4c9ea2cd696346d501d3r.jpg",
+      "link": "https://aliexpress.com/item/1005006966403292.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006966403292.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-07T17:43:34.234473+00:00"
+    },
+    {
+      "id": "1005007792369124",
+      "title": "Чоловічий термоспортивний светр TACVASEN весна/осінь",
+      "title_pl": "Męski sweter termiczny TACVASEN na wiosnę/jesień",
+      "price": 672.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.7,
+      "orders": 802,
+      "image": "https://ae01.alicdn.com/kf/S0ec3776f5f82487b90f1d37dc47a02875.jpg",
+      "link": "https://aliexpress.com/item/1005007792369124.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007792369124.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "35 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-07T17:50:20.024697+00:00"
+    },
+    {
       "id": "1005010035250627",
       "title": "Жіноча нижня білизна з мереживом",
       "title_pl": "3 szt. Koronkowej bielizny damskiej z wycięciem",
