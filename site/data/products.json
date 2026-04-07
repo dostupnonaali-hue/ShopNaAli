@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005005432929493",
+      "title": "5/2/ DC 5.. до 6..4 6..0 5..5 5..7 4..7 4..7 3.. Жінка",
+      "title_pl": "5/2/1 sztuk DC 5.5x2.1mm do 6.0x4.4 6.3x3.0 5.5x2.5 5.5x1.7 4.8x1.7 4.0x1.7 3.5x1.35mm żeńskie gniazdo na wtyk męski złącze zasilania prądem stałym",
+      "price": 44.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1433,
+      "image": "https://ae01.alicdn.com/kf/Se281eed9a20146e38dff89dad4977492K.jpg",
+      "link": "https://aliexpress.com/item/1005005432929493.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005432929493.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-07T11:33:08.963876+00:00"
+    },
+    {
+      "id": "1005010524759727",
+      "title": "Baseus Power Bank Вбудований подвійний кабель USB-C Fast Charge",
+      "title_pl": "【CCC】Baseus 25000 mAh 145 W Power Bank Wbudowany podwójny kabel USB-C Szybkie ładowanie Cyfrowy wyświetlacz Power Bank dla komputerów Mac iPhone Samsung",
+      "price": 1364.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1104,
+      "image": "https://ae01.alicdn.com/kf/S1d907c20fb6f4fd688d722f0ed97bdaeZ.jpg",
+      "link": "https://aliexpress.com/item/1005010524759727.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010524759727.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "85 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-07T11:38:43.689273+00:00"
+    },
+    {
       "id": "1005006864073686",
       "title": "E27 Патрон для лампи керування звуком і світлом",
       "title_pl": "E27 Zakrętka Gniazdo Lampka kontrolująca dźwięk i światło 110-220 V Schody, korytarze Inteligentny automatyczny przełącznik dźwięku Podstawa żarówki",
