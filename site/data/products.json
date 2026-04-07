@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005009526053608",
+      "title": "Чоловіки",
+      "title_pl": "Mężczyźni",
+      "price": 272.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1217,
+      "image": "https://ae01.alicdn.com/kf/S5b5a51e925db48faa327717740c72501O.jpg",
+      "link": "https://aliexpress.com/item/1005009526053608.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009526053608.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T08:26:23.679428+00:00"
+    },
+    {
+      "id": "1005008507237331",
+      "title": "Чоловіча камуфляжна повсякденна сорочка з довгим рукавом",
+      "title_pl": "Męska koszula na co dzień z długim rękawem w kamuflażu",
+      "price": 218.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1124,
+      "image": "https://ae01.alicdn.com/kf/S572ac9aa65b34312af320b5d205451a79.jpg",
+      "link": "https://aliexpress.com/item/1005008507237331.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008507237331.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T08:28:34.937793+00:00"
+    },
+    {
       "id": "1005010673276044",
       "title": "Термопринтер A4 Bluetooth із підтримкою 2“/3”/4",
       "title_pl": "Drukarka termiczna Bluetooth A4 obsługująca formaty 2”/3”/4",
