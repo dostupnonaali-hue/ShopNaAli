@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005006022412346",
+      "title": "Взуття для бігу ONEMIX Reflective Red Bumper Elite Height",
+      "title_pl": "Buty do biegania ONEMIX odblaskowy czerwony zderzak Elite buty sportowe zwiększające wysokość na zewnątrz oddychające siatkowe tenisówki męskie",
+      "price": 976.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 481,
+      "image": "https://ae01.alicdn.com/kf/S4ad1441d249e44bf872c1bdb80d98784V.jpg",
+      "link": "https://aliexpress.com/item/1005006022412346.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006022412346.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "314 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-07T12:34:59.861542+00:00"
+    },
+    {
+      "id": "1005011869047413",
+      "title": "1- чоловіки",
+      "title_pl": "1-5 sztuk mężczyzn",
+      "price": 63.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1157,
+      "image": "https://ae01.alicdn.com/kf/Se0896474d3ee45e2b7f4241d45cc8f56Z.jpg",
+      "link": "https://aliexpress.com/item/1005011869047413.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011869047413.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T12:38:33.161823+00:00"
+    },
+    {
       "id": "1005011967342629",
       "title": "Вінтажний професійний тример для волосся Dragon Design Metal",
       "title_pl": "Vintage T9 profesjonalna maszynka do włosów wzór smoka metalowy korpus ładowanie USB ostrza ze stali nierdzewnej 4 grzebienie prowadzące maszynka do włosów T9",
