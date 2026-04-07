@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008239589179",
+      "title": "Чоловіки",
+      "title_pl": "Mężczyźni",
+      "price": 44.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1932,
+      "image": "https://ae01.alicdn.com/kf/Sde2cc772094f4a53882ef45f6fa5b8f4u.jpg",
+      "link": "https://aliexpress.com/item/1005008239589179.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008239589179.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T07:41:26.211756+00:00"
+    },
+    {
       "id": "1005010749567523",
       "title": "E27 Світлодіодна лампочка RGB USB Rechargeable Charging Smart",
       "title_pl": "Żarówka LED E27 RGB USB akumulator 5V ładowanie inteligentny pilot sprzęt biwakowy impreza dla domu ampułki z lampą LED",
