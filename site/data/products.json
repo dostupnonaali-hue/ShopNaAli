@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011964422898",
+      "title": "Вишукані кварцові жінки",
+      "title_pl": "Wykwintne kwarcowe kobiety",
+      "price": 44.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1960,
+      "image": "https://ae01.alicdn.com/kf/S4918406414e04bc6b7b5460dadcbae44G.jpg",
+      "link": "https://aliexpress.com/item/1005011964422898.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011964422898.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-07T16:44:27.279891+00:00"
+    },
+    {
+      "id": "1005007782728973",
+      "title": "Надувний матрац для кемпінгу в наметі",
+      "title_pl": "Nadmuchiwany materac kempingowy w namiocie Składane łóżko polowe Karimata Koc piknikowy Podróżna mata powietrzna Sprzęt kempingowy",
+      "price": 697.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 4.7,
+      "orders": 235,
+      "image": "https://ae01.alicdn.com/kf/Sbde173a0dcb742be8a3ac7a3aff179f34.jpg",
+      "link": "https://aliexpress.com/item/1005007782728973.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007782728973.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "36 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-07T16:50:19.085760+00:00"
+    },
+    {
       "id": "1005008274237777",
       "title": "Аксесуари для гольфу захисний чохол для гольфу з пряжкою",
       "title_pl": "Akcesoria do golfa Pokrowiec ochronny Materiały do ​​gry w golfa z klamrą Silikonowy pokrowiec na piłkę Torba na sprzęt treningowy do gry w golfa Uchwyt na piłkę",
