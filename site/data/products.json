@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005006864073686",
+      "title": "E27 Патрон для лампи керування звуком і світлом",
+      "title_pl": "E27 Zakrętka Gniazdo Lampka kontrolująca dźwięk i światło 110-220 V Schody, korytarze Inteligentny automatyczny przełącznik dźwięku Podstawa żarówki",
+      "price": 49.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1814,
+      "image": "https://ae01.alicdn.com/kf/S9814189166de4c89a8b35490830227daK.jpg",
+      "link": "https://aliexpress.com/item/1005006864073686.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006864073686.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T11:13:46.482161+00:00"
+    },
+    {
+      "id": "1005006727825110",
+      "title": "3 пари маленьких сонцезахисних окулярів типу \"котяче око\" для жінок, милі худі",
+      "title_pl": "3 pary małych okularów przeciwsłoneczne kocie oczy dla kobiet, urocze, wąskie oprawki, zestaw okularów w stylu retro vintage",
+      "price": 66.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 908,
+      "image": "https://ae01.alicdn.com/kf/S83c83aa273d14ee0aa030a0abac4f007k.png",
+      "link": "https://aliexpress.com/item/1005006727825110.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727825110.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-07T11:15:38.234653+00:00"
+    },
+    {
       "id": "1005007532722790",
       "title": "Високошвидкісний фен DOCO 75 м/с 200 мільйонів негативних іонів",
       "title_pl": "DOCO suszarka do włosów wysoka prędkość 75 m/s 200 milionów jonów ujemnych pielęgnacja włosów 110000 obr./min profesjonalny lekki prezent z podróży do domu",
