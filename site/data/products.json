@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005007633998676",
+      "title": "1/ Чоловіки",
+      "title_pl": "1/5 sztuk mężczyzn",
+      "price": 126.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 714,
+      "image": "https://ae01.alicdn.com/kf/Sa076b983fd9544a081eb32058b33c57c6.jpg",
+      "link": "https://aliexpress.com/item/1005007633998676.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007633998676.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T16:56:08.275545+00:00"
+    },
+    {
+      "id": "1005011966806553",
+      "title": "Вихід повітря Gravity GPS Stand Car Phone Stand Stand Car",
+      "title_pl": "1 szt. Wylot powietrza grawitacyjny stojak GPS uchwyt samochodowy na telefon stojak uchwyt samochodowy grawitacyjny uchwyt na telefon komórkowy do produktów motoryzacyjnych",
+      "price": 32.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1924,
+      "image": "https://ae01.alicdn.com/kf/S253facf632a74565a595ef20f80d9e64L.jpg",
+      "link": "https://aliexpress.com/item/1005011966806553.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011966806553.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T16:58:51.710341+00:00"
+    },
+    {
       "id": "1005011964422898",
       "title": "Вишукані кварцові жінки",
       "title_pl": "Wykwintne kwarcowe kobiety",
