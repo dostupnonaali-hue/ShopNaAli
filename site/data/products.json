@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005007635647930",
+      "title": "6-шарове лезо для гоління, чоловіче",
+      "title_pl": "6-warstwowa żyletka dla mężczyzn",
+      "price": 61.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1983,
+      "image": "https://ae01.alicdn.com/kf/S236911f3942941f3af7ae3433a1949c6l.jpg",
+      "link": "https://aliexpress.com/item/1005007635647930.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007635647930.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T15:02:34.452972+00:00"
+    },
+    {
+      "id": "1005011847172933",
+      "title": "Іграшка-присоска Pet Interactive, 1 шт",
+      "title_pl": "1 szt. Futrzana kulka z kota, sprężynowa zabawka z przyssawką, interaktywna zabawka dla zwierząt w zabawnym kolorze, łamigłówka dla kota",
+      "price": 14.0,
+      "currency": "UAH",
+      "category": "toys",
+      "rating": 5.0,
+      "orders": 306,
+      "image": "https://ae01.alicdn.com/kf/S52e326e2c05c4e5da2a8fd59e6d04dc26.jpg",
+      "link": "https://aliexpress.com/item/1005011847172933.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011847172933.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-07T15:04:44.285339+00:00"
+    },
+    {
       "id": "1005006996933134",
       "title": "Чоловічий тример для волосся Brandy з нержавіючої сталі",
       "title_pl": "Brangdy maszynka do włosów w nosie dla mężczyzn ręczna mechaniczna maszynka do golenia ze stali nierdzewnej zmywalne narzędzia do usuwania włosów ze szczotką",
