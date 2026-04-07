@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011956515739",
+      "title": "Світлодіодна налобна фара з алюмінієвого сплаву, 4 режими масштабування, потужна фара",
+      "title_pl": "Latarka czołowa LED ze stopu aluminium 4-tryb Zoom mocny reflektor z możliwością ładowania 18650 wodoodporna lampa Camping polowanie reflektory wędkarskie",
+      "price": 133.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 443,
+      "image": "https://ae01.alicdn.com/kf/S686b0a4352d2430eaa79c108b5245632U.jpg",
+      "link": "https://aliexpress.com/item/1005011956515739.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011956515739.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T12:53:54.977323+00:00"
+    },
+    {
+      "id": "1005007129143874",
+      "title": "Портативний USB-ультразвуковий міні-зволожувач повітря з ефірною олією",
+      "title_pl": "220ml przenośny ultradźwiękowy mininawilżacz powietrza USB dyfuzor olejków eterycznych oczyszczacz samochodowy Aroma Anion Mist Maker",
+      "price": 65.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1518,
+      "image": "https://ae01.alicdn.com/kf/S140543f2573b42528257f79b1b39db03u.jpg",
+      "link": "https://aliexpress.com/item/1005007129143874.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007129143874.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-07T12:59:54.876109+00:00"
+    },
+    {
       "id": "1005006994463884",
       "title": "Акумуляторний електричний засіб для видалення мозолів без кабелю для жінок і чоловіків",
       "title_pl": "Akumulatorowe elektryczne urządzenie do usuwania kalusów Bezprzewodowe kobiety mężczyźni Elektroniczny pilnik do stóp usuwa suche, grube modzele na piętach",
