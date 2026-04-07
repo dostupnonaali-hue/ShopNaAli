@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005008274237777",
+      "title": "Аксесуари для гольфу захисний чохол для гольфу з пряжкою",
+      "title_pl": "Akcesoria do golfa Pokrowiec ochronny Materiały do ​​gry w golfa z klamrą Silikonowy pokrowiec na piłkę Torba na sprzęt treningowy do gry w golfa Uchwyt na piłkę",
+      "price": 14.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 629,
+      "image": "https://ae01.alicdn.com/kf/Sd9354f012beb40ce91e70728fd53583cq.jpg",
+      "link": "https://aliexpress.com/item/1005008274237777.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008274237777.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T16:03:07.189841+00:00"
+    },
+    {
+      "id": "1005006861800269",
+      "title": "Прозорий двошаровий пластиковий квітковий горщик з автополивом",
+      "title_pl": "Przezroczysta dwuwarstwowa plastikowa doniczka Samonawadniająca doniczka Lina bawełniana Podlewanie małej doniczki z otworem wtryskowym",
+      "price": 78.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.8,
+      "orders": 1616,
+      "image": "https://ae01.alicdn.com/kf/S093416e641234d729811bc0b7bc745c9j.jpg",
+      "link": "https://aliexpress.com/item/1005006861800269.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006861800269.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "123 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-07T16:10:25.292444+00:00"
+    },
+    {
       "id": "1005011962026042",
       "title": "НОВИЙ Світлодіодний світлодіодний індикатор знака таксі",
       "title_pl": "NOWY znak taksówki Wskaźnik LED Panel świetlny Znak ostrzegawczy Zapalniczka z lampą ssącą Sygnał świetlny Światło taksówki DC12V",
