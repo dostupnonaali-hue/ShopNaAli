@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005010673276044",
+      "title": "Термопринтер A4 Bluetooth із підтримкою 2“/3”/4",
+      "title_pl": "Drukarka termiczna Bluetooth A4 obsługująca formaty 2”/3”/4",
+      "price": 1738.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 250,
+      "image": "https://ae01.alicdn.com/kf/S40c66692a792482fbccf7063d06a3ba5m.jpg",
+      "link": "https://aliexpress.com/item/1005010673276044.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010673276044.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "44 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-07T08:16:07.864594+00:00"
+    },
+    {
       "id": "1005011924208935",
       "title": "【10 шт. різноманітних розмірів приманки для риболовлі на відкритому повітрі поплавці Bobbers Ho",
       "title_pl": "【10 szt. w różnych rozmiarach przynęty wędkarskie na świeżym powietrzu pływające spławiki haczyki Slip Fish Drift】",
