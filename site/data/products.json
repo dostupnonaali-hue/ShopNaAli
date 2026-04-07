@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011893844488",
+      "title": "Чоловіки",
+      "title_pl": "Mężczyźni",
+      "price": 178.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1142,
+      "image": "https://ae01.alicdn.com/kf/Sbb176a98b88c401493071fe251801a82h.jpg",
+      "link": "https://aliexpress.com/item/1005011893844488.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011893844488.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-07T11:54:12.135604+00:00"
+    },
+    {
       "id": "1005005432929493",
       "title": "5/2/ DC 5.. до 6..4 6..0 5..5 5..7 4..7 4..7 3.. Жінка",
       "title_pl": "5/2/1 sztuk DC 5.5x2.1mm do 6.0x4.4 6.3x3.0 5.5x2.5 5.5x1.7 4.8x1.7 4.0x1.7 3.5x1.35mm żeńskie gniazdo na wtyk męski złącze zasilania prądem stałym",
