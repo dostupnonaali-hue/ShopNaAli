@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008202225257",
+      "title": "Нові сумки для зберігання. Водонепроникний портативний чохол",
+      "title_pl": "Nowe torby do przechowywania etui wodoodporne przenośne etui słuchawki Bluetooth torba na zestaw słuchawkowy schowek na słuchawki organizator",
+      "price": 38.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 1223,
+      "image": "https://ae01.alicdn.com/kf/S4546f326abd24fa2897d967005869055L.jpg",
+      "link": "https://aliexpress.com/item/1005008202225257.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008202225257.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-08T14:28:09.168432+00:00"
+    },
+    {
       "id": "32881831418",
       "title": "Багатофункціональне реле GEYA GRT8- 16A з 10 функціями",
       "title_pl": "GEYA GRT8-M 16A Wielofunkcyjny przekaźnik czasowy z 10 funkcjami do wyboru AC DC 12V 24V 220V 230V Przekaźnik czasowy",
