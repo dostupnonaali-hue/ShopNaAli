@@ -1,0 +1,1588 @@
+{
+  "promos": [
+    {
+      "code": "ASUA03",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-25",
+      "times_seen": 117
+    },
+    {
+      "code": "UAAFF03",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-22",
+      "times_seen": 83
+    },
+    {
+      "code": "UAS3",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-22",
+      "times_seen": 83
+    },
+    {
+      "code": "UA03",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-20",
+      "times_seen": 75
+    },
+    {
+      "code": "ASUA05",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-25",
+      "times_seen": 57
+    },
+    {
+      "code": "UAAFF05",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-21",
+      "times_seen": 43
+    },
+    {
+      "code": "UAS5",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-21",
+      "times_seen": 43
+    },
+    {
+      "code": "UA05",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-21",
+      "times_seen": 42
+    },
+    {
+      "code": "ASUA07",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-24",
+      "times_seen": 35
+    },
+    {
+      "code": "UAAFF07",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-20",
+      "times_seen": 30
+    },
+    {
+      "code": "UAS7",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-20",
+      "times_seen": 30
+    },
+    {
+      "code": "UA07",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-20",
+      "times_seen": 30
+    },
+    {
+      "code": "FUNZ",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 26
+    },
+    {
+      "code": "ASUA11",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-25",
+      "times_seen": 24
+    },
+    {
+      "code": "UAAFF11",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-19",
+      "times_seen": 16
+    },
+    {
+      "code": "UAS11",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-19",
+      "times_seen": 16
+    },
+    {
+      "code": "UA11",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-19",
+      "times_seen": 16
+    },
+    {
+      "code": "ASUA30",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-20",
+      "times_seen": 15
+    },
+    {
+      "code": "UAAFF30",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-20",
+      "times_seen": 14
+    },
+    {
+      "code": "UAS30",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-20",
+      "times_seen": 14
+    },
+    {
+      "code": "ASUA20",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-23",
+      "times_seen": 11
+    },
+    {
+      "code": "CDUA04",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 9
+    },
+    {
+      "code": "UACD04",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 9
+    },
+    {
+      "code": "UASN04",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 9
+    },
+    {
+      "code": "UA04",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPUXACG",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPH6BQ9",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPH20ZY",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPUXJSM",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 9
+    },
+    {
+      "code": "CDUA02",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "UACD02",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "UASN02",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "UA02",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPNKAGD",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPFOMIE",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPAJA7X",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPKV5MX",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPKXK5R",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPLDYRK",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPY0IQ0",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPPGZPW",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "IFPOJMMA",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 9
+    },
+    {
+      "code": "UAAFF20",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-20",
+      "times_seen": 8
+    },
+    {
+      "code": "UAS20",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-20",
+      "times_seen": 8
+    },
+    {
+      "code": "ASUA70",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-25",
+      "times_seen": 7
+    },
+    {
+      "code": "IFPHUAZU",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-18",
+      "times_seen": 7
+    },
+    {
+      "code": "IFPQLN0P",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 6
+    },
+    {
+      "code": "IFPZHLAS",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 6
+    },
+    {
+      "code": "IFPJKLRF",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 6
+    },
+    {
+      "code": "IFPJAIBT",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 6
+    },
+    {
+      "code": "IFPTXO3V",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 6
+    },
+    {
+      "code": "ASUA45",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-23",
+      "times_seen": 6
+    },
+    {
+      "code": "КУПОН",
+      "first_seen": "2026-03-03",
+      "last_seen": "2026-03-03",
+      "times_seen": 6
+    },
+    {
+      "code": "IFP2L0JB",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-24",
+      "times_seen": 5
+    },
+    {
+      "code": "UAAFF70",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-22",
+      "times_seen": 5
+    },
+    {
+      "code": "UAS70",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-22",
+      "times_seen": 5
+    },
+    {
+      "code": "МОНЕТИ ТА ПРОМОКОД UASALE02/AEUA02",
+      "first_seen": "2026-03-03",
+      "last_seen": "2026-03-03",
+      "times_seen": 5
+    },
+    {
+      "code": "IFPYBX72",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-24",
+      "times_seen": 4
+    },
+    {
+      "code": "UAAFF45",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-17",
+      "times_seen": 4
+    },
+    {
+      "code": "UAS45",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-17",
+      "times_seen": 4
+    },
+    {
+      "code": "IFPMP0EG",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "times_seen": 4
+    },
+    {
+      "code": "CDUA09",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "UACD09",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "UASN09",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "UA09",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "IFP0VGLE",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "IFPYBELD",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "IFPUAQBB",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "IFPBUX8G",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "IFPH2TJH",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "IFP1VFV4",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "IFP449OT",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "IFP6PWRJ",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "IFP0AYNP",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 3
+    },
+    {
+      "code": "IFPRTA4P",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 3
+    },
+    {
+      "code": "IFP7O3JU",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 3
+    },
+    {
+      "code": "MAR303",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-22",
+      "times_seen": 3
+    },
+    {
+      "code": "UA45",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-17",
+      "times_seen": 3
+    },
+    {
+      "code": "CDUA13",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "UACD13",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "UASN13",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "UA13",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPGA4NS",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPFIY8G",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "IFP7PGCP",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPNRH1X",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPS13SL",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPALPFL",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPL8EZD",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPUJMHG",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPLCY7Q",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 2
+    },
+    {
+      "code": "IFP1NDAX",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPERDJP",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPJ4HEE",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPMUY2Q",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 2
+    },
+    {
+      "code": "IFP7L3IC",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPWWA02",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-18",
+      "times_seen": 2
+    },
+    {
+      "code": "VTIAZKOQ2AXZ",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-18",
+      "times_seen": 2
+    },
+    {
+      "code": "IFPW7OXF/UACD100",
+      "first_seen": "2026-03-06",
+      "last_seen": "2026-03-06",
+      "times_seen": 2
+    },
+    {
+      "code": "70MBCD3",
+      "first_seen": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "times_seen": 1
+    },
+    {
+      "code": "KZJKXGOYD1K0",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "0VFRLL6VPXH6",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "7LQ2YPBEEJIB",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "LXOVIZSDYRFT",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "ELBS09",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "UXXTITORTUCT",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "CDUA55",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "UACD55",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "UASN55",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "UA55",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPHOKHX",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPVWPSS",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPUHBLM",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPZ0ZTN",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPXDWWP",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPQGUBN",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPOUUDS",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPFJP3B",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPWKSKH",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "CDUA25",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "UACD25",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "UASN25",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "UA25",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPIPKOC",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPYYILU",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPQI7FO",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPPJF80",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPUTQM7",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPOWCRZ",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFP4QB7H",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPYAL10",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPT86QP",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "SBUREZIP5WRC",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "CDUA40",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "UACD40",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "UASN40",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "UA40",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPINHMK",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPDJYXI",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPRPBPZ",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "IFP8AOQH",
+      "first_seen": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1
+    },
+    {
+      "code": "67RW5K",
+      "first_seen": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1
+    },
+    {
+      "code": "AETUODES02",
+      "first_seen": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1
+    },
+    {
+      "code": "4BJ41",
+      "first_seen": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1
+    },
+    {
+      "code": "1006",
+      "first_seen": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1
+    },
+    {
+      "code": "1065",
+      "first_seen": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1
+    },
+    {
+      "code": "SMB110",
+      "first_seen": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1
+    },
+    {
+      "code": "UL2LRZ5B22AT",
+      "first_seen": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1
+    },
+    {
+      "code": "UGREEN304",
+      "first_seen": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1
+    },
+    {
+      "code": "2FEBYIPRO",
+      "first_seen": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1
+    },
+    {
+      "code": "ANSALE1",
+      "first_seen": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1
+    },
+    {
+      "code": "70MAAS2",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1
+    },
+    {
+      "code": "UAP008",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPQLNLB",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1
+    },
+    {
+      "code": "QVNH7M4DSP5Q",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1
+    },
+    {
+      "code": "IFP5WUKR",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPEYF0M",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPDGPF7",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPUKPJS",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1
+    },
+    {
+      "code": "DH6F",
+      "first_seen": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1
+    },
+    {
+      "code": "IM20251016",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1
+    },
+    {
+      "code": "CC2T",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1
+    },
+    {
+      "code": "5794",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1
+    },
+    {
+      "code": "EDFR20BT",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPQC5ID",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPFNKP1",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPJJRNT",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1
+    },
+    {
+      "code": "UKUTRAI10",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1
+    },
+    {
+      "code": "AW8GB6C77LZS",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1
+    },
+    {
+      "code": "HAYLOU315",
+      "first_seen": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPRZBMF",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "HTTPS",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPRNQZY",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPTTK4E",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPAIDXO",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPM3BSY",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPHC3B6",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "IFP29V85",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPE5UTR",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPBNYGO",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "3PN8T",
+      "first_seen": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1
+    },
+    {
+      "code": "XKQ3LV98",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1
+    },
+    {
+      "code": "328FKF10",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1
+    },
+    {
+      "code": "BAMAR1",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1
+    },
+    {
+      "code": "SUPJDXWUIN8P",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1
+    },
+    {
+      "code": "7EV7",
+      "first_seen": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1
+    },
+    {
+      "code": "BV84FC7YOQAE",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "QZ9T39D59BCD",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "0EY34PMV0Z3X",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPHDDHT",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "UAUA20",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "GWCQE6IOL8HJ",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "IN04UA",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "UAUA25T",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "PX2ED9",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPUKEJ1",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "🔋 ПОТУЖНИЙ POWER BANK BASEUS 10000MAH (22.5W) — ШВИДКА ЗАРЯДКА ЗАВЖДИ З ТОБОЮ! ВСЬОГО $8.74 — НЕ ПРОПУСТИ!",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "GLD053",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "UGH03X",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "GLOBAL15OFF",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "HD17NEW",
+      "first_seen": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1
+    },
+    {
+      "code": "328GB02",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "4ZKG6TQLA9E4",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "100X8PPC",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "100X8PMPC",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "UA1520",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "328KUULAA033",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "AEQOOVI15",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "1027",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "HE5JEHIB8MKR",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "UWZ9",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "0HQE",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "0K7FOZ5OV2VY",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "9H6VYNS7VX6H",
+      "first_seen": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1
+    },
+    {
+      "code": "TYLLSJ4VCB7U",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1
+    },
+    {
+      "code": "UAVIP9",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1
+    },
+    {
+      "code": "AE30Q3",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1
+    },
+    {
+      "code": "HP0005",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1
+    },
+    {
+      "code": "028J",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1
+    },
+    {
+      "code": "1844",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1
+    },
+    {
+      "code": "SOWRSFB31QX5",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1
+    },
+    {
+      "code": "UAMAEH",
+      "first_seen": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1
+    },
+    {
+      "code": "CDNHD",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1
+    },
+    {
+      "code": "AEQOOVI28",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1
+    },
+    {
+      "code": "FEMF301",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1
+    },
+    {
+      "code": "PP0500",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1
+    },
+    {
+      "code": "BSEP02",
+      "first_seen": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1
+    },
+    {
+      "code": "OP15RALL3",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "times_seen": 1
+    },
+    {
+      "code": "POW006",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "times_seen": 1
+    },
+    {
+      "code": "AEQOOVI140",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "times_seen": 1
+    },
+    {
+      "code": "SSG1D66ZDFQE",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "times_seen": 1
+    },
+    {
+      "code": "2XLW",
+      "first_seen": "2026-03-14",
+      "last_seen": "2026-03-14",
+      "times_seen": 1
+    },
+    {
+      "code": "NSYTAA",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1
+    },
+    {
+      "code": "99QPY7",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1
+    },
+    {
+      "code": "368KY2",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1
+    },
+    {
+      "code": "6JDKJ",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1
+    },
+    {
+      "code": "ZK5CMJ8R",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPRJAFU",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1
+    },
+    {
+      "code": "IFPENERM",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1
+    },
+    {
+      "code": "IFP5HTJT",
+      "first_seen": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1
+    },
+    {
+      "code": "UPDW49LGEUMF",
+      "first_seen": "2026-03-12",
+      "last_seen": "2026-03-12",
+      "times_seen": 1
+    },
+    {
+      "code": "UAA16",
+      "first_seen": "2026-03-12",
+      "last_seen": "2026-03-12",
+      "times_seen": 1
+    },
+    {
+      "code": "GYFUIDVO5NAU",
+      "first_seen": "2026-03-12",
+      "last_seen": "2026-03-12",
+      "times_seen": 1
+    },
+    {
+      "code": "RA8I70H01K7O",
+      "first_seen": "2026-03-12",
+      "last_seen": "2026-03-12",
+      "times_seen": 1
+    },
+    {
+      "code": "03GB07",
+      "first_seen": "2026-03-12",
+      "last_seen": "2026-03-12",
+      "times_seen": 1
+    },
+    {
+      "code": "2XZZG8Y3VGLT",
+      "first_seen": "2026-03-12",
+      "last_seen": "2026-03-12",
+      "times_seen": 1
+    },
+    {
+      "code": "70MAR03",
+      "first_seen": "2026-03-12",
+      "last_seen": "2026-03-12",
+      "times_seen": 1
+    },
+    {
+      "code": "GL0001",
+      "first_seen": "2026-03-12",
+      "last_seen": "2026-03-12",
+      "times_seen": 1
+    },
+    {
+      "code": "03GB02",
+      "first_seen": "2026-03-12",
+      "last_seen": "2026-03-12",
+      "times_seen": 1
+    },
+    {
+      "code": "T5TU1H",
+      "first_seen": "2026-03-12",
+      "last_seen": "2026-03-12",
+      "times_seen": 1
+    },
+    {
+      "code": "M7QI5OE1TVWE",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1
+    },
+    {
+      "code": "VSUA04",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1
+    },
+    {
+      "code": "YB67",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1
+    },
+    {
+      "code": "VSUA02",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1
+    },
+    {
+      "code": "08H7R",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1
+    },
+    {
+      "code": "34U9 05VYYQL4HIGA IFPDSMVY",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1
+    },
+    {
+      "code": "DBDNHDVI3002 IFPDSMVY 1050",
+      "first_seen": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1
+    },
+    {
+      "code": "4PA5K",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "times_seen": 1
+    },
+    {
+      "code": "3EPZPOJ",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "times_seen": 1
+    },
+    {
+      "code": "4TCYX",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "times_seen": 1
+    },
+    {
+      "code": "UO6K9GQYM9WG",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "times_seen": 1
+    },
+    {
+      "code": "7RCGB4M3YQVD",
+      "first_seen": "2026-03-08",
+      "last_seen": "2026-03-08",
+      "times_seen": 1
+    },
+    {
+      "code": "МОНЕТИ",
+      "first_seen": "2026-03-03",
+      "last_seen": "2026-03-03",
+      "times_seen": 1
+    },
+    {
+      "code": "МОНЕТИ ТА АВТОМАТИЧНА ЗНИЖКА",
+      "first_seen": "2026-03-03",
+      "last_seen": "2026-03-03",
+      "times_seen": 1
+    }
+  ]
+}

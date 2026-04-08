@@ -60,6 +60,33 @@
         .copy-icon-success {
             color: var(--accent-primary);
         }
+
+        /* Parser promo cards */
+        .promo-card--parser .promo-card__top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+        }
+        .promo-card__badge-pop {
+            font-size: 0.8rem;
+            color: var(--accent-primary);
+            font-weight: 600;
+        }
+        .promo-card__date {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+        .parser-promos-stats {
+            text-align: center;
+            margin-bottom: 16px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        .parser-promos-stats strong {
+            color: var(--accent-primary);
+            font-size: 1.2rem;
+        }
     </style>
 </head>
 
@@ -267,6 +294,22 @@
             </div>
         </section>
 
+        <!-- Parser Promo Codes -->
+        <section class="promo-section">
+            <div class="promo-section__header">
+                <span class="promo-section__icon">🔄</span>
+                <h2 class="promo-section__title">Kody znalezione przez parser</h2>
+            </div>
+            <p class="promo-section__desc">
+                Te kody rabatowe są automatycznie zbierane z kanałów Telegram ze znaleziskami AliExpress.
+                Przy każdym kodzie jest data, kiedy został znaleziony ostatnio.
+            </p>
+            <p class="parser-promos-stats">Znalezionych kodów: <strong id="promoStatsCount">0</strong></p>
+            <div class="promo-grid" id="parserPromos">
+                <!-- Loaded dynamically by promos-pl.js -->
+            </div>
+        </section>
+
         <!-- Lifehacks -->
         <section class="promo-section">
             <div class="promo-section__header">
@@ -348,5 +391,6 @@
         });
     }
     </script>
+    <script src="../js/promos-pl.js"></script>
 </body>
 </html>
