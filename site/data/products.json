@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005005454671438",
+      "title": "Футболка зі 100% бавовни, чоловіки, жінки, суцільний колір з круглим вирізом",
+      "title_pl": "100% bawełniana koszulka mężczyźni kobiety jednolity kolor O Neck topy z krótkim rękawem letnia koreańska luźna koszulka z półrękawem unisex M-4XL",
+      "price": 192.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1405,
+      "image": "https://ae01.alicdn.com/kf/S11b6e799ec524ebf901650c14effe80bh.jpg",
+      "link": "https://aliexpress.com/item/1005005454671438.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005454671438.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "197 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-08T15:03:04.114319+00:00"
+    },
+    {
       "id": "1005005983398310",
       "title": "DIY 18650 Battery DIY Power Bank Case Charge Storage Box",
       "title_pl": "DIY 18650 bateria DIY etui na powerbank etui do przechowywania ładunków podwójny rodzaj USB C Micro USB bez spawania zestaw etui z zasilaniem mobilnym",
