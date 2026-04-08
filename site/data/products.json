@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011898390850",
+      "title": "УФ-стерилізатор інструментів для нігтів, ультрафіолетова дезінфекція",
+      "title_pl": "Pudełko do sterylizatora UV do paznokci, urządzenie do dezynfekcji światłem ultrafioletowym i aromaterapii do manicure, makijażu, pęsety do okularów jubilerskich",
+      "price": 234.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 5.0,
+      "orders": 1739,
+      "image": "https://ae01.alicdn.com/kf/S1e094a8cf663439b92da24360a0b0225M.jpeg",
+      "link": "https://aliexpress.com/item/1005011898390850.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011898390850.html",
+      "description": "",
+      "promo_text": "C4K9",
+      "price_note": "253 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-08T13:35:28.993613+00:00"
+    },
+    {
       "id": "1005007011628570",
       "title": "HW300PRO Товщиномір для автомобільної плівки Автоматична товщина",
       "title_pl": "HW300PRO miernik grubości do folii samochodowej automatyczny miernik grubości 0-2000UM Fe NFE miernik powłoki Tester grubości lakieru samochodowego",
