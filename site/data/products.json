@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008873623335",
+      "title": "Автомобільна стрічка для ремонту подряпин, маскування вм’ятин",
+      "title_pl": "Karoseria samochodu taśma do naprawy zarysowań maskująca wgniecenia naklejka dekoracyjna krem ​​przeciwsłoneczny mocny klej bezśladowy antykorozyjny drzwi samochodu",
+      "price": 36.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 655,
+      "image": "https://ae01.alicdn.com/kf/S37e501855c924e8691745a5dca62f4ee4.jpg",
+      "link": "https://aliexpress.com/item/1005008873623335.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008873623335.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-08T10:39:12.423535+00:00"
+    },
+    {
       "id": "1005008483504843",
       "title": "2/10/ Засіб для видалення шерсті домашніх тварин, багаторазова кулька для прання",
       "title_pl": "2/10/20 sztuk zmywacz do sierści zwierząt kulka wielokrotnego użytku pranie filtr do pralki naklejka z wełny zmywacz do sierści kota futro zwierząt domowych łapacz kłaczków",
