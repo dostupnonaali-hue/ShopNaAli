@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005006678004802",
+      "title": "1ПК Проекційний будильник Стельовий дисплей Відкладений стіл Стіл",
+      "title_pl": "1PC budzik projekcyjny wyświetlacz sufitowy drzemka zegar na biurko głos wielofunkcyjny cyfrowy zegar projekcyjny wyświetlacz temperatury",
+      "price": 161.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 476,
+      "image": "https://ae01.alicdn.com/kf/S2b1d11558df44cc6bc1fb92a73c9889cj.jpg",
+      "link": "https://aliexpress.com/item/1005006678004802.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006678004802.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-08T09:02:32.924242+00:00"
+    },
+    {
+      "id": "1005011973113715",
+      "title": "Шикарна полотняна сумка через плече з вишивкою та підвіскою",
+      "title_pl": "Szykowna płócienna torba na ramię z haftem z zawieszką Minimalistyczna codzienna torebka Torby na ramię dla kobiet, praca, podróże, stroje codzienne",
+      "price": 57.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 1080,
+      "image": "https://ae01.alicdn.com/kf/S2e18a493f01040b9b3d6bbbc62ad7232S.jpg",
+      "link": "https://aliexpress.com/item/1005011973113715.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011973113715.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-08T09:08:18.227364+00:00"
+    },
+    {
       "id": "1005009331409093",
       "title": "Pet Glove Cat Grooming Hair Deshedding Brush s Dog Comb for",
       "title_pl": "Rękawiczki dla zwierząt domowych pielęgnacja kotów szczotka do usuwania włosów grzebień dla psów dla psów koty środek do usuwania kąpieli czysty masaż dla zwierząt",
