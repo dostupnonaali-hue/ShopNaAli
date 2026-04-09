@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011955470040",
+      "title": "1 набір мийки для пензля, герметична щітка з нержавіючої сталі",
+      "title_pl": "1 zestaw podkładki do pędzli malarskich, hermetyczny środek do czyszczenia pędzli ze stali nierdzewnej do malowania olejnego akrylu, podkładka do pędzli z wyciskarką",
+      "price": 81.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 183,
+      "image": "https://ae01.alicdn.com/kf/Sfde4b2a09a074ea0a71f4ea426a8594eL.jpg",
+      "link": "https://aliexpress.com/item/1005011955470040.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011955470040.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T17:38:23.921988+00:00"
+    },
+    {
       "id": "1005011965916895",
       "title": "НОВЕ 2.5",
       "title_pl": "NOWOŚĆ 2.5",
