@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005010525345472",
+      "title": "Пластиковий набір для випікання хліба, хліба, торта, продажу, домашнього використання",
+      "title_pl": "3 szt. Plastikowy zestaw do pieczenia chleba z grilla sprzedaż do użytku domowego mały pędzelek przyrząd do pieczenia do użytku domowego",
+      "price": 51.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1321,
+      "image": "https://ae01.alicdn.com/kf/Se2df0d2616bf4c0dbb9ddd62e4d1e9a7e.jpg",
+      "link": "https://aliexpress.com/item/1005010525345472.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010525345472.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T12:28:36.421305+00:00"
+    },
+    {
+      "id": "1005010585754556",
+      "title": "Багатофункціональний золотниковий ключ з нержавіючої сталі",
+      "title_pl": "Wielofunkcyjny klucz do szpuli do kranu ze stali nierdzewnej zagęszczony przedłużacz Heavy Duty narzędzie do naprawy kranu z ciepłą i zimną wodą dla domu",
+      "price": 30.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.7,
+      "orders": 1809,
+      "image": "https://ae01.alicdn.com/kf/S03deb6a943ee4f0e8ca743c1193a0788l.jpg",
+      "link": "https://aliexpress.com/item/1005010585754556.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010585754556.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T12:30:11.708032+00:00"
+    },
+    {
       "id": "1005011884491963",
       "title": "Світлодіодні настінні бра //// Сучасний настінний світильник, алюмінієвий дрот",
       "title_pl": "Kinkiety ścienne LED 2 W/4 W/6 W/8 W/10 W nowoczesny kinkiet, aluminiowa kinkiet z przewodem, czarne światła do montażu na ścianie w górę do salonu",
