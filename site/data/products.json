@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005005333746467",
+      "title": "GIRIER Tuya Smart Micro USB Adapter Switch, WiFi Mini USB",
+      "title_pl": "GIRIER Tuya inteligentny adapter Micro USB przełącznik 5 V, WiFi Mini zasilacz USB kompatybilny z Alexa Hej Google dla automatyki domowej",
+      "price": 51.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 608,
+      "image": "https://ae01.alicdn.com/kf/S00c3ad8713ac4af9b9bc423c41e60e730.jpg",
+      "link": "https://aliexpress.com/item/1005005333746467.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005333746467.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T12:55:14.498246+00:00"
+    },
+    {
+      "id": "1005008047093101",
+      "title": "Нові кусачки для кутикул з нержавіючої сталі",
+      "title_pl": "Nowe nożyczki do paznokci ze stali nierdzewnej cążki do skórek obcinacz do krawędzi nożyczki szczypce do paznokci narzędzie Pedicure usuwa martwy naskórek Manicure",
+      "price": 31.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 909,
+      "image": "https://ae01.alicdn.com/kf/S86c9c67e9b884a8381a8406aaa1155f9F.jpg",
+      "link": "https://aliexpress.com/item/1005008047093101.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008047093101.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T12:59:29.233707+00:00"
+    },
+    {
       "id": "1005011962158172",
       "title": "Ремінь із заклепками зі стразами в стилі ретро з класичною пряжкою зі сплаву,",
       "title_pl": "Pasek z nitami w stylu retro z kryształkami i klasyczną klamrą ze stopu, gładkie wykończenie, estetyka Y2K i zachodnia, idealny do dżinsów",
