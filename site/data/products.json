@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011975675905",
+      "title": "Інструмент для швидкого зварювання рідиною для флюсу з нержавіючої сталі",
+      "title_pl": "Płyn do lutowania strumieniowego ze stali nierdzewnej Szybkie narzędzie spawalnicze Pasta topnikowa Pasta lutownicza Płynna Bezbarwna Brak czyszczenia wodą Bez smaku",
+      "price": 24.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.8,
+      "orders": 529,
+      "image": "https://ae01.alicdn.com/kf/S7107d379bc7049bba5c4216b1a29ab3fe.jpg",
+      "link": "https://aliexpress.com/item/1005011975675905.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011975675905.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T18:34:46.187244+00:00"
+    },
+    {
+      "id": "1005008248074559",
+      "title": "XIAOYUMI 16-колірна палітра Sunset Contour & Highlighter –",
+      "title_pl": "XIAOYUMI 16-Color Sunset Contour & Highlighter Palette – wodoodporna, długotrwała, do makijażu oczu i twarzy, unisex, certyfikowana",
+      "price": 55.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 346,
+      "image": "https://ae01.alicdn.com/kf/S5b58c22451e9430683ce34e6bc903e0f6.jpg",
+      "link": "https://aliexpress.com/item/1005008248074559.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008248074559.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T18:37:16.998310+00:00"
+    },
+    {
       "id": "1005011959188543",
       "title": "Світлодіодні DRL автомобільні денні ходові вогні Гнучка водонепроникна стрічка",
       "title_pl": "2 szt. LED DRL światła do jazdy dziennej samochodu elastyczny wodoodporny pasek reflektory samochodowe biały kierunkowskaz żółte światła hamowania 12V",
