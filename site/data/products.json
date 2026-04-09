@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011957742951",
+      "title": "Класична базова нижня сорочка з довгим рукавом і круглим вирізом",
+      "title_pl": "Klasyczny podstawowy podkoszulek z długim rękawem, okrągły dekolt, dopasowany top w jednolitym kolorze, wszechstronna odzież wewnętrzna przez cały sezon",
+      "price": 90.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 451,
+      "image": "https://ae01.alicdn.com/kf/S219009f59c3a45bc8dadc2b695c94332p.jpg",
+      "link": "https://aliexpress.com/item/1005011957742951.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011957742951.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T13:44:06.732534+00:00"
+    },
+    {
       "id": "1005011964470994",
       "title": "Розкішний жіночий наручний годинник, інкрустований зеленими кристалами",
       "title_pl": "Luksusowy damski zegarek na rękę wysadzany zielonymi kryształami z motywem gwiazdy i pasującym zestawem biżuterii (6 sztuk)",
