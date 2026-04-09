@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011981828180",
+      "title": "200A Крокодил-Алігатор Затискачі Ізольований затискач автомобільного акумулятора",
+      "title_pl": "[YA]2 szt. 200A krokodylkowe zaciski krokodylkowe akumulator samochodowy izolowany zacisk złącze zaciskowe do kabli rozruchowych Boost",
+      "price": 45.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 929,
+      "image": "https://ae01.alicdn.com/kf/S035ed39979ed4d1e960b136b2c8ad1a7u.jpg",
+      "link": "https://aliexpress.com/item/1005011981828180.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011981828180.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T20:11:23.076541+00:00"
+    },
+    {
+      "id": "1005011972409928",
+      "title": "Наколінники, налокітники, набір для катання на роликових ковзанах 3-12 років",
+      "title_pl": "6 sztuk 3-12 lat zestaw do jazdy na rolkach dla dzieci nakolanniki ochraniacze na łokcie ochraniacze sprzęt rowerowy BMX rower deskorolka hulajnoga inline jazda",
+      "price": 78.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1077,
+      "image": "https://ae01.alicdn.com/kf/Sc7b3942bb5764f4199e24497f1ce7999q.jpg",
+      "link": "https://aliexpress.com/item/1005011972409928.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011972409928.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T20:13:01.764704+00:00"
+    },
+    {
       "id": "1005011985598681",
       "title": "Автомобільний детектор співу птахів, цифровий обдув",
       "title_pl": "Montowany w samochodzie wykrywacz alkoholu w postaci śpiewu ptaków, cyfrowy alkomat z dmuchawą, wykrywanie jazdy i brelok do kluczy (bez baterii)",
