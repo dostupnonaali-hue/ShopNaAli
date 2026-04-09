@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005010722094263",
+      "title": "Ручна машина для наповнення ковбас. Домашня ковбасна машина",
+      "title_pl": "Ręczna nadziewarka do kiełbasy domowej roboty nadziewarka do kiełbasy kiełki kiełbasy nadziewarka do kiełbasy gadżety ręczne narzędzia do nastrzykiwania mięsa",
+      "price": 183.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 1795,
+      "image": "https://ae01.alicdn.com/kf/S0357ac6fd8124842acc6821e236ee29ep.jpg",
+      "link": "https://aliexpress.com/item/1005010722094263.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010722094263.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-09T18:45:24.177285+00:00"
+    },
+    {
+      "id": "1005011994345064",
+      "title": "Kebidumei 4 Port Dual PD Dual QC3.0 Автомобільний зарядний пристрій",
+      "title_pl": "Kebidumei 4-portowy podwójny PD podwójny QC3.0 gniazdo ładowarki samochodowej szybkie ładowanie z przełącznikiem 12V adapter panelu wylotowego do ciężarówki Camper RV",
+      "price": 73.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 745,
+      "image": "https://ae01.alicdn.com/kf/S5c2818c74f6346c692f3b2cb46bddb6cj.jpg",
+      "link": "https://aliexpress.com/item/1005011994345064.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011994345064.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T18:49:37.522901+00:00"
+    },
+    {
       "id": "1005011975675905",
       "title": "Інструмент для швидкого зварювання рідиною для флюсу з нержавіючої сталі",
       "title_pl": "Płyn do lutowania strumieniowego ze stali nierdzewnej Szybkie narzędzie spawalnicze Pasta topnikowa Pasta lutownicza Płynna Bezbarwna Brak czyszczenia wodą Bez smaku",
