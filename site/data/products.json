@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011965916895",
+      "title": "НОВЕ 2.5",
+      "title_pl": "NOWOŚĆ 2.5",
+      "price": 83.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 113,
+      "image": "https://ae01.alicdn.com/kf/S89cffd17b7fa4400a8ffac7a712d2574R.jpg",
+      "link": "https://aliexpress.com/item/1005011965916895.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011965916895.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T17:20:45.574518+00:00"
+    },
+    {
       "id": "1005011974251096",
       "title": "Портативний автомобільний насос для накачування повітря, зарядний насос для шин",
       "title_pl": "Przenośna pompa inflacyjna do samochodu ładująca pompa powietrza inflator do opon dla Mazda 3 7 8 Atenza Axela 5 6 323 500 MP RX7 RX8 CX9 CX30 CX7 CX6",
