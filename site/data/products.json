@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011976459606",
+      "title": "Портативний балдахін, багатофункціональний тримач-гачок",
+      "title_pl": "10 szt. Przenośny klips do tkaniny z baldachimem Wielofunkcyjny haczyk na śledzie do namiotu Akcesoria kempingowe i podróżne do namiotów〔CC33〕",
+      "price": 66.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 1022,
+      "image": "https://ae01.alicdn.com/kf/S952bc002f12e4871b4dac9e7316568dep.jpg",
+      "link": "https://aliexpress.com/item/1005011976459606.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011976459606.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T17:44:52.170108+00:00"
+    },
+    {
+      "id": "1005011978364575",
+      "title": "Бар'єрна сітка безпеки для домашніх тварин для захисту заднього сидіння собаки та",
+      "title_pl": "Siatka zabezpieczająca dla zwierząt domowych, barierka zabezpieczająca tylne siedzenie. Przegroda pojazdu przytrzymującego dla psa i dziecka. Podróżowanie. Bezpieczne zaopatrzenie",
+      "price": 80.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 698,
+      "image": "https://ae01.alicdn.com/kf/S89418613b9154e5ca53fe5adb753528fU.jpg",
+      "link": "https://aliexpress.com/item/1005011978364575.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011978364575.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T17:47:24.066534+00:00"
+    },
+    {
       "id": "1005011955470040",
       "title": "1 набір мийки для пензля, герметична щітка з нержавіючої сталі",
       "title_pl": "1 zestaw podkładki do pędzli malarskich, hermetyczny środek do czyszczenia pędzli ze stali nierdzewnej do malowania olejnego akrylu, podkładka do pędzli z wyciskarką",
