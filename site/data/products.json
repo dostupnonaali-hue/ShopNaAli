@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011964470994",
+      "title": "Розкішний жіночий наручний годинник, інкрустований зеленими кристалами",
+      "title_pl": "Luksusowy damski zegarek na rękę wysadzany zielonymi kryształami z motywem gwiazdy i pasującym zestawem biżuterii (6 sztuk)",
+      "price": 68.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1589,
+      "image": "https://ae01.alicdn.com/kf/S9abbdd92eb304c99b685bca5edca71dcS.jpg",
+      "link": "https://aliexpress.com/item/1005011964470994.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011964470994.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T13:29:06.536547+00:00"
+    },
+    {
       "id": "1005004612541047",
       "title": "MZG 1 - Набір свердел HSS Швидкорізальна сталь з титановим покриттям",
       "title_pl": "Zestaw wierteł MZG 1-13mm HSS pokryty tytanem stal szybkotnąca Twist prosty chwyt organizer na narzędzia do drewna metalowego stalowy otwór",
