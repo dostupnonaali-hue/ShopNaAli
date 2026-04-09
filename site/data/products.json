@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011990660605",
+      "title": "Водяний пістолет для автомийки високого тиску з пінним горщиком Garden",
+      "title_pl": "Wysokociśnieniowy pistolet na wodę do myjni samochodowej z doniczką na piankę opryskiwacz do podlewania ogrodu czyszczenie samochodu narzędzie do mycia",
+      "price": 71.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 1454,
+      "image": "https://ae01.alicdn.com/kf/S43628610090e4eddad8c21fe76ac1235u.jpg",
+      "link": "https://aliexpress.com/item/1005011990660605.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011990660605.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T20:14:41.817580+00:00"
+    },
+    {
+      "id": "1005011981515136",
+      "title": "1шт складаний антистатичний кишеньковий сталевий гребінець для чоловіків",
+      "title_pl": "1 szt. Składany antystatyczny grzebień kieszonkowy ze stali dla mężczyzn",
+      "price": 21.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 967,
+      "image": "https://ae01.alicdn.com/kf/S1b9c12ffae6c4f55bc57d109ec0f6bacF.jpg",
+      "link": "https://aliexpress.com/item/1005011981515136.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011981515136.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T20:17:04.499794+00:00"
+    },
+    {
       "id": "1005011981828180",
       "title": "200A Крокодил-Алігатор Затискачі Ізольований затискач автомобільного акумулятора",
       "title_pl": "[YA]2 szt. 200A krokodylkowe zaciski krokodylkowe akumulator samochodowy izolowany zacisk złącze zaciskowe do kabli rozruchowych Boost",
