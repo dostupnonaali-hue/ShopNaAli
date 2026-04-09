@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011991627100",
+      "title": "Медичний інфрачервоний термометр - безконтактний Quick",
+      "title_pl": "Medyczny termometr na podczerwień - bezdotykowy szybki pomiar temperatury dla dorosłych i dzieci, ciało i czoło, ręczny",
+      "price": 99.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 132,
+      "image": "https://ae01.alicdn.com/kf/S1b899c14ac784bcd97c5f15e07f7f2d0d.jpg",
+      "link": "https://aliexpress.com/item/1005011991627100.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011991627100.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T16:53:08.630548+00:00"
+    },
+    {
       "id": "1005012030746769",
       "title": "Пружинний кабель для передачі даних PD Type C – USB C. Швидка зарядка",
       "title_pl": "PD 120W typ C na USB C sprężynowy kabel do transmisji danych szybkie ładowanie kabel spiralny do iPhone'a Xiaomi iPad Laptop elastyczny przewód ładowarki USB C",
