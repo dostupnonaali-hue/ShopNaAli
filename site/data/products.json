@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011958957416",
+      "title": "Сумка через плече з 3D трояндовими квітами зі штучної шкіри на блискавці",
+      "title_pl": "Torba na ramię z kwiatowym wzorem w kwiaty 3D Faux Leather Zapięcie na zamek błyskawiczny Regulowany pasek Kształt cylindra Torebka wieczorowa na wesele",
+      "price": 95.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 287,
+      "image": "https://ae01.alicdn.com/kf/S07cdf379e89c418697581512dc9140582.jpg",
+      "link": "https://aliexpress.com/item/1005011958957416.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011958957416.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T18:06:28.337329+00:00"
+    },
+    {
+      "id": "1005011975643159",
+      "title": "Машинка для стрижки волосся Триммер для бороди Електробритва для чоловіків",
+      "title_pl": "Maszyna do ścinania włosów Trymer do brody Golarka elektryczna dla mężczyzn Miejsca intymne Maszynka do golenia włosów Maszynka do strzyżenia maszynka do strzyżenia LED Light",
+      "price": 160.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 853,
+      "image": "https://ae01.alicdn.com/kf/S3341f3135e3245a0a5baba1431be8b60T.png",
+      "link": "https://aliexpress.com/item/1005011975643159.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011975643159.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T18:10:27.471021+00:00"
+    },
+    {
       "id": "1005011974875210",
       "title": "Золоті та срібні кільця для волосся Манжети для волосся Плетіння кільця для волосся",
       "title_pl": "80 sztuk złote i srebrne gumki do włosów mankiety do włosów plecionki gumki do włosów aluminiowe wisiorki do włosów dla Loc warkocze włosy regulowany metalowy warkocz",
