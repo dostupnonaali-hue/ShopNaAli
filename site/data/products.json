@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011962158172",
+      "title": "Ремінь із заклепками зі стразами в стилі ретро з класичною пряжкою зі сплаву,",
+      "title_pl": "Pasek z nitami w stylu retro z kryształkami i klasyczną klamrą ze stopu, gładkie wykończenie, estetyka Y2K i zachodnia, idealny do dżinsów",
+      "price": 85.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 200,
+      "image": "https://ae01.alicdn.com/kf/S5b6b9d8ac65441d7a8b9c77f2c77afe8J.jpg",
+      "link": "https://aliexpress.com/item/1005011962158172.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011962158172.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T12:45:58.054469+00:00"
+    },
+    {
       "id": "1005010525345472",
       "title": "Пластиковий набір для випікання хліба, хліба, торта, продажу, домашнього використання",
       "title_pl": "3 szt. Plastikowy zestaw do pieczenia chleba z grilla sprzedaż do użytku domowego mały pędzelek przyrząd do pieczenia do użytku domowego",
