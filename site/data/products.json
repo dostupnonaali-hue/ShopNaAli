@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005004612541047",
+      "title": "MZG 1 - Набір свердел HSS Швидкорізальна сталь з титановим покриттям",
+      "title_pl": "Zestaw wierteł MZG 1-13mm HSS pokryty tytanem stal szybkotnąca Twist prosty chwyt organizer na narzędzia do drewna metalowego stalowy otwór",
+      "price": 66.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 991,
+      "image": "https://ae01.alicdn.com/kf/S7ccfc391359144418f58dcf73d94e9b1O.jpg",
+      "link": "https://aliexpress.com/item/1005004612541047.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004612541047.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-09T13:16:01.051166+00:00"
+    },
+    {
+      "id": "1005003593349763",
+      "title": "Силіконова щіточка для чищення пляшечок. Дитяча соска",
+      "title_pl": "Butelka silikonowa szczotka do czyszczenia smoczek dla niemowląt skrobaczka ze słomką mała szczotka 360 stopni szklany kubek mycie zestaw narzędzi do czyszczenia kuchni",
+      "price": 23.0,
+      "currency": "UAH",
+      "category": "toys",
+      "rating": 4.9,
+      "orders": 768,
+      "image": "https://ae01.alicdn.com/kf/H2374cbb06f50481daf4af30be339fa36K.jpg",
+      "link": "https://aliexpress.com/item/1005003593349763.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005003593349763.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-09T13:20:03.689911+00:00"
+    },
+    {
       "id": "1005005333746467",
       "title": "GIRIER Tuya Smart Micro USB Adapter Switch, WiFi Mini USB",
       "title_pl": "GIRIER Tuya inteligentny adapter Micro USB przełącznik 5 V, WiFi Mini zasilacz USB kompatybilny z Alexa Hej Google dla automatyki domowej",
