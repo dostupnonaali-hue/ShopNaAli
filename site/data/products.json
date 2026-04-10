@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011937734691",
+      "title": "Паста для ремонту приладової панелі автомобіля для відновлення подряпин",
+      "title_pl": "Pasta do naprawy deski rozdzielczej samochodu, aby usunąć zadrapania, przywrócić połysk do wnętrz samochodowych, plastikowa pasta do naprawy samochodu, długotrwała ochrona",
+      "price": 30.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 1243,
+      "image": "https://ae01.alicdn.com/kf/Sfb0ecbf7c5a144d78cfd5ab7b318f005c.jpg",
+      "link": "https://aliexpress.com/item/1005011937734691.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011937734691.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T15:33:40.121711+00:00"
+    },
+    {
+      "id": "1005011967860131",
+      "title": "Жінки",
+      "title_pl": "Kobiety",
+      "price": 100.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 146,
+      "image": "https://ae01.alicdn.com/kf/S419ce2b586e94678850a5624a066e24bw.jpg",
+      "link": "https://aliexpress.com/item/1005011967860131.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011967860131.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-10T15:38:39.622417+00:00"
+    },
+    {
       "id": "1005011993470465",
       "title": "Магнітний поворотний тримач біт, 1/4 шестигранний швидкознімний механізм",
       "title_pl": "Magnetyczny obrotowy uchwyt na bity, szybkozamykacz 1/4 Hex, adapter do wiertarki do naprawy drewna",
