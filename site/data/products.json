@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012003748417",
+      "title": "Міні-багатофункціональний брелок Portable Magic",
+      "title_pl": "Mini wielofunkcyjne narzędzie Brelok Przenośny magiczny śrubokręt Otwieracz do butelek do codziennych akcesoriów do awaryjnej naprawy na zewnątrz",
+      "price": 98.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 213,
+      "image": "https://ae01.alicdn.com/kf/S1bf00d6357a744b49e0d2b4ddc311f69h.jpg",
+      "link": "https://aliexpress.com/item/1005012003748417.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012003748417.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T17:24:42.673969+00:00"
+    },
+    {
+      "id": "1005011977312545",
+      "title": "Портативна зарядка через USB. Зручна електронна попільничка",
+      "title_pl": "Przenośna popielniczka ładowana przez USB Wygodny uchwyt na papierosa elektronicznego",
+      "price": 199.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 519,
+      "image": "https://ae01.alicdn.com/kf/S9d27c720c8e346cc9a03e1862c62d0f0A.jpg",
+      "link": "https://aliexpress.com/item/1005011977312545.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011977312545.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T17:27:44.235508+00:00"
+    },
+    {
       "id": "1005006904689217",
       "title": "УФ-світлодіодна лампа для нігтів - інструмент для швидкого висихання нігтів сонячного світла,",
       "title_pl": "Lampa UV LED do paznokci o mocy 54 W - Światło słoneczne, szybkoschnące narzędzie do paznokci, profesjonalne wyposażenie salonów zdobienia paznokci i paznokci",
