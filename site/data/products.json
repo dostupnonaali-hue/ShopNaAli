@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011991461528",
+      "title": "Жіночі білі літні босоніжки 2026, плетений поперечний ремінь",
+      "title_pl": "Białe letnie sandały damskie 2026, plecione buty na płaskiej podeszwie z paskiem krzyżowym, swobodne klapki plażowe Łatwe do dopasowania sukienki i dżinsy",
+      "price": 184.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 1846,
+      "image": "https://ae01.alicdn.com/kf/S75c96acb57284051a07573e3afda1ef3b.jpg",
+      "link": "https://aliexpress.com/item/1005011991461528.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011991461528.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-10T14:26:39.406771+00:00"
+    },
+    {
       "id": "1005006958712071",
       "title": "Термостійкий до електростатичного розряду 932℉ паяльний килимок Робочі інструменти Комп’ютер",
       "title_pl": "Odporna na ciepło ESD mata lutownicza 932 ℉ narzędzia robocze zestaw do naprawy telefonu komputerowego robocza podkładka naprawcza odporna na ciepło platforma konserwacyjna",
