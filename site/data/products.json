@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011871671310",
+      "title": "Світлодіодний трековий прожектор Gu10 3 кольори Ультра яскрава стеля",
+      "title_pl": "Reflektor Led na szynę Gu10 3 kolor Ultra jasny sufit 220v reflektor kuchnia oprawa oświetleniowa sklep odzieżowy zestaw reflektor",
+      "price": 72.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1687,
+      "image": "https://ae01.alicdn.com/kf/S1a2d7fb6ca444d2bbea03acb619786d3v.jpg",
+      "link": "https://aliexpress.com/item/1005011871671310.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011871671310.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T07:54:32.962785+00:00"
+    },
+    {
+      "id": "1005011985844191",
+      "title": "Світло датчика навколишнього середовища RGB - регульований веселковий градієнт",
+      "title_pl": "Światło z czujnikiem otoczenia RGB - regulowane światło gradientowe tęczy odpowiednie do różnych scen, takich jak salon, sypialnia",
+      "price": 105.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1408,
+      "image": "https://ae01.alicdn.com/kf/S546e2a86b3d94f56ba3180581a3de52bm.jpg",
+      "link": "https://aliexpress.com/item/1005011985844191.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011985844191.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T07:56:36.911812+00:00"
+    },
+    {
       "id": "1005011982711878",
       "title": "Чоловіки",
       "title_pl": "Mężczyźni",
