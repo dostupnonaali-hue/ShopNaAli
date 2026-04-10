@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007037927683",
+      "title": "Міні-кишенькова парасолька від дощу, що складається",
+      "title_pl": "Mini kieszonkowy parasol przeciwdeszczowy winylowy składany parasol kieszonkowa kapsułka z ochroną przed promieniowaniem UV",
+      "price": 279.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 698,
+      "image": "https://ae01.alicdn.com/kf/Sa38e9f8bc949461facd2d91e11c7ea50U.jpg",
+      "link": "https://aliexpress.com/item/1005007037927683.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007037927683.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "235 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-10T12:20:23.771216+00:00"
+    },
+    {
       "id": "1005011990531657",
       "title": "Парова щітка для домашніх тварин 3-в-1 – масаж і спрей, розплутування та",
       "title_pl": "Parowa szczotka dla zwierząt 3 w 1 – masaż i spray, rozczesywanie i wyczesywanie dla psów i kotów, dla Teddy/Bichon/Shiba/Corgi/Golden/Labrador",
