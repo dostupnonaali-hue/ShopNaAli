@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012001205319",
+      "title": "Чоловіки",
+      "title_pl": "Mężczyźni",
+      "price": 166.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 104,
+      "image": "https://ae01.alicdn.com/kf/S32b88a5043ad47a5a904c5dc6a91c5e3i.jpg",
+      "link": "https://aliexpress.com/item/1005012001205319.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012001205319.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T18:44:30.133142+00:00"
+    },
+    {
+      "id": "1005011980982652",
+      "title": "Силіконова щітка для унітазу з довгою ручкою - глибоке очищення",
+      "title_pl": "Silikonowa szczotka do muszli klozetowej z długą rączką - Dokładne czyszczenie szczotki do toalety do akcesoriów łazienkowych w akademiku domowym",
+      "price": 89.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 1801,
+      "image": "https://ae01.alicdn.com/kf/S6202ef74957f4ae794ad06fb1dfbca17R.jpg",
+      "link": "https://aliexpress.com/item/1005011980982652.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011980982652.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-10T18:48:46.479409+00:00"
+    },
+    {
       "id": "1005011988517547",
       "title": "Складна підставка, що обертається на 360°. Нековзкий тримач для настільного телефону",
       "title_pl": "Obrotowy składany stojak 360° Antypoślizgowy uchwyt na telefon stacjonarny do iPhone'a 13 Xiaomi Huawei Tablet z telefonem komórkowym Uniwersalne akcesoria",
