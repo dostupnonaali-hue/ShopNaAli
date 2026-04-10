@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011987950240",
+      "title": "Автоматичний диспенсер для води для кішок і собак, миска для годування кішок",
+      "title_pl": "Automatyczny dystrybutor wody dla zwierząt domowych Miska dla kotów i psów Miska dla kotów 2 w 1 Automatyczny dystrybutor wody dla kotów i psów Artykuły dla kotów",
+      "price": 106.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 984,
+      "image": "https://ae01.alicdn.com/kf/S50775b606e8d4802b6e7234c37e44a9dg.jpg",
+      "link": "https://aliexpress.com/item/1005011987950240.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011987950240.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-10T13:25:09.915633+00:00"
+    },
+    {
+      "id": "1005011984128265",
+      "title": "Совок для котячого туалету великої площі Швидко просіюючий совок для туалету",
+      "title_pl": "Wielkopowierzchniowa szufelka do kuwety dla kota Szybkie przesiewanie szufelka do kuwety z pustą siatką Pochylona główka Łopata do kuwety dla kota Możliwość zawieszenia Szufelka do kuwety dla kota",
+      "price": 17.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1477,
+      "image": "https://ae01.alicdn.com/kf/S577ae9b97be84758831781ebb88afe4c2.jpg",
+      "link": "https://aliexpress.com/item/1005011984128265.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011984128265.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-10T13:27:02.729764+00:00"
+    },
+    {
       "id": "1005004042385111",
       "title": "Електричний міні-тепловий пістолет Ручний гарячий повітряний пістолет з обігрівом",
       "title_pl": "300W elektryczna Mini opalarka ręczna opalarka z 300 szt. termokurczliwą końcówką do majsterkowania Craft tłoczenie folia termokurczliwa PVC",
