@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011988733180",
+      "title": "Твердість 10H. Автомобільні вироби з керамічним покриттям",
+      "title_pl": "Twardość 10H Detale samochodów Powłoka ceramiczna Produkty samochodowe Szklany lakier samochodowy Akcesoria samochodowe Środek do renowacji nadwozia",
+      "price": 32.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.8,
+      "orders": 240,
+      "image": "https://ae01.alicdn.com/kf/S869b12e68ea24e278e3cc2bc00228b5fc.jpg",
+      "link": "https://aliexpress.com/item/1005011988733180.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011988733180.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T11:23:45.945848+00:00"
+    },
+    {
       "id": "1005006861882211",
       "title": "Набір інструментів Mijia Nail Clippers, 5 предметів, набір для догляду за педикюром",
       "title_pl": "Mijia obcinacz do paznokci zestaw 5-częściowy zestaw pielęgnacja pedicure maszynka do strzyżenia kolczyk pilnik do paznokci profesjonalne narzędzia kosmetyczne obcinacz do paznokci trymer",
