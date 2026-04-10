@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007805377904",
+      "title": "Жінки",
+      "title_pl": "Kobiety",
+      "price": 146.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 1601,
+      "image": "https://ae01.alicdn.com/kf/S6abecb0210774158a6cb28821e00fde8G.jpg",
+      "link": "https://aliexpress.com/item/1005007805377904.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007805377904.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "181 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-10T15:02:56.056080+00:00"
+    },
+    {
       "id": "1005011966226370",
       "title": "Сексуальний камзол Ice Silk для жінок, літній дихаючий комфорт",
       "title_pl": "Seksowna lodowa jedwabna koszulka dla kobiet lato oddychająca wygodna bielizna dziewczęce krótkie bluzki kamizelka kobiece czarne seksowne topy typu tuba biustonosze białe",
