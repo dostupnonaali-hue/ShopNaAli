@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011991613676",
+      "title": "Весна та літо 2026 New Men",
+      "title_pl": "Nowi mężczyźni na wiosnę i lato 2026",
+      "price": 137.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1820,
+      "image": "https://ae01.alicdn.com/kf/S15230e59e7544267b1faee2890a9483dg.jpg",
+      "link": "https://aliexpress.com/item/1005011991613676.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011991613676.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T12:43:38.703169+00:00"
+    },
+    {
+      "id": "1005012011900536",
+      "title": "Ремонтний комплект для лобового скла. Наноремонтна рідина для автомобільного скла",
+      "title_pl": "Zestaw do naprawy przedniej szyby Szkło samochodowe Nano Naprawa Płynna pompa powietrza Typ Narzędzia do naprawy pęknięć Środek do usuwania zarysowań szyb samochodowych",
+      "price": 109.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.7,
+      "orders": 1102,
+      "image": "https://ae01.alicdn.com/kf/S2dc5c87c0c53496fbd22d4639c684b2au.jpg",
+      "link": "https://aliexpress.com/item/1005012011900536.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012011900536.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T12:46:12.108883+00:00"
+    },
+    {
       "id": "1005005956298915",
       "title": "Універсальний автомобільний тримач для телефону TOPK Gravity Auto Air Vent Clip",
       "title_pl": "TOPK Uniwersalny uchwyt samochodowy na telefon Grawitacyjny samochodowy uchwyt na kratkę wentylacyjną Magnetyczny uchwyt na telefon do samochodowego stojaka na telefon komórkowy do wszystkich telefonów",
