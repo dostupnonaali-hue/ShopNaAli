@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012004922115",
+      "title": "Пластикова спринклерна головка, що обертається на 360 градусів, для рокера",
+      "title_pl": "Plastikowa głowica zraszacza obracana pod kątem 360 stopni do wahacza Podwójna dysza do nawadniania trawnika 3/4",
+      "price": 34.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 448,
+      "image": "https://ae01.alicdn.com/kf/Sd725f8e602804b198dee151f7815162fi.jpg",
+      "link": "https://aliexpress.com/item/1005012004922115.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012004922115.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T19:05:22.467726+00:00"
+    },
+    {
       "id": "1005006350509692",
       "title": "4-режимний розпилювач Extende Head для кухонної мийки",
       "title_pl": "4-trybowy kran Extende głowica natryskowa do zlewu kuchennego Waterfallr Bubbler odporna na zachlapania wylewka umywalka łazienkowa Adapter przedłużający",
