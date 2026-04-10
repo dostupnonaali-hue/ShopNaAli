@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011987520715",
+      "title": "Міцний водонепроникний клей для ремонту взуття",
+      "title_pl": "60ml Mocny klej do naprawy obuwia Wodoodporny klej do naprawy obuwia szewskiego Mocny klej klejący Profesjonalny klej o dobrej odporności na zużycie",
+      "price": 23.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1912,
+      "image": "https://ae01.alicdn.com/kf/Sde73416d84424113bf07fa6e1af7447bX.jpg",
+      "link": "https://aliexpress.com/item/1005011987520715.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011987520715.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T08:05:24.749377+00:00"
+    },
+    {
+      "id": "1005011994338448",
+      "title": "Сумка для зберігання аксесуарів для пилососа. Автоматичний насос для шин",
+      "title_pl": "Torba do przechowywania akcesoriów do odkurzacza Auto Inflator do opon Kompaktowa konstrukcja Futerał do przechowywania do codziennych przygód na świeżym powietrzu",
+      "price": 69.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 1849,
+      "image": "https://ae01.alicdn.com/kf/Sfcb400e79e3a4589aedba0e3c17e9c85K.jpg",
+      "link": "https://aliexpress.com/item/1005011994338448.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011994338448.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T08:07:46.653455+00:00"
+    },
+    {
       "id": "1005011871671310",
       "title": "Світлодіодний трековий прожектор Gu10 3 кольори Ультра яскрава стеля",
       "title_pl": "Reflektor Led na szynę Gu10 3 kolor Ultra jasny sufit 220v reflektor kuchnia oprawa oświetleniowa sklep odzieżowy zestaw reflektor",
