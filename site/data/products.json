@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011998729709",
+      "title": "Інструмент для високов'язкого механічного мастила",
+      "title_pl": "Smar mechaniczny o wysokiej lepkości Smar do konserwacji narzędzi Smar do zawiasów drzwi samochodowych Eliminator hałasu Smar wodoodporny",
+      "price": 48.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 5.0,
+      "orders": 1182,
+      "image": "https://ae01.alicdn.com/kf/S2778437efa16488184db38d3e102bc89I.jpg",
+      "link": "https://aliexpress.com/item/1005011998729709.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011998729709.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T09:10:37.268938+00:00"
+    },
+    {
       "id": "1005011999657128",
       "title": "Набір масел для догляду за бородою East Moon Man покращує зниження ковзання",
       "title_pl": "Zestaw olejków do pielęgnacji brody East Moon Man poprawiający poślizg, redukujący tarcie, trwały, gładki zestaw upominkowy na Boże Narodzenie, kontrola poziomu oleju, serum na brodę",
