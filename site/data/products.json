@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011993470465",
+      "title": "Магнітний поворотний тримач біт, 1/4 шестигранний швидкознімний механізм",
+      "title_pl": "Magnetyczny obrotowy uchwyt na bity, szybkozamykacz 1/4 Hex, adapter do wiertarki do naprawy drewna",
+      "price": 29.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.7,
+      "orders": 629,
+      "image": "https://ae01.alicdn.com/kf/S16f34262ffaf4c6db2292f66bf098161B.png",
+      "link": "https://aliexpress.com/item/1005011993470465.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011993470465.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T15:29:41.417235+00:00"
+    },
+    {
       "id": "1005008248130442",
       "title": "HOMEFISH Потужний світлодіодний налобний ліхтар із USB-перезаряджанням",
       "title_pl": "HOMEFISH potężna latarka czołowa LED latarka czołowa z możliwością ładowania USB wodoodporna latarka kempingowa wędkarska zewnętrzna",
