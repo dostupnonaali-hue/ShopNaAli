@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011990132318",
+      "title": "Прозорі шкарпетки-невидимки Ultra-Women",
+      "title_pl": "Przezroczyste, niewidoczne skarpetki Ultra-Women",
+      "price": 69.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 278,
+      "image": "https://ae01.alicdn.com/kf/Se394315afa9e4be5bbe1dcccaf5673adO.jpg",
+      "link": "https://aliexpress.com/item/1005011990132318.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011990132318.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-10T16:44:14.608422+00:00"
+    },
+    {
       "id": "1005004358918725",
       "title": "Мультфільм візерунок відкритий дитини питної пляшку з соломою",
       "title_pl": "250 ml kreskówka wzór butelka do picia dla dzieci na zewnątrz ze słomką kubek do karmienia dziecka dla dzieci szkolenia przenośny uchwyt butelka na wodę",
