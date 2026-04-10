@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011983194452",
+      "title": "Літні комбінезони без рукавів 2026 Новинки для жінок",
+      "title_pl": "Letnie kombinezony bez rękawów 2026 nowych kobiet",
+      "price": 246.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1046,
+      "image": "https://ae01.alicdn.com/kf/Sd1800338c6ff42299d558514c2e8c4f3i.jpg",
+      "link": "https://aliexpress.com/item/1005011983194452.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011983194452.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-10T09:54:36.412509+00:00"
+    },
+    {
+      "id": "1005011968405613",
+      "title": "3D-камуфляжна футболка, чоловічий одяг, мода на відкритому повітрі, повсякденна O",
+      "title_pl": "T-Shirt kamuflażowy 3D mężczyźni ubrania moda zewnętrzna Casual O Neck z krótkim rękawem letnia ulica ponadgabarytowych mężczyzn Outdoor Sport t-shirty",
+      "price": 98.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 5.0,
+      "orders": 1052,
+      "image": "https://ae01.alicdn.com/kf/S1c5c2caaf3964a12968a391ef659878a6.jpg",
+      "link": "https://aliexpress.com/item/1005011968405613.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011968405613.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-10T09:57:05.864854+00:00"
+    },
+    {
       "id": "1005011985253804",
       "title": "Портативний аварійний порожній мішок. Ящик для зберігання першої допомоги",
       "title_pl": "Przenośna awaryjna pusta torba pudełko do przechowywania pierwszej pomocy do podróży na zewnątrz sprzęt kempingowy medycyna zestaw survivalowy 〔CC33〕",
