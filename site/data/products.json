@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008248130442",
+      "title": "HOMEFISH Потужний світлодіодний налобний ліхтар із USB-перезаряджанням",
+      "title_pl": "HOMEFISH potężna latarka czołowa LED latarka czołowa z możliwością ładowania USB wodoodporna latarka kempingowa wędkarska zewnętrzna",
+      "price": 106.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1809,
+      "image": "https://ae01.alicdn.com/kf/S2486fb5d7ce2465e86915d5f7ccc87c90.png",
+      "link": "https://aliexpress.com/item/1005008248130442.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008248130442.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "184 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-10T15:20:20.317093+00:00"
+    },
+    {
       "id": "1005007805377904",
       "title": "Жінки",
       "title_pl": "Kobiety",
