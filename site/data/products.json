@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011984033405",
+      "title": "Неонова світлодіодна стрічка COB з сенсорним плавним затемненням 320 світлодіодів/USB",
+      "title_pl": "320 diod LED/M USB Touch bezstopniowa ściemnialna taśma LED neonowa COB elastyczna taśma klejąca do wystroju domu",
+      "price": 66.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 375,
+      "image": "https://ae01.alicdn.com/kf/S9b8effeaa55249e4a9cf6cc0b7fc023cb.jpg",
+      "link": "https://aliexpress.com/item/1005011984033405.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011984033405.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T08:24:26.628800+00:00"
+    },
+    {
+      "id": "1005012009380230",
+      "title": "Бездротовий приймач аудіопередавача Bluetooth 5.2 2 в 1 3.",
+      "title_pl": "2 w 1 bezprzewodowy nadajnik i odbiornik audio Bluetooth 5.2 3.5mm AUX radio HiFi muzyka adapter audio z mikrofonem do słuchawek samochodowych PC",
+      "price": 91.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1872,
+      "image": "https://ae01.alicdn.com/kf/S6f1bc17642e74f51a33bcbcd4e4cc169N.jpg",
+      "link": "https://aliexpress.com/item/1005012009380230.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012009380230.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T08:30:33.378216+00:00"
+    },
+    {
       "id": "1005011945335971",
       "title": "Обертова кухонна стійка для зберігання багатофункціонального робочого столу",
       "title_pl": "Obrotowy stojak do przechowywania w kuchni Wielofunkcyjny organizer na biurko na kosmetyki i przyprawy Wejściowe pudełko do organizacji w domu",
