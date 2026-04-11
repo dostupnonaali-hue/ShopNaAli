@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011998672415",
+      "title": "Zjaiss 2026 Весна Літо Нові жінки",
+      "title_pl": "Zjaiss 2026 wiosna lato nowe kobiety",
+      "price": 58.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 847,
+      "image": "https://ae01.alicdn.com/kf/Sa0d6594a123043bea194699666b89024X.jpg",
+      "link": "https://aliexpress.com/item/1005011998672415.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011998672415.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-11T18:32:26.917135+00:00"
+    },
+    {
       "id": "1005011987896669",
       "title": "НОВИЙ Деревообробний інструмент Автоматичний ручний столярний чорнильний маркер",
       "title_pl": "NOWE narzędzie do obróbki drewna Automatyczny, ręczny marker atramentowy dla stolarzy, rysik do drewna, narzędzia pomiarowe do prac ziemnych, narzędzia do znakowania",
