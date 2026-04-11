@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007987671811",
+      "title": "Жінки",
+      "title_pl": "Kobiety",
+      "price": 103.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 451,
+      "image": "https://ae01.alicdn.com/kf/S8c46bc8f86be49249e2f016c82e09c631.jpg",
+      "link": "https://aliexpress.com/item/1005007987671811.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007987671811.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "177 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-11T10:17:30.497863+00:00"
+    },
+    {
       "id": "1005007805416926",
       "title": "35- Регульована стійка для сушіння одягу з нержавіючої сталі без свердління",
       "title_pl": "Regulowana suszarka do ubrań ze stali nierdzewnej o długości 35–80 cm Bez wiercenia Teleskopowy karnisz do zasłony do łazienki na balkonie",
