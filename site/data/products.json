@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011995789037",
+      "title": "Кухонний ніж WXCOO з нержавіючої сталі ручної ковки",
+      "title_pl": "WXCOO nóż kuchenny ze stali nierdzewnej ręcznie kute noże rzeźnicze wielofunkcyjny gotowanie o wysokiej zawartości węgla krojenie mięsa nóż szefa kuchni BBQ",
+      "price": 40.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 1794,
+      "image": "https://ae01.alicdn.com/kf/S8e494b8557334d209ad49ee48058f2e5u.jpg",
+      "link": "https://aliexpress.com/item/1005011995789037.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011995789037.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T18:36:39.582456+00:00"
+    },
+    {
       "id": "1005011998672415",
       "title": "Zjaiss 2026 Весна Літо Нові жінки",
       "title_pl": "Zjaiss 2026 wiosna lato nowe kobiety",
