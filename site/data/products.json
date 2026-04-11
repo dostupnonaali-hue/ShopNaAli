@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011992631059",
+      "title": "Міні-набір пензлів для макіяжу, подарунок на Великдень, переносний макарон для подорожей",
+      "title_pl": "8 szt. Mini zestaw pędzli do makijażu prezent na wielkanoc przenośny zestaw podróżny Macaron Color Eyeshadow róż do policzków narzędzia kosmetyczne dla początkujących",
+      "price": 32.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 5.0,
+      "orders": 1623,
+      "image": "https://ae01.alicdn.com/kf/S6801ba396d0a4b2aa3e78791ef7b6162X.png",
+      "link": "https://aliexpress.com/item/1005011992631059.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011992631059.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-11T15:33:34.032013+00:00"
+    },
+    {
       "id": "1005011992578274",
       "title": "SL100Pcs/Pack K1 K3 Роз'єм Обжимний клемний провід",
       "title_pl": "SL100 sztuk/paczka K1 K3 złącze zaciskane złącze przewodu połączenie Rj45 złącze kabla Ethernet Terminal linii telefonicznej",
