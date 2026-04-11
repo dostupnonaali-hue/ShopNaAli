@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011987896669",
+      "title": "НОВИЙ Деревообробний інструмент Автоматичний ручний столярний чорнильний маркер",
+      "title_pl": "NOWE narzędzie do obróbki drewna Automatyczny, ręczny marker atramentowy dla stolarzy, rysik do drewna, narzędzia pomiarowe do prac ziemnych, narzędzia do znakowania",
+      "price": 57.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.8,
+      "orders": 735,
+      "image": "https://ae01.alicdn.com/kf/S7cc60f9cfe5d4b6b8aac87fcbd8ae7f9F.jpg",
+      "link": "https://aliexpress.com/item/1005011987896669.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011987896669.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T18:10:08.680532+00:00"
+    },
+    {
       "id": "1005012000949841",
       "title": "Кабель для швидкого заряджання USB C від типу C до високошвидкісного USB типу C",
       "title_pl": "Kabel szybkiego ładowania USB C o mocy 20 W typ C do typu C szybki przewód do przesyłania danych USB 2.0 dla iPhone Huawei Xiaomi Samsung 0,3 m/1,5 m",
