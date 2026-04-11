@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011997847841",
+      "title": "Чоловіки",
+      "title_pl": "Mężczyźni",
+      "price": 55.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1393,
+      "image": "https://ae01.alicdn.com/kf/S8b7e3959277a40fbad9de35338c6c647P.jpg",
+      "link": "https://aliexpress.com/item/1005011997847841.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011997847841.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T07:42:42.517121+00:00"
+    },
+    {
+      "id": "1005011992583920",
+      "title": "2026 Нові 2шт Молодіжні Україна Домашні Футбольні футболки Шорти",
+      "title_pl": "2026 nowy 2 szt. Młodzieżowa ukraina domowa koszulki piłkarskie spodenki specjalny zestaw t-shirtów z koszulki męskiej",
+      "price": 211.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 5.0,
+      "orders": 371,
+      "image": "https://ae01.alicdn.com/kf/Scb4d7f97303240f3a59ad3c6d81f85dag.jpg",
+      "link": "https://aliexpress.com/item/1005011992583920.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011992583920.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T07:45:30.739249+00:00"
+    },
+    {
       "id": "1005011983260216",
       "title": "Фізичний браслет для носіння від комарів унісекс",
       "title_pl": "Opaska na nadgarstek dla obu płci, nadająca się do noszenia, odstraszająca komary, fizyczna, ultradźwiękowa, niechemiczna, w domu, na zewnątrz, zabójca szkodników, owadów, opaska na nadgarstek",
