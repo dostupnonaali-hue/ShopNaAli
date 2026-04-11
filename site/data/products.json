@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012008815236",
+      "title": "Креативний подарунок із симпатичним спортивним песиком типу C із зарядним кабелем",
+      "title_pl": "Śliczny Rascal Sport Dog kabel ładujący typu C kreatywny prezent Kawaii Cartoon przewód do synchronizacji danych dla urządzeń telefonicznych typu C z systemem Android",
+      "price": 61.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 4.8,
+      "orders": 481,
+      "image": "https://ae01.alicdn.com/kf/S324d72e3bab4468bb659d6906d3c757eL.jpg",
+      "link": "https://aliexpress.com/item/1005012008815236.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012008815236.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T19:30:32.207307+00:00"
+    },
+    {
       "id": "1005011995283324",
       "title": "Багатофункціональний кухонний складний ніж зі сталі WXCOO",
       "title_pl": "WXCOO Nóż składany ze stali Wielofunkcyjny nóż kuchenny do gotowania domowego obierania owoców i noży kieszonkowych",
