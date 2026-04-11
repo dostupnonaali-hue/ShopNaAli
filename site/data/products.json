@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012025328907",
+      "title": "Цифровий тестер якості води TDS EC Meter Діапазон 0-9990",
+      "title_pl": "Cyfrowy tester jakości wody TDS miernik EC zakres 0-9990 wielofunkcyjny miernik temperatury czystości wody TEMP Tester PPM",
+      "price": 73.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1695,
+      "image": "https://ae01.alicdn.com/kf/Se93a814939ba44b2be40667f0fb46f61B.jpg",
+      "link": "https://aliexpress.com/item/1005012025328907.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012025328907.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T16:30:22.907630+00:00"
+    },
+    {
+      "id": "1005011987504668",
+      "title": "Панель приладової панелі для ремонту подряпин Паста для салону автомобіля",
+      "title_pl": "100g Panel deski rozdzielczej pasta do naprawy zarysowań wnętrze samochodu środek do konserwacji deski rozdzielczej ochrona UV wosk do naprawy deski rozdzielczej",
+      "price": 57.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.8,
+      "orders": 910,
+      "image": "https://ae01.alicdn.com/kf/S2ab1af254a9642efaf5e50f33cf430ccu.jpg",
+      "link": "https://aliexpress.com/item/1005011987504668.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011987504668.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T16:32:52.208223+00:00"
+    },
+    {
       "id": "1005004967937044",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "title_pl": "Szkło hartowane Baseus do iPhone 17 16 15 14 13 12 Pro Max ochraniacz ekranu HD z zestawem do czyszczenia Anti Peeping szkło odporne na kurz",
