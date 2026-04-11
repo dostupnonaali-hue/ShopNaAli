@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011995283324",
+      "title": "Багатофункціональний кухонний складний ніж зі сталі WXCOO",
+      "title_pl": "WXCOO Nóż składany ze stali Wielofunkcyjny nóż kuchenny do gotowania domowego obierania owoców i noży kieszonkowych",
+      "price": 40.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 5.0,
+      "orders": 1277,
+      "image": "https://ae01.alicdn.com/kf/Sd9366640b33640549ada219087279caed.jpg",
+      "link": "https://aliexpress.com/item/1005011995283324.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011995283324.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T18:51:19.190451+00:00"
+    },
+    {
+      "id": "1005011995350280",
+      "title": "Інструмент для чищення склоочисника дзеркала заднього виду автомобіля",
+      "title_pl": "Narzędzie do czyszczenia wycieraczek lusterek wstecznych samochodu Auto Glass Mist Cleaner Skrobak Uchwyt do akcesoriów samochodowych Teleskopowa szczotka do czyszczenia okien",
+      "price": 24.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.7,
+      "orders": 264,
+      "image": "https://ae01.alicdn.com/kf/Seeb273b874414820b635df85a6b542074.jpg",
+      "link": "https://aliexpress.com/item/1005011995350280.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011995350280.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T18:53:26.434626+00:00"
+    },
+    {
       "id": "1005011995789037",
       "title": "Кухонний ніж WXCOO з нержавіючої сталі ручної ковки",
       "title_pl": "WXCOO nóż kuchenny ze stali nierdzewnej ręcznie kute noże rzeźnicze wielofunkcyjny gotowanie o wysokiej zawartości węgla krojenie mięsa nóż szefa kuchni BBQ",
