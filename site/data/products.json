@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011983260216",
+      "title": "Фізичний браслет для носіння від комарів унісекс",
+      "title_pl": "Opaska na nadgarstek dla obu płci, nadająca się do noszenia, odstraszająca komary, fizyczna, ultradźwiękowa, niechemiczna, w domu, na zewnątrz, zabójca szkodników, owadów, opaska na nadgarstek",
+      "price": 55.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 672,
+      "image": "https://ae01.alicdn.com/kf/Sbd1d3a557d5f4fac8af427ca7918047eS.jpg",
+      "link": "https://aliexpress.com/item/1005011983260216.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011983260216.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T07:33:11.170339+00:00"
+    },
+    {
+      "id": "1005009140335873",
+      "title": "1 шт. Чайник із краном для напоїв на вулиці",
+      "title_pl": "1 szt. Czajnik na wodę z kranem dozownik napojów Outdoor Camping piesze wycieczki zimny sok lemoniada napoje wiadro zbiornik na płyny",
+      "price": 214.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 112,
+      "image": "https://ae01.alicdn.com/kf/S2c08f922d5a449078d11ff0fb2beacdaz.jpg",
+      "link": "https://aliexpress.com/item/1005009140335873.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009140335873.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "276 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-11T07:36:45.155370+00:00"
+    },
+    {
       "id": "1005012004922115",
       "title": "Пластикова спринклерна головка, що обертається на 360 градусів, для рокера",
       "title_pl": "Plastikowa głowica zraszacza obracana pod kątem 360 stopni do wahacza Podwójna dysza do nawadniania trawnika 3/4",
