@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012002533317",
+      "title": "Весільний подарунок 128GB Crystal USB накопичувач 64GB Memory Stick Pen",
+      "title_pl": "Prezent ślubny 128 GB kryształowy dysk USB 64 GB pendrive'y Pen Drive U dysk 32 GB Flash Drive 100% rzeczywista pojemność fotografia",
+      "price": 66.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 501,
+      "image": "https://ae01.alicdn.com/kf/S15a88bc3acc147ec922c6d0d1b06c976U.jpg",
+      "link": "https://aliexpress.com/item/1005012002533317.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012002533317.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T10:24:29.747035+00:00"
+    },
+    {
+      "id": "1005011999982759",
+      "title": "Літні чоловічі тапочки, зручні вуличні сандалі на платформі",
+      "title_pl": "Letnie kapcie męskie wygodne platformy sandały na świeżym powietrzu 2023 kapcie plażowe klapki męskie kryty slajdy domowe buty łazienkowe",
+      "price": 183.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 310,
+      "image": "https://ae01.alicdn.com/kf/Scf1ccc519fa747b9a3a9ed2417382cf83.jpg",
+      "link": "https://aliexpress.com/item/1005011999982759.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011999982759.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T10:26:59.765805+00:00"
+    },
+    {
       "id": "1005007987671811",
       "title": "Жінки",
       "title_pl": "Kobiety",
