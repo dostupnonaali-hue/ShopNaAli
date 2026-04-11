@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012010488574",
+      "title": "Плісирована рибалка в японському стилі",
+      "title_pl": "Teksturowany plisowany rybak w stylu japońskim",
+      "price": 37.0,
+      "currency": "UAH",
+      "category": "sport",
+      "rating": 4.7,
+      "orders": 875,
+      "image": "https://ae01.alicdn.com/kf/S4dc0b835b3d841008136c72cb558d2326.png",
+      "link": "https://aliexpress.com/item/1005012010488574.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012010488574.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-11T14:31:14.630543+00:00"
+    },
+    {
       "id": "1005011996641042",
       "title": "Зубна нитка Flosser Pick для чищення зубів міжзубних проміжків, 50 шт",
       "title_pl": "【X】50 szt. Nić dentystyczna Flosser Pick Czyszczenie zębów Wykałaczka międzyzębowa Higiena jamy ustnej",
