@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007096775899",
+      "title": "Сумка для зберігання косметики, великої ємності, портативна, вхідна,",
+      "title_pl": "Torba do przechowywania kosmetyków, duża pojemność, przenośna, Ins, wysokiej klasy, znana w Internecie, nowe kosmetyki podróżne, torba do przechowywania przyborów toaletowych",
+      "price": 104.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 5.0,
+      "orders": 789,
+      "image": "https://ae01.alicdn.com/kf/S8898fa107c354cb5bd741b68f0804445g.jpg",
+      "link": "https://aliexpress.com/item/1005007096775899.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007096775899.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "181 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-11T16:00:33.159799+00:00"
+    },
+    {
       "id": "1005007805581400",
       "title": "Регульована млинка для перцю та солі 2-в-1 - нержавіюча нержавіюча сталь",
       "title_pl": "Regulowany młynek do soli pieprzowej 2 w 1 — młynek ręczny ze stali nierdzewnej ze stali nierdzewnej z podwójną głowicą i kontrolą grubości",
