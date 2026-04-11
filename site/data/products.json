@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011982350504",
+      "title": "Сяючий лосьйон перед макіяжем, зволожує суху шкіру, покращує",
+      "title_pl": "Rozświetlający balsam przed makijażem Nawilżający, suchy skóra Poprawia matowość Rozświetlający Wygładzający Lekki podkład zmiękczający twarz 20g",
+      "price": 29.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 554,
+      "image": "https://ae01.alicdn.com/kf/Scb8b589d597944c39bec587c9a05f1285.jpg",
+      "link": "https://aliexpress.com/item/1005011982350504.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011982350504.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-11T17:45:00.849606+00:00"
+    },
+    {
       "id": "1005006268118372",
       "title": "1 шт. ручка для води в пляшках, енергозберігаючий товстий пластик",
       "title_pl": "1 szt. Uchwyt do wody butelkowanej Oszczędność energii Grubszy plastik Podwójne zastosowanie Wiadro do podnoszenia Wiadro do transportu wody butelkowanej",
