@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011991395593",
+      "title": "Набір M3 M4 M5 M6 M8 Hand Tap Straight Flute - Hand Fast",
+      "title_pl": "[TL][TL]5 sztuk/zestaw M3 M4 M5 M6 M8 kran ręczny prosty rowek 3mm-8mm ręczne narzędzie do szybkiego gwintowania",
+      "price": 56.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 751,
+      "image": "https://ae01.alicdn.com/kf/S089cc30ad3d0410489adc99130e16aa3J.jpg",
+      "link": "https://aliexpress.com/item/1005011991395593.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011991395593.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T09:16:15.946823+00:00"
+    },
+    {
+      "id": "1005009914242253",
+      "title": "Набір гель-лаків NAILCO HEMA TPO FREE Jelly Color",
+      "title_pl": "NAILCO 2 szt. HEMA TPO FREE Jelly Color Gel Polish Set 15ml Półprzezroczysty różowy Nude Nail Art Gel Lakier Soak Off Żel UV LED",
+      "price": 56.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.7,
+      "orders": 1380,
+      "image": "https://ae01.alicdn.com/kf/S34c17c503ba145029f9728b48f65daf4Y.jpg",
+      "link": "https://aliexpress.com/item/1005009914242253.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009914242253.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-11T09:18:40.330307+00:00"
+    },
+    {
       "id": "1005011943721399",
       "title": "Акумуляторний водонепроникний налобний ліхтарик для риболовлі",
       "title_pl": "Wodoodporna latarka akumulatorowa do wędkowania Bieganie Jazda na rowerze Outdoor, Camping i piesze wycieczki Narzędzia zewnętrzne Jasna dioda LED Headlig",
