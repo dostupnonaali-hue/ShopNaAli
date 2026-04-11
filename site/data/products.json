@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012003794088",
+      "title": "Годинник метеостанції з кольоровим дисплеєм - температура та вологість",
+      "title_pl": "Zegar stacji pogodowej z kolorowym wyświetlaczem - Monitor temperatury i wilgotności z podświetleniem dla dzieci i nastolatków Idealny do biurka w sypialni / akademiku",
+      "price": 77.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1983,
+      "image": "https://ae01.alicdn.com/kf/Sbe40278e26b240d8b95683428c6bba807.jpg",
+      "link": "https://aliexpress.com/item/1005012003794088.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012003794088.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-11T10:33:19.760995+00:00"
+    },
+    {
+      "id": "1005010349105151",
+      "title": "Нова 5-шарова коробка для зберігання косметики 1 шт. Коробка для зберігання сміття",
+      "title_pl": "Nowy 1 szt. 5-warstwowy pojemnik na przybory do makijażu pudełko do przechowywania śmieci szuflada toaletka na biurko kosmetyki wielowarstwowa szafka do przechowywania",
+      "price": 272.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 156,
+      "image": "https://ae01.alicdn.com/kf/S14751bb912f64b958c132822826ea703w.jpg",
+      "link": "https://aliexpress.com/item/1005010349105151.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010349105151.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-11T10:40:16.844154+00:00"
+    },
+    {
       "id": "1005012002533317",
       "title": "Весільний подарунок 128GB Crystal USB накопичувач 64GB Memory Stick Pen",
       "title_pl": "Prezent ślubny 128 GB kryształowy dysk USB 64 GB pendrive'y Pen Drive U dysk 32 GB Flash Drive 100% rzeczywista pojemność fotografia",
