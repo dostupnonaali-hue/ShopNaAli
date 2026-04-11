@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005004625054774",
+      "title": "Якісна одноразова кисть для макіяжу з кришталевими віями",
+      "title_pl": "Dobrej jakości jednorazowe 50 sztuk/paczka kryształowy pędzel do makijażu rzęs diamentowa rączka różdżki do tuszu do rzęs narzędzie do przedłużania rzęs",
+      "price": 28.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.9,
+      "orders": 109,
+      "image": "https://ae01.alicdn.com/kf/Sf1fe6a46c3b5407382d90ee19c6013b8n.jpg",
+      "link": "https://aliexpress.com/item/1005004625054774.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004625054774.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-11T11:38:06.621312+00:00"
+    },
+    {
+      "id": "1005008144988135",
+      "title": "Набір гребінців для волосся з 2 шт. Антистатичний гребінець для вологого сухого масажу шкіри голови",
+      "title_pl": "2 szt. Zestaw grzebieni do włosów antystatyczny masaż skóry głowy grzebień na mokro i sucho szczotka Demelante Расчески grzebień do układania włosów Salon zestaw pędzli fryzjerskich",
+      "price": 89.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1887,
+      "image": "https://ae01.alicdn.com/kf/S8b44e9681e5a4a03a579e1ea66942f7c6.png",
+      "link": "https://aliexpress.com/item/1005008144988135.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008144988135.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-11T11:41:43.920497+00:00"
+    },
+    {
       "id": "1005011986112527",
       "title": "Монокуляр HD Mini Zoom Outdoor Портативний телескоп для",
       "title_pl": "8x20 HD Mini Zoom monokularowy zewnętrzny przenośny teleskop do polowania Camping wspinaczka górska wędrówka obserwacja ptaków",
