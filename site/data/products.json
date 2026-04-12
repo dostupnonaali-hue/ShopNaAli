@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012000540446",
+      "title": "21 грн з монетами 23 грн з монетами Як замовити з",
+      "title_pl": "21 UAH z monetami 23 UAH z monetami Jak zamówić z darmową dostawą",
+      "price": 21.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1760,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012000540446.jpg",
+      "link": "https://aliexpress.com/item/1005012000540446.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012000540446.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-12T14:56:57.275309+00:00"
+    },
+    {
+      "id": "1005010155278613",
+      "title": "Pykasis Верхнй одяг на блискавц! Жилет В'дкритий бав Vv",
+      "title_pl": "Pykasis Odzież wierzchnia zapinana na zamek! Kamizelka V'dkryty bav Vv",
+      "price": 432.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 568,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010155278613.jpg",
+      "link": "https://aliexpress.com/item/1005010155278613.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010155278613.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "86 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-12T15:01:37.358716+00:00"
+    },
+    {
       "id": "1005007306605756",
       "title": "1 шт. Чорні силіконові харчові щипці, харчові щипці з нержавіючої сталі",
       "title_pl": "1 szt. Czarne silikonowe szczypce do żywności, szczypce do żywności ze stali nierdzewnej zaciski do grillowania na świeżym powietrzu na kempingowe szczypce kuchenne do pieczenia steków",
