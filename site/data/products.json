@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011995194016",
+      "title": "59 грн з монетами 64 грн з монетами Як замовити з",
+      "title_pl": "59 UAH z monetami 64 UAH z monetami Jak zamówić z darmową dostawą",
+      "price": 59.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1414,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011995194016.jpg",
+      "link": "https://aliexpress.com/item/1005011995194016.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011995194016.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-12T17:57:18.100352+00:00"
+    },
+    {
+      "id": "1005001580808776",
+      "title": "Зимов! Tenni шапочки Повсякденна коротка нитка Хт-хоп",
+      "title_pl": "Zima! Czapki tenisowe Codzienne krótkie stringi Ht-hop",
+      "price": 117.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.8,
+      "orders": 891,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005001580808776.jpg",
+      "link": "https://aliexpress.com/item/1005001580808776.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005001580808776.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "76 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-12T18:04:20.244625+00:00"
+    },
+    {
       "id": "1005010715511828",
       "title": "Регульований лінивий кронштейн для iPhone 17 Pre v",
       "title_pl": "Regulowany wspornik leniwy dla iPhone'a 17 Wersja Pre v",
