@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008248035741",
+      "title": "Портативні ручні електронні ваги для подорожей",
+      "title_pl": "50kg/10g waga do bagażu podróżnego przenośna ręczna waga elektroniczna z haczykiem waga gramowa ekspresowa dostawa wędkarska ręczna waga",
+      "price": 128.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1827,
+      "image": "https://ae01.alicdn.com/kf/S0ad09cc1c71049728bd184133a95b7b6B.jpg",
+      "link": "https://aliexpress.com/item/1005008248035741.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008248035741.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "207 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-12T09:40:17.461131+00:00"
+    },
+    {
       "id": "1005012001749092",
       "title": "Набір симулятора водіння автомобіля постійного струму Паяння електроніки своїми руками",
       "title_pl": "Zestaw symulatora jazdy samochodem DC 5V DIY Elektronika Zestaw do lutowania Złącze zasilania DC 3,5 × 1,35 mm",
