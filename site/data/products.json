@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012001749092",
+      "title": "Набір симулятора водіння автомобіля постійного струму Паяння електроніки своїми руками",
+      "title_pl": "Zestaw symulatora jazdy samochodem DC 5V DIY Elektronika Zestaw do lutowania Złącze zasilania DC 3,5 × 1,35 mm",
+      "price": 118.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.7,
+      "orders": 1318,
+      "image": "https://ae01.alicdn.com/kf/A495cfc63d8284defa57c3a13b589e16c5.jpg",
+      "link": "https://aliexpress.com/item/1005012001749092.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012001749092.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-12T09:27:00.518191+00:00"
+    },
+    {
+      "id": "1005012007523803",
+      "title": "Компактна складна м’яка зубна щітка. Зручний догляд за зубами",
+      "title_pl": "Kompaktowa, składana miękka szczoteczka do zębów Przyjazna w podróży opieka stomatologiczna podczas przygód na świeżym powietrzu i biznesu",
+      "price": 23.0,
+      "currency": "UAH",
+      "category": "beauty",
+      "rating": 4.8,
+      "orders": 1072,
+      "image": "https://ae01.alicdn.com/kf/S0009440917324f27bb5985fcd60c70228.jpg",
+      "link": "https://aliexpress.com/item/1005012007523803.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012007523803.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-12T09:29:33.331639+00:00"
+    },
+    {
       "id": "1005007170271174",
       "title": "Міцна віконна ручка YONGRUN 1PC General Motors",
       "title_pl": "YONGRUN 1PC General Motors Korba do klamek okiennych Trwała plastikowa czarna klamka do okien Akcesorium kompatybilne z większością szyb samochodowych",
