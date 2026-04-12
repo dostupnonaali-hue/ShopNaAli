@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011991403686",
+      "title": "Весна Літо Чоловіки",
+      "title_pl": "Wiosna Lato Mężczyźni",
+      "price": 513.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 5.0,
+      "orders": 1734,
+      "image": "https://ae01.alicdn.com/kf/S19c9f4b963c8491b8ce8e84fec067644E.jpg",
+      "link": "https://aliexpress.com/item/1005011991403686.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011991403686.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "311 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-12T10:40:19.840273+00:00"
+    },
+    {
       "id": "1005012001805926",
       "title": "Боді для жінок. Костюм для йоги. Одяг для тренажерного залу. Жіночий спортивний костюм",
       "title_pl": "Body dla kobiet strój do jogi strój gimnastyczny damski sportowy zestaw bez rękawów sportowy jednoczęściowy obcisły kombinezon ubrania do ćwiczeń",
