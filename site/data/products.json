@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012014601718",
+      "title": "Светр Прикраса пояс Модні жінки",
+      "title_pl": "【X】 Pasek ozdobny do swetra, moda damska",
+      "price": 33.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 759,
+      "image": "https://ae01.alicdn.com/kf/S7a066f247c0f43e0bab4c4516e9dfa6aL.jpg",
+      "link": "https://aliexpress.com/item/1005012014601718.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012014601718.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-12T13:11:26.286222+00:00"
+    },
+    {
+      "id": "1005011996331863",
+      "title": "Літній капелюх із захистом від ультрафіолетового випромінювання. Жіночий порожній циліндр. Подорожі. Пляж",
+      "title_pl": "【X】 letni kapelusz przeciwsłoneczny anty-uv kobiety pusty cylinder podróżny plaża Outdoor Sports czapka z daszkiem czapka bejsbolówka z dzianiny",
+      "price": 32.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 780,
+      "image": "https://ae01.alicdn.com/kf/Sf441d12bfeb64200b36c547324d709d1m.jpg",
+      "link": "https://aliexpress.com/item/1005011996331863.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011996331863.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-12T13:13:45.846446+00:00"
+    },
+    {
       "id": "1005008248128202",
       "title": "Кемпінг Піші прогулянки 7 в 1 Відкритий багатофункціональний виживання",
       "title_pl": "Camping piesze wycieczki 7w1 odkryty wielofunkcyjny gwizdek survivalowy latarka kompas termometr lupa reflektor szkło powiększające",
