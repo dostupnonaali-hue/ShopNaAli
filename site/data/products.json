@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012013492524",
+      "title": "Міні-брелок рулетка легко зчитується автоматично",
+      "title_pl": "Mini miarka z brelokiem do kluczy Łatwy do odczytania Automatyczna zwijana linijka stalowa do placów budowy zajmujących się obróbką drewna",
+      "price": 15.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.7,
+      "orders": 1391,
+      "image": "https://ae01.alicdn.com/kf/S04552f75a05f46cfa235204a8793401a4.jpg",
+      "link": "https://aliexpress.com/item/1005012013492524.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012013492524.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-12T08:59:47.348893+00:00"
+    },
+    {
+      "id": "1005006600369688",
+      "title": "Допоміжний кабель 3. Гніздо до гнізда 3,5 шт. Додаткова автомобільна аудіосистема",
+      "title_pl": "Kabel Aux 3,5 mm Jack do 3,5 Jack męski samochodowy pomocniczy kabel Audio drut do telefonu słuchawki z głośnikiem Laptop samochodowy MP3/4 przewód Aux 0,5 m",
+      "price": 12.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1322,
+      "image": "https://ae01.alicdn.com/kf/S5b1bb0e60f38456798039245c8b4c565a.jpg",
+      "link": "https://aliexpress.com/item/1005006600369688.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006600369688.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-12T09:01:43.047109+00:00"
+    },
+    {
       "id": "1005012012366604",
       "title": "Рушник для чищення з мікрофібри згущує м'яку тканину для сушіння автомобіля",
       "title_pl": "6 szt. Ręcznik do czyszczenia z mikrofibry zagęścić miękką ściereczkę do suszenia ręczniki do mycia karoserii samochodu dwuwarstwowe czyste szmaty akcesoria samochodowe",
