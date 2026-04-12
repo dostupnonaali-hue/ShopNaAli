@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005007306605756",
+      "title": "1 шт. Чорні силіконові харчові щипці, харчові щипці з нержавіючої сталі",
+      "title_pl": "1 szt. Czarne silikonowe szczypce do żywności, szczypce do żywności ze stali nierdzewnej zaciski do grillowania na świeżym powietrzu na kempingowe szczypce kuchenne do pieczenia steków",
+      "price": 65.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 948,
+      "image": "https://ae01.alicdn.com/kf/Sf5556e3ee7054a4b9d7fe9f677ace7d0b.jpg",
+      "link": "https://aliexpress.com/item/1005007306605756.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007306605756.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "95 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-12T14:20:20.605848+00:00"
+    },
+    {
+      "id": "1005006966229657",
+      "title": "Набір викруток для масляного сальника автомобіля",
+      "title_pl": "Samochód Auto pojazd uszczelnienie olejowe zestaw wkrętaków zestaw O-ring uszczelka ściągacz Remover Pick haki narzędzia narzędzia do naprawy uszczelnień 16cm 4 sztuk",
+      "price": 73.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 1199,
+      "image": "https://ae01.alicdn.com/kf/S3c148d471e6045c7aea51f8c2f377188P.jpg",
+      "link": "https://aliexpress.com/item/1005006966229657.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006966229657.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-12T14:25:36.010396+00:00"
+    },
+    {
       "id": "1005012002780886",
       "title": "Жіноча сексуальна нижня білизна, безшовний однотонний чорний атласний комплект",
       "title_pl": "Kobiety seksowna bielizna bezszwowa solidna czarna satyna 2 szt. Biustonosz komplet bielizny biustonosze i stringi garnitury Bilizna zestaw intymny",
