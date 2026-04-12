@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005010715511828",
+      "title": "Регульований лінивий кронштейн для iPhone 17 Pre v",
+      "title_pl": "Regulowany wspornik leniwy dla iPhone'a 17 Wersja Pre v",
+      "price": 49.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 216,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010715511828.jpg",
+      "link": "https://aliexpress.com/item/1005010715511828.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010715511828.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-12T16:31:07.635206+00:00"
+    },
+    {
+      "id": "1005011981928973",
+      "title": "86 грн з монетами Як замовити з безкоштовною доставкою",
+      "title_pl": "86 UAH 3 szt. z monetami Jak zamówić z darmową dostawą",
+      "price": 86.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 520,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011981928973.jpg",
+      "link": "https://aliexpress.com/item/1005011981928973.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011981928973.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-12T16:33:51.048394+00:00"
+    },
+    {
       "id": "1005007102280295",
       "title": "Захисн! спортивн! накол!нники для YonoBikiB, жнок, щмтей",
       "title_pl": "Chronić! lekkoatletyka! nakolanniki dla YonoBikiB, żon, dzieci,",
