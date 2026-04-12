@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011925786609",
+      "title": "6/ Чоловіки",
+      "title_pl": "6/8mm Mężczyźni",
+      "price": 13.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 5.0,
+      "orders": 1557,
+      "image": "https://ae01.alicdn.com/kf/Se784d509c71c41d9a7f35a7b3eca0b77i.png",
+      "link": "https://aliexpress.com/item/1005011925786609.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011925786609.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "20 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-12T12:11:29.570457+00:00"
+    },
+    {
+      "id": "1005011860770625",
+      "title": "Електричний дисплей, медична ручка, акумуляторна жовто-біла",
+      "title_pl": "Elektryczny wyświetlacz Lampa medyczna z długopisem Możliwość ładowania Żółta Biała Podwójne źródło światła Światło doustne Lampa inspekcyjna źrenic ze stali nierdzewnej",
+      "price": 29.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1489,
+      "image": "https://ae01.alicdn.com/kf/S06dfe33b3a1a45889d6500697105f996x.jpeg",
+      "link": "https://aliexpress.com/item/1005011860770625.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011860770625.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-12T12:15:06.985100+00:00"
+    },
+    {
       "id": "1005012002277004",
       "title": "Портативне ситечко для кави, кухонні інструменти, 1 шт. з нержавіючої сталі",
       "title_pl": "Przenośne sitko do kawy narzędzia kuchenne 1PC filtr do kawy ze stali nierdzewnej zaparzacz kubek wietnamski kroplownik do kawy ekspres do garnka",
