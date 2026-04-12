@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012006450273",
+      "title": "EU24 EU25 EX26 EX27 EU28 EU29| EX30 EX1",
+      "title_pl": "EU24 EU25 EX26 EX27 EU28 EU29| EX30 EX1",
+      "price": 22.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1092,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012006450273.jpg",
+      "link": "https://aliexpress.com/item/1005012006450273.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012006450273.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-12T15:50:24.866273+00:00"
+    },
+    {
       "id": "1005011992893573",
       "title": "70 грн з монетами Як замовити з безкоштовною доставкою",
       "title_pl": "70 UAH z monetami Jak zamówić z darmową dostawą",
