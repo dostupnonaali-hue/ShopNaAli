@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007663609627",
+      "title": "Бездротова зарядка 22. Дротова зарядка Qi2-Certified і М",
+      "title_pl": "Ładowanie bezprzewodowe Ładowanie przewodowe 22,5 W. Certyfikat Qi2 i М",
+      "price": 664.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 477,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007663609627.jpg",
+      "link": "https://aliexpress.com/item/1005007663609627.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007663609627.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "41 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-12T22:13:33.793600+00:00"
+    },
+    {
       "id": "1005009644345193",
       "title": "Вбудований висувний кабель USB-C i Lightning ana iPho М",
       "title_pl": "Wbudowany zwijany kabel USB-C i Lightning do iPho M",
