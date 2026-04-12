@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012002277004",
+      "title": "Портативне ситечко для кави, кухонні інструменти, 1 шт. з нержавіючої сталі",
+      "title_pl": "Przenośne sitko do kawy narzędzia kuchenne 1PC filtr do kawy ze stali nierdzewnej zaparzacz kubek wietnamski kroplownik do kawy ekspres do garnka",
+      "price": 39.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.8,
+      "orders": 1266,
+      "image": "https://ae01.alicdn.com/kf/Sf4e34f688bc14de99d709105dc36673aZ.jpg",
+      "link": "https://aliexpress.com/item/1005012002277004.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012002277004.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-12T11:51:06.754802+00:00"
+    },
+    {
       "id": "1005011999224276",
       "title": "Набір металевих джиг-ложок-блешень для риболовлі з приманками для воблерів",
       "title_pl": "[E] 5 sztuk/zestaw metalowa łyżka jigowa Spinner Fishing Lure Wobbler zestaw przynęt ze sprzętem wędkarskim zestaw pudełek do przynęty wędkarskiej zestaw przynęt",
