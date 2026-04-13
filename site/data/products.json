@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011987965987",
+      "title": "Від = cwrapping Official 5... ( # 4.2 | 50 000+ продано )",
+      "title_pl": "Od = cwrapping Oficjalne 5... (nr 4.2 | ponad 50 000 sprzedanych)",
+      "price": 69.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 861,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011987965987.jpg",
+      "link": "https://aliexpress.com/item/1005011987965987.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011987965987.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T15:09:33.138114+00:00"
+    },
+    {
       "id": "1005012010004321",
       "title": "Телефону з кріпленням на повітропровід, підставка для М",
       "title_pl": "Telefon z uchwytem na kanał wentylacyjny, stojak na M",
