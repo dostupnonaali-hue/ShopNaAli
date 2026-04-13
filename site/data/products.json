@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005004347430643",
+      "title": "Чолов!че легке амортизашйне повсякденне взуття Студ М",
+      "title_pl": "Męskie lekkie, amortyzujące buty na co dzień Stud M",
+      "price": 850.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 1824,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005004347430643.jpg",
+      "link": "https://aliexpress.com/item/1005004347430643.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004347430643.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "22 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-13T10:23:09.397176+00:00"
+    },
+    {
       "id": "1005011995832270",
       "title": "2026: дихаюча футболка з коротким рукавом і М",
       "title_pl": "2026: oddychająca koszulka z krótkim rękawem i M",
