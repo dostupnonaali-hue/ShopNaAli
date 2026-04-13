@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011991520526",
+      "title": "З алюмінієвого сплаву з поворотом Ha 360 °, порту Vv",
+      "title_pl": "Wykonany ze stopu aluminium z możliwością obrotu Ha 360°, przyłącze Vv",
+      "price": 72.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1680,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011991520526.jpg",
+      "link": "https://aliexpress.com/item/1005011991520526.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011991520526.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T11:32:22.340313+00:00"
+    },
+    {
       "id": "1005012026196371",
       "title": "Допоміжна опорна рама для домашніх тре! V",
       "title_pl": "- Pomocnicza rama nośna do domu tr! V",
