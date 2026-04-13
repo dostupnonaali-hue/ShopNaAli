@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012013056947",
+      "title": "Ot = Shop1103673193 Store (% 4,2 | 10 000+ продано)",
+      "title_pl": "Ot = Shop1103673193 Sklep (% 4,2 | 10 000+ sprzedanych)",
+      "price": 74.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 617,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012013056947.jpg",
+      "link": "https://aliexpress.com/item/1005012013056947.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012013056947.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T15:36:20.437276+00:00"
+    },
+    {
+      "id": "1005007291600816",
+      "title": "115 грн з монетами",
+      "title_pl": "115 UAH z monetami",
+      "price": 115.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 934,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007291600816.jpg",
+      "link": "https://aliexpress.com/item/1005007291600816.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007291600816.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-13T15:38:18.589934+00:00"
+    },
+    {
       "id": "1005012010656276",
       "title": "61 грн з монетами Як замовити з безкоштовною доставкою",
       "title_pl": "61 UAH z monetami Jak zamówić z darmową dostawą",
