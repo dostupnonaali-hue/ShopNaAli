@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012000264465",
+      "title": "Адаптер живлення для зарядки телефону",
+      "title_pl": "Zasilacz do ładowarki telefonu iPhone Samsung Xi. м",
+      "price": 37.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 227,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012000264465.jpg",
+      "link": "https://aliexpress.com/item/1005012000264465.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012000264465.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T07:48:19.144843+00:00"
+    },
+    {
+      "id": "1005007812696677",
+      "title": "Ot @ Reese Car Accessorie... (№ 4.9 | 5000+ продано)",
+      "title_pl": "Od @ Reese Car Accessorie... (nr 4.9 | ponad 5000 sprzedanych)",
+      "price": 60.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 1213,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007812696677.jpg",
+      "link": "https://aliexpress.com/item/1005007812696677.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007812696677.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T07:55:28.452867+00:00"
+    },
+    {
       "id": "1005012003127076",
       "title": "Професійні секатори для обрізки гілок, садок М",
       "title_pl": "Profesjonalne sekatory do cięcia gałęzi, ogrodnicze M",
