@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012010004321",
+      "title": "Телефону з кріпленням на повітропровід, підставка для М",
+      "title_pl": "Telefon z uchwytem na kanał wentylacyjny, stojak na M",
+      "price": 52.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1775,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012010004321.jpg",
+      "link": "https://aliexpress.com/item/1005012010004321.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012010004321.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T15:07:09.062656+00:00"
+    },
+    {
       "id": "1005011982865465",
       "title": "Стрижки волосся, непромокальна накидка для перуків Vv",
       "title_pl": "Strzyżenie włosów, wodoodporna peleryna dla fryzjerów Vv",
