@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012002946164",
+      "title": "63 грн 5пар з монетами Як замовити з безкоштовною доставкою",
+      "title_pl": "63 UAH 5 par z monetami Jak zamówić z darmową dostawą",
+      "price": 63.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1297,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012002946164.jpg",
+      "link": "https://aliexpress.com/item/1005012002946164.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012002946164.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-13T11:00:33.252444+00:00"
+    },
+    {
+      "id": "1005002433021138",
+      "title": "Дихаюч/, nerki, жноч!, тренувальн! кросвки для ходьби,. М",
+      "title_pl": "Oddychanie/, nerki, zhnoch!, trenuvaln! trampki do chodzenia. M",
+      "price": 904.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 496,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005002433021138.jpg",
+      "link": "https://aliexpress.com/item/1005002433021138.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005002433021138.html",
+      "description": "",
+      "promo_text": "IFPF3HCV",
+      "price_note": "294 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-13T11:04:12.718366+00:00"
+    },
+    {
       "id": "1005011980058930",
       "title": "86, з автономним живленням від кінетичної енергії. V",
       "title_pl": "86, napędzany energią kinetyczną. V",
