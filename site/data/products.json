@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012003127076",
+      "title": "Професійні секатори для обрізки гілок, садок М",
+      "title_pl": "Profesjonalne sekatory do cięcia gałęzi, ogrodnicze M",
+      "price": 251.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1037,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012003127076.jpg",
+      "link": "https://aliexpress.com/item/1005012003127076.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012003127076.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T07:45:39.472006+00:00"
+    },
+    {
       "id": "1005006727556797",
       "title": "Телефону з перемикачем, тимчасова парковка",
       "title_pl": "Telefon z wyłącznikiem, parking tymczasowy M",
