@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012019918432",
+      "title": "0,87 грн з купоном+монети",
+      "title_pl": "0,87 UAH z kuponem + monetami",
+      "price": 0.87,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 347,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012019918432.jpg",
+      "link": "https://aliexpress.com/item/1005012019918432.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012019918432.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-13T21:08:30.950527+00:00"
+    },
+    {
       "id": "1005004582426832",
       "title": "Вага нетто: 5. /пара",
       "title_pl": "Waga netto: 5. 4 g/para",
