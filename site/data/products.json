@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006725269052",
+      "title": "77 грн з монетами Як замовити з безкоштовною доставкою",
+      "title_pl": "77 UAH z monetami Jak zamówić z darmową dostawą",
+      "price": 77.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 503,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006725269052.jpg",
+      "link": "https://aliexpress.com/item/1005006725269052.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006725269052.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-13T08:43:01.464647+00:00"
+    },
+    {
       "id": "1005010042792032",
       "title": "Надяскравий, потужний, водонепроникний, для екс М",
       "title_pl": "Super jasny, mocny, wodoodporny, np. M",
