@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011980058930",
+      "title": "86, з автономним живленням від кінетичної енергії. V",
+      "title_pl": "86, napędzany energią kinetyczną. V",
+      "price": 129.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 5.0,
+      "orders": 1402,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011980058930.jpg",
+      "link": "https://aliexpress.com/item/1005011980058930.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011980058930.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T10:48:49.446280+00:00"
+    },
+    {
+      "id": "1005012001867283",
+      "title": "49 грн з монетами 85 грн з монетами",
+      "title_pl": "49 UAH z monetami, 85 UAH z monetami",
+      "price": 49.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1559,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012001867283.jpg",
+      "link": "https://aliexpress.com/item/1005012001867283.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012001867283.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-13T10:53:42.092124+00:00"
+    },
+    {
       "id": "1005011993519117",
       "title": "Товстою губчастою підкладкою, протиковзкі, | М",
       "title_pl": "Gruba wyściółka z gąbki, antypoślizgowa, | M",
