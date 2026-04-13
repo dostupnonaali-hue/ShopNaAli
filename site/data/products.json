@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005010042792032",
+      "title": "Надяскравий, потужний, водонепроникний, для екс М",
+      "title_pl": "Super jasny, mocny, wodoodporny, np. M",
+      "price": 136.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1572,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010042792032.jpg",
+      "link": "https://aliexpress.com/item/1005010042792032.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010042792032.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T08:19:24.801822+00:00"
+    },
+    {
+      "id": "1005008411812375",
+      "title": "Лампа з сенсорним керуванням, 695, портативна,. М",
+      "title_pl": "Lampa sterowana dotykowo, 695, przenośna,. M",
+      "price": 307.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1260,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008411812375.jpg",
+      "link": "https://aliexpress.com/item/1005008411812375.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008411812375.html",
+      "description": "",
+      "promo_text": "IFP4QQ7Y",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T08:23:41.038110+00:00"
+    },
+    {
       "id": "1005012000264465",
       "title": "Адаптер живлення для зарядки телефону",
       "title_pl": "Zasilacz do ładowarki telefonu iPhone Samsung Xi. м",
