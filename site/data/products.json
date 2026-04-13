@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011982865465",
+      "title": "Стрижки волосся, непромокальна накидка для перуків Vv",
+      "title_pl": "Strzyżenie włosów, wodoodporna peleryna dla fryzjerów Vv",
+      "price": 66.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 896,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011982865465.jpg",
+      "link": "https://aliexpress.com/item/1005011982865465.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011982865465.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T14:53:05.627948+00:00"
+    },
+    {
+      "id": "1005012001714565",
+      "title": "Ot = Shop1105334069 Store (¥ 4,3 | 1000+ продано)",
+      "title_pl": "Ot = Shop1105334069 Sklep ( ¥ 4,3 | Ponad 1000 sprzedanych )",
+      "price": 56.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 530,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012001714565.jpg",
+      "link": "https://aliexpress.com/item/1005012001714565.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012001714565.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T14:55:55.341029+00:00"
+    },
+    {
       "id": "32900206036",
       "title": "Спліт мікрофібра Чоловіче спортивне взуття Lace Up Outdoor Joggin М",
       "title_pl": "Męskie buty sportowe z dzielonej mikrofibry Sznurowane Outdoor Joggin М",
