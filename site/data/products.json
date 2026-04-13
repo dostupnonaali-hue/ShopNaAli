@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012057427960",
+      "title": "190 грн Як замовити з безкоштовною доставкою",
+      "title_pl": "190 UAH Jak zamówić z darmową dostawą",
+      "price": 190.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1762,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012057427960.jpg",
+      "link": "https://aliexpress.com/item/1005012057427960.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012057427960.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-13T12:39:11.784275+00:00"
+    },
+    {
       "id": "1005012001061216",
       "title": "Вивихах плеча, ліктя, зап'ястя, реабілітаційний | М",
       "title_pl": "Zwichnięcia barku, łokcia, nadgarstka, rehabilitacja | M",
