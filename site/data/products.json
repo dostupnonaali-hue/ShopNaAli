@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005010248227780",
+      "title": "460 mAg Термічна батарея на 14 днів! 1,97 дюймів 60 Вв",
+      "title_pl": "460 mAg 14-dniowy akumulator termiczny! 1,97 cala 60 Vv",
+      "price": 1450.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1571,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010248227780.jpg",
+      "link": "https://aliexpress.com/item/1005010248227780.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010248227780.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "89 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-13T13:00:37.405150+00:00"
+    },
+    {
       "id": "1005006997452191",
       "title": "92 грн з купоном+монети 118 грн з купоном+монети 43 грн з",
       "title_pl": "92 UAH z kuponem+monety 118 UAH z kuponem+monety 43 UAH z kuponem+monety 58 UAH z kuponem+monety 64 UAH z kuponem+monety 36 UAH z kuponem+monety",
