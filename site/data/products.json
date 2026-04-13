@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006727556797",
+      "title": "Телефону з перемикачем, тимчасова парковка",
+      "title_pl": "Telefon z wyłącznikiem, parking tymczasowy M",
+      "price": 44.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1604,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006727556797.jpg",
+      "link": "https://aliexpress.com/item/1005006727556797.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727556797.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T07:34:58.402722+00:00"
+    },
+    {
       "id": "1005008049009431",
       "title": "99 налаштування міцності файлу | велика ємність, тривалий термін служби",
       "title_pl": "99 regulacja siły pliku | duża pojemność trwająca całe życie",
