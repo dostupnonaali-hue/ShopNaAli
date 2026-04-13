@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012026196371",
+      "title": "Допоміжна опорна рама для домашніх тре! V",
+      "title_pl": "- Pomocnicza rama nośna do domu tr! V",
+      "price": 70.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1169,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012026196371.jpg",
+      "link": "https://aliexpress.com/item/1005012026196371.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012026196371.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-13T11:17:51.113025+00:00"
+    },
+    {
+      "id": "1005006484745901",
+      "title": "Snapdragon ® 8s Gen 3 MES 120Hz Flow AMOLED 90WT. м",
+      "title_pl": "Snapdragon® 8s Gen 3 MES 120 Hz Flow AMOLED 90WT. M",
+      "price": 11748.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 614,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006484745901.jpg",
+      "link": "https://aliexpress.com/item/1005006484745901.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006484745901.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "200 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-13T11:20:33.077944+00:00"
+    },
+    {
       "id": "1005012002946164",
       "title": "63 грн 5пар з монетами Як замовити з безкоштовною доставкою",
       "title_pl": "63 UAH 5 par z monetami Jak zamówić z darmową dostawą",
