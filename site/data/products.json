@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1877164352",
+      "title": "113 грн з монетами 139 грн з монетами 139 грн з монетами",
+      "title_pl": "113 UAH z monetami 139 UAH z monetami 139 UAH z monetami",
+      "price": 113.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 493,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1877164352.jpg",
+      "link": "https://aliexpress.com/item/1877164352.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1877164352.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-13T17:52:34.086619+00:00"
+    },
+    {
       "id": "1005012003551429",
       "title": "74 грн з монетами Як замовити з безкоштовною доставкою",
       "title_pl": "74 UAH z monetami Jak zamówić z darmową dostawą",
