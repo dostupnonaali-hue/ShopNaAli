@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006997452191",
+      "title": "92 грн з купоном+монети 118 грн з купоном+монети 43 грн з",
+      "title_pl": "92 UAH z kuponem+monety 118 UAH z kuponem+monety 43 UAH z kuponem+monety 58 UAH z kuponem+monety 64 UAH z kuponem+monety 36 UAH z kuponem+monety",
+      "price": 92.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1612,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006997452191.jpg",
+      "link": "https://aliexpress.com/item/1005006997452191.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006997452191.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-13T12:50:26.505785+00:00"
+    },
+    {
       "id": "1005012057427960",
       "title": "190 грн Як замовити з безкоштовною доставкою",
       "title_pl": "190 UAH Jak zamówić z darmową dostawą",
