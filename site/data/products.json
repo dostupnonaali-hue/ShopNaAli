@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005004639570877",
+      "title": "Щиколотки Компресйний бандаж для кол!нного литя, з: М",
+      "title_pl": "Kostki Bandaż uciskowy do gipsu na kolana, od: M",
+      "price": 60.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 954,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005004639570877.jpg",
+      "link": "https://aliexpress.com/item/1005004639570877.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004639570877.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "58 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-14T16:50:30.086431+00:00"
+    },
+    {
       "id": "1005006716214989",
       "title": "21 грн з купоном+монети Як замовити з безкоштовною доставкою",
       "title_pl": "21 UAH z kuponem+monetami Jak zamówić z darmową dostawą",
