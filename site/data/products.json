@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012017872402",
+      "title": "FPH365-85 | ..грн.24.10 /шт. | Ціна без урахування податків",
+      "title_pl": "FPH365-85 | 4 szt. 24,10 UAH / szt. | Cena bez podatków",
+      "price": 38.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 744,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012017872402.jpg",
+      "link": "https://aliexpress.com/item/1005012017872402.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012017872402.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T13:46:19.927137+00:00"
+    },
+    {
+      "id": "1005012028529813",
+      "title": "Від = sixwgh Офіційний магазин... ( #4.2 | 5000+ продано )",
+      "title_pl": "By = sixwgh Oficjalny sklep... (nr 4.2 | 5000+ sprzedanych)",
+      "price": 173.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 551,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012028529813.jpg",
+      "link": "https://aliexpress.com/item/1005012028529813.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012028529813.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T13:48:48.540869+00:00"
+    },
+    {
       "id": "1005010653585082",
       "title": "Апарат Ha6ip для ремонту бампера автомо@ля Ремонт!",
       "title_pl": "Urządzenie Ha6ip do naprawy zderzaków samochodowych Naprawa!",
