@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012002108664",
+      "title": "Ot = Shop1103745679 Store (% 4,2 | 10 000+ продано)",
+      "title_pl": "Ot = Shop1103745679 Sklep (% 4,2 | 10 000+ sprzedanych)",
+      "price": 40.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1845,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012002108664.jpg",
+      "link": "https://aliexpress.com/item/1005012002108664.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012002108664.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T17:00:51.502939+00:00"
+    },
+    {
       "id": "1005004639570877",
       "title": "Щиколотки Компресйний бандаж для кол!нного литя, з: М",
       "title_pl": "Kostki Bandaż uciskowy do gipsu na kolana, od: M",
