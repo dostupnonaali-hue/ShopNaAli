@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006861080136",
+      "title": "Наматрацник, проти клищв, антибактер!альне простира; М",
+      "title_pl": "Podkładka pod materac przeciw kleszczom, prześcieradło antybakteryjne; M",
+      "price": 533.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 5.0,
+      "orders": 1058,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006861080136.jpg",
+      "link": "https://aliexpress.com/item/1005006861080136.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006861080136.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "265 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-14T13:10:32.883909+00:00"
+    },
+    {
       "id": "1005010795008100",
       "title": "2025, 11 gtoumis, дисплей 2.5K, MediaTek Dimensity 6300, в. v",
       "title_pl": "2025, 11 gtoumi, ekran 2,5K, MediaTek Dimensity 6300, ok. w",
