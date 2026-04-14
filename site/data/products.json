@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006380049516",
+      "title": "Лампа світлодіодна кругла у формі НЛО, 220 В, E27",
+      "title_pl": "Okrągła lampa LED w kształcie UFO, 220 V, E27",
+      "price": 54.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 687,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006380049516.jpg",
+      "link": "https://aliexpress.com/item/1005006380049516.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006380049516.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T10:45:04.899907+00:00"
+    },
+    {
       "id": "1005007476466912",
       "title": "Лампа змінного струму B/220 для дому, г v",
       "title_pl": "Lampa AC 85-265 V/220 V do użytku domowego, g v",
