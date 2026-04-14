@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005010653585082",
+      "title": "Апарат Ha6ip для ремонту бампера автомо@ля Ремонт!",
+      "title_pl": "Urządzenie Ha6ip do naprawy zderzaków samochodowych Naprawa!",
+      "price": 602.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 396,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010653585082.jpg",
+      "link": "https://aliexpress.com/item/1005010653585082.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010653585082.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "120 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-14T13:34:05.350078+00:00"
+    },
+    {
+      "id": "1005012013748039",
+      "title": "Apesaceaice",
+      "title_pl": "Apesaceaja",
+      "price": 93.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1459,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012013748039.jpg",
+      "link": "https://aliexpress.com/item/1005012013748039.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012013748039.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-14T13:38:44.180107+00:00"
+    },
+    {
       "id": "1005006861080136",
       "title": "Наматрацник, проти клищв, антибактер!альне простира; М",
       "title_pl": "Podkładka pod materac przeciw kleszczom, prześcieradło antybakteryjne; M",
