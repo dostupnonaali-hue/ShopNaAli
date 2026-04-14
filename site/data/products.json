@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007170261932",
+      "title": "85 грн з монетами 84 грн з монетами 83 грн з монетами 64",
+      "title_pl": "85 UAH z monetami 84 UAH z monetami 83 UAH z monetami 64 UAH z monetami Jak zamówić z darmową dostawą",
+      "price": 85.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 327,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007170261932.jpg",
+      "link": "https://aliexpress.com/item/1005007170261932.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007170261932.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T08:11:57.992550+00:00"
+    },
+    {
       "id": "1005006727873045",
       "title": "Щну показано без урахування податку; Додаткова знижка 39%",
       "title_pl": "Pokazane bez podatku; Dodatkowy rabat 39%",
