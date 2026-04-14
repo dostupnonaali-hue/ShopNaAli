@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011644840924",
+      "title": "Специфікація інтерфейсу: Type-C",
+      "title_pl": "Specyfikacja interfejsu: Typ C",
+      "price": 77.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 398,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011644840924.jpg",
+      "link": "https://aliexpress.com/item/1005011644840924.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011644840924.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T18:35:13.229735+00:00"
+    },
+    {
+      "id": "1005009526391379",
+      "title": "63 грн з купоном+монети 90 грн з купоном+монети",
+      "title_pl": "63 UAH z kuponem + monetami 90 UAH z kuponem + monetami",
+      "price": 63.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1264,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005009526391379.jpg",
+      "link": "https://aliexpress.com/item/1005009526391379.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009526391379.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-14T18:41:57.248024+00:00"
+    },
+    {
       "id": "1005011893425293",
       "title": "238 грн з купоном+монети",
       "title_pl": "238 UAH z kuponem + monety",
