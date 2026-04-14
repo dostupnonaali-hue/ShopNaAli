@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011895369112",
+      "title": "Масажер для шийних м'яз!в, масажер для розминання LL) М",
+      "title_pl": "Masażer do mięśni karku, masażer do ugniatania LL) M",
+      "price": 651.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 267,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011895369112.jpg",
+      "link": "https://aliexpress.com/item/1005011895369112.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011895369112.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "33 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-14T12:16:20.633632+00:00"
+    },
+    {
       "id": "1005006913898355",
       "title": "1976,2005 SANRIO CO., LTD",
       "title_pl": "1976,2005 SANRIO CO., LTD.",
