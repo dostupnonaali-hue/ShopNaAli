@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012001091118",
+      "title": "Спортивні майки, швидковисихаючі компресійні. VY",
+      "title_pl": "Koszulki sportowe, koszulki kompresyjne szybkoschnące. VY",
+      "price": 96.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.9,
+      "orders": 308,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012001091118.jpg",
+      "link": "https://aliexpress.com/item/1005012001091118.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012001091118.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T17:15:27.651515+00:00"
+    },
+    {
+      "id": "1005005376861241",
+      "title": "123 грн з монетами",
+      "title_pl": "123 UAH z monetami",
+      "price": 123.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1732,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005005376861241.jpg",
+      "link": "https://aliexpress.com/item/1005005376861241.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005376861241.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-14T17:18:24.831603+00:00"
+    },
+    {
       "id": "1005012003784150",
       "title": "З магазину ® Shop1103745679 (% 4,2 |10 000+ продано)",
       "title_pl": "Z ® Shop1103745679 Sklep (% 4,2 |10 000+ sprzedanych)",
