@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008248114515",
+      "title": "Bluetooth-quuamik Бездротовий портативний 3 кольоро: М",
+      "title_pl": "Bluetooth-quuamik Bezprzewodowy przenośny 3 kolory: M",
+      "price": 121.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 477,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008248114515.jpg",
+      "link": "https://aliexpress.com/item/1005008248114515.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008248114515.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "165 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-14T14:52:46.079767+00:00"
+    },
+    {
       "id": "1005008540271602",
       "title": "Крижаного шовку Qui Dry Tee-Quarter довжини для чоловік: М",
       "title_pl": "Koszulka Ice Silk Qui Dry o długości ćwiartki dla mężczyzn: M",
