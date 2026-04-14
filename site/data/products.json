@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005010795008100",
+      "title": "2025, 11 gtoumis, дисплей 2.5K, MediaTek Dimensity 6300, в. v",
+      "title_pl": "2025, 11 gtoumi, ekran 2,5K, MediaTek Dimensity 6300, ok. w",
+      "price": 4469.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1537,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010795008100.jpg",
+      "link": "https://aliexpress.com/item/1005010795008100.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010795008100.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "118 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-14T12:50:31.380339+00:00"
+    },
+    {
       "id": "1005011665076227",
       "title": "ЦЩну показано без урахування податку; Додаткова знижка 44%",
       "title_pl": "TSH jest podawane bez podatku; Dodatkowy rabat 44%",
