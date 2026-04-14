@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011999676757",
+      "title": "Нержав!ючо! стал! для миттевого вимрювання температ Y",
+      "title_pl": "Nierdzewny! jucho! stał się! do natychmiastowego pomiaru temperatury Y",
+      "price": 99.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 1082,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011999676757.jpg",
+      "link": "https://aliexpress.com/item/1005011999676757.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011999676757.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "121 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-14T13:51:08.829352+00:00"
+    },
+    {
+      "id": "1005012030732263",
+      "title": "Бездротовий світильник, магнітний настінний св М",
+      "title_pl": "Lampa bezprzewodowa, kinkiet magnetyczny M",
+      "price": 125.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 907,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012030732263.jpg",
+      "link": "https://aliexpress.com/item/1005012030732263.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012030732263.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T13:57:27.831759+00:00"
+    },
+    {
       "id": "1005012017872402",
       "title": "FPH365-85 | ..грн.24.10 /шт. | Ціна без урахування податків",
       "title_pl": "FPH365-85 | 4 szt. 24,10 UAH / szt. | Cena bez podatków",
