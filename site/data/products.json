@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005008241128025",
+      "title": "Стандарт Магн! для швейно! машини Св тлодюдна ламг М",
+      "title_pl": "Magiczny standard! do szycia! samochody Św.Tłodyudna Lamg M",
+      "price": 256.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.9,
+      "orders": 1442,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008241128025.jpg",
+      "link": "https://aliexpress.com/item/1005008241128025.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008241128025.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-14T07:20:54.309708+00:00"
+    },
+    {
+      "id": "1005011988181209",
+      "title": "Автомобіль, що обертається, розумний, регульований, з Vv",
+      "title_pl": "Samochód, obrotowy, inteligentny, regulowany, z Vv",
+      "price": 76.0,
+      "currency": "UAH",
+      "category": "auto",
+      "rating": 4.7,
+      "orders": 1830,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011988181209.jpg",
+      "link": "https://aliexpress.com/item/1005011988181209.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011988181209.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T07:25:22.311377+00:00"
+    },
+    {
       "id": "1005011993046135",
       "title": "Кабель для швидкого заряджання 3 в 1, універсальний",
       "title_pl": "Kabel szybkiego ładowania 3 w 1, uniwersalny",
