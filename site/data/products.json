@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011993046135",
+      "title": "Кабель для швидкого заряджання 3 в 1, універсальний",
+      "title_pl": "Kabel szybkiego ładowania 3 w 1, uniwersalny",
+      "price": 54.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1768,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011993046135.jpg",
+      "link": "https://aliexpress.com/item/1005011993046135.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011993046135.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T07:11:19.763319+00:00"
+    },
+    {
+      "id": "1005012017668542",
+      "title": "Із зносостійкими, повітропроникними, легкими | м“",
+      "title_pl": "Z odpornym na zużycie, oddychającym, lekkim | M\"",
+      "price": 54.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1291,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012017668542.jpg",
+      "link": "https://aliexpress.com/item/1005012017668542.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012017668542.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T07:18:50.108378+00:00"
+    },
+    {
       "id": "1005011999937109",
       "title": "Хустка для шиї, миттєве охолодження для спорту V",
       "title_pl": "Szalik na szyję, natychmiastowe ochłodzenie podczas uprawiania sportu V",
