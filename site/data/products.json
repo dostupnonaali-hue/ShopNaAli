@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005004466775513",
+      "title": "Капюшоном у стилі Харадзюку, повсякденний уні.",
+      "title_pl": "Kaptur w stylu Harajuku, swobodny Uni‹ M",
+      "price": 247.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1944,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005004466775513.jpg",
+      "link": "https://aliexpress.com/item/1005004466775513.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005004466775513.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T07:58:06.873786+00:00"
+    },
+    {
       "id": "1005007233322322",
       "title": "Livy показано без урахування податку; Додаткова знижка 1%",
       "title_pl": "Liwiusz pokazany bez podatku; Dodatkowy rabat 1%",
