@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011999937109",
+      "title": "Хустка для шиї, миттєве охолодження для спорту V",
+      "title_pl": "Szalik na szyję, natychmiastowe ochłodzenie podczas uprawiania sportu V",
+      "price": 43.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.7,
+      "orders": 994,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011999937109.jpg",
+      "link": "https://aliexpress.com/item/1005011999937109.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011999937109.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T07:07:36.914373+00:00"
+    },
+    {
       "id": "1005009944333775",
       "title": "144 м 7000 К Світлодюдний nixtap 14500 USB З Переза ​​М",
       "title_pl": "144 m 7000 K Lekki nixtap 14500 USB S Pereza M",
