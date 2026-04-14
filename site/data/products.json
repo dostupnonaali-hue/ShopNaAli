@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012021639064",
+      "title": "Витривають пил, еластичн! та дихаюч!, He водонепроник У",
+      "title_pl": "Odporny na kurz, elastyczny! i oddychający! Jest wodoodporny",
+      "price": 44.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 687,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012021639064.jpg",
+      "link": "https://aliexpress.com/item/1005012021639064.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012021639064.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "201 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-14T09:40:28.639316+00:00"
+    },
+    {
       "id": "1005007027400568",
       "title": "Бейсболка для чоловіків і жінок, що дихає швидкість М",
       "title_pl": "Czapka z daszkiem dla kobiet i mężczyzn, oddychająca, szybka M",
