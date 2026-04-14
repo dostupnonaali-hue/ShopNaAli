@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006727873045",
+      "title": "Щну показано без урахування податку; Додаткова знижка 39%",
+      "title_pl": "Pokazane bez podatku; Dodatkowy rabat 39%",
+      "price": 124.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.8,
+      "orders": 125,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006727873045.jpg",
+      "link": "https://aliexpress.com/item/1005006727873045.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006727873045.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "149 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-14T08:01:02.129313+00:00"
+    },
+    {
       "id": "1005004466775513",
       "title": "Капюшоном у стилі Харадзюку, повсякденний уні.",
       "title_pl": "Kaptur w stylu Harajuku, swobodny Uni‹ M",
