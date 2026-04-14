@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008148120888",
+      "title": "83 грн з купоном+монети",
+      "title_pl": "83 UAH z kuponem + monetami",
+      "price": 83.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1186,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008148120888.jpg",
+      "link": "https://aliexpress.com/item/1005008148120888.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008148120888.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном+монети",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-14T11:38:02.495478+00:00"
+    },
+    {
       "id": "1005006380049516",
       "title": "Лампа світлодіодна кругла у формі НЛО, 220 В, E27",
       "title_pl": "Okrągła lampa LED w kształcie UFO, 220 V, E27",
