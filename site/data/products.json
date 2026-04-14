@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005011940012123",
+      "title": "38 грн з монетами",
+      "title_pl": "38 UAH z monetami",
+      "price": 38.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 332,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011940012123.jpg",
+      "link": "https://aliexpress.com/item/1005011940012123.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011940012123.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-14T15:54:42.834787+00:00"
+    },
+    {
+      "id": "1005005998474260",
+      "title": "Свердло зі швидкорізальної сталі з титановим",
+      "title_pl": "Wiertło ze stali szybkotnącej z tytanem",
+      "price": 9.0,
+      "currency": "UAH",
+      "category": "tools",
+      "rating": 4.8,
+      "orders": 237,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005005998474260.jpg",
+      "link": "https://aliexpress.com/item/1005005998474260.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005998474260.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-14T15:59:03.272961+00:00"
+    },
+    {
       "id": "1005007027156854",
       "title": "Унісекс, взуття для води, шкарпетки для плавання та",
       "title_pl": "Buty do wody unisex, skarpetki do pływania i",
