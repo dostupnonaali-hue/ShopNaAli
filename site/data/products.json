@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012010773430",
+      "title": "Ліхтар для велосипеда, передня велосипедна лаг М",
+      "title_pl": "Światło rowerowe, przednie opóźnienie roweru M",
+      "price": 51.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 185,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012010773430.jpg",
+      "link": "https://aliexpress.com/item/1005012010773430.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012010773430.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-15T10:49:20.262384+00:00"
+    },
+    {
+      "id": "1005012032418791",
+      "title": "Міцні щипці для риби для кухні та ресторанів, та М",
+      "title_pl": "Trwałe szczypce do ryb do kuchni i restauracji oraz M",
+      "price": 122.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.9,
+      "orders": 157,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012032418791.jpg",
+      "link": "https://aliexpress.com/item/1005012032418791.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012032418791.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-15T10:51:49.329870+00:00"
+    },
+    {
       "id": "1005011890106715",
       "title": "152 грн з монетами",
       "title_pl": "152 UAH z monetami",
