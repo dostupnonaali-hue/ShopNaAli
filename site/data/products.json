@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005007805641511",
+      "title": "Вбудований динамік Радіоприймач на батарейках М",
+      "title_pl": "Wbudowany głośnik Radio z bateriami M",
+      "price": 148.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 442,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007805641511.jpg",
+      "link": "https://aliexpress.com/item/1005007805641511.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007805641511.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-15T15:45:10.899352+00:00"
+    },
+    {
+      "id": "1005007170980648",
+      "title": "64 грн з монетами 88 грн з монетами Як замовити з",
+      "title_pl": "64 UAH z monetami 88 UAH z monetami Jak zamówić z darmową dostawą",
+      "price": 64.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1627,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007170980648.jpg",
+      "link": "https://aliexpress.com/item/1005007170980648.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007170980648.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-15T15:49:03.965166+00:00"
+    },
+    {
       "id": "1005010219205081",
       "title": "ГБ UNISOC T7250 120 Гц 6,88-дюймовий дисплей 32 М",
       "title_pl": "GB UNISOC T7250 120 Hz 6,88\" Wyświetlacz 32M",
