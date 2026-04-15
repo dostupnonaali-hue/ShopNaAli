@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006067570005",
+      "title": "166 грн з монетами 111 грн з монетами 121 грн з монетами",
+      "title_pl": "166 UAH z monetami 111 UAH z monetami 121 UAH z monetami",
+      "price": 166.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1518,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006067570005.jpg",
+      "link": "https://aliexpress.com/item/1005006067570005.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006067570005.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-15T18:40:18.284246+00:00"
+    },
+    {
       "id": "1005006678212305",
       "title": "Чоловив i жнок Сонцезахисна втровка Кемп!нг Скелел М",
       "title_pl": "Męski i damski wkład przeciwsłoneczny Camping Skelel M",
