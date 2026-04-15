@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011890106715",
+      "title": "152 грн з монетами",
+      "title_pl": "152 UAH z monetami",
+      "price": 152.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1990,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011890106715.jpg",
+      "link": "https://aliexpress.com/item/1005011890106715.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011890106715.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-15T10:39:53.907802+00:00"
+    },
+    {
       "id": "1005009860908382",
       "title": "2 грн з купоном+монети",
       "title_pl": "2 UAH z kuponem + monety",
