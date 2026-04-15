@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005012036457504",
+      "title": "FpH-| 5 пар.грн.24.31/пара | Ціна без урахування податків",
+      "title_pl": "FpH-446-93 | 5 par 24,31 UAH/para | Cena bez podatków",
+      "price": 96.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 1186,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012036457504.jpg",
+      "link": "https://aliexpress.com/item/1005012036457504.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012036457504.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-15T12:04:08.189846+00:00"
+    },
+    {
       "id": "1005005482592369",
       "title": "11 грн з купоном+монети Як замовити з безкоштовною доставкою",
       "title_pl": "11 UAH z kuponem+monetami Jak zamówić z darmową dostawą",
