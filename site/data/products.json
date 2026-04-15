@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007424253636",
+      "title": "Керування Таймер Монторинг потужност! Голосовий пс М",
+      "title_pl": "Sterowanie Timer Montowanie mocy! Wokal ps M",
+      "price": 89.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 210,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007424253636.jpg",
+      "link": "https://aliexpress.com/item/1005007424253636.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007424253636.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "293 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-15T13:05:10.564490+00:00"
+    },
+    {
       "id": "1005007096861898",
       "title": "156 грн з монетами",
       "title_pl": "156 UAH z monetami",
