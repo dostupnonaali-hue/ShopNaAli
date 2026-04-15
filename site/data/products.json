@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005003091803898",
+      "title": "Вольтметр діапазону акумуляторний з детектором ЕМП Ємність М",
+      "title_pl": "Woltomierz zakresowy, ładowalny z detektorem pola elektromagnetycznego, pojemność М",
+      "price": 543.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 412,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005003091803898.jpg",
+      "link": "https://aliexpress.com/item/1005003091803898.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005003091803898.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "253 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-15T14:20:30.339888+00:00"
+    },
+    {
       "id": "1005007265958090",
       "title": "Комп’ютера, 1600 точок Ha дюйм, безшумна миша 3 USB- v",
       "title_pl": "Komputer, 1600 punktów Ha calowy, cicha mysz 3 USB-v",
