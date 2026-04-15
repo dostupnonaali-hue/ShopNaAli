@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007278679162",
+      "title": "Livy показано без урахування податку; Додаткова знижка 7%",
+      "title_pl": "Liwiusz pokazany bez podatku; Dodatkowy rabat 7%",
+      "price": 1142.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1599,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007278679162.jpg",
+      "link": "https://aliexpress.com/item/1005007278679162.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007278679162.html",
+      "description": "",
+      "promo_text": "IFPF3HCV",
+      "price_note": "241 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-15T16:40:28.529202+00:00"
+    },
+    {
       "id": "1005006967138623",
       "title": "108 грн з монетами Як замовити з безкоштовною доставкою",
       "title_pl": "108 UAH z monetami Jak zamówić z darmową dostawą",
