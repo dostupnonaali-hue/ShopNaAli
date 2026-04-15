@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011930177527",
+      "title": "Ki6epcnopty, ноутбукв/настльних комп'ютер!в, РАМ/З11 м",
+      "title_pl": "Ki6epcnopty, laptopy/komputery stacjonarne, RAM/Z11 m",
+      "price": 590.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1985,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011930177527.jpg",
+      "link": "https://aliexpress.com/item/1005011930177527.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011930177527.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "31 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-15T14:40:28.576450+00:00"
+    },
+    {
       "id": "1005003091803898",
       "title": "Вольтметр діапазону акумуляторний з детектором ЕМП Ємність М",
       "title_pl": "Woltomierz zakresowy, ładowalny z detektorem pola elektromagnetycznego, pojemność М",
