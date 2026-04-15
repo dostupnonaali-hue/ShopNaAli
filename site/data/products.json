@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005003827001921",
+      "title": "Універсальна захисна смуга для краю дверей авт‹ V",
+      "title_pl": "Uniwersalna listwa ochronna na krawędź drzwi samochodowych V",
+      "price": 56.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 5.0,
+      "orders": 1898,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005003827001921.jpg",
+      "link": "https://aliexpress.com/item/1005003827001921.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005003827001921.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-15T18:48:02.620857+00:00"
+    },
+    {
       "id": "1005006067570005",
       "title": "166 грн з монетами 111 грн з монетами 121 грн з монетами",
       "title_pl": "166 UAH z monetami 111 UAH z monetami 121 UAH z monetami",
