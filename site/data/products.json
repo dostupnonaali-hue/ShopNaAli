@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005010056825460",
+      "title": "334 грн з монетами",
+      "title_pl": "334 UAH z monetami",
+      "price": 334.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 654,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010056825460.jpg",
+      "link": "https://aliexpress.com/item/1005010056825460.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010056825460.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Shopping на AliExpress",
+      "added_at": "2026-04-15T13:24:16.184647+00:00"
+    },
+    {
+      "id": "1005005164554511",
+      "title": "@ 12-й Місцеві хіти у категорії Садове приладдя >",
+      "title_pl": "@ 12. Lokalne hity w artykułach ogrodniczych >",
+      "price": 48.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1150,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005005164554511.jpg",
+      "link": "https://aliexpress.com/item/1005005164554511.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005164554511.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Купоном",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-15T13:28:39.128527+00:00"
+    },
+    {
       "id": "1005007424253636",
       "title": "Керування Таймер Монторинг потужност! Голосовий пс М",
       "title_pl": "Sterowanie Timer Montowanie mocy! Wokal ps M",
