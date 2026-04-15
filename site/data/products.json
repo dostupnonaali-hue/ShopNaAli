@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005005270342557",
+      "title": "FpH444.39 |.грн.36.10/шт. | Ціна без урахування податків",
+      "title_pl": "FpH444.39 |2 szt. 36,10 UAH/szt. | Cena bez podatków",
+      "price": 44.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.9,
+      "orders": 879,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005005270342557.jpg",
+      "link": "https://aliexpress.com/item/1005005270342557.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005270342557.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-15T08:48:34.849141+00:00"
+    },
+    {
       "id": "1005012033262572",
       "title": "Для видалення пилу та бруду, інструмент для чищення до М",
       "title_pl": "Do usuwania kurzu i brudu, narzędzie do czyszczenia M",
