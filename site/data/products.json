@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005008248115513",
+      "title": "1зольований ланч-бокс i3 нержав!ючо! стал! 304 13 сумкою",
+      "title_pl": "1 jedyne pudełko na lunch i3 ze stali nierdzewnej! Yucho! stał się! 304 13 worek",
+      "price": 142.0,
+      "currency": "UAH",
+      "category": "accessories",
+      "rating": 4.9,
+      "orders": 1704,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008248115513.jpg",
+      "link": "https://aliexpress.com/item/1005008248115513.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008248115513.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "220 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-04-15T12:30:27.444588+00:00"
+    },
+    {
       "id": "1005012036457504",
       "title": "FpH-| 5 пар.грн.24.31/пара | Ціна без урахування податків",
       "title_pl": "FpH-446-93 | 5 par 24,31 UAH/para | Cena bez podatków",
