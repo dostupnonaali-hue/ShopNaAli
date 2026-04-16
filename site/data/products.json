@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005012045231261",
+      "title": "Від = Aphone accessories ... (№ 4.7 | 100 тис. + продано)",
+      "title_pl": "Od = Akcesoria do Aphone... (nr 4.7 | 100 tys. + sprzedane)",
+      "price": 93.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 518,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005012045231261.jpg",
+      "link": "https://aliexpress.com/item/1005012045231261.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012045231261.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-16T06:38:11.466702+00:00"
+    },
+    {
+      "id": "1005007010055091",
+      "title": "Водонепроникна, для активного відпочинку, походів М",
+      "title_pl": "Wodoodporny, do aktywności na świeżym powietrzu, pieszych wędrówek M",
+      "price": 78.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.8,
+      "orders": 1630,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005007010055091.jpg",
+      "link": "https://aliexpress.com/item/1005007010055091.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007010055091.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "З монетами",
+      "source_channel": "Чоловічі товари з AliExpress",
+      "added_at": "2026-04-16T06:40:40.793952+00:00"
+    },
+    {
       "id": "1005010471363446",
       "title": "Активного відпочинку, альпінізму, спорту, фітнесу, cnov",
       "title_pl": "Aktywny wypoczynek, alpinizm, sport, fitness, cnov",
