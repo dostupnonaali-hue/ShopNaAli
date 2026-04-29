@@ -323,7 +323,7 @@ def generate_category_spotlight(products: list, category: str = None) -> dict:
     # AI content
     content = ''
     if GEMINI_API_KEY:
-        product_list = '\n'.join([f'- {p.get("title", "")} (${p.get("price", 0):.2f}, {p.get("orders", 0)} замовлень)' for p in top])
+        product_list = '\n'.join([f'- {p.get("title", "")} ({"₴" if p.get("currency") == "UAH" else "$"}{p.get("price", 0):.2f}, {p.get("orders", 0)} замовлень)' for p in top])
         prompt = f"""Напиши статтю-огляд категорії "{cat_name}" на AliExpress за {month} {now.year}.
 
 Ось топ товари цієї категорії:
@@ -343,7 +343,8 @@ def generate_category_spotlight(products: list, category: str = None) -> dict:
     if not content:
         items_html = ''
         for p in top:
-            price = f"${p.get('price', 0):.2f}"
+            cur = '₴' if p.get('currency') == 'UAH' else '$'
+            price = f"{cur}{p.get('price', 0):.2f}"
             items_html += f'<p><strong>{p.get("title", "Товар")}</strong> — {price} | ⭐{p.get("rating", 4.8)} | {p.get("orders", 0)} замовлень</p>\n'
         content = f"""<h2>Огляд категорії: {cat_name}</h2>
 <p>У категорії "{cat_name}" на AliExpress зараз {len(cat_products)} товарів у нашому каталозі. Ось найпопулярніші:</p>

@@ -152,11 +152,12 @@
             var pTitle = p.title_pl || p.title;
             var imgSrc = p.image || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><rect fill="%23161622" width="300" height="300"/><text x="150" y="150" text-anchor="middle" fill="%23444" font-size="14">Brak zdjęcia</text></svg>';
             var link = p.affiliate_link || p.link || '#';
-            return '<a href="' + escapeHtml(link) + '" target="_blank" rel="noopener" class="blog-product-card">' +
+              var currencySymbol = p.currency === 'UAH' ? '\u20B4' : '$';
+              return '<a href="' + escapeHtml(link) + '" target="_blank" rel="noopener" class="blog-product-card">' +
               '<img src="' + escapeHtml(imgSrc) + '" alt="' + escapeHtml(pTitle) + '" loading="lazy">' +
               '<div class="blog-product-card__info">' +
               '<span class="blog-product-card__title">' + escapeHtml(pTitle) + '</span>' +
-              '<span class="blog-product-card__price">$' + (p.price || 0).toFixed(2) + '</span>' +
+              '<span class="blog-product-card__price">' + currencySymbol + (p.price || 0).toFixed(2) + '</span>' +
               '</div>' +
               '</a>';
           }).join('') +
