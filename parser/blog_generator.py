@@ -37,7 +37,7 @@ GEMINI_MODEL = 'gemini-2.5-flash'
 GEMINI_URL = f'https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent'
 
 
-def gemini_generate(prompt: str, max_retries: int = 3) -> str:
+def gemini_generate(prompt: str, max_retries: int = 3, max_tokens: int = 4096) -> str:
     """Generate text using Gemini API."""
     if not GEMINI_API_KEY:
         print('[WARN] No GEMINI_API_KEY, using template fallback')
@@ -47,7 +47,7 @@ def gemini_generate(prompt: str, max_retries: int = 3) -> str:
         'contents': [{'parts': [{'text': prompt}]}],
         'generationConfig': {
             'temperature': 0.8,
-            'maxOutputTokens': 4096,
+            'maxOutputTokens': max_tokens,
         }
     }
 
@@ -88,7 +88,7 @@ Keep all HTML tags intact. Only translate the text content.
 Do NOT add any explanation, just output the translated HTML.
 
 {text_with_pln}"""
-    result = gemini_generate(prompt)
+    result = gemini_generate(prompt, max_tokens=8192)
     # Clean up possible markdown wrapping
     result = re.sub(r'^```html?\s*\n?', '', result)
     result = re.sub(r'\n?```\s*$', '', result)
@@ -489,10 +489,112 @@ def generate_lifehack(products: list) -> dict:
     }
 
 
+def generate_baseus_review(products: list) -> dict:
+    """Generate a Baseus brand review article with inline product links (no cards)."""
+    import random
+    now = datetime.now(timezone.utc)
+
+    # Filter Baseus products
+    baseus = [p for p in products if 'baseus' in (p.get('title', '') + p.get('brand', '')).lower()]
+    if not baseus:
+        print('[ERROR] No Baseus products found!')
+        return None
+
+    # Sort by popularity
+    baseus.sort(key=lambda p: p.get('orders', 0), reverse=True)
+
+    # Pick 5-8 products for the article
+    count = min(random.randint(5, 8), len(baseus))
+    selected = baseus[:count]
+
+    # Build product info for AI prompt
+    product_info = ''
+    for i, p in enumerate(selected, 1):
+        cur = '₴' if p.get('currency') == 'UAH' else '$'
+        price = f"{cur}{p.get('price', 0):.2f}"
+        link = p.get('affiliate_link', p.get('link', '#'))
+        product_info += f"{i}. {p.get('title', 'Товар')} — {price}, {p.get('orders', 0)} замовлень, рейтинг {p.get('rating', 4.5)}\n"
+        product_info += f"   Посилання: {link}\n\n"
+
+    # Generate with AI
+    content = ''
+    if GEMINI_API_KEY:
+        prompt = f"""Напиши детальну статтю-огляд продукції бренду Baseus з AliExpress.
+
+Ось товари для огляду (включи посилання на кожен товар у тексті статті як HTML-посилання):
+{product_info}
+
+Вимоги:
+- Формат: HTML (без markdown, без обгортки ```)
+- Використовуй теги: <h2>, <h3>, <p>, <ul>, <li>, <strong>, <blockquote>, <a>
+- Вставляй посилання на товари ПРЯМО в текст статті, наприклад: <a href="ПОСИЛАННЯ" target="_blank" rel="noopener">Назва товару</a>
+- НЕ створюй список товарів окремо — згадуй товари органічно в тексті
+- Довжина: 800-1200 слів
+- Мова: українська
+- Тон: експертний, але дружній
+- Структура:
+  1. Вступ про бренд Baseus (чому він популярний, якість, сертифікація)
+  2. Огляд кожного товару з описом переваг (вбудовуй посилання)
+  3. Порівняння з конкурентами
+  4. Поради при виборі аксесуарів Baseus
+  5. Підсумок та рекомендації
+- Згадай ShopDoBaksa та наш Telegram канал
+- Додай емодзі лише в заголовки h2/h3"""
+
+        content = gemini_generate(prompt)
+        content = re.sub(r'^```html?\s*\n?', '', content)
+        content = re.sub(r'\n?```\s*$', '', content)
+
+    if not content:
+        # Fallback template with inline links
+        items_html = ''
+        for p in selected:
+            cur = '₴' if p.get('currency') == 'UAH' else '$'
+            price = f"{cur}{p.get('price', 0):.2f}"
+            link = p.get('affiliate_link', p.get('link', '#'))
+            items_html += f'<p><a href="{link}" target="_blank" rel="noopener"><strong>{p.get("title", "Товар")}</strong></a> — {price}, ⭐{p.get("rating", 4.8)}, {p.get("orders", 0)} замовлень.</p>\n'
+        content = f"""<h2>🔋 Baseus — бренд якому довіряють мільйони</h2>
+<p>Baseus — один з найвідоміших брендів аксесуарів на AliExpress. Компанія спеціалізується на кабелях, зарядних пристроях, павербанках та аудіо-аксесуарах.</p>
+<h2>🏆 Найкращі товари Baseus</h2>
+{items_html}
+<p>Більше товарів Baseus — на нашій <a href="/baseus.html">сторінці Baseus</a>.</p>"""
+
+    # Create titles
+    themes = [
+        f'Огляд найкращих аксесуарів Baseus — {now.strftime("%B %Y")}',
+        f'Топ {count} товарів Baseus з AliExpress: що варто купити',
+        f'Baseus: аксесуари преміум якості за доступною ціною',
+        f'Чому Baseus — найпопулярніший бренд аксесуарів на AliExpress',
+    ]
+    title = random.choice(themes)
+    excerpt = f'Детальний огляд {count} найкращих товарів Baseus з AliExpress. Кабелі, зарядки, павербанки та не тільки.'
+
+    # Translate to Polish (with PLN conversion)
+    title_pl = translate_to_polish(title)
+    excerpt_pl = translate_to_polish(excerpt)
+    content_pl = translate_to_polish(content)
+
+    return {
+        'id': make_slug(title),
+        'type': 'category',
+        'title': title,
+        'title_pl': title_pl,
+        'excerpt': excerpt,
+        'excerpt_pl': excerpt_pl,
+        'content': content,
+        'content_pl': content_pl,
+        'cover_image': '',
+        'tags': ['baseus', 'огляд', 'аксесуари', 'бренд'],
+        'products': [],  # Empty! No product cards — links are inline
+        'published_at': now.isoformat(),
+        'reading_time': 7,
+    }
+
+
 # --- Main ---
 def main():
     parser = argparse.ArgumentParser(description='Blog post generator for ShopDoBaksa')
-    parser.add_argument('--type', choices=['digest', 'category', 'lifehack', 'seasonal', 'sale'],
+    parser.add_argument('--type', choices=['digest', 'category', 'lifehack', 'baseus', 'seasonal', 'sale'],
                         default='digest', help='Type of post to generate')
     parser.add_argument('--category', help='Category for spotlight (e.g. electronics)')
     parser.add_argument('--dry-run', action='store_true', help='Preview without pushing to GitHub')
@@ -516,6 +618,10 @@ def main():
         post = generate_category_spotlight(products, args.category)
     elif args.type == 'lifehack':
         post = generate_lifehack(products)
+    elif args.type == 'baseus':
+        post = generate_baseus_review(products)
+        if not post:
+            sys.exit(1)
     else:
         print(f'[ERROR] Type "{args.type}" not yet implemented')
         sys.exit(1)
