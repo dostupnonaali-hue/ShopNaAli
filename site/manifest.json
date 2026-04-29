@@ -1,7 +1,7 @@
 {
-  "name": "ShopNaAli — Dobaksa",
-  "short_name": "Dobaksa",
-  "description": "Знахідки до $1 з AliExpress",
+  "name": "ShopDoBaksa — Знахідки з AliExpress",
+  "short_name": "ShopDoBaksa",
+  "description": "Щоденна добірка найвигідніших знахідок з AliExpress за суперцінами",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#0a0a0f",
