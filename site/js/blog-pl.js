@@ -10,6 +10,29 @@
   var DATA_PATH = '../data/blog_posts.json';
   var PRODUCTS_PATH = '../data/products.json';
 
+  // --- Exchange rates (fallback values, same as app-pl.js) ---
+  var rates = { USD: 4.05, UAH: 0.098 };
+
+  async function loadExchangeRates() {
+    try {
+      var resp = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+      if (!resp.ok) throw new Error('Rate API error');
+      var data = await resp.json();
+      if (data && data.rates) {
+        rates.USD = data.rates.PLN || rates.USD;
+        rates.UAH = (data.rates.PLN / data.rates.UAH) || rates.UAH;
+      }
+    } catch (e) {
+      console.warn('Using fallback exchange rates:', e.message);
+    }
+  }
+
+  function toPLN(price, currency) {
+    if (!price) return 0;
+    if (currency === 'UAH') return price * rates.UAH;
+    return price * rates.USD;
+  }
+
   function escapeHtml(str) {
     if (!str) return '';
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -152,12 +175,12 @@
             var pTitle = p.title_pl || p.title;
             var imgSrc = p.image || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><rect fill="%23161622" width="300" height="300"/><text x="150" y="150" text-anchor="middle" fill="%23444" font-size="14">Brak zdjęcia</text></svg>';
             var link = p.affiliate_link || p.link || '#';
-              var currencySymbol = p.currency === 'UAH' ? '\u20B4' : '$';
+              var pricePLN = toPLN(p.price, p.currency);
               return '<a href="' + escapeHtml(link) + '" target="_blank" rel="noopener" class="blog-product-card">' +
               '<img src="' + escapeHtml(imgSrc) + '" alt="' + escapeHtml(pTitle) + '" loading="lazy">' +
               '<div class="blog-product-card__info">' +
               '<span class="blog-product-card__title">' + escapeHtml(pTitle) + '</span>' +
-              '<span class="blog-product-card__price">' + currencySymbol + (p.price || 0).toFixed(2) + '</span>' +
+              '<span class="blog-product-card__price">' + pricePLN.toFixed(2) + ' z\u0142</span>' +
               '</div>' +
               '</a>';
           }).join('') +
@@ -209,6 +232,7 @@
   }
 
   async function init() {
+    await loadExchangeRates();
     var posts = await loadPosts();
     var params = new URLSearchParams(window.location.search);
     var postId = params.get('id');
