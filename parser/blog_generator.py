@@ -78,19 +78,71 @@ def gemini_generate(prompt: str, max_retries: int = 3) -> str:
 
 
 def translate_to_polish(text: str) -> str:
-    """Translate text to Polish using Gemini."""
+    """Translate text to Polish using Gemini, converting prices to PLN."""
     if not text:
         return ''
+    # First convert currency in HTML content
+    text_with_pln = convert_prices_to_pln(text)
     prompt = f"""Translate the following Ukrainian HTML content to Polish. 
 Keep all HTML tags intact. Only translate the text content.
 Do NOT add any explanation, just output the translated HTML.
 
-{text}"""
+{text_with_pln}"""
     result = gemini_generate(prompt)
     # Clean up possible markdown wrapping
     result = re.sub(r'^```html?\s*\n?', '', result)
     result = re.sub(r'\n?```\s*$', '', result)
     return result.strip()
+
+
+# --- PLN Exchange Rates ---
+PLN_RATES = {'USD': 4.05, 'UAH': 0.098}  # Fallback rates
+
+
+def fetch_pln_rates():
+    """Fetch current PLN exchange rates."""
+    global PLN_RATES
+    try:
+        req = urllib.request.Request('https://api.exchangerate-api.com/v4/latest/USD')
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read())
+            if data and 'rates' in data:
+                PLN_RATES['USD'] = data['rates'].get('PLN', 4.05)
+                uah_rate = data['rates'].get('UAH', 41.0)
+                PLN_RATES['UAH'] = PLN_RATES['USD'] / uah_rate
+                print(f'   PLN rates: 1 USD = {PLN_RATES["USD"]:.2f} PLN, 1 UAH = {PLN_RATES["UAH"]:.4f} PLN')
+    except Exception as e:
+        print(f'[WARN] Using fallback PLN rates: {e}')
+
+
+def to_pln(price: float, currency: str = 'USD') -> float:
+    """Convert price to PLN."""
+    if currency == 'UAH':
+        return price * PLN_RATES['UAH']
+    return price * PLN_RATES['USD']
+
+
+def convert_prices_to_pln(html: str) -> str:
+    """Replace ₴ and $ price patterns in HTML with PLN equivalents."""
+    import re
+    # Replace patterns like "₴123" or "123 ₴" or "$12.34"
+    def replace_uah(m):
+        val = float(m.group(1))
+        pln = val * PLN_RATES['UAH']
+        return f'{pln:.2f} zł'
+
+    def replace_usd(m):
+        val = float(m.group(1))
+        pln = val * PLN_RATES['USD']
+        return f'{pln:.2f} zł'
+
+    # ₴123 or ₴123.45
+    html = re.sub(r'₴(\d+\.?\d*)', replace_uah, html)
+    # 123 ₴
+    html = re.sub(r'(\d+\.?\d*)\s*₴', replace_uah, html)
+    # $12.34
+    html = re.sub(r'\$(\d+\.?\d*)', replace_usd, html)
+    return html
 
 
 # --- GitHub API ---
@@ -453,6 +505,9 @@ def main():
     # Load products
     products = load_products()
     print(f'   Products loaded: {len(products)}')
+
+    # Fetch PLN rates for Polish content
+    fetch_pln_rates()
 
     # Generate post
     if args.type == 'digest':
