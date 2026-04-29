@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T977V5R5QZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T977V5R5QZ');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог ShopDoBaksa — Поради, огляди та знахідки з AliExpress</title>
+    <meta name="description"
+        content="Блог ShopDoBaksa: щотижневі дайджести найкращих знахідок, лайфхаки покупок на AliExpress, огляди категорій та анонси розпродажів.">
+    <meta name="keywords" content="AliExpress блог, поради AliExpress, знахідки тижня, лайфхаки покупок, огляди товарів">
+    <meta name="referrer" content="no-referrer">
+    <link rel="canonical" href="https://dobaksa.shop/blog.html">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icon-180.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Блог ShopDoBaksa — Поради та знахідки з AliExpress">
+    <meta property="og:description" content="Щотижневі дайджести, лайфхаки та огляди найкращих товарів з AliExpress.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="uk_UA">
+    <meta property="og:url" content="https://dobaksa.shop/blog.html">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0a0f">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Блог ShopDoBaksa",
+        "description": "Поради, дайджести та лайфхаки покупок на AliExpress",
+        "url": "https://dobaksa.shop/blog.html",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "ShopDoBaksa",
+            "url": "https://dobaksa.shop"
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+
+            <nav class="header__nav" id="desktopNav">
+                <a href="index.html" class="header__nav-link">🏠 Головна</a>
+                <a href="dobaksa.html" class="header__nav-link">💰 DoBaksa</a>
+                <a href="faq.html" class="header__nav-link">📖 Гайд</a>
+                <a href="promos.html" class="header__nav-link">✂️ Промокоди</a>
+                <a href="blog.html" class="header__nav-link active">📝 Блог</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__nav-link header__nav-link--tg">✈️ Telegram</a>
+            </nav>
+
+            <!-- Burger button -->
+            <button class="burger" id="burgerBtn" aria-label="Меню">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile menu overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <!-- Mobile slide-out menu -->
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+            <button class="mobile-menu__close" id="menuClose" aria-label="Закрити">✕</button>
+        </div>
+        <div class="mobile-menu__links">
+            <a href="index.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🏠</span> Головна
+            </a>
+            <a href="dobaksa.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">💰</span> Товар DoBaksa
+            </a>
+            <a href="faq.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">📖</span> Гайд
+            </a>
+            <a href="promos.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✂️</span> Промокоди
+            </a>
+            <a href="blog.html" class="mobile-menu__link active">
+                <span class="mobile-menu__icon">📝</span> Блог
+            </a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✈️</span> Наш Telegram
+            </a>
+        </div>
+        <div class="mobile-menu__footer">
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__tg-btn">
+                ✈️ Підписатись на Telegram
+            </a>
+        </div>
+    </nav>
+
+    <script>
+    (function() {
+        const burger = document.getElementById('burgerBtn');
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        const closeBtn = document.getElementById('menuClose');
+        function toggleMenu() {
+            const isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
+            burger.classList.toggle('open', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        }
+        burger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+    })();
+    </script>
+
+    <!-- Main Content -->
+    <main class="main">
+
+        <!-- Blog List Section -->
+        <div id="blogListSection">
+
+            <!-- Hero -->
+            <section class="blog-hero">
+                <div class="blog-hero__icon">📝</div>
+                <h1 class="blog-hero__title">
+                    Блог <span class="gradient-text">ShopDoBaksa</span>
+                </h1>
+                <p class="blog-hero__subtitle">
+                    Дайджести знахідок, лайфхаки покупок та огляди найкращих товарів з AliExpress
+                </p>
+            </section>
+
+            <!-- Filters -->
+            <div class="blog-filters">
+                <button class="blog-filter-btn active" data-filter="all">📋 Усі</button>
+                <button class="blog-filter-btn" data-filter="digest">📊 Дайджести</button>
+                <button class="blog-filter-btn" data-filter="category">🏷️ Огляди</button>
+                <button class="blog-filter-btn" data-filter="lifehack">💡 Лайфхаки</button>
+                <button class="blog-filter-btn" data-filter="sale">🔥 Розпродажі</button>
+                <button class="blog-filter-btn" data-filter="seasonal">🌿 Сезонні</button>
+            </div>
+
+            <!-- Blog Grid -->
+            <div class="blog-grid" id="blogGrid">
+                <!-- Rendered by JS -->
+            </div>
+
+            <!-- Empty State -->
+            <div class="blog-empty" id="blogEmpty" style="display: none;">
+                <div class="blog-empty__icon">📝</div>
+                <h2>Статті скоро з'являться!</h2>
+                <p>Ми готуємо цікавий контент. Підписуйтесь на наш <a href="https://t.me/Shop_DoBaksa" target="_blank">Telegram</a>, щоб не пропустити.</p>
+            </div>
+
+        </div>
+
+        <!-- Article Section (hidden by default, shown when ?id= is present) -->
+        <div id="blogArticleSection" style="display: none;">
+            <!-- Rendered by JS -->
+        </div>
+
+        <!-- SEO Text Block -->
+        <section class="seo-text" id="blogSeoText">
+            <h2>Блог про покупки на AliExpress</h2>
+            <p>
+                У блозі <strong>ShopDoBaksa</strong> ми ділимося найкращими знахідками з AliExpress,
+                корисними лайфхаками та детальними оглядами товарів. Щотижня публікуємо дайджест
+                ТОП-10 товарів, аналізуємо категорії та готуємо сезонні гайди для розумних покупок.
+            </p>
+            <p>
+                Підписуйтесь на наш <a href="https://t.me/Shop_DoBaksa">Telegram-канал</a> —
+                там знахідки з'являються першими!
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 ShopDoBaksa — Агрегатор вигідних знахідок з AliExpress</p>
+        <p style="margin-top: 8px;">
+            <a href="index.html">Каталог</a> ·
+            <a href="dobaksa.html">Товар DoBaksa</a> ·
+            <a href="blog.html">Блог</a> ·
+            <a href="faq.html">Гайд по AliExpress</a> ·
+            <a href="https://t.me/Shop_DoBaksa" target="_blank">Telegram</a>
+        </p>
+    </footer>
+
+    <script src="js/blog.js"></script>
+</body>
+
+</html>

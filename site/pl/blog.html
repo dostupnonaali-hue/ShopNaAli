@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T977V5R5QZ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-T977V5R5QZ');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog ShopDoBaksa — Porady, recenzje i znaleziska z AliExpress</title>
+    <meta name="description"
+        content="Blog ShopDoBaksa: cotygodniowe przeglądy najlepszych znalezisk, lifehacki zakupowe, recenzje kategorii i zapowiedzi wyprzedaży.">
+    <meta name="keywords" content="AliExpress blog, porady AliExpress, znaleziska tygodnia, lifehacki zakupowe, recenzje produktów">
+    <meta name="referrer" content="no-referrer">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/icon-180.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Blog ShopDoBaksa — Porady i znaleziska z AliExpress">
+    <meta property="og:description" content="Cotygodniowe przeglądy, lifehacki i recenzje najlepszych produktów z AliExpress.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+
+            <nav class="header__nav">
+                <a href="index.html" class="header__nav-link">🏠 Strona główna</a>
+                <a href="faq.html" class="header__nav-link">📖 Poradnik</a>
+                <a href="promos.html" class="header__nav-link">✂️ Kody rabatowe</a>
+                <a href="blog.html" class="header__nav-link active">📝 Blog</a>
+                <a href="https://t.me/Shop_DoBaksa" target="_blank" class="header__nav-link header__nav-link--tg">✈️ Telegram</a>
+                <a href="../blog.html" class="header__nav-link lang-switch" title="Українська">🇺🇦</a>
+            </nav>
+
+            <button class="burger" id="burgerBtn" aria-label="Menu">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="index.html" class="header__logo">
+                <span class="header__logo-icon">🛒</span>
+                <span>Shop<span class="gradient-text">DoBaksa</span></span>
+            </a>
+            <button class="mobile-menu__close" id="menuClose" aria-label="Zamknij">✕</button>
+        </div>
+        <div class="mobile-menu__links">
+            <a href="index.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🏠</span> Strona główna
+            </a>
+            <a href="faq.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">📖</span> Poradnik
+            </a>
+            <a href="promos.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✂️</span> Kody rabatowe
+            </a>
+            <a href="blog.html" class="mobile-menu__link active">
+                <span class="mobile-menu__icon">📝</span> Blog
+            </a>
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__link">
+                <span class="mobile-menu__icon">✈️</span> Nasz Telegram
+            </a>
+            <a href="../blog.html" class="mobile-menu__link">
+                <span class="mobile-menu__icon">🇺🇦</span> Українська версія
+            </a>
+        </div>
+        <div class="mobile-menu__footer">
+            <a href="https://t.me/Shop_DoBaksa" target="_blank" class="mobile-menu__tg-btn">
+                ✈️ Subskrybuj Telegram
+            </a>
+        </div>
+    </nav>
+
+    <script>
+    (function() {
+        const burger = document.getElementById('burgerBtn');
+        const menu = document.getElementById('mobileMenu');
+        const overlay = document.getElementById('mobileOverlay');
+        const closeBtn = document.getElementById('menuClose');
+        function toggleMenu() {
+            const isOpen = menu.classList.toggle('open');
+            overlay.classList.toggle('open', isOpen);
+            burger.classList.toggle('open', isOpen);
+            document.body.style.overflow = isOpen ? 'hidden' : '';
+        }
+        burger.addEventListener('click', toggleMenu);
+        overlay.addEventListener('click', toggleMenu);
+        closeBtn.addEventListener('click', toggleMenu);
+    })();
+    </script>
+
+    <main class="main">
+
+        <div id="blogListSection">
+            <section class="blog-hero">
+                <div class="blog-hero__icon">📝</div>
+                <h1 class="blog-hero__title">
+                    Blog <span class="gradient-text">ShopDoBaksa</span>
+                </h1>
+                <p class="blog-hero__subtitle">
+                    Przeglądy znalezisk, lifehacki zakupowe i recenzje najlepszych produktów z AliExpress
+                </p>
+            </section>
+
+            <div class="blog-filters">
+                <button class="blog-filter-btn active" data-filter="all">📋 Wszystkie</button>
+                <button class="blog-filter-btn" data-filter="digest">📊 Przeglądy</button>
+                <button class="blog-filter-btn" data-filter="category">🏷️ Recenzje</button>
+                <button class="blog-filter-btn" data-filter="lifehack">💡 Lifehacki</button>
+                <button class="blog-filter-btn" data-filter="sale">🔥 Wyprzedaże</button>
+                <button class="blog-filter-btn" data-filter="seasonal">🌿 Sezonowe</button>
+            </div>
+
+            <div class="blog-grid" id="blogGrid"></div>
+
+            <div class="blog-empty" id="blogEmpty" style="display: none;">
+                <div class="blog-empty__icon">📝</div>
+                <h2>Artykuły już wkrótce!</h2>
+                <p>Przygotowujemy ciekawe treści. Subskrybuj nasz <a href="https://t.me/Shop_DoBaksa" target="_blank">Telegram</a>, żeby nie przegapić.</p>
+            </div>
+        </div>
+
+        <div id="blogArticleSection" style="display: none;"></div>
+
+        <section class="seo-text" id="blogSeoText">
+            <h2>Blog o zakupach na AliExpress</h2>
+            <p>
+                Na blogu <strong>ShopDoBaksa</strong> dzielimy się najlepszymi znaleziskami z AliExpress,
+                przydatnymi lifehackami i szczegółowymi recenzjami produktów. Co tydzień publikujemy przegląd
+                TOP 10 produktów, analizujemy kategorie i przygotowujemy sezonowe poradniki.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 ShopDoBaksa — Agregator najlepszych ofert z AliExpress</p>
+    </footer>
+
+    <script src="../js/blog-pl.js"></script>
+</body>
+
+</html>
