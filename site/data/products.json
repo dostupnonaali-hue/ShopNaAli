@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005010724626605",
+      "title": "Бездротові навушники Baseus BH1 Air Bluetooth 6.0 ENC Noise",
+      "title_pl": "Baseus BH1 Air Bezprzewodowe słuchawki Bluetooth 6.0 ENC z redukcją szumów Lekki zestaw słuchawkowy 90g Słuchawki nauszne 80H",
+      "price": 14.88,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1917,
+      "image": "https://ae01.alicdn.com/kf/Se098a7e76b5448dc8b7e390f939f0045i.jpg",
+      "link": "https://aliexpress.com/item/1005010724626605.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010724626605.html",
+      "description": "",
+      "promo_text": "AEKRBR5",
+      "price_note": "Монетками",
+      "source_channel": "DoBaksa",
+      "added_at": "2026-05-01T10:24:13.590169+00:00"
+    },
+    {
       "id": "1005007261372998",
       "title": "Baseus Qi2 Magnetic Wireless Charger Mini Fast Charging",
       "title_pl": "Baseus Qi2 15W magnetyczna bezprzewodowa ładowarka Mini szybka ładowarka do telefonu iPhone 16 15 14 13 Pro Max",
