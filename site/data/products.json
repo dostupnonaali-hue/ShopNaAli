@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005007261372998",
+      "title": "Baseus Qi2 Magnetic Wireless Charger Mini Fast Charging",
+      "title_pl": "Baseus Qi2 15W magnetyczna bezprzewodowa ładowarka Mini szybka ładowarka do telefonu iPhone 16 15 14 13 Pro Max",
+      "price": 10.95,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 363,
+      "image": "https://ae01.alicdn.com/kf/S68702ba81dff465e899122db6dc2b3f1w.jpg",
+      "link": "https://aliexpress.com/item/1005007261372998.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007261372998.html",
+      "description": "",
+      "promo_text": "05GB03, IFPRL9NR",
+      "price_note": "Монетками",
+      "source_channel": "DoBaksa",
+      "added_at": "2026-05-01T07:56:00.817496+00:00"
+    },
+    {
       "id": "1005006685436528",
       "title": "Бездротові навушники Baseus Bowie 30 із зменшенням шуму 65 год",
       "title_pl": "Bezprzewodowe słuchawki Baseus Bowie 30 Redukcja szumów 50 dB Długi czas odtwarzania wynoszący 65 godzin Bluetooth 5.3 Słuchawki douszne 6 mikrofonów Połączenie AI Wyczyść duży bas",
