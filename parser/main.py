@@ -1464,6 +1464,7 @@ async def handle_new_post(event):
         log.error(f"⚠️ Error processing message: {e}", exc_info=True)
 
 BACKFILL_LIMIT = 20  # Check last N messages per channel on startup
+BACKFILL_MAX_QUEUE = 10  # Max posts to queue from backfill
 
 async def startup_backfill():
     """Check last N messages from donor channels and process any missed posts.
@@ -1477,12 +1478,18 @@ async def startup_backfill():
     total_new = 0
     
     for channel_name in DONOR_CHANNELS:
+        if total_new >= BACKFILL_MAX_QUEUE:
+            log.info(f"   ⏭ Backfill queue limit reached ({BACKFILL_MAX_QUEUE}), skipping remaining channels")
+            break
         try:
             entity = await client.get_entity(channel_name)
             messages = await client.get_messages(entity, limit=BACKFILL_LIMIT)
             
             channel_new = 0
             for message in messages:
+                if total_new >= BACKFILL_MAX_QUEUE:
+                    break
+                    
                 if not message.text and not message.raw_text:
                     continue
                 
@@ -1524,9 +1531,13 @@ async def startup_backfill():
                 if not product_ids:
                     continue
                 
-                # Check if ALL product IDs are already seen
-                all_seen = all(pid in seen_products for pid in product_ids)
-                if all_seen:
+                # Skip if ANY product ID is already seen (not ALL)
+                any_seen = any(pid in seen_products for pid in product_ids)
+                if any_seen:
+                    # Pre-mark all IDs as seen to avoid re-checking next restart
+                    for pid in product_ids:
+                        if pid not in seen_products:
+                            seen_products[pid] = 0
                     continue
                 
                 # Found unseen product(s) — queue for processing
@@ -1549,6 +1560,8 @@ async def startup_backfill():
         except Exception as e:
             log.warning(f"   ⚠️ Backfill failed for {channel_name}: {e}")
     
+    # Save updated seen_products
+    save_seen(seen_products)
     log.info(f"🔄 Backfill done: {total_found} posts with URLs, {total_new} new products queued")
 
 
