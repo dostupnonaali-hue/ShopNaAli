@@ -1463,6 +1463,95 @@ async def handle_new_post(event):
     except Exception as e:
         log.error(f"⚠️ Error processing message: {e}", exc_info=True)
 
+BACKFILL_LIMIT = 20  # Check last N messages per channel on startup
+
+async def startup_backfill():
+    """Check last N messages from donor channels and process any missed posts.
+    
+    This catches posts that arrived while the parser was offline (restart, crash, etc).
+    Only processes posts with AliExpress links that are NOT in seen_products.
+    """
+    log.info(f"🔄 Startup backfill: checking last {BACKFILL_LIMIT} posts from {len(DONOR_CHANNELS)} channels...")
+    
+    total_found = 0
+    total_new = 0
+    
+    for channel_name in DONOR_CHANNELS:
+        try:
+            entity = await client.get_entity(channel_name)
+            messages = await client.get_messages(entity, limit=BACKFILL_LIMIT)
+            
+            channel_new = 0
+            for message in messages:
+                if not message.text and not message.raw_text:
+                    continue
+                
+                raw_text = message.raw_text or ''
+                
+                # Find URLs
+                urls = set(re.findall(r'https?://[^\s<"]+', raw_text))
+                if not urls:
+                    continue
+                
+                total_found += 1
+                
+                # Check for AliExpress or redirect URLs
+                has_ali_url = False
+                for u in urls:
+                    # Check direct AliExpress
+                    if 'aliexpress.com' in u or 's.click.aliexpress.com' in u:
+                        has_ali_url = True
+                        break
+                    # Check redirect patterns
+                    for rp in REDIRECT_PATTERNS:
+                        if re.match(rp, u):
+                            has_ali_url = True
+                            break
+                    if has_ali_url:
+                        break
+                
+                if not has_ali_url:
+                    continue
+                
+                # Resolve URLs to get item IDs
+                product_ids = []
+                async with aiohttp.ClientSession() as session:
+                    for u in urls:
+                        clean_url, item_id = await resolve_and_clean_url(u, session)
+                        if item_id:
+                            product_ids.append(item_id)
+                
+                if not product_ids:
+                    continue
+                
+                # Check if ALL product IDs are already seen
+                all_seen = all(pid in seen_products for pid in product_ids)
+                if all_seen:
+                    continue
+                
+                # Found unseen product(s) — queue for processing
+                channel_new += 1
+                log.info(f"🔄 Backfill: found unseen product(s) in {channel_name}: {', '.join(product_ids)}")
+                
+                # Create a fake event-like object and queue for processing
+                class BackfillEvent:
+                    def __init__(self, msg, chat):
+                        self.message = msg
+                        self.chat = chat
+                        self.chat_id = chat.id
+                
+                event = BackfillEvent(message, entity)
+                await _message_queue.put(event)
+                total_new += 1
+            
+            log.info(f"   📋 {channel_name}: checked {len(messages)} posts, {channel_new} new")
+            
+        except Exception as e:
+            log.warning(f"   ⚠️ Backfill failed for {channel_name}: {e}")
+    
+    log.info(f"🔄 Backfill done: {total_found} posts with URLs, {total_new} new products queued")
+
+
 async def main():
     await client.start()
     me = await client.get_me()
@@ -1479,6 +1568,12 @@ async def main():
     asyncio.create_task(process_queue())
     # Start GitHub batch flusher as background task
     asyncio.create_task(github_flush_task())
+    
+    # Run startup backfill to catch missed posts
+    try:
+        await startup_backfill()
+    except Exception as e:
+        log.error(f"⚠️ Startup backfill error: {e}", exc_info=True)
     
     await client.run_until_disconnected()
 
