@@ -141,19 +141,27 @@ _USER_AGENTS = _USER_AGENTS_DESKTOP + _USER_AGENTS_MOBILE
 # --- Ensure directories ---
 os.makedirs(IMAGES_DIR, exist_ok=True)
 
-# --- Deduplication ---
+# --- Deduplication (dict: {item_id: price}) ---
 def load_seen():
+    """Load seen products. Supports both old format (list) and new format (dict {id: price})."""
     if os.path.exists(SEEN_DB):
         try:
             with open(SEEN_DB, 'r', encoding='utf-8') as f:
-                return set(json.load(f))
+                data = json.load(f)
+            # Old format: list of IDs → migrate to dict with price=0
+            if isinstance(data, list):
+                log.info(f'📦 Migrating seen_products from list ({len(data)} items) to dict format')
+                return {str(pid): 0 for pid in data}
+            # New format: dict {id: price}
+            if isinstance(data, dict):
+                return data
         except Exception:
-            return set()
-    return set()
+            return {}
+    return {}
 
-def save_seen(seen_set):
+def save_seen(seen_dict):
     with open(SEEN_DB, 'w', encoding='utf-8') as f:
-        json.dump(list(seen_set), f)
+        json.dump(seen_dict, f)
 
 seen_products = load_seen()
 
@@ -1128,20 +1136,27 @@ async def handle_new_post(event):
                     product_ids_found.append(item_id)
                     clean_links_added.add(clean_url)
         
-        # Deduplication check
+        # Deduplication check (allow re-post if price changed >5%)
         is_duplicate = False
+        new_price_value = extract_price(raw_text).get('value', 0)
         for pid in product_ids_found:
             if pid in seen_products:
+                old_price = seen_products[pid]
+                if old_price and new_price_value and old_price > 0:
+                    change = abs(new_price_value - old_price) / old_price
+                    if change > 0.05:  # >5% price change → allow re-post
+                        log.info(f'💰 Price changed for {pid}: {old_price} → {new_price_value} ({change:.0%}), re-posting')
+                        continue  # not a duplicate
                 is_duplicate = True
                 break
                 
         if is_duplicate:
-            log.info(f"⏭️ Skipping duplicate post; already seen product(s).")
+            log.info(f"⏭️ Skipping duplicate post; already seen product(s) at same price.")
             return
             
-        # Add to seen
+        # Add/update in seen with current price
         for pid in product_ids_found:
-            seen_products.add(pid)
+            seen_products[pid] = new_price_value
         save_seen(seen_products)
 
         # --- Extract product info FIRST, then build clean post ---
