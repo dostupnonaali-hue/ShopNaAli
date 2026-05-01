@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006574648062",
+      "title": "Парасолька з краями покриття протектор парасолька ав М",
+      "title_pl": "Parasol z krawędziami pokrowca na parasol av M",
+      "price": 542.0,
+      "currency": "UAH",
+      "category": "fashion",
+      "rating": 4.8,
+      "orders": 1783,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005006574648062.jpg",
+      "link": "https://aliexpress.com/item/1005006574648062.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006574648062.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "13 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-05-01T10:38:13.748032+00:00"
+    },
+    {
       "id": "1005006974265310",
       "title": "Baseus 3K Dash Cam VD1 Front and Rear Cam HD Built-in GPS Galileo Supercapacitor Car DVR Car Camera Recorder Support 24H Parking",
       "title_pl": "Baseus 3K Dash Cam VD1 Front and Rear Cam HD Built-in GPS Galileo Supercapacitor Car DVR Car Camera Recorder Support 24H Parking",
