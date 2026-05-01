@@ -24,7 +24,6 @@ SESSION_NAME = os.getenv('SESSION_NAME', 'shopnaali_session')
 DONOR_CHANNELS = [
     '@dobaksa_shop',
     '@nadyvani',
-    'https://t.me/+8jHVizJO6XY3M2Qy',
     '@AliExpress_do10',
     '@AliExpressLizka',
     '@Shark_ali',
@@ -57,4 +56,13 @@ ALIEXPRESS_PATTERNS = [
     r'https?://a\.aliexpress\.com/[\w/_-]+',
     r'https?://s\.click\.aliexpress\.com/e/[\w/_-]+',
     r'https?://(?:www\.)?aliexpress\.com/[\w/.-]*(?:\?.*)?',
+]
+
+# Redirect domains that resolve to AliExpress product URLs
+REDIRECT_PATTERNS = [
+    r'https?://go\.skidkovoz\.com/[\w/_-]+',
+    r'https?://star-ali\.com/[\w/_-]+',
+    r'https?://ali\.pub/[\w/_-]+',
+    r'https?://got\.by/[\w/_-]+',
+    r'https?://cln\.sh/[\w/_-]+',
 ]

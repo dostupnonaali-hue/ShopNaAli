@@ -32,11 +32,11 @@ from config import (
     DONOR_CHANNELS, TARGET_CHANNEL,
     SEEN_DB, IMAGES_DIR,
     GITHUB_TOKEN, GITHUB_REPO, GITHUB_PRODUCTS_PATH,
-    AFF_SHORT_KEY,
+    AFF_SHORT_KEY, REDIRECT_PATTERNS,
 )
 
 # --- Proxy for AliExpress scraping ---
-PROXY_URL = os.getenv('PROXY_URL', 'http://ApQSygpB:gYQ9zwvK@194.107.92.209:63072')
+PROXY_URL = os.getenv('PROXY_URL', '')  # proxy expired 12.04.2026, disabled
 
 
 # --- Proxy for AliExpress scraping ---
@@ -168,14 +168,32 @@ def make_affiliate_link(item_id: str) -> str:
 async def resolve_and_clean_url(url: str, session: aiohttp.ClientSession):
     """
     Resolve redirect if needed and clean AliExpress URL from ref params.
+    Handles direct AliExpress links AND third-party redirect URLs
+    (go.skidkovoz.com, ali.pub, etc.).
     Returns (clean_url, item_id)
     """
     final_url = url
+    
+    # Check if this is a known redirect domain — always resolve these
+    is_redirect = any(re.match(p, url) for p in REDIRECT_PATTERNS)
+    
     try:
-        async with session.get(url, allow_redirects=True, timeout=15) as resp:
+        # Use HEAD first for redirects (faster), GET as fallback
+        method = session.head if is_redirect else session.get
+        async with method(url, allow_redirects=True, timeout=15) as resp:
             final_url = str(resp.url)
+            if is_redirect:
+                log.info(f'🔀 Redirect resolved: {url[:40]}... → {final_url[:60]}...')
     except Exception as e:
         log.warning(f"Failed to resolve URL {url}: {e}")
+        if is_redirect:
+            # For redirect URLs, try GET as fallback
+            try:
+                async with session.get(url, allow_redirects=True, timeout=15) as resp:
+                    final_url = str(resp.url)
+                    log.info(f'🔀 Redirect resolved (GET fallback): {final_url[:60]}...')
+            except Exception as e2:
+                log.warning(f"Redirect GET fallback also failed: {e2}")
 
     # Pattern handles /item/123.html, /i/123.html, ?itemId=123, &productIds=123
     match = re.search(r'(?:/(?:item|i)/|itemId=|productIds=)(\d+)(?:\.html|&|$)', final_url, re.IGNORECASE)
@@ -734,6 +752,7 @@ _github_flush_lock = asyncio.Lock()
 def queue_product_for_github(product_data):
     """Add product to the pending queue (will be flushed in batch)."""
     import random
+    
     category = detect_category(product_data.get('title', ''), product_data['raw_text'])
     site_product = {
         'id': product_data['id'],
@@ -757,6 +776,25 @@ def queue_product_for_github(product_data):
     log.info(f'📦 Queued for GitHub: {site_product["id"]} (pending: {len(_github_pending)})')
     return True
 
+async def _fetch_products_json_raw(session):
+    """Fetch products.json via raw GitHub URL (works for files >1MB)."""
+    raw_url = f'https://raw.githubusercontent.com/{GITHUB_REPO}/main/{GITHUB_PRODUCTS_PATH}'
+    async with session.get(raw_url, timeout=30) as resp:
+        if resp.status != 200:
+            log.error(f'GitHub raw GET failed: {resp.status}')
+            return None
+        text = await resp.text()
+        return json.loads(text)
+
+async def _get_file_sha(session, headers, api_url):
+    """Get SHA of a file via Contents API (works regardless of file size)."""
+    async with session.get(api_url, headers=headers, timeout=30) as resp:
+        if resp.status != 200:
+            log.error(f'GitHub SHA GET failed: {resp.status}')
+            return None
+        gh_data = await resp.json()
+        return gh_data.get('sha')
+
 async def flush_products_to_github():
     """Flush all pending products to GitHub in a single commit."""
     async with _github_flush_lock:
@@ -775,19 +813,21 @@ async def flush_products_to_github():
         for attempt in range(max_retries):
             try:
                 async with aiohttp.ClientSession() as session:
-                    # GET current file
-                    async with session.get(api_url, headers=headers, timeout=30) as resp:
-                        if resp.status != 200:
-                            log.error(f'GitHub GET failed: {resp.status}')
-                            if attempt < max_retries - 1 and resp.status >= 500:
-                                await asyncio.sleep(5)
-                                continue
-                            return False
-                        gh_data = await resp.json()
+                    # GET current SHA (Contents API works for any size, just no content for >1MB)
+                    sha = await _get_file_sha(session, headers, api_url)
+                    if not sha:
+                        if attempt < max_retries - 1:
+                            await asyncio.sleep(5)
+                            continue
+                        return False
                     
-                    sha = gh_data['sha']
-                    content = base64.b64decode(gh_data['content']).decode('utf-8')
-                    products = json.loads(content)
+                    # GET current content via raw URL (no 1MB limit)
+                    products = await _fetch_products_json_raw(session)
+                    if products is None:
+                        if attempt < max_retries - 1:
+                            await asyncio.sleep(5)
+                            continue
+                        return False
                     
                     # Insert all pending products at the beginning
                     existing_ids = {p['id'] for p in products.get('products', [])}
@@ -819,7 +859,7 @@ async def flush_products_to_github():
                         api_url,
                         headers=headers,
                         json=put_body,
-                        timeout=30,
+                        timeout=60,
                     ) as put_resp:
                         if put_resp.status == 200:
                             log.info(f'🌐 Batch saved to GitHub: {len(new_products)} products')
@@ -827,7 +867,7 @@ async def flush_products_to_github():
                             return True
                         else:
                             error_text = await put_resp.text()
-                            log.error(f'GitHub PUT failed: {put_resp.status} — {error_text}')
+                            log.error(f'GitHub PUT failed: {put_resp.status} -- {error_text}')
                             if attempt < max_retries - 1 and put_resp.status >= 500:
                                 await asyncio.sleep(5)
                                 continue
@@ -866,17 +906,14 @@ async def update_sitemap_on_github():
     for attempt in range(max_retries):
         try:
             async with aiohttp.ClientSession() as session:
-                # GET products.json
-                async with session.get(f'{api_base}/{GITHUB_PRODUCTS_PATH}', headers=headers, timeout=15) as resp:
-                    if resp.status != 200:
-                        if attempt < max_retries - 1 and resp.status >= 500:
-                            await asyncio.sleep(2)
-                            continue
-                        return
-                    gh_data = await resp.json()
-                
-                content = base64.b64decode(gh_data['content']).decode('utf-8')
-                products = json.loads(content).get('products', [])
+                # GET products.json via raw URL (handles >1MB files)
+                products_data = await _fetch_products_json_raw(session)
+                if products_data is None:
+                    if attempt < max_retries - 1:
+                        await asyncio.sleep(2)
+                        continue
+                    return
+                products = products_data.get('products', [])
                 
                 # Build sitemap
                 urls = [
@@ -908,7 +945,7 @@ async def update_sitemap_on_github():
                 
                 async with session.put(f'{api_base}/site/sitemap.xml', headers=headers, json=put_body, timeout=15) as resp:
                     if resp.status in (200, 201):
-                        log.info(f'🗺️ Sitemap updated: {len(products)} products')
+                        log.info(f'Sitemap updated: {len(products)} products')
                         return
                     else:
                         log.warning(f'Sitemap update failed: {resp.status}')
@@ -1035,6 +1072,16 @@ async def handle_new_post(event):
         
         # Find all URLs in raw text
         urls = set(re.findall(r'https?://[^\s<"]+', raw_text))
+        
+        # Also check for redirect URLs that may not look like AliExpress
+        redirect_urls = set()
+        for u in list(urls):
+            for rp in REDIRECT_PATTERNS:
+                if re.match(rp, u):
+                    redirect_urls.add(u)
+                    break
+        if redirect_urls:
+            log.info(f'🔀 Found {len(redirect_urls)} redirect URL(s): {", ".join(u[:40] for u in redirect_urls)}')
         
         # Also extract URLs from inline buttons
         if message.reply_markup and hasattr(message.reply_markup, 'rows'):
@@ -1273,6 +1320,12 @@ async def handle_new_post(event):
             log.info(f"⏭ No AliExpress product IDs found, skipping")
             return
 
+        # --- BRAND FILTER: only Baseus products ---
+        _all_text = (product_title + ' ' + raw_text).lower()
+        if 'baseus' not in _all_text:
+            log.info(f"⏭ Skipping non-Baseus product: {product_title[:60]}")
+            return
+        
         # --- Detect category for hashtags ---
         category = detect_category(product_title, raw_text)
         
