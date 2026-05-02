@@ -312,7 +312,7 @@ def extract_title_from_image(image_path: str) -> str:
         # 2. Or it's the text block right before the price block
         # Let's filter out known UI elements
         ignore_words = ['купить', 'buy', 'корзин', 'cart', 'доставк', 'delivery',
-                        'отзыв', 'review', 'заказ', 'order', 'aliexpress',
+                        'отзыв', 'review', 'заказ', 'order', 'aliexpress', 'alixpress',
                         'скидк', 'discount', 'монет', 'coin', 'оплат', 'pay',
                         'цвет', 'color', 'размер', 'size', 'характеристик',
                         'продавец', 'продавець', 'продаж', 'бренд', 'brand',
@@ -320,7 +320,13 @@ def extract_title_from_image(image_path: str) -> str:
                         'free shipping', 'безкоштовн', 'безплатн',
                         'товар 1/', 'товар 2/', 'товар 3/', 'товар 4/',
                         'колір', 'people gave', 'positive review',
-                        'цей продавець', 'этот продавец', 'wk www']
+                        'цей продавець', 'этот продавец', 'wk www',
+                        # Checkout/payment screenshot words
+                        'купони', 'купон', 'коди', 'coupon', 'coupons',
+                        'summary', 'subtotal', 'total', 'saved',
+                        'shipping', 'shipping fee', 'pay now',
+                        'promo codes', 'promo code', 'промокод',
+                        'single store', 'enter', 'free']
         
         valid_lines = []
         for line in lines:
@@ -1161,7 +1167,17 @@ async def handle_new_post(event):
 
         # --- Extract product info FIRST, then build clean post ---
         # Build fallback title: skip price/instruction lines
-        _fb_lines = clean_text(raw_text).split('\n')
+        _fb_text = clean_text(raw_text)
+        # Strip everything after price/promo markers to get just the product name
+        # e.g. "Навушники Baseus BH1 Air  Ціна $16.19 Промокоди: CODE" → "Навушники Baseus BH1 Air"
+        _fb_title_part = re.split(
+            r'\s+(?:Ціна|ціна|Price|price|Цена|цена|Промокод|промокод|Promo|promo|\$\d|₴\s*\d)',
+            _fb_text, maxsplit=1
+        )[0].strip()
+        if len(_fb_title_part) >= 10:
+            _fb_text = _fb_title_part
+        
+        _fb_lines = _fb_text.split('\n')
         _fb_cleaned = []
         for _fbl in _fb_lines:
             _fbl_s = _fbl.strip()
@@ -1190,11 +1206,18 @@ async def handle_new_post(event):
         # Extract ALL promo codes
         promo_codes = []
         # 1. Find codes after keywords like "промокод", "купон", "promo", "code", "coupon"
-        keyword_matches = re.finditer(r'(?:промокод|купон|promo|code|coupon)[:\s]*([A-Z0-9]{4,})', raw_text, re.IGNORECASE)
-        for m in keyword_matches:
-            code = m.group(1).upper()
-            if code not in promo_codes:
-                promo_codes.append(code)
+        #    Capture the rest of the line after keyword to extract ALL codes
+        #    Handles patterns like "Промокоди : AEKRBR5 і CDUA03"
+        keyword_line_matches = re.finditer(
+            r'(?:промокод\w*|купон\w*|promo\w*|code|coupon)\s*:?\s*(.+?)(?:\n|$)',
+            raw_text, re.IGNORECASE
+        )
+        for m in keyword_line_matches:
+            codes_in_line = re.findall(r'\b([A-Z][A-Z0-9]{3,})\b', m.group(1))
+            for code in codes_in_line:
+                code = code.upper()
+                if code not in promo_codes:
+                    promo_codes.append(code)
         # 2. Find codes mentioned with "на вибір" pattern (e.g. "промокод на вибір ASUA03, UAAFF03, UAS3")
         choice_match = re.search(r'(?:на\s+вибір|choose)[:\s]*([A-Z0-9,\s]{4,})', raw_text, re.IGNORECASE)
         if choice_match:
@@ -1319,9 +1342,18 @@ async def handle_new_post(event):
                             log.info(f'🔍 Title is fallback, attempting OCR on downloaded image...')
                             ocr_title = extract_title_from_image(downloaded)
                             if ocr_title:
-                                log.info(f'👁️ OCR extracted title: "{ocr_title[:50]}..."')
-                                product_title = ocr_title
-                                translated_title = clean_and_translate_title(product_title)
+                                # Validate OCR result — reject checkout/payment screenshot text
+                                _ocr_lower = ocr_title.lower()
+                                _checkout_words = ['купони', 'купон', 'коди', 'coupon', 'coupons',
+                                    'summary', 'subtotal', 'total', 'saved', 'shipping',
+                                    'pay now', 'promo code', 'single store', 'enter',
+                                    'alixpress', 'промокод']
+                                if any(w in _ocr_lower for w in _checkout_words):
+                                    log.info(f'👁️ OCR looks like checkout screenshot, ignoring: "{ocr_title[:50]}"')
+                                else:
+                                    log.info(f'👁️ OCR extracted title: "{ocr_title[:50]}..."')
+                                    product_title = ocr_title
+                                    translated_title = clean_and_translate_title(product_title)
                         
                         # Cleanup temp file
                         try:
