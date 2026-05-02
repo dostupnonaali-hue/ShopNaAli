@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005011853488285",
+      "title": "Baseus Power Bank Dual Retractable USB-C Cables 4-Device",
+      "title_pl": "Baseus 200 W 25000 mAh Power Bank Podwójny zwijany kabel USB-C 4 urządzenia Szybkie ładowanie Przenośna zewnętrzna ładowarka do laptopa Cena: 81,73 USD Kupon: „GR0015” #⃣ #Aliexpress Automatyczna zniżka w wysokości 15 USD do",
+      "price": 81.73,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1043,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011853488285.jpg",
+      "link": "https://aliexpress.com/item/1005011853488285.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011853488285.html",
+      "description": "",
+      "promo_text": "CDUA13",
+      "price_note": "Монетками",
+      "source_channel": "DoBaksa",
+      "added_at": "2026-05-02T06:25:03.727970+00:00"
+    },
+    {
       "id": "1005006574648062",
       "title": "Парасолька з краями покриття протектор парасолька ав М",
       "title_pl": "Parasol z krawędziami pokrowca na parasol av M",
@@ -40,7 +58,7 @@
       "id": "1005010064959295",
       "title": "Baseus VJ1 3000A Car Jump Starter 4 in 1 Air Compressor 21600mAh Power Bank Emergency Car Battery Boosters Starting Device",
       "title_pl": "Baseus VJ1 3000A Car Jump Starter 4 in 1 Air Compressor 21600mAh Power Bank Emergency Car Battery Boosters Starting Device",
-      "price": 63.64 ,
+      "price": 63.64,
       "currency": "USD",
       "category": "electronics",
       "rating": 4.9,
