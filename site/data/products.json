@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": "1005009080104999",
+      "title": "Baseus Magnetic Power Bank Wireless Charging External",
+      "title_pl": "Baseus 27W magnetyczny power bank 10000mAh 15W bezprzewodowe ładowanie bateria zewnętrzna dla iPhone'a iWatch AirPods Samsung Xiaomi Poco",
+      "price": 16.54,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 704,
+      "image": "https://ae01.alicdn.com/kf/S4c22e3de1a4844b9863e696a02f403bfn.jpg",
+      "link": "https://aliexpress.com/item/1005009080104999.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009080104999.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "DoBaksa",
+      "added_at": "2026-05-05T19:15:10.353309+00:00"
+    },
+    {
+      "id": "1005007344722849",
+      "title": "Baseus Air Pump Wireless Air Compressor Camping Inflatable",
+      "title_pl": "Baseus pompa powietrza bezprzewodowa sprężarka powietrza Camping nadmuchiwane opróżniać łóżka maty nadmuchiwane koło Mini przenośna zewnętrzna pompa inflatora",
+      "price": 15.14,
+      "currency": "USD",
+      "category": "sport",
+      "rating": 4.9,
+      "orders": 1148,
+      "image": "https://ae01.alicdn.com/kf/S39ce71cea1404a1190f43ec1fe08dc7bC.jpg",
+      "link": "https://aliexpress.com/item/1005007344722849.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007344722849.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "DoBaksa",
+      "added_at": "2026-05-05T19:16:51.949725+00:00"
+    },
+    {
       "id": "1005001482589478",
       "title": "Портативна батарея Power Bank для автомобіля Baseus 1200A",
       "title_pl": "Baseus 1200A urządzenie do uruchamiania awaryjnego samochodu Power Bank 12000mAh przenośna stacja akumulatorowa do awaryjnego urządzenia rozruchowego samochodu 2,5L/6L",
