@@ -1,6 +1,24 @@
 {
   "products": [
     {
+      "id": "1005006678179250",
+      "title": "Автомобільний тримач Baseus для універсального тримача мобільного телефону",
+      "title_pl": "Baseus Uchwyt samochodowy do telefonu komórkowego do uniwersalnego stojaka na telefon komórkowy Stojak samochodowy na telefon do samochodowego uchwytu na wylot powietrza Wspornik do telefonu komórkowego",
+      "price": 3.49,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 197,
+      "image": "https://ae01.alicdn.com/kf/S7069ad8fd2994f7483a9589b88a81dd2u.jpg",
+      "link": "https://aliexpress.com/item/1005006678179250.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006678179250.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "DoBaksa",
+      "added_at": "2026-05-06T06:43:36.744817+00:00"
+    },
+    {
       "id": "1005009080104999",
       "title": "Baseus Magnetic Power Bank Wireless Charging External",
       "title_pl": "Baseus 27W magnetyczny power bank 10000mAh 15W bezprzewodowe ładowanie bateria zewnętrzna dla iPhone'a iWatch AirPods Samsung Xiaomi Poco",
