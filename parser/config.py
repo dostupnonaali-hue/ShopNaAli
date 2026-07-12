@@ -21,13 +21,8 @@ API_HASH = _api_hash
 SESSION_NAME = os.getenv('SESSION_NAME', 'shopnaali_session')
 
 # --- Donor Channels ---
-DONOR_CHANNELS = [
-    '@dobaksa_shop',
-    '@nadyvani',
-    '@AliExpress_do10',
-    '@AliExpressLizka',
-    '@Shark_ali',
-]
+_donors_env = os.getenv('DONOR_CHANNELS', '@dobaksa_shop,@nadyvani,@AliExpress_do10,@AliExpressLizka,@Shark_ali')
+DONOR_CHANNELS = [ch.strip() for ch in _donors_env.split(',') if ch.strip()]
 
 # --- Target ---
 TARGET_CHANNEL = os.getenv('TARGET_CHANNEL', '@Shop_DoBaksa')
