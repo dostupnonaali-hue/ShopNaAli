@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005010165629581",
+      "title": "Bluetooth 6.0 Hanissknaguwi Навушники 2-мкрофон Al. М",
+      "title_pl": "",
+      "price": 529.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1805,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005010165629581.jpg",
+      "link": "https://aliexpress.com/item/1005010165629581.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010165629581.html",
+      "description": "",
+      "promo_text": "IFPPB3BJ",
+      "price_note": "16 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-13T15:05:41.449444+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005009820293282",
       "title": "Зарядний пристрий PD Зарядний пристрий USB С Швид! М",
       "title_pl": "",
