@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005011551096285",
+      "title": "16 15 Pro Max, Samsung Galaxy, швидкий зарядний прист М",
+      "title_pl": "",
+      "price": 355.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 876,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005011551096285.jpg",
+      "link": "https://aliexpress.com/item/1005011551096285.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011551096285.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "15 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-13T10:55:59.551476+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005008802005644",
       "title": "Baseus 22.5 Вт 3-в-1 Бездротовий зарядний пристрій Підставка Qi2 15 Вт",
       "title_pl": "Baseus 22.5W 3-w-1 Ladowarka bezprzewodowa Qi2 15W",
