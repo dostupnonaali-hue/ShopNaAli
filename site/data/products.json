@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005008802005644",
+      "title": "Baseus 22.5 Вт 3-в-1 Бездротовий зарядний пристрій Підставка Qi2 15 Вт",
+      "title_pl": "Baseus 22.5W 3-w-1 Ladowarka bezprzewodowa Qi2 15W",
+      "price": 435,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 800,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005008802005644.jpg",
+      "link": "https://aliexpress.com/item/1005008802005644.html",
+      "affiliate_link": "https://s.click.aliexpress.com/e/_c3cdtirh?aff_id=1005008802005644",
+      "description": "",
+      "promo_text": "",
+      "price_note": "45 coins",
+      "source_channel": "DoBaksa",
+      "added_at": "2026-07-13T07:35:46Z",
+      "badge": ""
+    },
+    {
       "id": "1005012159884249",
       "title": "Baseus Mini Fast Charger USB C Charger Quick Charger",
       "title_pl": "Baseus Mini 100W szybka ładowarka USB C ładowarka szybkie ładowanie dla iPhone 17 16 15 1Pro Max iPad Xiaomi szybka ładowarka GaN ładowarka",
