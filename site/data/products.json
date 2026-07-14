@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005001869146137",
+      "title": "Power Bank 3i швидкою зарядкою, Туре С US v",
+      "title_pl": "",
+      "price": 512.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 454,
+      "image": "https://raw.githubusercontent.com/dostupnonaali-hue/ShopNaAli/main/site/images/products/1005001869146137.jpg",
+      "link": "https://aliexpress.com/item/1005001869146137.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005001869146137.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "20 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-14T08:34:07.617571+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005010165629581",
       "title": "Bluetooth 6.0 Hanissknaguwi Навушники 2-мкрофон Al. М",
       "title_pl": "",
