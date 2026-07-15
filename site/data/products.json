@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005008264179978",
+      "title": "BASEUS Dual Wireless Charger",
+      "title_pl": "",
+      "price": 425.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1842,
+      "image": "https://ae01.alicdn.com/kf/Se3069f6b64804990a885cca241d92b43f.jpg",
+      "link": "https://aliexpress.com/item/1005008264179978.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005008264179978.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "16 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-15T07:50:26.833794+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005012335881246",
       "title": "Baseus Cable USB Type C",
       "title_pl": "",
