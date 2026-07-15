@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005012335881246",
+      "title": "Baseus Cable USB Type C",
+      "title_pl": "",
+      "price": 158.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1326,
+      "image": "https://ae01.alicdn.com/kf/Sc2f81c0f1f284d02b74adc608083a8f8J.jpg",
+      "link": "https://aliexpress.com/item/1005012335881246.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012335881246.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "5 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-15T07:37:11.147425+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005002177058848",
       "title": "USB C Cable",
       "title_pl": "",
