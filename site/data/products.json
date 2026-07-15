@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005009438426816",
+      "title": "BASEUS Rechargeable LED Desk Lamp 180° Foldable",
+      "title_pl": "",
+      "price": 1120.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1561,
+      "image": "https://ae01.alicdn.com/kf/S766d64bd543c4fc29702936468a6f438q.jpg",
+      "link": "https://aliexpress.com/item/1005009438426816.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009438426816.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "45 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-15T17:10:28.678339+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005008264179978",
       "title": "BASEUS Dual Wireless Charger",
       "title_pl": "",
