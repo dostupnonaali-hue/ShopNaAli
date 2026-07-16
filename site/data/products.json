@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005005988162152",
+      "title": "BASEUS A5 16000Pa Wireless Car Vacuum Cleaner",
+      "title_pl": "",
+      "price": 1962.0,
+      "currency": "UAH",
+      "category": "home",
+      "rating": 4.7,
+      "orders": 920,
+      "image": "https://ae01.alicdn.com/kf/Sc7d7ce656c9141a89d3d11fdc2ab90215.jpg",
+      "link": "https://aliexpress.com/item/1005005988162152.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005005988162152.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "71 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-16T14:50:32.845714+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005009438426816",
       "title": "BASEUS Rechargeable LED Desk Lamp 180° Foldable",
       "title_pl": "",
