@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005006996475140",
+      "title": "Baseus USB Charger QC3.0 PD3.0 Type C PD Fast Charging 3",
+      "title_pl": "",
+      "price": 343.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1488,
+      "image": "https://ae01.alicdn.com/kf/S0bc0a3f5112e416eaf1baf8577f27879d.jpg",
+      "link": "https://aliexpress.com/item/1005006996475140.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006996475140.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "241 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-18T11:01:40.054202+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005005988162152",
       "title": "BASEUS A5 16000Pa Wireless Car Vacuum Cleaner",
       "title_pl": "",
