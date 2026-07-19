@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005009094486800",
+      "title": "BASEUS Dual USB Car Charger",
+      "title_pl": "",
+      "price": 258.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1214,
+      "image": "https://ae01.alicdn.com/kf/S32a5067c06e84f0b99769fa610ef2e29T.jpg",
+      "link": "https://aliexpress.com/item/1005009094486800.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009094486800.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-19T16:40:31.107282+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005009912173568",
       "title": "BASEUS Qi2 Power Bank with Kickstand",
       "title_pl": "",
