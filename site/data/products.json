@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005009131114559",
+      "title": "Baseus 3 in 1 Stylus Pen",
+      "title_pl": "",
+      "price": 304.0,
+      "currency": "UAH",
+      "category": "new",
+      "rating": 4.7,
+      "orders": 1487,
+      "image": "https://ae01.alicdn.com/kf/S5c8b38a6acc84510ab09c46e26cd4edep.jpg",
+      "link": "https://aliexpress.com/item/1005009131114559.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009131114559.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-23T13:50:29.990161+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005012629940650",
       "title": "Baseus Ulta-Slim USB C Cable",
       "title_pl": "",
