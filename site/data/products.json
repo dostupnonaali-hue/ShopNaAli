@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005007015955340",
+      "title": "BASEUS Bowie MH1 Wireless Headphones ANC",
+      "title_pl": "",
+      "price": 1531.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 646,
+      "image": "https://ae01.alicdn.com/kf/S7d5801e4fc534bc2925f058a9f035971g.jpg",
+      "link": "https://aliexpress.com/item/1005007015955340.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007015955340.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-26T15:40:40.692320+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005012776370323",
       "title": "Baseus Car Charger Dual Port USB Type-C Fast Charging PD QC",
       "title_pl": "",
