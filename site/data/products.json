@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005012627701656",
+      "title": "Baseus Power Bank with Magnetic Wireless Charging for",
+      "title_pl": "",
+      "price": 1305.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1837,
+      "image": "https://ae01.alicdn.com/kf/S16eb399c78764d3bb306a5adc75cb03eG.jpg",
+      "link": "https://aliexpress.com/item/1005012627701656.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012627701656.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-28T09:23:11.736655+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005007015955340",
       "title": "BASEUS Bowie MH1 Wireless Headphones ANC",
       "title_pl": "",
