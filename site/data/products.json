@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005010425880598",
+      "title": "BASEUS Power Bank 22. Dual USB-C",
+      "title_pl": "",
+      "price": 662.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1742,
+      "image": "https://ae01.alicdn.com/kf/S93dd085b5adc406fa3a69ea59e208297y.jpg",
+      "link": "https://aliexpress.com/item/1005010425880598.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010425880598.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-29T08:10:27.645871+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005007476913334",
       "title": "Baseus Wireless Air Pump Portable Air Compressor Smart",
       "title_pl": "",
