@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005006904735110",
+      "title": "Baseus USB A To USB C Cable USB-C Fast Charging Charger",
+      "title_pl": "",
+      "price": 107.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1263,
+      "image": "https://ae01.alicdn.com/kf/S612d63d5f06f48bc9250fdfc916bd762z.jpg",
+      "link": "https://aliexpress.com/item/1005006904735110.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006904735110.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "181 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-07-31T09:10:04.160029+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005006860868309",
       "title": "Baseus FM Transmitter Modulator Car Wireless Bluetooth 5.0",
       "title_pl": "",
