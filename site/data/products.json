@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005007956125217",
+      "title": "UGREEN Power Bank with Digital Display",
+      "title_pl": "",
+      "price": 576.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 1993,
+      "image": "https://ae01.alicdn.com/kf/Sce3e97e7ddbf454b8479f2df430c9944o.jpg",
+      "link": "https://aliexpress.com/item/1005007956125217.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007956125217.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "+ монети",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-08-01T07:20:22.711838+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005006904735110",
       "title": "Baseus USB A To USB C Cable USB-C Fast Charging Charger",
       "title_pl": "",
