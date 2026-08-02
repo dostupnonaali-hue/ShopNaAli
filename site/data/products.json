@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005012697426927",
+      "title": "Baseus Car Charger PD3.0 USB Type C",
+      "title_pl": "",
+      "price": 265.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 5.0,
+      "orders": 1090,
+      "image": "https://ae01.alicdn.com/kf/Sc710c045117c4efeae08008b70a923a0e.png",
+      "link": "https://aliexpress.com/item/1005012697426927.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012697426927.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "Монетками",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-08-02T12:40:23.629317+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005006436011747",
       "title": "Warsun Camping Lights Waterproof IPX6 SMD Rechargeable",
       "title_pl": "",
