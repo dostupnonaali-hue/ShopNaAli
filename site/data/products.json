@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005006994627441",
+      "title": "Baseus TPE 2.4A Fast Charging USB Cable",
+      "title_pl": "",
+      "price": 87.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1009,
+      "image": "https://ae01.alicdn.com/kf/S2e574facfcc84ef6a0d33c7025922328d.jpg",
+      "link": "https://aliexpress.com/item/1005006994627441.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006994627441.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "92 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-08-03T16:40:29.658810+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005009589198389",
       "title": "BASEUS Magnetic Car Phone Holder 360° Rotating Stand",
       "title_pl": "",
