@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005006904690516",
+      "title": "Baseus 7-in-1 Gen 2 USB C HUB 4K@60Hz HDMI 3* USB 3.0 PD",
+      "title_pl": "",
+      "price": 666.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1540,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa3702b8e917249c4a39bb698d22ffe8bn.jpg",
+      "link": "https://aliexpress.com/item/1005006904690516.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005006904690516.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "259 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-08-10T15:10:16.037491+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005006994627441",
       "title": "Baseus TPE 2.4A Fast Charging USB Cable",
       "title_pl": "",
