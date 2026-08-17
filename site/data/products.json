@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005011755232439",
+      "title": "HAYLOU Flowbuds N55 Wireless Earbuds ANC",
+      "title_pl": "",
+      "price": 945.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 291,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0df32d134e314a5e9f6cea55292cec67F.jpg",
+      "link": "https://aliexpress.com/item/1005011755232439.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005011755232439.html",
+      "description": "",
+      "promo_text": "UASC04",
+      "price_note": "Купон під товаром",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-08-17T11:57:00.670885+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005012719507797",
       "title": "Baseus Tungsten Gold Cable Type C To USB C",
       "title_pl": "",
