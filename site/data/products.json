@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005009013564521",
+      "title": "BASEUS EH10 NC Wireless Headphones 80H Battery",
+      "title_pl": "",
+      "price": 887.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.8,
+      "orders": 1713,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S65d4af1006a0451fbfdc88443c8355cai.png",
+      "link": "https://aliexpress.com/item/1005009013564521.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005009013564521.html",
+      "description": "",
+      "promo_text": "UANS07",
+      "price_note": "31 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-08-20T16:20:18.660399+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005012535236864",
       "title": "Baseus One-Press Return Retractable Cable USB-C Type-C Fast",
       "title_pl": "",
