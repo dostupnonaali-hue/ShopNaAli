@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005012535236864",
+      "title": "Baseus One-Press Return Retractable Cable USB-C Type-C Fast",
+      "title_pl": "",
+      "price": 345.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 1686,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S91d51f8137a64242918b3672a72fa791p.jpg",
+      "link": "https://aliexpress.com/item/1005012535236864.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005012535236864.html",
+      "description": "",
+      "promo_text": "UANS02",
+      "price_note": "13 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-08-20T13:20:16.103336+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005006782788933",
       "title": "Baseus USB Type C To USB C Cable",
       "title_pl": "",
