@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005007011763219",
+      "title": "Baseus Bass BH1 NC Lite ANC Wireless Headphones 95% Noise",
+      "title_pl": "",
+      "price": 840.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.7,
+      "orders": 785,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sef24e3b3cf9741eda1fb32740645d027H.jpg",
+      "link": "https://aliexpress.com/item/1005007011763219.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005007011763219.html",
+      "description": "",
+      "promo_text": "UANS04",
+      "price_note": "32 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-08-24T18:35:23.370424+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005010255399117",
       "title": "BASEUS Inspire XP1 Wireless Earbuds ANC Bluetooth 6.1",
       "title_pl": "",
