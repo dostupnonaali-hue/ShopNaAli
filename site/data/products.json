@@ -1,6 +1,25 @@
 {
   "products": [
     {
+      "id": "1005010724501614",
+      "title": "BASEUS Power Bank with USB-C Cable",
+      "title_pl": "",
+      "price": 994.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 308,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3f2f7fdbbb044527a7a69ad9d1ee73abv.jpg",
+      "link": "https://aliexpress.com/item/1005010724501614.html",
+      "affiliate_link": "https://s.click.aliexpress.com/deep_link.htm?aff_short_key=_c3cdtirh&dl_target_url=https%3A%2F%2Faliexpress.com%2Fitem%2F1005010724501614.html",
+      "description": "",
+      "promo_text": "",
+      "price_note": "49 coins",
+      "source_channel": "на дивані 🛋️ | знижки і товари по 1$",
+      "added_at": "2026-09-01T12:54:55.265962+00:00",
+      "badge": ""
+    },
+    {
       "id": "1005007011763219",
       "title": "Baseus Bass BH1 NC Lite ANC Wireless Headphones 95% Noise",
       "title_pl": "",
