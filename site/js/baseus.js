@@ -14,7 +14,7 @@
     var brandProducts = [];
     var filteredProducts = [];
     var currentSort = 'new';
-    var searchQuery = '';
+    var searchQuery = new URLSearchParams(window.location.search).get('search') || '';
     var displayCount = BATCH_SIZE;
 
     // --- DOM ---
@@ -28,9 +28,11 @@
     async function init() {
         showSkeletons(8);
         await loadProducts();
-        renderProducts();
+        searchInput.value = searchQuery;
+        applyFilters();
         updateStats();
         bindEvents();
+        if (searchQuery) (document.getElementById('catalog') || productsGrid).scrollIntoView({ block: 'start' });
     }
 
     // --- Load & Filter Products ---
@@ -65,6 +67,8 @@
 
     // --- Render ---
     function renderProducts() {
+        var count = document.getElementById('collectionResult');
+        if (count) count.textContent = filteredProducts.length.toLocaleString() + ' товарів';
         if (filteredProducts.length === 0) {
             productsGrid.innerHTML = '<div class="empty-state">' +
                 '<div class="empty-state__icon">\uD83D\uDD0B</div>' +
@@ -82,7 +86,7 @@
                 ? '<span class="product-card__badge product-card__badge--' + product.badge + '">' + getBadgeText(product.badge) + '</span>'
                 : '';
 
-            var ratingStars = '\u2B50'.repeat(Math.round(product.rating || 0));
+            var ratingStars = product.rating ? '★ ' + Number(product.rating).toFixed(1) : '—';
             var currencySymbol = product.currency === 'UAH' ? '\u20B4' : '$';
             var priceOld = product.price_old
                 ? '<span class="product-card__price-old">' + currencySymbol + product.price_old.toFixed(2) + '</span>'
@@ -203,6 +207,7 @@
 
     // --- Events ---
     function bindEvents() {
+        document.querySelectorAll('.filter-btn').forEach(function(btn) { btn.setAttribute('aria-pressed', String(btn.classList.contains('active'))); });
         var searchTimeout;
         searchInput.addEventListener('input', function(e) {
             clearTimeout(searchTimeout);
@@ -215,8 +220,8 @@
         sortFilters.addEventListener('click', function(e) {
             var btn = e.target.closest('.filter-btn');
             if (!btn) return;
-            sortFilters.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
-            btn.classList.add('active');
+            sortFilters.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+            btn.classList.add('active'); btn.setAttribute('aria-pressed', 'true');
             currentSort = btn.dataset.sort;
             applyFilters();
         });

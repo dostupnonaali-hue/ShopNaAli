@@ -16,7 +16,7 @@
     var allProducts = [];
     var filteredProducts = [];
     var currentFilter = 'all';
-    var searchQuery = '';
+    var searchQuery = new URLSearchParams(window.location.search).get('search') || '';
     var displayCount = BATCH_SIZE;
     var sortOrder = 'default';
     var loadFailed = false;
@@ -32,9 +32,11 @@
     async function init() {
         showSkeletons(8);
         await Promise.all([loadProducts(), loadExchangeRates()]);
-        renderProducts();
+        searchInput.value = searchQuery;
+        applyFilters();
         updateStats();
         bindEvents();
+        if (searchQuery) (document.getElementById('catalog') || productsGrid).scrollIntoView({ block: 'start' });
     }
 
     // --- Load Exchange Rates ---

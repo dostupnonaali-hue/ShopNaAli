@@ -5,6 +5,8 @@
  */
 (function () {
   'use strict';
+  var activeFilter = 'all';
+  var articleQuery = '';
 
   var LANG = 'pl';
   var DATA_PATH = '../data/blog_posts.json';
@@ -94,6 +96,9 @@
       filtered = posts.filter(function (p) { return p.type === filter; });
     }
 
+    filtered = filtered.filter(function(p) { return ((p.title_pl || p.title || '') + ' ' + (p.excerpt_pl || p.excerpt || '')).toLocaleLowerCase().includes(articleQuery); });
+    var resultCount = document.getElementById('blogResultCount');
+    if (resultCount) resultCount.textContent = filtered.length;
     filtered.sort(function (a, b) {
       return new Date(b.published_at) - new Date(a.published_at);
     });
@@ -150,6 +155,8 @@
     var content = post.content_pl || post.content;
 
     listSection.style.display = 'none';
+    var seo = document.getElementById('blogSeoText');
+    if (seo) seo.hidden = true;
     articleSection.style.display = 'block';
 
     document.title = title + ' — Blog ShopDoBaksa';
@@ -220,12 +227,14 @@
   }
 
   function initFilters(posts) {
+    document.getElementById('articleSearch').addEventListener('input', function() { articleQuery = this.value.trim().toLocaleLowerCase(); renderBlogList(posts, activeFilter); });
     var buttons = document.querySelectorAll('.blog-filter-btn');
     buttons.forEach(function (btn) {
+      btn.setAttribute('aria-pressed', String(btn.classList.contains('active')));
       btn.addEventListener('click', function () {
-        buttons.forEach(function (b) { b.classList.remove('active'); });
-        btn.classList.add('active');
-        var filter = btn.getAttribute('data-filter');
+        buttons.forEach(function (b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+        btn.classList.add('active'); btn.setAttribute('aria-pressed', 'true');
+        var filter = btn.getAttribute('data-filter'); activeFilter = filter;
         renderBlogList(posts, filter);
       });
     });

@@ -16,7 +16,7 @@
     var cheapProducts = [];
     var filteredProducts = [];
     var currentPriceFilter = 'all';
-    var searchQuery = '';
+    var searchQuery = new URLSearchParams(window.location.search).get('search') || '';
     var displayCount = BATCH_SIZE;
 
     // --- DOM ---
@@ -30,9 +30,11 @@
     async function init() {
         showSkeletons(8);
         await Promise.all([loadProducts(), loadExchangeRates()]);
-        renderProducts();
+        searchInput.value = searchQuery;
+        applyFilters();
         updateStats();
         bindEvents();
+        if (searchQuery) (document.getElementById('catalog') || productsGrid).scrollIntoView({ block: 'start' });
     }
 
     async function loadExchangeRates() {
@@ -91,6 +93,8 @@
 
     // --- Render ---
     function renderProducts() {
+        var count = document.getElementById('collectionResult');
+        if (count) count.textContent = filteredProducts.length.toLocaleString() + ' produktów';
         if (filteredProducts.length === 0) {
             productsGrid.innerHTML = '<div class="empty-state">' +
                 '<div class="empty-state__icon">\uD83E\uDE99</div>' +
@@ -108,7 +112,7 @@
                 ? '<span class="product-card__badge product-card__badge--' + product.badge + '">' + getBadgeText(product.badge) + '</span>'
                 : '';
 
-            var ratingStars = '\u2B50'.repeat(Math.round(product.rating || 0));
+            var ratingStars = product.rating ? '★ ' + Number(product.rating).toFixed(1) : '—';
             var pricePLN = toPLN(product.price, product.currency);
             var priceOldPLN = product.price_old ? toPLN(product.price_old, product.currency) : 0;
             var priceOld = priceOldPLN
@@ -224,6 +228,7 @@
 
     // --- Events ---
     function bindEvents() {
+        document.querySelectorAll('.filter-btn').forEach(function(btn) { btn.setAttribute('aria-pressed', String(btn.classList.contains('active'))); });
         var searchTimeout;
         searchInput.addEventListener('input', function(e) {
             clearTimeout(searchTimeout);
@@ -236,8 +241,8 @@
         priceFilters.addEventListener('click', function(e) {
             var btn = e.target.closest('.filter-btn');
             if (!btn) return;
-            priceFilters.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
-            btn.classList.add('active');
+            priceFilters.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+            btn.classList.add('active'); btn.setAttribute('aria-pressed', 'true');
             currentPriceFilter = btn.dataset.price;
             applyFilters();
         });
