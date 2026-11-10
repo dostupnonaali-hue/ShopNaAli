@@ -18,6 +18,8 @@
     var currentFilter = 'all';
     var searchQuery = '';
     var displayCount = BATCH_SIZE;
+    var sortOrder = 'default';
+    var loadFailed = false;
 
     // --- DOM Elements ---
     var productsGrid = document.getElementById('productsGrid');
@@ -67,6 +69,7 @@
             allProducts = data.products || data || [];
             filteredProducts = allProducts.slice();
         } catch (err) {
+            loadFailed = true;
             console.warn('Products not loaded yet:', err.message);
             allProducts = [];
             filteredProducts = [];
@@ -80,12 +83,12 @@
 
     // --- Render Products ---
     function renderProducts() {
+        var resultCount = document.getElementById('resultCount');
+        if (resultCount) resultCount.textContent = filteredProducts.length.toLocaleString("pl-PL");
         if (filteredProducts.length === 0) {
-            productsGrid.innerHTML = '<div class="empty-state">' +
-                '<div class="empty-state__icon">\uD83D\uDCE6</div>' +
-                '<h3 class="empty-state__title">Produkty pojawi\u0105 si\u0119 wkr\u00F3tce!</h3>' +
-                '<p class="empty-state__text">Parser ju\u017C dzia\u0142a \u2014 nowe okazje s\u0105 dodawane automatycznie</p>' +
-                '</div>';
+            productsGrid.innerHTML = '<div class="empty-state"><div class="empty-state__icon">⌕</div><h3>' +
+                (loadFailed ? 'Nie udało się wczytać produktów' : 'Nic nie znaleziono') + '</h3><p>' +
+                (loadFailed ? 'Odśwież stronę lub spróbuj ponownie później.' : 'Zmień zapytanie lub wybierz inną kategorię.') + '</p></div>';
             removeLoadMore();
             return;
         }
@@ -97,7 +100,7 @@
                 ? '<span class="product-card__badge product-card__badge--' + product.badge + '">' + getBadgeText(product.badge) + '</span>'
                 : '';
 
-            var ratingStars = '\u2B50'.repeat(Math.round(product.rating || 0));
+            var ratingStars = product.rating ? '★ ' + Number(product.rating).toFixed(1) : '—';
             var pricePLN = toPLN(product.price, product.currency);
             var priceOldPLN = product.price_old ? toPLN(product.price_old, product.currency) : 0;
             var priceOld = priceOldPLN
@@ -181,9 +184,16 @@
                 titleToSearch.toLowerCase().includes(searchQuery.toLowerCase());
             return matchesFilter && matchesSearch;
         });
+        if (sortOrder === 'rating') filteredProducts.sort(function(a, b) { return (b.rating || 0) - (a.rating || 0); });
+        if (sortOrder === 'price-asc' || sortOrder === 'price-desc') {
+            filteredProducts.sort(function(a, b) { return (comparablePrice(a) - comparablePrice(b)) * (sortOrder === 'price-asc' ? 1 : -1); });
+        }
         displayCount = BATCH_SIZE;
         renderProducts();
     }
+
+    // Keep mixed-currency values comparable using the existing PLN conversion.
+    function comparablePrice(product) { return toPLN(product.price, product.currency); }
 
     // --- Stats ---
     function updateStats() {
@@ -194,6 +204,9 @@
 
     // --- Events ---
     function bindEvents() {
+        var sortSelect = document.getElementById('sortSelect');
+        if (sortSelect) sortSelect.addEventListener('change', function() { sortOrder = this.value; applyFilters(); });
+        filtersContainer.querySelectorAll('.filter-btn').forEach(function(button) { button.setAttribute('aria-pressed', String(button.classList.contains('active'))); });
         var searchTimeout;
         searchInput.addEventListener('input', function(e) {
             clearTimeout(searchTimeout);
@@ -206,8 +219,9 @@
         filtersContainer.addEventListener('click', function(e) {
             var btn = e.target.closest('.filter-btn');
             if (!btn) return;
-            filtersContainer.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+            filtersContainer.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
             btn.classList.add('active');
+            btn.setAttribute('aria-pressed', 'true');
             currentFilter = btn.dataset.filter;
             applyFilters();
         });

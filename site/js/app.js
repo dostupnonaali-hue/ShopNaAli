@@ -15,6 +15,8 @@
     var currentFilter = 'all';
     var searchQuery = '';
     var displayCount = BATCH_SIZE;
+    var sortOrder = 'default';
+    var loadFailed = false;
 
     // --- DOM Elements ---
     var productsGrid = document.getElementById('productsGrid');
@@ -42,6 +44,7 @@
             allProducts = data.products || data || [];
             filteredProducts = allProducts.slice();
         } catch (err) {
+            loadFailed = true;
             console.warn('Products not loaded yet:', err.message);
             allProducts = [];
             filteredProducts = [];
@@ -50,12 +53,12 @@
 
     // --- Render Products ---
     function renderProducts() {
+        var resultCount = document.getElementById('resultCount');
+        if (resultCount) resultCount.textContent = filteredProducts.length.toLocaleString("uk-UA");
         if (filteredProducts.length === 0) {
-            productsGrid.innerHTML = '<div class="empty-state">' +
-                '<div class="empty-state__icon">\uD83D\uDCE6</div>' +
-                '<h3 class="empty-state__title">\u0422\u043E\u0432\u0430\u0440\u0438 \u0441\u043A\u043E\u0440\u043E \u0437\'\u044F\u0432\u043B\u044F\u0442\u044C\u0441\u044F!</h3>' +
-                '<p class="empty-state__text">\u041F\u0430\u0440\u0441\u0435\u0440 \u0432\u0436\u0435 \u043F\u0440\u0430\u0446\u044E\u0454 \u2014 \u043D\u043E\u0432\u0456 \u0437\u043D\u0430\u0445\u0456\u0434\u043A\u0438 \u0434\u043E\u0434\u0430\u044E\u0442\u044C\u0441\u044F \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u043D\u043E</p>' +
-                '</div>';
+            productsGrid.innerHTML = '<div class="empty-state"><div class="empty-state__icon">⌕</div><h3>' +
+                (loadFailed ? 'Не вдалося завантажити товари' : 'Нічого не знайдено') + '</h3><p>' +
+                (loadFailed ? 'Онови сторінку або спробуй пізніше.' : 'Спробуй інший запит або обери іншу категорію.') + '</p></div>';
             removeLoadMore();
             return;
         }
@@ -67,7 +70,7 @@
                 ? '<span class="product-card__badge product-card__badge--' + product.badge + '">' + getBadgeText(product.badge) + '</span>'
                 : '';
 
-            var ratingStars = '\u2B50'.repeat(Math.round(product.rating || 0));
+            var ratingStars = product.rating ? '★ ' + Number(product.rating).toFixed(1) : '—';
             var currencySymbol = product.currency === 'UAH' ? '\u20B4' : '$';
             var priceOld = product.price_old
                 ? '<span class="product-card__price-old">' + currencySymbol + product.price_old.toFixed(2) + '</span>'
@@ -147,9 +150,16 @@
                 product.title.toLowerCase().includes(searchQuery.toLowerCase());
             return matchesFilter && matchesSearch;
         });
+        if (sortOrder === 'rating') filteredProducts.sort(function(a, b) { return (b.rating || 0) - (a.rating || 0); });
+        if (sortOrder === 'price-asc' || sortOrder === 'price-desc') {
+            filteredProducts.sort(function(a, b) { var currencyOrder = (a.currency || 'USD').localeCompare(b.currency || 'USD'); if (currencyOrder) return currencyOrder; return (comparablePrice(a) - comparablePrice(b)) * (sortOrder === 'price-asc' ? 1 : -1); });
+        }
         displayCount = BATCH_SIZE;
         renderProducts();
     }
+
+    // Group currencies before comparing prices; do not invent an exchange rate.
+    function comparablePrice(product) { return Number(product.price) || 0; }
 
     // --- Stats ---
     function updateStats() {
@@ -160,6 +170,9 @@
 
     // --- Events ---
     function bindEvents() {
+        var sortSelect = document.getElementById('sortSelect');
+        if (sortSelect) sortSelect.addEventListener('change', function() { sortOrder = this.value; applyFilters(); });
+        filtersContainer.querySelectorAll('.filter-btn').forEach(function(button) { button.setAttribute('aria-pressed', String(button.classList.contains('active'))); });
         var searchTimeout;
         searchInput.addEventListener('input', function(e) {
             clearTimeout(searchTimeout);
@@ -172,8 +185,9 @@
         filtersContainer.addEventListener('click', function(e) {
             var btn = e.target.closest('.filter-btn');
             if (!btn) return;
-            filtersContainer.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); });
+            filtersContainer.querySelectorAll('.filter-btn').forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
             btn.classList.add('active');
+            btn.setAttribute('aria-pressed', 'true');
             currentFilter = btn.dataset.filter;
             applyFilters();
         });
