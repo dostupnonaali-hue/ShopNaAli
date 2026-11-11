@@ -1,0 +1,18 @@
+.promo-browser { margin-bottom:36px; }
+.promo-tabs { display:flex; gap:8px; margin-bottom:22px; border-bottom:1px solid var(--bg-glass-border); padding-bottom:14px; }
+.promo-tabs button { display:flex; gap:10px; align-items:center; padding:13px 18px; border:1px solid var(--bg-glass-border); border-radius:10px; background:transparent; color:var(--text-secondary); font:inherit; font-size:14px; cursor:pointer; }
+.promo-tabs button[aria-selected=true] { background:var(--accent-primary); color:#17200f; border-color:var(--accent-primary); }
+.promo-tabs span { font-size:11px; opacity:.75; }
+.promo-browser > .section-search { max-width:520px; }
+#codesStatus { margin:16px 0; color:var(--text-muted); font-size:12px; }
+.promo-month { border:1px solid var(--bg-glass-border); border-radius:14px; margin-bottom:12px; background:#171d19; }
+.promo-month > summary { padding:19px 22px; cursor:pointer; font-size:16px; font-weight:500; text-transform:capitalize; }
+.promo-month > summary span { margin-left:12px; color:var(--text-muted); font-size:12px; }
+.promo-month > .promo-grid { padding:0 18px 18px; }
+.promo-code-status { color:var(--text-muted); font-size:11px; line-height:1.6; padding:10px 18px; }
+.promo-empty { padding:32px; border:1px dashed var(--bg-glass-border); border-radius:14px; text-align:center; color:var(--text-secondary); line-height:1.8; }
+.promo-empty button { display:block; margin:18px auto 0; }
+#recentMore { margin-top:20px; }
+#historicPromos { margin-top:32px; }
+#historicPromos h2 { font-size:20px; margin-bottom:18px; }
+@media(max-width:640px) { .promo-tabs button { padding:12px; font-size:13px; } .promo-month > summary { padding:16px; } .promo-month > .promo-grid { padding:0 10px 10px; } .promo-empty { padding:24px 16px; } }

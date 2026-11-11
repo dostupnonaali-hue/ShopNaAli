@@ -86,7 +86,7 @@
             font-size: 1.2rem;
         }
     </style>
-<link href="css/experience.css?v=5" rel="stylesheet"/></head>
+<link href="css/experience.css?v=5" rel="stylesheet"/><link rel="stylesheet" href="css/promo-archive.css?v=1"/></head>
 <body class="experience promos-view">
 <!-- Header -->
 <a class="skip-link" href="#mainContent">Перейти до вмісту</a>
@@ -104,17 +104,12 @@
 <!-- Hero -->
 <section class="page-intro"><div class="page-intro__copy"><p class="eyebrow">SHOPDOBAKSA / SAVINGS</p><h1>Більше покупок. Менше витрат.</h1><p class="page-intro__description">Знаходь промокоди, копіюй одним натисканням і перевіряй знижку в кошику AliExpress.</p></div><div aria-hidden="true" class="page-intro__symbol"><svg aria-hidden="true" class="ui-icon" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="20"><path d="M3 5h18v5a2 2 0 0 0 0 4v5H3v-5a2 2 0 0 0 0-4V5Z"></path><path d="M15 5v3m0 3v2m0 3v3"></path></svg></div></section>
 <!-- Anniversary Sale -->
-<section class="promo-section">
-<div class="promo-section__header">
-<span class="promo-section__icon">🔄</span>
-<h2 class="promo-section__title">Промокоди зі знахідок</h2>
-</div>
-<p class="promo-section__desc">Коди з наших добірок. Дата показує, коли код бачили востаннє; умови та доступність перевіряй під час оформлення замовлення.</p>
-<p class="parser-promos-stats">Знайдено промокодів: <strong id="promoStatsCount">0</strong></p><label class="section-search promo-search"><svg aria-hidden="true" class="ui-icon" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="20"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 4 4"></path></svg><input aria-label="Пошук промокодів" id="promoSearch" placeholder="Знайти промокод…" type="search"/></label><p hidden="" id="promoEmpty">Такого коду немає у списку.</p>
-<div class="promo-grid" id="parserPromos">
-<!-- Loaded dynamically by promos.js -->
-</div><div class="load-more"><span class="load-more__counter" id="promoResultCount" role="status"></span><button class="load-more__btn" id="promoLoadMore" type="button" hidden>Показати ще</button></div>
-</section><details class="promo-archive"><summary>Архівні добірки · весна 2026</summary><p class="archive-note">Строки цих акцій минули. Коди збережені для довідки; їхня дія не підтверджена.</p><section class="promo-section">
+<section class="promo-browser" aria-label="Пошук промокодів">
+<div class="promo-tabs" role="tablist" aria-label="Пошук промокодів"><button type="button" role="tab" id="recentTab" aria-controls="recentPanel" aria-selected="true">Нові знахідки <span id="recentCount">—</span></button><button type="button" role="tab" id="archiveTab" aria-controls="archivePanel" aria-selected="false" tabindex="-1">Архів <span id="archiveCount">—</span></button></div>
+<label class="section-search"><input id="codesSearch" type="search" aria-label="Пошук промокодів" placeholder="Знайти промокод…"/></label>
+<p id="codesStatus" role="status">Завантажуємо коди…</p>
+<div id="recentPanel" role="tabpanel" aria-labelledby="recentTab" tabindex="0"><div id="recentCodes" class="promo-grid"></div><div id="recentEmpty" class="promo-empty" hidden></div><button id="recentMore" class="load-more__btn" type="button" hidden>Показати ще</button></div>
+<div id="archivePanel" role="tabpanel" aria-labelledby="archiveTab" tabindex="0" hidden><p class="archive-note">Коди згруповані за місяцем останньої згадки. Дію архівних кодів не підтверджено.</p><div id="archiveMonths"></div><p id="archiveEmpty" hidden></p><div id="historicPromos"><h2>Попередні акції</h2><details class="promo-archive"><summary>Архівні добірки · весна 2026</summary><p class="archive-note">Строки цих акцій минули. Коди збережені для довідки; їхня дія не підтверджена.</p><section class="promo-section">
 <div class="promo-section__header">
 <span class="promo-section__icon">🥳</span>
 <h2 class="promo-section__title">Ювілейний розпродаж (Anniversary Sale)</h2>
@@ -193,7 +188,7 @@
 <h2 class="promo-section__title">Секретні промокоди (діють до 01.06.2026)</h2>
 </div>
 <p class="promo-section__desc">
-                Ці коди активні вже зараз. Вводьте їх у спеціальне поле «Промо-код» на сторінці оплати. (Оновлено квітень 2026)
+                Архівна добірка за квітень 2026. Зазначений строк дії акції минув.
             </p>
 <div class="promo-grid">
 <script>
@@ -228,7 +223,9 @@
                     });
                 </script>
 </div>
-</section></details>
+</section></details></div></div>
+<noscript>Увімкни JavaScript для перегляду промокодів.</noscript>
+</section>
 <!-- Secret Codes -->
 
 <!-- Parser Promo Codes -->
@@ -268,7 +265,7 @@
 <!-- Toast Notification -->
 
 
-<script src="js/promos.js?v=2"></script>
+<script src="js/promos.js?v=3"></script>
 <footer class="site-footer"><div><a class="site-brand" href="index.html">Shop<span>DoBaksa</span></a><p>Корисні речі. Приємні ціни.</p></div><nav aria-label="Корисні посилання"><a href="index.html">Каталог</a><a href="faq.html">Гайд покупця</a><a href="promos.html">Промокоди</a><a href="https://t.me/Shop_DoBaksa" rel="noopener" target="_blank">Telegram ↗</a></nav><small>© 2026 ShopDoBaksa · Покупки оформлюються на AliExpress</small></footer>
 <button aria-label="На початок сторінки" class="back-top icon-button" hidden="" id="backTop"><svg aria-hidden="true" class="ui-icon" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="20"><path d="M12 20V4m-6 6 6-6 6 6"></path></svg></button><div aria-live="polite" class="ui-toast" id="uiToast" role="status"></div><script defer="" src="js/ui.js?v=5"></script></body>
 </html>

@@ -86,7 +86,7 @@
             font-size: 1.2rem;
         }
     </style>
-<link href="../css/experience.css?v=5" rel="stylesheet"/></head>
+<link href="../css/experience.css?v=5" rel="stylesheet"/><link rel="stylesheet" href="../css/promo-archive.css?v=1"/></head>
 <body class="experience promos-view">
 <!-- Header -->
 <a class="skip-link" href="#mainContent">Przejdź do treści</a>
@@ -104,17 +104,12 @@
 <!-- Hero -->
 <section class="page-intro"><div class="page-intro__copy"><p class="eyebrow">SHOPDOBAKSA / SAVINGS</p><h1>Więcej zakupów. Mniej wydatków.</h1><p class="page-intro__description">Znajdź kod, skopiuj jednym kliknięciem i sprawdź zniżkę w koszyku AliExpress.</p></div><div aria-hidden="true" class="page-intro__symbol"><svg aria-hidden="true" class="ui-icon" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="20"><path d="M3 5h18v5a2 2 0 0 0 0 4v5H3v-5a2 2 0 0 0 0-4V5Z"></path><path d="M15 5v3m0 3v2m0 3v3"></path></svg></div></section>
 <!-- Anniversary Sale -->
-<section class="promo-section">
-<div class="promo-section__header">
-<span class="promo-section__icon">🔄</span>
-<h2 class="promo-section__title">Kody ze znalezionych okazji</h2>
-</div>
-<p class="promo-section__desc">Kody z naszych zestawień. Data oznacza ostatnie wystąpienie kodu; warunki i dostępność sprawdź podczas składania zamówienia.</p>
-<p class="parser-promos-stats">Znalezionych kodów: <strong id="promoStatsCount">0</strong></p><label class="section-search promo-search"><svg aria-hidden="true" class="ui-icon" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="20"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 4 4"></path></svg><input aria-label="Szukaj kodów" id="promoSearch" placeholder="Znajdź kod…" type="search"/></label><p hidden="" id="promoEmpty">Brak tego kodu na liście.</p>
-<div class="promo-grid" id="parserPromos">
-<!-- Loaded dynamically by promos-pl.js -->
-</div><div class="load-more"><span class="load-more__counter" id="promoResultCount" role="status"></span><button class="load-more__btn" id="promoLoadMore" type="button" hidden>Pokaż więcej</button></div>
-</section><details class="promo-archive"><summary>Archiwalne zestawienia · wiosna 2026</summary><p class="archive-note">Terminy tych promocji minęły. Kody zachowano informacyjnie; ich ważność nie jest potwierdzona.</p><section class="promo-section">
+<section class="promo-browser" aria-label="Szukaj kodów">
+<div class="promo-tabs" role="tablist" aria-label="Szukaj kodów"><button type="button" role="tab" id="recentTab" aria-controls="recentPanel" aria-selected="true">Nowe znaleziska <span id="recentCount">—</span></button><button type="button" role="tab" id="archiveTab" aria-controls="archivePanel" aria-selected="false" tabindex="-1">Archiwum <span id="archiveCount">—</span></button></div>
+<label class="section-search"><input id="codesSearch" type="search" aria-label="Szukaj kodów" placeholder="Szukaj kodu…"/></label>
+<p id="codesStatus" role="status">Ładowanie kodów…</p>
+<div id="recentPanel" role="tabpanel" aria-labelledby="recentTab" tabindex="0"><div id="recentCodes" class="promo-grid"></div><div id="recentEmpty" class="promo-empty" hidden></div><button id="recentMore" class="load-more__btn" type="button" hidden>Pokaż więcej</button></div>
+<div id="archivePanel" role="tabpanel" aria-labelledby="archiveTab" tabindex="0" hidden><p class="archive-note">Kody według miesiąca ostatniej wzmianki. Ważność kodów archiwalnych nie jest potwierdzona.</p><div id="archiveMonths"></div><p id="archiveEmpty" hidden></p><div id="historicPromos"><h2>Wcześniejsze promocje</h2><details class="promo-archive"><summary>Archiwalne zestawienia · wiosna 2026</summary><p class="archive-note">Terminy tych promocji minęły. Kody zachowano informacyjnie; ich ważność nie jest potwierdzona.</p><section class="promo-section">
 <div class="promo-section__header">
 <span class="promo-section__icon">🥳</span>
 <h2 class="promo-section__title">Wyprzedaż jubileuszowa (Anniversary Sale)</h2>
@@ -192,7 +187,7 @@
 <h2 class="promo-section__title">Sekretne kody rabatowe (ważne do 01.06.2026)</h2>
 </div>
 <p class="promo-section__desc">
-                Te kody są aktywne już teraz. Wpisz je w specjalne pole „Kod promocyjny" na stronie płatności. (Zaktualizowano kwiecień 2026)
+                Archiwalne zestawienie z kwietnia 2026. Podany termin promocji minął.
             </p>
 <div class="promo-grid">
 <script>
@@ -226,7 +221,9 @@
                     });
                 </script>
 </div>
-</section></details>
+</section></details></div></div>
+<noscript>Włącz JavaScript, aby przeglądać kody.</noscript>
+</section>
 <!-- Secret Codes -->
 
 <!-- Parser Promo Codes -->
@@ -266,7 +263,7 @@
 <!-- Toast Notification -->
 
 
-<script src="../js/promos.js?v=2"></script>
+<script src="../js/promos.js?v=3"></script>
 <footer class="site-footer"><div><a class="site-brand" href="index.html">Shop<span>DoBaksa</span></a><p>Przydatne rzeczy. Przyjemne ceny.</p></div><nav aria-label="Przydatne linki"><a href="index.html">Katalog</a><a href="faq.html">Poradnik</a><a href="promos.html">Kody rabatowe</a><a href="https://t.me/Shop_DoBaksa" rel="noopener" target="_blank">Telegram ↗</a></nav><small>© 2026 ShopDoBaksa · Zakupy realizujesz na AliExpress</small></footer>
 <button aria-label="Na górę strony" class="back-top icon-button" hidden="" id="backTop"><svg aria-hidden="true" class="ui-icon" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24" width="20"><path d="M12 20V4m-6 6 6-6 6 6"></path></svg></button><div aria-live="polite" class="ui-toast" id="uiToast" role="status"></div><script defer="" src="../js/ui.js?v=5"></script></body>
 </html>
