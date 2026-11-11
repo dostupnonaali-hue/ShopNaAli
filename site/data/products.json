@@ -1,6 +1,23 @@
 {
   "products": [
     {
+      "id": "ctolity-xp2000-2048wh",
+      "title": "Зарядна станція CTOLITY XP2000 — 2400 Вт, 2048 Вт·год, LiFePO₄",
+      "title_pl": "Stacja zasilania CTOLITY XP2000 — 2400 W, 2048 Wh, LiFePO₄",
+      "price": 710.0,
+      "currency": "USD",
+      "category": "electronics",
+      "rating": 4.9,
+      "orders": 399,
+      "image": "/images/products/ctolity-xp2000.svg",
+      "link": "https://s.click.aliexpress.com/e/_c3YgmXeJ",
+      "affiliate_link": "https://s.click.aliexpress.com/e/_c3YgmXeJ",
+      "description": "Портативна зарядна станція CTOLITY XP2000: потужність 2400 Вт, ємність 2048 Вт·год, акумулятор LiFePO₄. Розетки 220 В EU, чиста синусоїда, виходи USB-A та USB-C. Обирай варіант XP2000 2400W / 220V EU PLUG. Ціна $710 за наданою пропозицією з промокодом ACED1155; підсумкову суму перевіряй у кошику.",
+      "promo_text": "ACED1155",
+      "price_note": "Ціна з промокодом ACED1155 · до 18.11.2026",
+      "added_at": "2026-11-11T16:40:42.806305+00:00"
+    },
+    {
       "id": "1005010724501614",
       "title": "BASEUS Power Bank with USB-C Cable",
       "title_pl": "",
