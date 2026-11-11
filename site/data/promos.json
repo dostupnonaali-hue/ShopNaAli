@@ -1669,8 +1669,9 @@
       "discount": 11,
       "min_order": 75,
       "currency": "USD",
-      "notes_uk": "Використати протягом 12 годин після закріплення купона.",
-      "notes_pl": "Wykorzystaj w ciągu 12 godzin od odebrania kuponu."
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "ACED1119",
@@ -1680,8 +1681,9 @@
       "discount": 19,
       "min_order": 120,
       "currency": "USD",
-      "notes_uk": "Використати протягом 12 годин після закріплення купона.",
-      "notes_pl": "Wykorzystaj w ciągu 12 godzin od odebrania kuponu."
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "ACED113",
@@ -1691,8 +1693,9 @@
       "discount": 3,
       "min_order": 18,
       "currency": "USD",
-      "notes_uk": "Використати протягом 12 годин після закріплення купона.",
-      "notes_pl": "Wykorzystaj w ciągu 12 godzin od odebrania kuponu."
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "ACED1133",
@@ -1702,8 +1705,9 @@
       "discount": 33,
       "min_order": 209,
       "currency": "USD",
-      "notes_uk": "Використати протягом 12 годин після закріплення купона.",
-      "notes_pl": "Wykorzystaj w ciągu 12 godzin od odebrania kuponu."
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "ACED114",
@@ -1713,8 +1717,9 @@
       "discount": 4,
       "min_order": 25,
       "currency": "USD",
-      "notes_uk": "Використати протягом 12 годин після закріплення купона.",
-      "notes_pl": "Wykorzystaj w ciągu 12 godzin od odebrania kuponu."
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "ACED1155",
@@ -1724,8 +1729,9 @@
       "discount": 55,
       "min_order": 349,
       "currency": "USD",
-      "notes_uk": "Використати протягом 12 годин після закріплення купона.",
-      "notes_pl": "Wykorzystaj w ciągu 12 godzin od odebrania kuponu."
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "ACED116",
@@ -1735,8 +1741,9 @@
       "discount": 6,
       "min_order": 45,
       "currency": "USD",
-      "notes_uk": "Використати протягом 12 годин після закріплення купона.",
-      "notes_pl": "Wykorzystaj w ciągu 12 godzin od odebrania kuponu."
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "AEB001",
@@ -2031,7 +2038,10 @@
       "times_seen": 3,
       "discount": 13,
       "min_order": 79,
-      "currency": "USD"
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie."
     },
     {
       "code": "D11CEAF24",
@@ -2040,7 +2050,10 @@
       "times_seen": 4,
       "discount": 24,
       "min_order": 139,
-      "currency": "USD"
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie."
     },
     {
       "code": "D11CEAF3",
@@ -2049,7 +2062,10 @@
       "times_seen": 3,
       "discount": 3,
       "min_order": 18,
-      "currency": "USD"
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie."
     },
     {
       "code": "D11CEAF40",
@@ -2058,7 +2074,10 @@
       "times_seen": 2,
       "discount": 40,
       "min_order": 229,
-      "currency": "USD"
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie."
     },
     {
       "code": "D11CEAF60",
@@ -2067,7 +2086,10 @@
       "times_seen": 2,
       "discount": 60,
       "min_order": 349,
-      "currency": "USD"
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie."
     },
     {
       "code": "D11CEAF8",
@@ -2076,7 +2098,10 @@
       "times_seen": 3,
       "discount": 8,
       "min_order": 45,
-      "currency": "USD"
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie."
     },
     {
       "code": "D11CEAF80",
@@ -2085,7 +2110,10 @@
       "times_seen": 2,
       "discount": 80,
       "min_order": 469,
-      "currency": "USD"
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Введи код під час оформлення замовлення. Можливість закріплення перевіряй у своєму акаунті.",
+      "notes_pl": "Wpisz kod podczas składania zamówienia. Możliwość odebrania kuponu sprawdź na swoim koncie."
     },
     {
       "code": "DED1140",
@@ -2782,8 +2810,9 @@
       "discount": 3,
       "min_order": 15,
       "currency": "USD",
-      "notes_uk": "Для України.",
-      "notes_pl": "Dla Ukrainy."
+      "notes_uk": "Для України. Введи код під час оформлення замовлення.",
+      "notes_pl": "Dla Ukrainy. Wpisz kod podczas składania zamówienia.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "UAD1104",
@@ -2793,8 +2822,9 @@
       "discount": 4,
       "min_order": 25,
       "currency": "USD",
-      "notes_uk": "Для України.",
-      "notes_pl": "Dla Ukrainy."
+      "notes_uk": "Для України. Введи код під час оформлення замовлення.",
+      "notes_pl": "Dla Ukrainy. Wpisz kod podczas składania zamówienia.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "UAD1106",
@@ -2804,8 +2834,9 @@
       "discount": 6,
       "min_order": 40,
       "currency": "USD",
-      "notes_uk": "Для України.",
-      "notes_pl": "Dla Ukrainy."
+      "notes_uk": "Для України. Введи код під час оформлення замовлення.",
+      "notes_pl": "Dla Ukrainy. Wpisz kod podczas składania zamówienia.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "UAD11100",
@@ -2815,8 +2846,9 @@
       "discount": 100,
       "min_order": 650,
       "currency": "USD",
-      "notes_uk": "Для України. Отримання купона: 11–12 листопада.",
-      "notes_pl": "Dla Ukrainy. Odbiór kuponu: 11–12 listopada."
+      "notes_uk": "Для України. Введи код під час оформлення замовлення. Діє лише 11–12 листопада.",
+      "notes_pl": "Dla Ukrainy. Wpisz kod podczas składania zamówienia. Ważny tylko 11–12 listopada.",
+      "expires_on": "2026-11-12"
     },
     {
       "code": "UAD1111",
@@ -2826,8 +2858,9 @@
       "discount": 11,
       "min_order": 75,
       "currency": "USD",
-      "notes_uk": "Для України.",
-      "notes_pl": "Dla Ukrainy."
+      "notes_uk": "Для України. Введи код під час оформлення замовлення.",
+      "notes_pl": "Dla Ukrainy. Wpisz kod podczas składania zamówienia.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "UAD11120",
@@ -2859,8 +2892,9 @@
       "discount": 19,
       "min_order": 120,
       "currency": "USD",
-      "notes_uk": "Для України.",
-      "notes_pl": "Dla Ukrainy."
+      "notes_uk": "Для України. Введи код під час оформлення замовлення.",
+      "notes_pl": "Dla Ukrainy. Wpisz kod podczas składania zamówienia.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "UAD1128",
@@ -2870,8 +2904,9 @@
       "discount": 28,
       "min_order": 209,
       "currency": "USD",
-      "notes_uk": "Для України.",
-      "notes_pl": "Dla Ukrainy."
+      "notes_uk": "Для України. Введи код під час оформлення замовлення.",
+      "notes_pl": "Dla Ukrainy. Wpisz kod podczas składania zamówienia.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "UAD1130",
@@ -2903,8 +2938,9 @@
       "discount": 45,
       "min_order": 349,
       "currency": "USD",
-      "notes_uk": "Для України.",
-      "notes_pl": "Dla Ukrainy."
+      "notes_uk": "Для України. Введи код під час оформлення замовлення.",
+      "notes_pl": "Dla Ukrainy. Wpisz kod podczas składania zamówienia.",
+      "expires_on": "2026-11-18"
     },
     {
       "code": "UAD1155",
@@ -2925,8 +2961,9 @@
       "discount": 80,
       "min_order": 550,
       "currency": "USD",
-      "notes_uk": "Для України. Отримання купона: 11–12 листопада.",
-      "notes_pl": "Dla Ukrainy. Odbiór kuponu: 11–12 listopada."
+      "notes_uk": "Для України. Введи код під час оформлення замовлення. Діє лише 11–12 листопада.",
+      "notes_pl": "Dla Ukrainy. Wpisz kod podczas składania zamówienia. Ważny tylko 11–12 listopada.",
+      "expires_on": "2026-11-12"
     },
     {
       "code": "UAD1185",
@@ -2949,6 +2986,222 @@
       "currency": "USD",
       "notes_uk": "Для України. На 11–12 листопада замінений кодами UAD1180 та UAD11100.",
       "notes_pl": "Dla Ukrainy. 11–12 listopada zastąpiony kodami UAD1180 i UAD11100."
+    },
+    {
+      "code": "IFPPW7FJ",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 3,
+      "min_order": 18,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFPZHVE6",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 3,
+      "min_order": 18,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFPP3HNF",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 4,
+      "min_order": 25,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFPEZMII",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 4,
+      "min_order": 25,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFP5ZBHU",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 6,
+      "min_order": 45,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFPNIJXK",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 6,
+      "min_order": 45,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFP4JINP",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 11,
+      "min_order": 75,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFPEYLOQ",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 11,
+      "min_order": 75,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFP2I2R9",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 19,
+      "min_order": 120,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFPEZD8A",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 19,
+      "min_order": 120,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFPRJG2P",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 33,
+      "min_order": 209,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFPUGDKZ",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 33,
+      "min_order": 209,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFPLCW8H",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 55,
+      "min_order": 349,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFP4JMIT",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 55,
+      "min_order": 349,
+      "currency": "USD",
+      "expires_on": "2026-11-18",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku."
+    },
+    {
+      "code": "IFPA8JY3",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 110,
+      "min_order": 550,
+      "currency": "USD",
+      "expires_on": "2026-11-12",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику. Діє лише 11–12 листопада.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku. Ważny tylko 11–12 listopada."
+    },
+    {
+      "code": "IFPVQB2M",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 110,
+      "min_order": 550,
+      "currency": "USD",
+      "expires_on": "2026-11-12",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику. Діє лише 11–12 листопада.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku. Ważny tylko 11–12 listopada."
+    },
+    {
+      "code": "IFPWXYD1",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 130,
+      "min_order": 650,
+      "currency": "USD",
+      "expires_on": "2026-11-12",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику. Діє лише 11–12 листопада.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku. Ważny tylko 11–12 listopada."
+    },
+    {
+      "code": "IFPUD5ZE",
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "times_seen": 1,
+      "discount": 130,
+      "min_order": 650,
+      "currency": "USD",
+      "expires_on": "2026-11-12",
+      "notes_uk": "Купон можна закріпити в акаунті. Умови використання перевіряй у кошику. Діє лише 11–12 листопада.",
+      "notes_pl": "Kupon można odebrać na koncie. Warunki wykorzystania sprawdź w koszyku. Ważny tylko 11–12 listopada."
     }
   ]
 }
