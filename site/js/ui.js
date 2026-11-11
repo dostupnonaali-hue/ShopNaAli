@@ -2,6 +2,15 @@
 (function () {
   'use strict';
   const pl = document.documentElement.lang === 'pl';
+  const header = document.querySelector('.site-header');
+  const navigation = header.querySelector('.site-nav');
+  // Match the search width to the rendered menu, including translated labels.
+  const syncSearchWidth = () => {
+    const width = navigation.getBoundingClientRect().width;
+    if (width) header.style.setProperty('--navigation-width', width + 'px');
+  };
+  syncSearchWidth();
+  new ResizeObserver(syncSearchWidth).observe(navigation);
   const toggle = document.getElementById('menuToggle');
   const menu = document.getElementById('siteMenu');
   const backdrop = document.getElementById('menuBackdrop');
