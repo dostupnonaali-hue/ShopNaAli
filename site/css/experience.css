@@ -1,5 +1,6 @@
 /* Shared chrome and inner pages. The storefront hero and product cards retain their design. */
 :root { --header-height: 133px; }
+.faq-view, .blog-view, .promos-view { --header-height: 73px; }
 [hidden] { display: none !important; }
 .ui-icon { flex-shrink: 0; vertical-align: middle; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
@@ -194,6 +195,7 @@
 }
 @media(max-width:640px) {
   :root { --header-height:121px; }
+  .faq-view, .blog-view, .promos-view { --header-height:65px; }
   .site-header__top { height:64px; gap:12px; padding-inline:18px; }
   .site-header__bottom { height:56px; padding-inline:18px; }
   .site-brand { font-size:20px; }

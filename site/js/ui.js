@@ -4,13 +4,16 @@
   const pl = document.documentElement.lang === 'pl';
   const header = document.querySelector('.site-header');
   const navigation = header.querySelector('.site-nav');
+  const search = header.querySelector('.site-search');
   // Match the search width to the rendered menu, including translated labels.
   const syncSearchWidth = () => {
     const width = navigation.getBoundingClientRect().width;
     if (width) header.style.setProperty('--navigation-width', width + 'px');
   };
-  syncSearchWidth();
-  new ResizeObserver(syncSearchWidth).observe(navigation);
+  if (search) {
+    syncSearchWidth();
+    new ResizeObserver(syncSearchWidth).observe(navigation);
+  }
   const toggle = document.getElementById('menuToggle');
   const menu = document.getElementById('siteMenu');
   const backdrop = document.getElementById('menuBackdrop');
@@ -55,7 +58,7 @@
     if (link.dataset.language === 'uk') url.searchParams.set('lang', 'uk');
     link.href = url.href;
     link.addEventListener('click', () => {
-      if (document.querySelector('.site-search').dataset.searchMode === 'local') {
+      if (search?.dataset.searchMode === 'local') {
         const query = document.getElementById('searchInput').value.trim();
         if (query) url.searchParams.set('search', query); else url.searchParams.delete('search');
         link.href = url.href;
@@ -63,8 +66,7 @@
       try { localStorage.setItem('dobaksa_lang', link.dataset.language); } catch (_) { /* Browsing without storage is supported. */ }
     });
   });
-  const search = document.querySelector('.site-search');
-  if (search.dataset.searchMode === 'local') {
+  if (search?.dataset.searchMode === 'local') {
     search.addEventListener('submit', event => {
       event.preventDefault();
       document.getElementById('searchInput').dispatchEvent(new Event('input', { bubbles: true }));
