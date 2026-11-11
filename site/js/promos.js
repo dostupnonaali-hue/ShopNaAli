@@ -33,7 +33,20 @@
     const copy = document.createElement('span'); copy.className = 'promo-card__copy'; copy.textContent = say('Копіювати','Kopiuj'); button.append(code,copy);
     const status = document.createElement('p'); status.className = 'promo-code-status';
     status.textContent = p.expired ? say('Термін дії минув','Termin ważności minął') : p.archived ? say('Архівний · дію не підтверджено','Archiwalny · ważność niepotwierdzona') : say('Дію перевіряй у кошику AliExpress','Sprawdź ważność w koszyku AliExpress');
-    el.append(top,button,status); return el;
+    el.append(top,button);
+    if (Number.isFinite(p.discount) && Number.isFinite(p.min_order)) {
+      const benefit = document.createElement('p'); benefit.className = 'promo-code-status';
+      benefit.textContent = '−' + p.discount + ' ' + p.currency + say(' від ', ' od ') + p.min_order + ' ' + p.currency;
+      el.append(benefit);
+    }
+    const note = pl ? p.notes_pl : p.notes_uk;
+    if (note) { const conditions = document.createElement('p'); conditions.className = 'promo-code-status'; conditions.textContent = note; el.append(conditions); }
+    if (p.expires_on) {
+      const expiry = document.createElement('p'); expiry.className = 'promo-code-status';
+      expiry.textContent = say('Діє до: ', 'Ważny do: ') + new Date(p.expires_on + 'T00:00:00Z').toLocaleDateString(locale,{timeZone:'UTC'});
+      el.append(expiry);
+    }
+    el.append(status); return el;
   }
   function select(index, focus = false) {
     active = index;
