@@ -36,7 +36,7 @@
       if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
     }
   });
-  window.matchMedia('(min-width: 901px)').addEventListener('change', event => { if (event.matches && !menu.hidden) setMenu(false); });
+  window.matchMedia('(min-width: 1101px)').addEventListener('change', event => { if (event.matches && !menu.hidden) setMenu(false); });
 
   // Keep the same product or article when switching languages.
   document.querySelectorAll('[data-language]').forEach(link => {

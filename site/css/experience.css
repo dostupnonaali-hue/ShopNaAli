@@ -1,5 +1,5 @@
 /* Shared chrome and inner pages. The storefront hero and product cards retain their design. */
-:root { --header-height: 124px; }
+:root { --header-height: 133px; }
 [hidden] { display: none !important; }
 .ui-icon { flex-shrink: 0; vertical-align: middle; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
@@ -7,24 +7,25 @@
 .skip-link:focus { top: 12px; }
 .site-header { position: fixed; inset: 0 0 auto; z-index: 100; background: #101412f5; backdrop-filter: blur(20px); border-bottom: 1px solid var(--bg-glass-border); }
 .site-header__top, .site-header__bottom { width: min(100%, 1360px); padding-inline: 24px; margin-inline: auto; display: flex; align-items: center; }
-.site-header__top { height: 76px; gap: 40px; }
+.site-header__top { height: 72px; gap: 28px; }
+.site-header__top > .header__logo { flex-shrink: 0; }
 .site-brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text-primary); font-size: 22px; font-weight: 750; letter-spacing: -.8px; white-space: nowrap; }
 .site-brand span span, .site-footer .site-brand > span { color: var(--accent-primary); }
 .site-brand__mark { display: grid; place-items: center; width: 36px; height: 38px; background: var(--accent-primary); border-radius: 11px; color: #1b2c13; }
 .site-brand:hover { color: #fff; }
-.site-search { display: flex; align-items: center; flex: 1; max-width: 560px; min-width: 0; height: 42px; border: 1px solid #ffffff14; border-radius: 10px; background: #ffffff04; padding-left: 14px; color: var(--text-muted); }
+.site-search { display: flex; align-items: center; flex: 1; max-width: 760px; min-width: 0; height: 42px; border: 1px solid #ffffff14; border-radius: 10px; background: #ffffff04; padding-left: 14px; color: var(--text-muted); }
 .site-search:focus-within { border-color: var(--accent-primary); background: #ffffff08; }
 .site-search input { width: 100%; min-width: 0; border: 0; outline: 0; background: none; color: var(--text-primary); font: inherit; font-size: 13px; padding: 10px 12px; }
 .site-search input::placeholder { color: #929d92; }
 .site-search button { align-self: stretch; width: 44px; flex-shrink: 0; border: 0; color: var(--text-secondary); background: transparent; cursor: pointer; }
-.site-header__actions { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+.site-header__actions { margin-left: auto; display: flex; flex-shrink: 0; align-items: center; gap: 12px; }
 .telegram-link { display: flex; align-items: center; gap: 8px; padding: 10px 13px; font-size: 12px; color: var(--text-primary); }
 .language-link { display: grid; place-items: center; width: 42px; height: 40px; border: 1px solid #ffffff15; border-radius: 8px; color: var(--text-secondary); font-size: 12px; font-weight: 600; }
 .menu-toggle, .icon-button { width: 42px; height: 42px; border: 1px solid #ffffff18; background: var(--bg-secondary); border-radius: 10px; color: var(--text-primary); cursor: pointer; display: inline-grid; place-items: center; }
 .menu-toggle { display: none; }
-.site-header__bottom { height: 48px; justify-content: space-between; border-top: 1px solid #ffffff08; }
-.site-nav { display: flex; align-items: stretch; height: 100%; gap: 26px; }
-.site-nav__link { display: flex; align-items: center; gap: 8px; font-size: 12px; font-weight: 500; color: var(--text-secondary); position: relative; }
+.site-header__bottom { height: 60px; justify-content: space-between; gap: 28px; border-top: 1px solid #ffffff08; }
+.site-nav { display: flex; align-items: stretch; height: 100%; gap: 20px; margin-left: auto; }
+.site-nav__link { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500; color: var(--text-secondary); position: relative; white-space: nowrap; }
 .site-nav__link .ui-icon { width: 16px; height: 16px; }
 .site-nav__link:hover, .site-nav__link.is-active { color: var(--accent-primary); }
 .site-nav > .is-active::after { position: absolute; content: ''; bottom: 0; height: 2px; inset-inline: 0; background: var(--accent-primary); border-radius: 2px; }
@@ -168,12 +169,15 @@
 .error-page h1 { font-size: 32px; letter-spacing: -.04em; font-weight: 550; }
 .error-page p { max-width: 470px; color: var(--text-secondary); font-size: 14px; margin: 18px auto 26px; }
 @media(max-width:1359px) { .site-footer { margin-inline: 24px; } }
-@media(max-width:1100px) { .site-header__note { display:none; } .site-header__top { gap: 24px; } .guide-layout { gap:24px; grid-template-columns:200px minmax(0,1fr); } }
-@media(max-width:900px) {
-  :root { --header-height:76px; }
-  .site-header__bottom { display:none; }
+@media(max-width:1100px) {
+  .site-header__note, .site-header__top > .site-nav { display:none; }
+  .site-header__top { gap:24px; }
+  .site-search { max-width:none; }
   .menu-toggle { display:inline-grid; }
   .telegram-link { display:none; }
+  .guide-layout { gap:24px; grid-template-columns:200px minmax(0,1fr); }
+}
+@media(max-width:900px) {
   .page-intro { padding:30px; }
   .page-intro__symbol { flex-basis:96px; height:96px; }
   .experience .blog-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
@@ -186,13 +190,14 @@
   .experience .product-page__card { gap:24px; }
 }
 @media(max-width:640px) {
-  :root { --header-height:120px; }
-  .site-header__top { height:120px; flex-wrap:wrap; gap:9px; padding:12px 18px; align-content:center; }
+  :root { --header-height:121px; }
+  .site-header__top { height:64px; gap:12px; padding-inline:18px; }
+  .site-header__bottom { height:56px; padding-inline:18px; }
   .site-brand { font-size:20px; }
   .site-brand__mark { width:32px; height:34px; }
   .site-header__actions { gap:8px; }
   .language-link, .menu-toggle { height:36px; width:36px; }
-  .site-search { flex-basis:100%; order:3; max-width:none; height:40px; }
+  .site-search { height:40px; }
   .experience .faq-page, .experience .promos-page, .experience .product-page { padding:calc(var(--header-height) + 22px) 18px 40px; }
   .page-intro { padding:25px 22px; gap:0; margin-bottom:26px; border-radius:16px; }
   .page-intro__symbol { display:none; }
