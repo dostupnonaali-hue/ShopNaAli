@@ -1,6 +1,21 @@
 {
   "products": [
     {
+      "id": "baseus-100w-20000mah",
+      "title": "Павербанк Baseus 100W 20000mAh із вбудованим кабелем USB-C",
+      "title_pl": "Powerbank Baseus 100W 20000mAh z wbudowanym kablem USB-C",
+      "price": 1568.0,
+      "currency": "UAH",
+      "category": "electronics",
+      "image": "/images/products/baseus-100w-20000mah.jpg",
+      "link": "https://s.click.aliexpress.com/e/_c37l9vXl",
+      "affiliate_link": "https://s.click.aliexpress.com/e/_c37l9vXl",
+      "description": "Павербанк Baseus ємністю 20000 мА·год і потужністю до 100 Вт. Вбудований кабель USB-C та цифровий індикатор заряду. Ціна 1568 грн за наданою пропозицією зі знижками та промокодами GBS307 + IFPUT06Y. На скриншоті оформлення замовлення підсумок становить 1568,04 грн; остаточну суму й доступність знижок перевіряй у кошику AliExpress.",
+      "promo_text": "GBS307, IFPUT06Y",
+      "price_note": "Зі знижками та промокодами GBS307 + IFPUT06Y",
+      "added_at": "2026-11-13T19:49:21.878801+00:00"
+    },
+    {
       "id": "ctolity-xp2000-2048wh",
       "title": "Зарядна станція CTOLITY XP2000 — 2400 Вт, 2048 Вт·год, LiFePO₄",
       "title_pl": "Stacja zasilania CTOLITY XP2000 — 2400 W, 2048 Wh, LiFePO₄",
